@@ -63,20 +63,33 @@ def test_selection_rules():
     assert not passes(triage(design="other", impact=5), RULES)
 
 
-def test_select_orders_by_impact_and_caps():
-    trial, _ = load()
-    arts = []
-    total = RULES["max_articles"] + 5
-    for i in range(total):
-        a = parse_articles((FIXTURES / "sample.xml").read_bytes())[0]
+def _batch(impacts):
+    arts, tri = [], {}
+    for i, impact in enumerate(impacts):
+        a = load()[0]
         a.pmid = str(i)
         arts.append(a)
-    tri = {str(i): triage(pmid=str(i), impact=3 + (i % 3)) for i in range(total)}
+        tri[a.pmid] = triage(pmid=a.pmid, impact=impact)
+    return arts, tri
+
+
+def test_normal_week_fills_to_target():
+    arts, tri = _batch([4, 4] + [3] * 30)
+    chosen, rest = select(arts, tri, RULES)
+    assert len(chosen) == RULES["target_articles"]
+    assert [t.impact for _, t in chosen][:2] == [4, 4]
+    assert len(rest) == min(30 + 2 - RULES["target_articles"], RULES["max_also_screened"])
+
+
+def test_busy_week_keeps_all_high_impact_up_to_ceiling():
+    arts, tri = _batch([5] * 3 + [4] * 12 + [3] * 10)
+    chosen, _ = select(arts, tri, RULES)
+    assert len(chosen) == 15  # every 4 and 5, no room for 3s
+    assert all(t.impact >= 4 for _, t in chosen)
+
+    arts, tri = _batch([4] * 40)
     chosen, rest = select(arts, tri, RULES)
     assert len(chosen) == RULES["max_articles"]
-    assert chosen[0][1].impact == 5
-    assert len(rest) == 5
-
     capped = dict(RULES, max_also_screened=2)
     assert len(select(arts, tri, capped)[1]) == 2
 
@@ -107,6 +120,8 @@ def test_render_digest():
     entries = [{"article": trial, "triage": triage(pmid=trial.pmid, n=6012), "summary": summary,
                 "editorials": [editorial], "basis": "abstract", "error": None}]
     html = render_digest("2026-10-04", entries, [], [], 12, True)
+    assert "Busy week" not in html
+    assert "Busy week" in render_digest("2026-10-04", entries * 3, [], [], 12, True, target_articles=2)
     assert "Drug X cut events by 20%." in html
     assert "A New Option for HFpEF?" in html
     assert "n = 6,012" in html

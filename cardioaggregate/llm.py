@@ -91,7 +91,9 @@ randomized trials, strong meta-analyses and systematic reviews (including Cochra
 observational studies, across every subspecialty (heart failure, electrophysiology, interventional \
 and structural, imaging, prevention, hypertension, surgery and others). A trial that changes practice \
 within a subspecialty deserves a high rating even if it appeared in a subspecialty journal. Rate \
-conservatively; most papers are a 2 or 3. Base every judgement only on \
+conservatively: most papers are a 2 or 3, and in a typical week only a handful across all these \
+journals merit a 4 or 5. Weeks of major meetings (ESC, AHA, ACC, TCT, HRS, EuroPCR) can have many \
+more, so rate each paper on its own merit rather than against a quota. Base every judgement only on \
 the title, journal and abstract provided."""
 
 SUMMARY_SYSTEM = """You write evidence summaries for a cardiologist. Use only the material \

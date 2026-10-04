@@ -12,6 +12,7 @@
   <p class="eyebrow"><a href="../index.html">CardioAggregate</a></p>
   <h1>Cardiology digest</h1>
   <p class="meta">Week ending {{ digest_date }} · {{ entries|length }} article{{ "s" if entries|length != 1 }} selected from {{ screened_count }} screened{% if not used_llm %} · <strong>heuristic mode, no summaries</strong>{% endif %}</p>
+  {% if entries|length > target_articles %}<p class="meta"><strong>Busy week:</strong> more high impact papers than usual, often a major meeting. Ranked by impact within each section.</p>{% endif %}
   {% if entries %}
   <nav class="toc">
     {% for key, label in sections %}{% if grouped[key] %}<a href="#{{ key }}">{{ label }} <span>{{ grouped[key]|length }}</span></a>{% endif %}{% endfor %}

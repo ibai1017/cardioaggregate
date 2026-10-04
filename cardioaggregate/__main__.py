@@ -117,7 +117,8 @@ def main(argv=None) -> int:
         entries.append(entry)
 
     # 5. Output
-    html = render_digest(digest_date, entries, late_editorials, also_screened, len(candidates), use_llm)
+    html = render_digest(digest_date, entries, late_editorials, also_screened, len(candidates), use_llm,
+                         cfg["selection"]["target_articles"])
     digest_path = output_dir / "digests" / f"{digest_date}.html"
     digest_path.parent.mkdir(parents=True, exist_ok=True)
     digest_path.write_text(html)

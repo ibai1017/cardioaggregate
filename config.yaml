@@ -74,7 +74,9 @@ selection:
   large_observational_n: 10000 # "very large" observational threshold
   min_impact_observational_large: 3
   min_impact_observational_other: 5
-  max_articles: 30             # hard cap per digest
+  target_articles: 10          # size of a normal week
+  surge_min_impact: 4          # papers rated this or higher always get in...
+  max_articles: 20             # ...up to this ceiling (e.g. ESC, AHA, ACC weeks)
   max_also_screened: 60        # how many near misses to list at the bottom
 
 # Claude settings. Effort trades depth for cost; "medium" is plenty for

@@ -51,8 +51,16 @@ def select(articles: list[Article], triage: dict[str, TriageItem], rules: dict):
             continue
         (chosen if passes(item, rules) else rest).append((a, item))
     chosen.sort(key=lambda p: (-p[1].impact, _DESIGN_PRIORITY.get(p[1].design, 9)))
-    overflow = chosen[rules["max_articles"] :]
-    chosen = chosen[: rules["max_articles"]]
+
+    # High impact papers always get in (up to the ceiling), so a conference week
+    # grows on its own; lower rated papers only fill up to the normal target.
+    high = [p for p in chosen if p[1].impact >= rules["surge_min_impact"]]
+    fill = [p for p in chosen if p[1].impact < rules["surge_min_impact"]]
+    selected = high[: rules["max_articles"]]
+    room = max(0, rules["target_articles"] - len(selected))
+    selected += fill[:room]
+    overflow = high[rules["max_articles"] :] + fill[room:]
+    chosen = selected
     rest = overflow + rest
     rest.sort(key=lambda p: -p[1].impact)
     return chosen, rest[: rules.get("max_also_screened", len(rest))]
