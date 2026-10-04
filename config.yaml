@@ -1,0 +1,52 @@
+# CardioAggregate configuration. Edit freely; every run reads this file.
+
+# How far back to look for new articles (by PubMed "Entrez date", i.e. the day
+# the record was added to PubMed). Seven days matches a weekly schedule; the
+# history file prevents duplicates if windows overlap.
+lookback_days: 7
+
+# Editorials are often indexed later than the article they discuss, so look
+# further back for them. Editorials that arrive after their article was already
+# in a digest show up in a "Late editorials" section.
+editorial_lookback_days: 28
+
+# Journals are matched on their MEDLINE abbreviation (the [ta] field in PubMed).
+#   topic_filter:  only keep articles that look cardiovascular (needed for
+#                  general medical journals that publish everything)
+#   design_filter: only keep articles whose abstract suggests an RCT,
+#                  meta-analysis, systematic review or cohort/registry study
+journals:
+  - { abbr: "N Engl J Med", name: "NEJM", topic_filter: true, design_filter: true }
+  - { abbr: "NEJM Evid", name: "NEJM Evidence", topic_filter: true, design_filter: true }
+  - { abbr: "Lancet", name: "The Lancet", topic_filter: true, design_filter: true }
+  - { abbr: "JAMA", name: "JAMA", topic_filter: true, design_filter: true }
+  - { abbr: "BMJ", name: "BMJ", topic_filter: true, design_filter: true }
+  - { abbr: "Ann Intern Med", name: "Annals of Internal Medicine", topic_filter: true, design_filter: true }
+  - { abbr: "J Am Coll Cardiol", name: "JACC", topic_filter: false, design_filter: true }
+  - { abbr: "Eur Heart J", name: "European Heart Journal", topic_filter: false, design_filter: true }
+  - { abbr: "Circulation", name: "Circulation", topic_filter: false, design_filter: true }
+  - { abbr: "JAMA Cardiol", name: "JAMA Cardiology", topic_filter: false, design_filter: true }
+  - { abbr: "Cochrane Database Syst Rev", name: "Cochrane", topic_filter: true, design_filter: false }
+
+# Selection rules applied to the model's triage of each candidate.
+# impact is the model's 1 to 5 rating of likely effect on cardiology practice.
+selection:
+  min_impact_rct: 3            # primary results of randomized trials
+  min_impact_rct_secondary: 4  # post hoc / secondary analyses of trials
+  min_impact_meta: 3           # meta-analyses and systematic reviews
+  large_observational_n: 10000 # "very large" observational threshold
+  min_impact_observational_large: 3
+  min_impact_observational_other: 5
+  max_articles: 25             # hard cap per digest
+
+# Claude settings. Effort trades depth for cost; "medium" is plenty for
+# abstract triage and summaries.
+llm:
+  model: "claude-opus-5-5"
+  triage_effort: "low"
+  summary_effort: "medium"
+  triage_batch_size: 40
+
+# Where output goes. docs/ is what GitHub Pages serves.
+output_dir: "docs"
+history_file: "data/history.json"

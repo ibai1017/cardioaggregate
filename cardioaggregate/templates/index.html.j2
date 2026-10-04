@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CardioAggregate</title>
+{% include "style.css.j2" %}
+</head>
+<body>
+<main>
+<header class="masthead">
+  <h1>CardioAggregate</h1>
+  <p class="meta">Weekly digest of high impact cardiology trials, meta-analyses and large observational studies, with PICO summaries and accompanying editorials.</p>
+</header>
+{% if digests %}
+<p><a href="digests/{{ digests[0] }}.html"><strong>Latest digest: {{ digests[0] }}</strong></a></p>
+<h2>Archive</h2>
+<ul class="plain">
+{% for d in digests %}<li><a href="digests/{{ d }}.html">{{ d }}</a></li>{% endfor %}
+</ul>
+{% else %}
+<p class="empty">No digests yet.</p>
+{% endif %}
+</main>
+</body>
+</html>

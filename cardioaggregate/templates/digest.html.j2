@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cardiology Digest {{ digest_date }}</title>
+{% include "style.css.j2" %}
+</head>
+<body>
+<main>
+<header class="masthead">
+  <p class="eyebrow"><a href="../index.html">CardioAggregate</a></p>
+  <h1>Cardiology digest</h1>
+  <p class="meta">Week ending {{ digest_date }} · {{ entries|length }} article{{ "s" if entries|length != 1 }} selected from {{ screened_count }} screened{% if not used_llm %} · <strong>heuristic mode, no summaries</strong>{% endif %}</p>
+  {% if entries %}
+  <nav class="toc">
+    {% for key, label in sections %}{% if grouped[key] %}<a href="#{{ key }}">{{ label }} <span>{{ grouped[key]|length }}</span></a>{% endif %}{% endfor %}
+    {% if late_editorials %}<a href="#late">Late editorials <span>{{ late_editorials|length }}</span></a>{% endif %}
+  </nav>
+  {% endif %}
+</header>
+
+{% if not entries %}
+<p class="empty">Nothing met the selection rules this week.</p>
+{% endif %}
+
+{% for key, label in sections %}{% if grouped[key] %}
+<section id="{{ key }}">
+<h2>{{ label }}</h2>
+{% for e in grouped[key] %}
+<article class="card">
+  <p class="kicker">
+    <span class="journal">{{ e.article.journal_abbr }}</span>
+    <span>{{ e.article.pub_date }}</span>
+    <span class="badge">{{ design_labels[e.triage.design] }}</span>
+    {% if e.triage.sample_size %}<span>n = {{ "{:,}".format(e.triage.sample_size) }}</span>{% endif %}
+    <span class="impact" title="Model rated impact, 1 to 5">impact {{ e.triage.impact }}/5</span>
+  </p>
+  <h3><a href="{{ e.article.url }}">{{ e.article.title }}</a></h3>
+  <p class="byline">{{ e.article.author_line }} · <a href="{{ e.article.pubmed_url }}">PubMed</a></p>
+
+  {% if e.summary %}
+  <p class="bottom-line">{{ e.summary.bottom_line }}</p>
+  <dl class="pico">
+    <dt>Design</dt><dd>{{ e.summary.design }}</dd>
+    <dt>Population</dt><dd>{{ e.summary.population }}</dd>
+    <dt>Intervention</dt><dd>{{ e.summary.intervention }}</dd>
+    <dt>Comparison</dt><dd>{{ e.summary.comparison }}</dd>
+    <dt>Outcomes</dt><dd>{{ e.summary.outcomes }}</dd>
+  </dl>
+  {% if e.summary.key_results %}
+  <h4>Other results</h4>
+  <ul>{% for r in e.summary.key_results %}<li>{{ r }}</li>{% endfor %}</ul>
+  {% endif %}
+  <div class="appraisal">
+    <div><h4>Strengths</h4><ul>{% for s in e.summary.strengths %}<li>{{ s }}</li>{% endfor %}</ul></div>
+    <div><h4>Limitations</h4><ul>{% for s in e.summary.limitations %}<li>{{ s }}</li>{% endfor %}</ul></div>
+  </div>
+  {% if e.summary.editorial_take %}
+  <h4>Editorial view</h4>
+  <p>{{ e.summary.editorial_take }}</p>
+  {% endif %}
+  <h4>Practice implications</h4>
+  <p>{{ e.summary.practice_implications }}</p>
+  <p class="note">Summary written by Claude from the {{ e.basis }}{% if not e.summary.editorial_take %}; strengths and limitations are the model's own appraisal{% endif %}. Check numbers against the paper before acting on them.</p>
+  {% else %}
+  <details><summary>Abstract</summary><p class="abstract">{{ e.article.abstract }}</p></details>
+  {% if e.error %}<p class="note">Summary unavailable: {{ e.error }}</p>{% endif %}
+  {% endif %}
+
+  {% if e.editorials %}
+  <div class="editorials">
+    <h4>Accompanying editorial{{ "s" if e.editorials|length > 1 }}</h4>
+    <ul>{% for ed in e.editorials %}<li><a href="{{ ed.url }}">{{ ed.title }}</a> <span class="byline">{{ ed.author_line }}</span></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+</article>
+{% endfor %}
+</section>
+{% endif %}{% endfor %}
+
+{% if late_editorials %}
+<section id="late">
+<h2>Late editorials</h2>
+<p class="meta">Editorials indexed this week about articles from earlier digests.</p>
+<ul class="plain">
+{% for ed, target in late_editorials %}
+<li><a href="{{ ed.url }}">{{ ed.title }}</a> <span class="byline">{{ ed.journal_abbr }} · {{ ed.author_line }}</span><br>
+<span class="meta">On: <a href="{{ target.url }}">{{ target.title }}</a> (digest {{ target.digest }})</span></li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
+{% if also_screened %}
+<section id="screened">
+<details>
+<summary>Also screened ({{ also_screened|length }}): did not meet the selection rules</summary>
+<ul class="plain small">
+{% for a, t in also_screened %}
+<li><a href="{{ a.url }}">{{ a.title }}</a> <span class="meta">{{ a.journal_abbr }} · {{ design_labels[t.design] }}{% if t.sample_size %} · n = {{ "{:,}".format(t.sample_size) }}{% endif %} · impact {{ t.impact }}/5{% if not t.cardiology_relevant %} · not cardiology{% endif %} · {{ t.reason }}</span></li>
+{% endfor %}
+</ul>
+</details>
+</section>
+{% endif %}
+</main>
+</body>
+</html>
