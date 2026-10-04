@@ -3,6 +3,7 @@
     python -m cardioaggregate                 # normal weekly run
     python -m cardioaggregate --days 14       # wider window
     python -m cardioaggregate --no-llm        # skip Claude (heuristic triage, no summaries)
+    python -m cardioaggregate --check-journals  # confirm every journal abbreviation matches PubMed
 """
 
 from __future__ import annotations
@@ -10,7 +11,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import yaml
@@ -29,9 +30,13 @@ def main(argv=None) -> int:
     parser.add_argument("--days", type=int, help="override lookback_days")
     parser.add_argument("--no-llm", action="store_true", help="do not call Claude")
     parser.add_argument("--no-email", action="store_true")
+    parser.add_argument("--check-journals", action="store_true",
+                        help="verify journal abbreviations against PubMed and exit")
     args = parser.parse_args(argv)
 
     cfg = yaml.safe_load(Path(args.config).read_text())
+    if args.check_journals:
+        return check_journals(cfg["journals"], PubMed())
     today = date.today()
     digest_date = today.isoformat()
     output_dir = Path(cfg["output_dir"])
@@ -133,6 +138,24 @@ def main(argv=None) -> int:
     ):
         print("Emailed digest")
     return 0
+
+
+def check_journals(journals: list[dict], pubmed: PubMed) -> int:
+    """A wrong abbreviation silently yields nothing, so check each one returns
+    recent records whose MEDLINE abbreviation matches exactly."""
+    today = date.today()
+    problems = 0
+    for j in journals:
+        ids = pubmed.search(f'"{j["abbr"]}"[ta]', today - timedelta(days=365), today, retmax=1)
+        found = pubmed.fetch(ids)[0].journal_abbr if ids else None
+        if found == j["abbr"]:
+            print(f"ok       {j['abbr']}")
+            continue
+        problems += 1
+        detail = f"PubMed returned '{found}'" if found else "no records in the last year"
+        # ::warning:: shows up as an annotation on the GitHub Actions run.
+        print(f"::warning::Journal abbreviation '{j['abbr']}' ({j['name']}): {detail}")
+    return 1 if problems else 0
 
 
 if __name__ == "__main__":

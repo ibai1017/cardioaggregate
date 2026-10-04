@@ -55,7 +55,7 @@ def select(articles: list[Article], triage: dict[str, TriageItem], rules: dict):
     chosen = chosen[: rules["max_articles"]]
     rest = overflow + rest
     rest.sort(key=lambda p: -p[1].impact)
-    return chosen, rest
+    return chosen, rest[: rules.get("max_also_screened", len(rest))]
 
 
 def section_of(item: TriageItem) -> str:
@@ -84,6 +84,7 @@ def heuristic_triage(article: Article) -> TriageItem:
         pmid=article.pmid,
         cardiology_relevant=True,
         design=design,
+        subspecialty="general",
         sample_size=n,
         impact=3,
         reason="Heuristic classification (no API key configured)",

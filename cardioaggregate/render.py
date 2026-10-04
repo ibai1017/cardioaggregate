@@ -17,6 +17,22 @@ DESIGN_LABELS = {
     "other": "Other",
 }
 
+SUBSPECIALTY_LABELS = {
+    "heart_failure": "Heart failure",
+    "electrophysiology": "Electrophysiology",
+    "interventional": "Interventional",
+    "structural_valve": "Structural and valve",
+    "imaging": "Imaging",
+    "prevention_lipids": "Prevention and lipids",
+    "hypertension": "Hypertension",
+    "thrombosis_vascular": "Thrombosis and vascular",
+    "acute_critical_care": "Acute and critical care",
+    "cardiac_surgery": "Cardiac surgery",
+    "congenital": "Congenital",
+    "cardio_oncology": "Cardio-oncology",
+    "general": "General cardiology",
+}
+
 _env = Environment(
     loader=PackageLoader("cardioaggregate", "templates"),
     autoescape=select_autoescape(["html", "j2"]),
@@ -39,6 +55,7 @@ def render_digest(digest_date, entries, late_editorials, also_screened, screened
         screened_count=screened_count,
         used_llm=used_llm,
         design_labels=DESIGN_LABELS,
+        subspecialty_labels=SUBSPECIALTY_LABELS,
     )
 
 

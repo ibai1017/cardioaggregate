@@ -18,8 +18,8 @@ def load():
     return parse_articles((FIXTURES / "sample.xml").read_bytes())
 
 
-def triage(pmid="1", design="rct", impact=3, n=None, relevant=True):
-    return TriageItem(pmid=pmid, cardiology_relevant=relevant, design=design,
+def triage(pmid="1", design="rct", impact=3, n=None, relevant=True, sub="heart_failure"):
+    return TriageItem(pmid=pmid, cardiology_relevant=relevant, design=design, subspecialty=sub,
                       sample_size=n, impact=impact, reason="test")
 
 
@@ -66,15 +66,19 @@ def test_selection_rules():
 def test_select_orders_by_impact_and_caps():
     trial, _ = load()
     arts = []
-    for i in range(30):
+    total = RULES["max_articles"] + 5
+    for i in range(total):
         a = parse_articles((FIXTURES / "sample.xml").read_bytes())[0]
         a.pmid = str(i)
         arts.append(a)
-    tri = {str(i): triage(pmid=str(i), impact=3 + (i % 3)) for i in range(30)}
+    tri = {str(i): triage(pmid=str(i), impact=3 + (i % 3)) for i in range(total)}
     chosen, rest = select(arts, tri, RULES)
     assert len(chosen) == RULES["max_articles"]
     assert chosen[0][1].impact == 5
     assert len(rest) == 5
+
+    capped = dict(RULES, max_also_screened=2)
+    assert len(select(arts, tri, capped)[1]) == 2
 
 
 def test_heuristic_triage():
@@ -107,6 +111,7 @@ def test_render_digest():
     assert "A New Option for HFpEF?" in html
     assert "n = 6,012" in html
     assert "Randomized trials" in html
+    assert "Heart failure" in html
     assert "<i>" not in html  # titles are plain text, markup is escaped or stripped
 
 
@@ -131,3 +136,34 @@ def test_end_to_end_without_llm(tmp_path, monkeypatch):
     assert app.main(["--config", str(cfg_path), "--no-llm", "--no-email"]) == 0
     digest = next((tmp_path / "docs" / "digests").glob("*.html")).read_text()
     assert "Nothing met the selection rules" in digest
+
+
+def test_subspecialty_journals_configured():
+    abbrs = {j["abbr"] for j in CONFIG["journals"]}
+    for abbr in ("JACC Heart Fail", "Heart Rhythm", "Europace", "JACC Cardiovasc Interv",
+                 "EuroIntervention", "JACC Cardiovasc Imaging", "Eur J Prev Cardiol"):
+        assert abbr in abbrs
+    assert len(abbrs) == len(CONFIG["journals"])  # no duplicates
+
+
+def test_check_journals_flags_mismatch(capsys):
+    from cardioaggregate.__main__ import check_journals
+    from cardioaggregate.pubmed import Article
+
+    class FakePubMed:
+        def search(self, term, mindate, maxdate, retmax=1):
+            return [] if "Missing" in term else ["1"]
+
+        def fetch(self, ids):
+            return [Article(pmid="1", title="t", journal_abbr="Eur Heart J")]
+
+    journals = [
+        {"abbr": "Eur Heart J", "name": "EHJ"},
+        {"abbr": "Eur Heart J Typo", "name": "Typo"},
+        {"abbr": "Missing J", "name": "Missing"},
+    ]
+    assert check_journals(journals, FakePubMed()) == 1
+    out = capsys.readouterr().out
+    assert "ok       Eur Heart J" in out
+    assert "PubMed returned 'Eur Heart J'" in out
+    assert "no records in the last year" in out

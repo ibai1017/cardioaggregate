@@ -33,6 +33,7 @@
     <span class="journal">{{ e.article.journal_abbr }}</span>
     <span>{{ e.article.pub_date }}</span>
     <span class="badge">{{ design_labels[e.triage.design] }}</span>
+    <span class="badge alt">{{ subspecialty_labels[e.triage.subspecialty] }}</span>
     {% if e.triage.sample_size %}<span>n = {{ "{:,}".format(e.triage.sample_size) }}</span>{% endif %}
     <span class="impact" title="Model rated impact, 1 to 5">impact {{ e.triage.impact }}/5</span>
   </p>
@@ -95,10 +96,10 @@
 {% if also_screened %}
 <section id="screened">
 <details>
-<summary>Also screened ({{ also_screened|length }}): did not meet the selection rules</summary>
+<summary>Also screened: {{ also_screened|length }} near misses that did not meet the selection rules</summary>
 <ul class="plain small">
 {% for a, t in also_screened %}
-<li><a href="{{ a.url }}">{{ a.title }}</a> <span class="meta">{{ a.journal_abbr }} · {{ design_labels[t.design] }}{% if t.sample_size %} · n = {{ "{:,}".format(t.sample_size) }}{% endif %} · impact {{ t.impact }}/5{% if not t.cardiology_relevant %} · not cardiology{% endif %} · {{ t.reason }}</span></li>
+<li><a href="{{ a.url }}">{{ a.title }}</a> <span class="meta">{{ a.journal_abbr }} · {{ subspecialty_labels[t.subspecialty] }} · {{ design_labels[t.design] }}{% if t.sample_size %} · n = {{ "{:,}".format(t.sample_size) }}{% endif %} · impact {{ t.impact }}/5{% if not t.cardiology_relevant %} · not cardiology{% endif %} · {{ t.reason }}</span></li>
 {% endfor %}
 </ul>
 </details>

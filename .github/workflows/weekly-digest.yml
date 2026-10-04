@@ -33,6 +33,13 @@ jobs:
 
       - run: python -m pytest -q
 
+      - name: Check journal abbreviations
+        continue-on-error: true
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+        run: python -m cardioaggregate --check-journals
+
       - name: Build digest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

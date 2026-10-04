@@ -191,6 +191,20 @@ class PubMed:
         root = ET.fromstring(raw)
         return [el.text for el in root.findall("./IdList/Id") if el.text]
 
+    def count(self, term: str, mindate: date, maxdate: date) -> int:
+        raw = self._request(
+            "esearch.fcgi",
+            {
+                "db": "pubmed",
+                "term": term,
+                "datetype": "edat",
+                "mindate": mindate.strftime("%Y/%m/%d"),
+                "maxdate": maxdate.strftime("%Y/%m/%d"),
+                "retmax": 0,
+            },
+        )
+        return int(ET.fromstring(raw).findtext("Count") or 0)
+
     def search_recent(self, term: str, days: int, today: date | None = None) -> list[str]:
         today = today or date.today()
         return self.search(term, today - timedelta(days=days), today)

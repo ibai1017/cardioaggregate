@@ -20,6 +20,22 @@ Design = Literal[
     "other",
 ]
 
+Subspecialty = Literal[
+    "heart_failure",
+    "electrophysiology",
+    "interventional",
+    "structural_valve",
+    "imaging",
+    "prevention_lipids",
+    "hypertension",
+    "thrombosis_vascular",
+    "acute_critical_care",
+    "cardiac_surgery",
+    "congenital",
+    "cardio_oncology",
+    "general",
+]
+
 
 class TriageItem(BaseModel):
     pmid: str
@@ -33,6 +49,7 @@ class TriageItem(BaseModel):
             "other: anything else (narrative review, methods, basic science, guideline)."
         )
     )
+    subspecialty: Subspecialty = Field(description="Main cardiology subspecialty the article belongs to")
     sample_size: Optional[int] = Field(
         description="Total participants analysed as stated in the abstract, or null if not stated"
     )
@@ -71,7 +88,10 @@ class PicoSummary(BaseModel):
 TRIAGE_SYSTEM = """You screen newly published cardiology literature for a busy cardiologist who \
 reads one curated digest a week. They want the studies most likely to matter: primary results of \
 randomized trials, strong meta-analyses and systematic reviews (including Cochrane), and very large \
-observational studies. Rate conservatively; most papers are a 2 or 3. Base every judgement only on \
+observational studies, across every subspecialty (heart failure, electrophysiology, interventional \
+and structural, imaging, prevention, hypertension, surgery and others). A trial that changes practice \
+within a subspecialty deserves a high rating even if it appeared in a subspecialty journal. Rate \
+conservatively; most papers are a 2 or 3. Base every judgement only on \
 the title, journal and abstract provided."""
 
 SUMMARY_SYSTEM = """You write evidence summaries for a cardiologist. Use only the material \

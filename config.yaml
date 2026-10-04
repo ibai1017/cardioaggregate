@@ -16,17 +16,54 @@ editorial_lookback_days: 28
 #   design_filter: only keep articles whose abstract suggests an RCT,
 #                  meta-analysis, systematic review or cohort/registry study
 journals:
+  # General medical journals: cardiovascular topics only
   - { abbr: "N Engl J Med", name: "NEJM", topic_filter: true, design_filter: true }
   - { abbr: "NEJM Evid", name: "NEJM Evidence", topic_filter: true, design_filter: true }
   - { abbr: "Lancet", name: "The Lancet", topic_filter: true, design_filter: true }
   - { abbr: "JAMA", name: "JAMA", topic_filter: true, design_filter: true }
+  - { abbr: "JAMA Intern Med", name: "JAMA Internal Medicine", topic_filter: true, design_filter: true }
   - { abbr: "BMJ", name: "BMJ", topic_filter: true, design_filter: true }
   - { abbr: "Ann Intern Med", name: "Annals of Internal Medicine", topic_filter: true, design_filter: true }
+  - { abbr: "Cochrane Database Syst Rev", name: "Cochrane", topic_filter: true, design_filter: false }
+
+  # General cardiology
   - { abbr: "J Am Coll Cardiol", name: "JACC", topic_filter: false, design_filter: true }
   - { abbr: "Eur Heart J", name: "European Heart Journal", topic_filter: false, design_filter: true }
   - { abbr: "Circulation", name: "Circulation", topic_filter: false, design_filter: true }
   - { abbr: "JAMA Cardiol", name: "JAMA Cardiology", topic_filter: false, design_filter: true }
-  - { abbr: "Cochrane Database Syst Rev", name: "Cochrane", topic_filter: true, design_filter: false }
+
+  # Heart failure and transplant
+  - { abbr: "Eur J Heart Fail", name: "European Journal of Heart Failure", topic_filter: false, design_filter: true }
+  - { abbr: "JACC Heart Fail", name: "JACC: Heart Failure", topic_filter: false, design_filter: true }
+  - { abbr: "Circ Heart Fail", name: "Circulation: Heart Failure", topic_filter: false, design_filter: true }
+  - { abbr: "J Heart Lung Transplant", name: "J Heart Lung Transplant", topic_filter: true, design_filter: true }
+
+  # Electrophysiology
+  - { abbr: "Heart Rhythm", name: "Heart Rhythm", topic_filter: false, design_filter: true }
+  - { abbr: "Europace", name: "Europace", topic_filter: false, design_filter: true }
+  - { abbr: "JACC Clin Electrophysiol", name: "JACC: Clinical Electrophysiology", topic_filter: false, design_filter: true }
+  - { abbr: "Circ Arrhythm Electrophysiol", name: "Circulation: Arrhythmia and Electrophysiology", topic_filter: false, design_filter: true }
+
+  # Interventional and structural
+  - { abbr: "JACC Cardiovasc Interv", name: "JACC: Cardiovascular Interventions", topic_filter: false, design_filter: true }
+  - { abbr: "EuroIntervention", name: "EuroIntervention", topic_filter: false, design_filter: true }
+  - { abbr: "Circ Cardiovasc Interv", name: "Circulation: Cardiovascular Interventions", topic_filter: false, design_filter: true }
+
+  # Imaging
+  - { abbr: "JACC Cardiovasc Imaging", name: "JACC: Cardiovascular Imaging", topic_filter: false, design_filter: true }
+  - { abbr: "Eur Heart J Cardiovasc Imaging", name: "EHJ Cardiovascular Imaging", topic_filter: false, design_filter: true }
+  - { abbr: "Circ Cardiovasc Imaging", name: "Circulation: Cardiovascular Imaging", topic_filter: false, design_filter: true }
+
+  # Prevention, hypertension, outcomes research, acute care, surgery
+  - { abbr: "Eur J Prev Cardiol", name: "European Journal of Preventive Cardiology", topic_filter: false, design_filter: true }
+  - { abbr: "Hypertension", name: "Hypertension", topic_filter: false, design_filter: true }
+  - { abbr: "Circ Cardiovasc Qual Outcomes", name: "Circulation: Cardiovascular Quality and Outcomes", topic_filter: false, design_filter: true }
+  - { abbr: "Eur Heart J Acute Cardiovasc Care", name: "EHJ Acute Cardiovascular Care", topic_filter: false, design_filter: true }
+  - { abbr: "J Thorac Cardiovasc Surg", name: "J Thorac Cardiovasc Surg", topic_filter: true, design_filter: true }
+
+  # Optional, high volume and mostly observational; uncomment to include:
+  # - { abbr: "J Am Heart Assoc", name: "JAHA", topic_filter: false, design_filter: true }
+  # - { abbr: "JAMA Netw Open", name: "JAMA Network Open", topic_filter: true, design_filter: true }
 
 # Selection rules applied to the model's triage of each candidate.
 # impact is the model's 1 to 5 rating of likely effect on cardiology practice.
@@ -37,7 +74,8 @@ selection:
   large_observational_n: 10000 # "very large" observational threshold
   min_impact_observational_large: 3
   min_impact_observational_other: 5
-  max_articles: 25             # hard cap per digest
+  max_articles: 30             # hard cap per digest
+  max_also_screened: 60        # how many near misses to list at the bottom
 
 # Claude settings. Effort trades depth for cost; "medium" is plenty for
 # abstract triage and summaries.
