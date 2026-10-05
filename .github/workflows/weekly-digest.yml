@@ -1,9 +1,14 @@
 name: Weekly digest
 
+# Saturday: fetch the week's candidates from PubMed (free) and publish a
+# preliminary digest. The Claude Code routine then rates and summarizes them
+# over the following days using your Claude plan (see ROUTINE.md). If an
+# ANTHROPIC_API_KEY secret is set instead, the API does that work right here.
+
 on:
   schedule:
-    # Sundays 11:17 UTC. Change to suit your time zone.
-    - cron: "17 11 * * 0"
+    # Saturdays 11:17 UTC. Change to suit your time zone.
+    - cron: "17 11 * * 6"
   workflow_dispatch:
     inputs:
       days:
@@ -14,11 +19,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: weekly-digest
+  group: digest-repo-writes
   cancel-in-progress: false
 
 jobs:
-  digest:
+  prepare:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -38,13 +43,22 @@ jobs:
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
-        run: python -m cardioaggregate --check-journals
+        run: python -m cardioaggregate check-journals
 
-      - name: Build digest
+      - name: Prepare this week's run
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+        run: |
+          if [ -n "${{ inputs.days }}" ]; then
+            python -m cardioaggregate prepare --days "${{ inputs.days }}"
+          else
+            python -m cardioaggregate prepare
+          fi
+
+      - name: Triage and summarize with the API (only if a key is configured)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -52,13 +66,13 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
-          if [ -n "${{ inputs.days }}" ]; then
-            python -m cardioaggregate --days "${{ inputs.days }}"
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            python -m cardioaggregate api
           else
-            python -m cardioaggregate
+            echo "No ANTHROPIC_API_KEY: the Claude Code routine will finish this run."
           fi
 
-      - name: Commit digest
+      - name: Commit
         run: |
           git config user.name "cardioaggregate bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -66,6 +80,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing new"
           else
-            git commit -m "Digest $(date -u +%Y-%m-%d)"
+            git commit -m "Prepare digest $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           fi

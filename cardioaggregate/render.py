@@ -42,7 +42,7 @@ _env = Environment(
 
 
 def render_digest(digest_date, entries, late_editorials, also_screened, screened_count, used_llm,
-                  target_articles=10) -> str:
+                  target_articles=10, preliminary=False) -> str:
     grouped = {key: [] for key, _ in SECTIONS}
     for e in entries:
         grouped[section_of(e["triage"])].append(e)
@@ -56,6 +56,7 @@ def render_digest(digest_date, entries, late_editorials, also_screened, screened
         screened_count=screened_count,
         used_llm=used_llm,
         target_articles=target_articles,
+        preliminary=preliminary,
         design_labels=DESIGN_LABELS,
         subspecialty_labels=SUBSPECIALTY_LABELS,
     )

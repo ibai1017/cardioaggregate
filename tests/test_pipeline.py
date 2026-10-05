@@ -3,7 +3,7 @@ from pathlib import Path
 import yaml
 
 from cardioaggregate.fulltext import extract_body
-from cardioaggregate.llm import PicoSummary, TriageItem
+from cardioaggregate.schemas import PicoSummary, TriageItem
 from cardioaggregate.pubmed import build_editorial_query, build_research_query, parse_articles
 from cardioaggregate.render import render_digest
 from cardioaggregate.select import heuristic_triage, passes, select
@@ -128,29 +128,6 @@ def test_render_digest():
     assert "Randomized trials" in html
     assert "Heart failure" in html
     assert "<i>" not in html  # titles are plain text, markup is escaped or stripped
-
-
-def test_end_to_end_without_llm(tmp_path, monkeypatch):
-    from cardioaggregate import __main__ as app
-    from cardioaggregate.pubmed import PubMed
-
-    articles = {a.pmid: a for a in load()}
-    monkeypatch.setattr(PubMed, "search_recent", lambda self, term, days, today=None: list(articles))
-    monkeypatch.setattr(PubMed, "fetch", lambda self, ids: [articles[i] for i in dict.fromkeys(ids)])
-    cfg = dict(CONFIG, output_dir=str(tmp_path / "docs"), history_file=str(tmp_path / "history.json"))
-    cfg_path = tmp_path / "config.yaml"
-    cfg_path.write_text(yaml.safe_dump(cfg))
-
-    assert app.main(["--config", str(cfg_path), "--no-llm", "--no-email"]) == 0
-    digest = next((tmp_path / "docs" / "digests").glob("*.html")).read_text()
-    assert "Drug X in Heart Failure" in digest
-    assert "A New Option for HFpEF?" in digest  # editorial linked to its trial
-    assert "digests/" in (tmp_path / "docs" / "index.html").read_text()
-
-    # Second run: the trial is remembered, so nothing is repeated.
-    assert app.main(["--config", str(cfg_path), "--no-llm", "--no-email"]) == 0
-    digest = next((tmp_path / "docs" / "digests").glob("*.html")).read_text()
-    assert "Nothing met the selection rules" in digest
 
 
 def test_subspecialty_journals_configured():

@@ -15,22 +15,24 @@ editorial_lookback_days: 28
 #                  general medical journals that publish everything)
 #   design_filter: only keep articles whose abstract suggests an RCT,
 #                  meta-analysis, systematic review or cohort/registry study
+#   tier:          1 for the flagship general and cardiology journals (default 2);
+#                  only used to decide which candidates Claude reads first
 journals:
   # General medical journals: cardiovascular topics only
-  - { abbr: "N Engl J Med", name: "NEJM", topic_filter: true, design_filter: true }
-  - { abbr: "NEJM Evid", name: "NEJM Evidence", topic_filter: true, design_filter: true }
-  - { abbr: "Lancet", name: "The Lancet", topic_filter: true, design_filter: true }
-  - { abbr: "JAMA", name: "JAMA", topic_filter: true, design_filter: true }
-  - { abbr: "JAMA Intern Med", name: "JAMA Internal Medicine", topic_filter: true, design_filter: true }
-  - { abbr: "BMJ", name: "BMJ", topic_filter: true, design_filter: true }
-  - { abbr: "Ann Intern Med", name: "Annals of Internal Medicine", topic_filter: true, design_filter: true }
-  - { abbr: "Cochrane Database Syst Rev", name: "Cochrane", topic_filter: true, design_filter: false }
+  - { abbr: "N Engl J Med", name: "NEJM", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "NEJM Evid", name: "NEJM Evidence", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "Lancet", name: "The Lancet", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "JAMA", name: "JAMA", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "JAMA Intern Med", name: "JAMA Internal Medicine", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "BMJ", name: "BMJ", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "Ann Intern Med", name: "Annals of Internal Medicine", tier: 1, topic_filter: true, design_filter: true }
+  - { abbr: "Cochrane Database Syst Rev", name: "Cochrane", tier: 1, topic_filter: true, design_filter: false }
 
   # General cardiology
-  - { abbr: "J Am Coll Cardiol", name: "JACC", topic_filter: false, design_filter: true }
-  - { abbr: "Eur Heart J", name: "European Heart Journal", topic_filter: false, design_filter: true }
-  - { abbr: "Circulation", name: "Circulation", topic_filter: false, design_filter: true }
-  - { abbr: "JAMA Cardiol", name: "JAMA Cardiology", topic_filter: false, design_filter: true }
+  - { abbr: "J Am Coll Cardiol", name: "JACC", tier: 1, topic_filter: false, design_filter: true }
+  - { abbr: "Eur Heart J", name: "European Heart Journal", tier: 1, topic_filter: false, design_filter: true }
+  - { abbr: "Circulation", name: "Circulation", tier: 1, topic_filter: false, design_filter: true }
+  - { abbr: "JAMA Cardiol", name: "JAMA Cardiology", tier: 1, topic_filter: false, design_filter: true }
 
   # Heart failure and transplant
   - { abbr: "Eur J Heart Fail", name: "European Journal of Heart Failure", topic_filter: false, design_filter: true }
@@ -78,9 +80,10 @@ selection:
   surge_min_impact: 4          # papers rated this or higher always get in...
   max_articles: 20             # ...up to this ceiling (e.g. ESC, AHA, ACC weeks)
   max_also_screened: 60        # how many near misses to list at the bottom
+  max_triage: 80               # Claude only reads the top candidates by free prescore
 
-# Claude settings. Effort trades depth for cost; "medium" is plenty for
-# abstract triage and summaries.
+# Only used by `python -m cardioaggregate api` (pay per use API instead of the
+# routine on your Claude plan). Effort trades depth for cost.
 llm:
   model: "claude-opus-5-5"
   triage_effort: "low"
