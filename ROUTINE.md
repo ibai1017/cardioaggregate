@@ -8,7 +8,7 @@ The work may span two or three days. Every save is committed and pushed, so if y
 
 1. Setup, once per session:
    ```bash
-   pip install -q -r requirements.txt
+   python -m pip install -q -r requirements.txt
    git pull --ff-only origin main
    ```
 2. Run `python -m cardioaggregate status`.
