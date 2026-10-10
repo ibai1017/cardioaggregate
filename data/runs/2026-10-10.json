@@ -1,0 +1,4162 @@
+{
+ "date": "2026-10-10",
+ "finalized": false,
+ "emailed": false,
+ "queue": [
+  "42842238",
+  "42841340",
+  "42834810",
+  "42844166",
+  "42853165",
+  "42852467",
+  "42848330",
+  "42841215",
+  "42838320",
+  "42836810",
+  "42836296",
+  "42834820",
+  "42831529",
+  "42828419",
+  "42836281",
+  "42855844",
+  "42842282",
+  "42842241",
+  "42837202",
+  "42853981",
+  "42837205",
+  "42836556",
+  "42848331",
+  "42847616",
+  "42847153",
+  "42845233",
+  "42836800",
+  "42854881",
+  "42854830",
+  "42841847",
+  "42837204",
+  "42854886",
+  "42841197",
+  "42833794"
+ ],
+ "selected": [
+  "42834810",
+  "42844166",
+  "42853165",
+  "42852467",
+  "42838320",
+  "42836810",
+  "42834820",
+  "42831529",
+  "42828419",
+  "42842238"
+ ],
+ "triage": {},
+ "summaries": {},
+ "basis": {},
+ "candidates": [
+  {
+   "pmid": "42855844",
+   "title": "Palmitic acid promotes hypertrophic memory in cardiomyocytes via KDM5A/H3K4me3.",
+   "abstract": "BACKGROUND AND AIMS: Palmitic acid (PA), the most abundant saturated fatty acid (SFA), is positively associated with heart failure (HF) risk. However, its role and mechanism underlying HF remain unclear. This study aimed to investigate the effects of a PA-enriched diet and potential therapeutic targets in HF.\nMETHODS: The association between plasma SFAs and HF was investigated in a cohort of 232 592 UK Biobank participants. Mice were randomly categorized into three groups, where they were fed a PA-enriched, olive oil-enriched, or control diet for 4 weeks, followed by a 4-week dietary adaptation period on the control diet. A pressure overload model was established by transverse aortic constriction in these mice and cardiac-specific lysine demethylase 5A (Kdm5A)-knockout mice.\nRESULTS: The UK Biobank database revealed an association between high plasma SFA levels and increased HF risk. Our in vitro and in vivo results demonstrated that short-term PA treatment promoted cardiac hypertrophy and HF without further exposure to high levels of PA, indicating a pro-hypertrophic memory in cardiomyocytes. Mechanistically, PA promoted palmitoylation-driven KDM5A degradation via the ubiquitination pathway, thereby up-regulating histone 3 lysine 4 tri-methylation (H3K4me3). KDM5A/H3K4me3 promoted a pro-hypertrophic memory in cardiomyocytes, thus causing cardiac hypertrophy via a monocarboxylate transporter 4 (MCT4)-induced metabolic imbalance. Furthermore, KDM5A agonist D18 ameliorated this PA-mediated cardiac hypertrophy and HF.\nCONCLUSIONS: A PA-enriched diet promotes pro-hypertrophic memory in cardiomyocytes, cardiac hypertrophy, and HF via KDM5A/H3K4me3/MCT4. The application of D18 may represent a promising therapeutic approach for PA-mediated cardiac hypertrophy and HF.",
+   "journal_abbr": "Eur Heart J",
+   "journal_title": "European heart journal",
+   "pub_date": "2026-10-10",
+   "authors": [
+    "Yang K",
+    "Gao R",
+    "Shi J",
+    "Wei X",
+    "Lu X",
+    "Chen H",
+    "Wei W",
+    "Hu J",
+    "Chen J",
+    "Lyu Y",
+    "Gao P",
+    "Ke C",
+    "Sun A"
+   ],
+   "doi": "10.1093/eurheartj/ehag761",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42854886",
+   "title": "Clinical Characteristics and Transplacental Treatment of Fetal Ventricular Tachycardia: A Nationwide Survey in Japan.",
+   "abstract": "BACKGROUND: Fetal ventricular tachycardia (VT) is an ultra-rare form of tachyarrhythmia, and no established management strategy currently exists.\nOBJECTIVES: This study aimed to clarify the current diagnostic and management approaches for fetal VT.\nMETHODS: A nationwide survey of suspected fetal VT was conducted across 77 tertiary referral facilities in Japan between 2014 and 2023.\nRESULTS: In total, 24 fetal VT cases from 18 facilities were analyzed. Twenty cases were diagnosed based on atrioventricular dissociation. Four were initially diagnosed as supraventricular tachycardia. VT occurred by 32 6/7 weeks of gestation in all nine long QT syndrome (LQTS) cases (LQT 2 in six, LQT 3 in two, and other in one), whereas 8/15 non-LQTS cases occurred at term. Eight of 20 cases managed as fetal VT, and three of four cases managed as fetal supraventricular tachycardia received fetal treatment. Fetal treatments were effective in 9/11 cases overall and in 8/9 LQTS cases. Side effects were observed in 6/11 cases; however, no serious adverse events occurred, except one case of lidocaine toxicity. After birth, LQTS cases were more likely to be refractory to treatment than non-LQT cases (8/9 vs. 6/14), requiring multidisciplinary management. Neurodevelopmental delay was more frequent in LQTS cases than in non-LQTS cases (6/9 vs. 2/14).\nCONCLUSIONS: Transplacental treatment is highly recommended for preterm fetal VT. In particular, in cases of fetal VT diagnosed before 33 weeks of gestation, aggressive fetal treatment including magnesium sulfate and \u03b2-blockers should be considered with the possibility of LQT 2 or 3.",
+   "journal_abbr": "Heart Rhythm",
+   "journal_title": "Heart rhythm",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Miyoshi T",
+    "Kim KS",
+    "Kan N",
+    "Shimada E",
+    "Kato Y",
+    "Maeno Y",
+    "Collaborators"
+   ],
+   "doi": "10.1016/j.hrthm.2026.10.005",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42854881",
+   "title": "Nuclear magnetic resonance-derived lipoprotein profile and risk of atrial tachyarrhythmia recurrence after catheter ablation: a case-cohort design within the PREDIMAR trial.",
+   "abstract": "BACKGROUND: Lipoproteins could be potential biomarkers of atrial tachyarrhythmia recurrence (TAR) after catheter ablation; however, their association remains inconclusive and based exclusively on routine lipid measurements. Nuclear magnetic resonance (NMR) enables detailed lipoprotein characterization beyond conventional assays.\nOBJECTIVE: To identify a baseline NMR-derived lipoprotein profile associated with the risk of TAR after catheter ablation.\nMETHODS: We conducted a case-cohort study (212 cases and 238 participants in a random sub-cohort, with 93 overlapping cases) nested in the PREDIMAR (PRevenci\u00f3n con DIeta Mediterr\u00e1nea de Arritmias Recurrentes) trial. Conventional lipoprotein profiles were measured using the Pentra C-200 and advanced lipoprotein profiles were assessed by NMR. Lipoprotein values were normalized and scaled to one standard deviation using Blom's inverse normal transformation. Cox models were used to assess the associations between baseline lipoproteins and TAR. Additionally, a cholesteryl ester transfer (CETP)-mediated lipoprotein exchange score was constructed and evaluated.\nRESULTS: After 18-month follow-up, higher baseline remnant cholesterol (hazard ratio = 1.26, 95% confidence interval= 1.06-1.51, per SD), higher cholesterol and triglyceride content in very-low-density lipoproteins (VLDL) (hazard ratioperSD = 1.22, 95% confidence interval= 1.03-1.46) or in intermediate-density lipoproteins (IDL) (hazard ratioperSD = 1.29, 95% confidence interval= 1.09-1.52), showed increased risks of TAR. Higher triglyceride-to-HDL cholesterol ratio was directly associated, and higher triglyceride-to-VLDL cholesterol and triglyceride-to-IDL cholesterol ratios were inversely associated with recurrence. A CETP-mediated lipoprotein exchange score was directly associated with recurrence.\nCONCLUSION: An atherogenic lipoprotein profile characterized by elevated remnant cholesterol is associated with a higher risk of TAR after catheter ablation.",
+   "journal_abbr": "Heart Rhythm",
+   "journal_title": "Heart rhythm",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Belzunce ANL",
+    "Goni L",
+    "Barrio-L\u00f3pez MT",
+    "Ramos P",
+    "Tercedor L",
+    "Ib\u00e1\u00f1ez Criado JL",
+    "Amig\u00f3 N",
+    "Torn\u00e9 P",
+    "Razquin C",
+    "de la O V",
+    "Ib\u00e1\u00f1ez-Criado A",
+    "Mac\u00edas-Ruiz R",
+    "Mart\u00ednez-Gonz\u00e1lez M\u00c1",
+    "Garc\u00eda-Bolao I",
+    "Almendral J",
+    "Ruiz-Canela M"
+   ],
+   "doi": "10.1016/j.hrthm.2026.10.002",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42854830",
+   "title": "Mid-Term Clinical Outcomes of Tendyne Transcatheter Mitral Valve Replacement: A Prospective Cohort of 100 Patients with Follow-up to 4 Years.",
+   "abstract": "OBJECTIVES: Transcatheter mitral valve replacement (TMVR) is an emerging therapy option currently mainly used in patients at high surgical risk and a mitral valve anatomy not eligible for transcatheter edge to edge repair (TEER). Clinical TMVR data are sparse as currently only two devices were granted CE or FDA certification. This study evaluates mid-term clinical outcomes of 100 consecutive single-center Tendyne-TMVR patients.\nMETHODS: From the institutional TMVR database, the first 100 consecutive patients undergoing implantation of the Abbott Tendyne mitral valve were identified. Baseline and procedural characteristics, clinical and echocardiography follow-up were prospectively recorded and retrospectively analyzed and reported following MVARC recommendations. according To evaluate a procedure-specific learning curve, the cohort was analyzed for 30-day mortality across four consecutive chronological groups (n=25 each).\nRESULTS: The study enrolled 100 high surgical risk patients (mean age 76.3 \u00b1 7.0 years; mean STS predicted risk of mortality 7.7 \u00b1 6.4%). Mitral valve pathologies included primary MR (62.0%), functional MR (29.0%), severe MAC (30%) and previous mitral valve intervention (19%). Technical success was 96.0% and 30-day device success was 74.0%. Kaplan-Meier estimated survival at 30-days was 90.0% (95% CI: 82.2-94.5%), 71.2% (95% CI:61.1-79.2%) at 1 year, 64.3% (95% CI: 53.4-73.4%) at 2 years and 54.8% (95% CI: 41.7-66.1%) at 3 years. Chronological analysis revealed no significant inter-group differences in 30-day survival across the four groups composed of consecutive 25 patients (p=0.522).At 2 years, echocardiography revealed durable MR reduction with 100% MR Grade \u22641+ (none/trace MR 84.4%) and significant relief of heart failure symptoms with 84.9% NYHA class I/II.\nCONCLUSIONS: TMVR with the Tendyne mitral valve system provided effective MR elimination in a cohort presenting with heterogenous mitral valve disease without evidence for a significant learning curve. Durable mitral valve function was confirmed up to 3 years. Mid-term mortality is associated with cardiovascular and non-cardiovascular mortality.",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Puluca N",
+    "Bonk MN",
+    "Voss S",
+    "Campanella C",
+    "Wirth F",
+    "Erlebach M",
+    "Xhepa E",
+    "Stein A",
+    "Ebner V",
+    "N\u00f6bauer C",
+    "Krane M",
+    "Ruge H"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.026",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42853981",
+   "title": "Clinical trajectory and disease progression in patients with cardio-renal-metabolic syndrome: the CaReMap observational study.",
+   "abstract": "BACKGROUND: Cardio-renal-metabolic (CRM) syndrome describes the pathophysiological interconnection among diabetes mellitus (DM), atherosclerotic cardiovascular disease (ASCVD) and heart failure (HF), and chronic kidney disease (CKD). Limited studies simultaneously examine progression trajectories across all three conditions at the population level. We aimed to quantify the coexistence of CRM components, with a specific focus on patients with HF, and analyse survival and disease progression in a real-world setting.\nMETHODS: CaReMap, an observational cohort study, analysed data from an Italian Regional Epidemiological Repository. The selection period spanned from 2017 to 2022. Incident patients had a first diagnosis of DM, HF, or CKD after January 1, 2017. Prevalent patients were classified based on their baseline morbidity status on January 1, 2017. Descriptive statistics, Kaplan-Meier survival estimates, and cumulative incidence curves for cause-specific events were reported. The CRM stage was further defined according to disease coexistence and severity.\nRESULTS: CaReMap included 71,694 adults with established CRM-related conditions (31.8% incident; 68.2% prevalent). Among incident patients, HF was associated with the highest probability of developing an additional diagnosis (60.4% at 6 years), while CKD showed the highest probability of death before a new diagnosis (43.3% at 6 years). In prevalent patients, the DM&HF group showed the highest cumulative incidence of further diagnoses (47.1% at 6 years). Across both incident and prevalent cohorts, HF and CKD patients experienced the steepest decline in overall survival.\nCONCLUSION: In this population-based Italian cohort, DM, HF, and CKD define distinct diagnostic trajectories with substantial competing risk of death. These findings provide real-world estimates of transition patterns and absolute risks that may inform risk stratification and integrated care pathways.",
+   "journal_abbr": "Eur J Heart Fail",
+   "journal_title": "European journal of heart failure",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Turoldo F",
+    "Barbati G",
+    "Radesich C",
+    "Di Maso V",
+    "Candido R",
+    "Bosco M",
+    "Scagnetto A",
+    "Barzaghi S",
+    "Falato S",
+    "Scognamillo C",
+    "di Lenarda A"
+   ],
+   "doi": "10.1093/ejhf/xuag308",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42853165",
+   "title": "Artificial Intelligence-Enabled Detection and Management of Physiological Instability in Heart Failure: Results of the Randomized LINK-HF2 Trial.",
+   "abstract": "BACKGROUND: Artificial intelligence (AI)-enabled wearable monitoring can detect individualized physiological deviations preceding heart failure (HF) decompensation, but whether these signals can be translated into improved outcomes remains uncertain.\nOBJECTIVES: This study aims to evaluate the feasibility of integrating AI-generated notifications with a structured clinician response algorithm into postdischarge HF care and to explore their association with HF events following hospitalization.\nMETHODS: LINK-HF2 (Detection of Physiological Anomaly Using Artificial Intelligence and Prevention of Heart Failure Hospitalization) was a prospective, randomized, open-label, blinded-endpoint study conducted at 5 Veterans Affairs medical centers. Adults hospitalized for acute HF were enrolled at discharge and assigned to AI-guided monitoring with clinician notification or to standard care. All participants wore a continuous multisensor patch for up to 90 days. A personalized similarity-based model detected deviations in cardiorespiratory and activity signals and generated notifications. Implementation outcomes included feasibility, acceptability, and usability. The main exploratory clinical endpoint was HF rehospitalization. Secondary exploratory clinical endpoints included the composite outcome of all-cause unplanned rehospitalizations, emergency department visits, and all-cause mortality. All clinical endpoints were compared through Cox proportional hazards models over the follow-up period.\nRESULTS: Among 171 analyzed participants, 80 (46.8%) were assigned to intervention and 91 (53.2%) to control. Median monitoring adherence was 72.4% of follow-up days; clinicians responded to communicated notifications within a median of 1 day (range: 1-5 days), and qualitative analysis demonstrated high patient acceptance and clinician engagement, whereas identifying workflow integration and response uncertainty as the primary barriers to implementation. In exploratory analyses, HF rehospitalization occurred in 13 (16.3%) patients in the intervention group and 17 (18.7%) in the control group (HR: 0.90, 95% CI: 0.43-1.84; P = 0.76). The composite clinical endpoint also did not differ between groups (HR 1.03; 95% CI: 0.63-1.70; P = 0.89). The intervention group had a lower rate of AI-detected physiological instability than controls (HR: 0.76; 95% CI: 0.60-0.97; P = 0.025).\nCONCLUSIONS: AI-enabled continuous physiological monitoring was feasible and reduced AI-detected physiological instability. Although this feasibility study did not demonstrate a reduction in exploratory clinical events, these findings highlight that accurate physiological risk detection alone may be insufficient to modify clinical risk without mechanistically aligned and trusted therapeutic responses. (Detection of Physiological Anomaly Using Artificial Intelligence and Prevention of Heart Failure Hospitalization [LINK-HF2]; NCT04502563).",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Sideris K",
+    "Schmalfuss C",
+    "Lewis N",
+    "Sallam K",
+    "Bozkurt B",
+    "Hanff TC",
+    "Young MT",
+    "Schofield R",
+    "Kyriakopoulos CP",
+    "Hanson H",
+    "Brinker L",
+    "Wohlfahrt P",
+    "Mehra MR",
+    "Curry T",
+    "Knecht C",
+    "Tuckett S",
+    "Nelson RE",
+    "Zickmund SL",
+    "Butler JM",
+    "Edelberg JM",
+    "Kurio GH",
+    "Wegerich S",
+    "Serghiou S",
+    "Pipke M",
+    "Stehlik J"
+   ],
+   "doi": "10.1016/j.jchf.2026.103422",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42852467",
+   "title": "GDMT is Associated with Reduced Loop Diuretic Requirements, Whereas Diuretic Dose Does Not Modify GDMT Benefit in Heart Failure: STRONG-HF.",
+   "abstract": "AIMS: Loop diuretics (LD) are the cornerstone of congestion management in heart failure (HF), but whether their requirement can be reduced by optimizing disease-modifying therapy is unknown.\nMETHODS: In this post-hoc analysis of STRONG-HF (n=1,075 with post-randomization LD data), we assessed whether up-titration of guideline-directed medical therapy (GDMT) lowers LD demand, and whether LD dose reflects HF severity, predicts outcome, or modifies the benefit of high-intensity care. Patients were grouped by furosemide-equivalent dose; change at day 90 was compared by achievement of 100% target GDMT doses.\nRESULTS: Higher LD doses marked more severe HF. Achieving 100% of target doses of all GDMT classes (RASi, beta-blocker, MRA) translated into a substantially lower diuretic requirement: furosemide-equivalent dose at day 90 fell by -21.94 (SD 52.46) mg versus -1.55 (SD 49.886) mg in those not reaching targets (p<0.001); beta-blockers showed the largest effect of any single class -18.42 (SD 49.61) mg, (p<0.001). LD dose category was not independently associated with the primary endpoint (all-cause death or HF rehospitalization at 180 days) or its components; only LD dose doubling was associated with higher all-cause mortality (adjusted HR 1.47, 95% CI 1.04-2.09), without association with the primary endpoint or rehospitalization (both p>0.05). The benefit of high-intensity care was consistent across LD dose groups (no treatment-by-dose interaction).\nCONCLUSIONS: GDMT optimization acted as diuretic-sparing therapy: reaching target doses, particularly of all three classes, was associated with markedly lower LD requirement. LD dose mirrored HF severity but neither consistently predicted outcome nor modified the benefit of up-titration.",
+   "journal_abbr": "Eur J Heart Fail",
+   "journal_title": "European journal of heart failure",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Biegus J",
+    "Davison B",
+    "Cotter G",
+    "Edwards C",
+    "\u010celutkien\u0117 J",
+    "Chioncel O",
+    "Cohen-Solal A",
+    "Filippatos G",
+    "Novosadova M",
+    "Sliwa K",
+    "Barros M",
+    "Damasceno A",
+    "Pagnesi M",
+    "Saidu H",
+    "Takagi K",
+    "Mebazaa A",
+    "Voors AA",
+    "Metra M",
+    "Ponikowski P"
+   ],
+   "doi": "10.1093/ejhf/xuag309",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42848331",
+   "title": "Impact of Early Atrial Tachyarrhythmia Within the Blanking Period on Late Recurrence After Pulsed Field Ablation of Atrial Fibrillation.",
+   "abstract": "BACKGROUND: Early atrial tachyarrhythmias (ERAT) occurring during the first 3 months after atrial fibrillation (AF) ablation were not traditionally considered a treatment failure, and this defined the blanking period after thermal energy ablations. More recent data suggest that the blanking period after pulsed field ablation (PFA) is shorter. We hypothesized that the traditional concept of \"blanking period\" does not apply to PFA for AF.\nOBJECTIVES: This study sought to evaluate whether ERAT during the 3 months after PFA for AF predicts late recurrence and whether or not the timing of ERAT affects late recurrences.\nMETHODS: All consecutive patients undergoing PFA for AF at our institution (Feb 2024- March 2025) were enrolled in a prospective registry and followed to assess arrhythmia recurrences. ERAT was defined as atrial fibrillation or flutter lasting \u226530 seconds within 90 days. Late arrhythmia recurrences (LRAT) were defined as recurrences after 90 days.\nRESULTS: Among 1,608 patients followed for 1 year, 334 (20.8%) experienced ERAT and were more likely to experience LRAT than those patients without ERAT (68.4% vs 20.3%, P < 0.001). In multivariable Cox analyses, ERAT was independently associated with LRAT (HR: 4.89; 95% CI: 4.04-5.93; P < 0.001). The risk of LRAT was consistently elevated using 30-day and 60-day ERAT timing cutoffs: ERAT \u226430 vs 31-90 days (LRAT = 70.4% vs 65.5%; P = 0.41; adjusted HR: 5.40 vs 4.34 respectively compared with no ERAT) and ERAT \u226460 vs 61-90 days (LRAT = 68.6% vs 67.1%; P = 0.88; adjusted HR: 4.91 vs 4.83 respectively) compared with no ERAT. In secondary analyses, LRAT rates were similar in ERAT patients with or without cardioversion (73% vs 66.7%, P = 0.29). Interaction testing showed no significant differences in these HRs across ERAT-timing or cardioversion subgroups (all P > 0.05). Moreover, ERAT was associated with a higher need for cardioversion (25.1% vs 7.2%, P < 0.001; HR: 1.49; 95% CI: 1.10-2.02; P = 0.008) and late arrhythmia recurrences compared with patients without ERAT.\nCONCLUSIONS: After PFA for AF, atrial tachyarrhythmias at any time within the first 3 months, regardless of timing or need for cardioversion, strongly predict late recurrence and warrant increased monitoring intensity in the early postablation period.",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Dakik A",
+    "Ismail J",
+    "Demian J",
+    "Mdaihly M",
+    "Watfa A",
+    "Younis A",
+    "Saliba W",
+    "Chung M",
+    "Nakagawa H",
+    "Sroubek J",
+    "Lee J",
+    "Bhargava M",
+    "Higuchi K",
+    "Taigen T",
+    "Callahan T",
+    "Kanj M",
+    "Santangeli P",
+    "Wazni O",
+    "Hussein A"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.024",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42848330",
+   "title": "Adjunctive Low-Voltage Area Ablation Reduces Atrial Fibrillation Recurrence in Persistent Atrial Fibrillation: A Systematic Review, Meta-Analysis, and Trial Sequential Analysis.",
+   "abstract": "BACKGROUND: Adjunctive low-voltage area ablation (LVAA) has been proposed as a substrate modification strategy to improve outcomes of catheter ablation in persistent atrial fibrillation (AF); however, randomized controlled trials (RCTs) evaluating LVAA have yielded inconsistent findings.\nOBJECTIVES: This meta-analysis sought to evaluate the efficacy of LVAA in addition to pulmonary vein isolation (PVI) compared with PVI alone in patients with persistent AF.\nMETHODS: Electronic databases were searched from inception to September 2026 for eligible RCTs. The primary endpoint was recurrent AF/atrial tachyarrhythmia \u226512 months after index ablation. Secondary endpoints included major periprocedural complications and procedural durations. Meta-analyses were performed using random-effects models. Trial sequential analysis was performed to assess the robustness of cumulative evidence.\nRESULTS: Seven RCTs comprising 1,487 participants (weighted mean age 68 years, 60% male) were included. Compared with PVI alone, PVI + LVAA was associated with significantly lower recurrence of AF/atrial tachyarrhythmia (HR: 0.67; 95% CI: 0.50-0.88; I2 = 55%; P = 0.004). Trial sequential analysis demonstrated that the cumulative Z-curve crossed the monitoring boundary for benefit, supporting the robustness of the observed treatment effect. Adjunctive LVAA increased total procedure duration (mean difference: 30.5 minutes; 95% CI: 5.8-55.2; P = 0.02) and radiofrequency ablation duration (mean difference: 12.3 minutes; 95% CI: 5.4-19.1; P < 0.001) without increasing fluoroscopy time or major periprocedural complications (relative risk: 1.12; 95% CI: 0.60-2.10; P = 0.7).\nCONCLUSIONS: Among patients with persistent AF, adjunctive LVAA in addition to PVI significantly reduces recurrent atrial tachyarrhythmia compared with PVI alone. These findings support electroanatomically guided substrate modification as a promising individualized ablation strategy in persistent AF.",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-26",
+   "authors": [
+    "Virk SA",
+    "Somma V",
+    "Kistler PM",
+    "Kalman JM"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.023",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42847616",
+   "title": "Pathway-Guided and Patient-Centered Therapeutic Strategies in Atherosclerotic Cardiovascular Disease.",
+   "abstract": "Atherosclerotic cardiovascular disease (ASCVD), encompassing coronary artery disease (CAD), cerebrovascular disease (ischemic stroke, IS; and transient ischemic attack, TIA), and peripheral artery disease (PAD) of atherosclerotic origin, remains a leading cause of morbidity and mortality worldwide despite major advances in prevention and treatment. Although atherosclerosis arises from the convergence of endothelial injury, lipid accumulation, inflammation, and thrombosis, the relative contribution of these pathogenic processes varies markedly among individuals, due to the effects of genetics, demographic, and racial factors, lifestyle behaviors and comorbidities, several of which are modifiable. The variability in the atherosclerosis underlying mechanisms results in substantial heterogeneity in clinical presentation, disease progression, and therapeutic response. Recently, ASCVD management has expanded beyond single-pathway intensification toward pathway-guided, patient-centered, multi-targeted therapeutic strategies. Over the past decade, we have witnessed the development of highly specific therapeutics, including small-molecule inhibitors, monoclonal antibodies, and RNA-based therapies, while genome-editing approaches remain at an investigational stage. Contemporary Phase 3 randomized controlled trials (RCTs) have demonstrated that several novel agents reduce cardiovascular (CV) risk, whereas others produce biological effects without improving outcomes, underscoring the need for outcome-based validation. Despite improved safety profiles and enhanced treatment adherence, the optimal integration of these therapies into clinical practice continues to evolve. In this narrative review, we evaluate evidence from established, emerging, and investigational therapeutic strategies for ASCVD prevention and treatment. We also describe the impact of endothelial-protective, lipid-lowering, anti-inflammatory, and antithrombotic, strategies on CV outcomes, with particular emphasis on differential efficacy across patient subgroups, vascular territories, and clinical settings. In addition to synthesizing evidence from contemporary clinical trials, this review proposes a novel pathway- and phenotype-based conceptual framework for individualized ASCVD management and secondary prevention. The framework integrates residual-risk phenotypes with clinical characteristics, comorbidities, vascular territory, and treatment-related considerations to support residual-risk-guided selection of complementary evidence-based therapies while balancing anticipated benefit, safety, treatment burden, and adherence.",
+   "journal_abbr": "Eur J Prev Cardiol",
+   "journal_title": "European journal of preventive cardiology",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Canonico ME",
+    "Avvedimento M",
+    "Borrelli F",
+    "Giugliano G",
+    "Gargiulo G",
+    "Piccolo R",
+    "Stabile E",
+    "Mestroni L",
+    "Taylor MRG",
+    "Chen SN",
+    "Esposito G",
+    "Bonaca MP",
+    "Lombardi R"
+   ],
+   "doi": "10.1093/eurjpc/zwag523",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42847153",
+   "title": "Improved patient value after implementing same day discharge for patients undergoing pulmonary vein isolation.",
+   "abstract": "AIMS: Pulmonary vein isolation (PVI) is an effective intervention to treat atrial fibrillation, which is increasingly prevalent. Same-day discharge (SDD) is a strategic approach to limit procedure-related costs. This study aimed to compare healthcare utilization, costs, and clinical outcomes before and after implementation of an SDD protocol.\nMETHODS AND RESULTS: This retrospective study included 2987 patients undergoing PVI between 1 January 2016 and 1 April 2021. Baseline characteristics, pre-, peri-, and post-procedure healthcare utilization and clinical outcomes were compared before (cohort A; n = 1379) and after (Cohort B; n = 1608) implementation of the SDD protocol using bivariate and multivariate analyses. show that cohort B vs. cohort A had lower all-cause 90-day mortality (0% vs. 0.3%, P = 0.031), no differences in re-ablation < 1 year (P = 0.286), as well as in complications: bleedings (P = 0.177), tamponade < 30 days (P = 0.157), phrenic nerve injury (P = 0.984), thromboembolic complication < 72 h (P = 0.212), or vascular complications (P = 0.290). In terms of healthcare utilization and costs, cohort B had significantly less peri-procedure hospital admission costs (\u20ac721.52 vs. \u20ac1011.78, P < 0.001) and less total peri- and post-procedure costs (\u20ac840.37 vs. \u20ac1152.94, P < 0.001). Adjusted for all baseline characteristics, the post-implementation cohort showed on average \u20ac315 lower total costs per patient.\nCONCLUSION: The implementation of the SDD protocol was associated with comparable complication rates while significantly reducing both peri- and post-procedure healthcare utilization and costs, thereby enhancing patient value. This indicates a potential margin for further cost reductions and increased efficiency.",
+   "journal_abbr": "Europace",
+   "journal_title": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Slingerland SR",
+    "van de Kar MRD",
+    "Vermeer J",
+    "van Steenbergen GJ",
+    "Schulz DN",
+    "van Veghel D",
+    "Dekker L"
+   ],
+   "doi": "10.1093/europace/euag155",
+   "pmcid": "PMC13646612",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42845233",
+   "title": "Serial Artificial Intelligence ECG-Derived Atrial Fibrillation Probability and Recurrence Risk After Pulsed Field Ablation.",
+   "abstract": "BACKGROUND: Pulsed field ablation is now widely used for atrial fibrillation (AF) ablation, but atrial tachyarrhythmia recurrence remains common and postablation risk tools are limited. We assessed whether a validated sinus\u2011rhythm artificial intelligence- enabled ECG AF probability score, and its early postablation change, predicts recurrence after pulsed field ablation.\nMETHODS: We studied consecutive patients undergoing index pulsed field ablation across 3 Mayo Clinic sites (February 2024-March 2025) with \u22651 sinus\u2011rhythm ECG within 180 days preprocedure. Baseline artificial intelligence-enabled ECG AF score (range 0-1) was the mean across baseline ECGs. Recovery indices (RI30/60/90), defined as mean postprocedure artificial intelligence-enabled ECG score within days 1-30/60/90 minus baseline, predicted post\u2011blanking recurrence using corresponding 30\u2011, 60\u2011, and 90\u2011day blanking windows. The primary outcome was time to first documented AF/atrial flutter/atrial tachycardia episode >30 seconds, ascertained via clinic ECGs, ambulatory monitoring, and device interrogations. Cox regression adjusted for prespecified clinical and echocardiographic covariates assessed associations; Harrell C\u2011statistic quantified discrimination.\nRESULTS: Among 1052 patients (67\u00b110 years; 33% women), median baseline score was 0.35; 320 (30%) recurred over 188 days. Higher baseline score independently predicted recurrence (hazard ratio per 0.1 increase, 1.08 [95% CI, 1.03-1.14]). Scores rose on day 0 after ablation, then declined over subsequent weeks, with persistently higher, less\u2011improving trajectories among patients who recurred (time\u00d7recurrence interaction P<0.001). Day 0 score was not independently associated with recurrence after adjustment. Attenuated early recovery (higher recovery index) was independently associated with recurrence, most robustly for RI-90 (hazard ratio per 0.1 increase, 1.15 [95% CI, 1.07-1.24]), and improved discrimination beyond baseline and covariates (C\u2011statistic, 0.63-0.67; \u0394C=0.04). Findings were consistent in a historical thermal ablation cohort.\nCONCLUSIONS: Baseline and early postablation dynamics of a sinus\u2011rhythm artificial intelligence-enabled ECG AF probability score are associated with pulsed field ablation recurrence and may aid multivariable risk stratification; prospective validation is warranted.",
+   "journal_abbr": "Circ Arrhythm Electrophysiol",
+   "journal_title": "Circulation. Arrhythmia and electrophysiology",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Sardana M",
+    "Rodriguez-Riascos JF",
+    "Vemulapalli HS",
+    "Kim J",
+    "Attia ZI",
+    "Wood J",
+    "Mangold K",
+    "Friedman PA",
+    "Noseworthy PA",
+    "Srivathsan K"
+   ],
+   "doi": "10.1161/CIRCEP.126.015183",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42844166",
+   "title": "Rivaroxaban for Stroke Prevention in Hypertrophic Cardiomyopathy Without Atrial Fibrillation and With Impaired Left Atrial Reservoir Strain: Design and Rationale of the LA-HCM Randomized Trial.",
+   "abstract": "Current stroke prevention strategies in hypertrophic cardiomyopathy (HCM) rely on the detection of atrial fibrillation (AF), although thromboembolic events may occur before arrhythmia is documented. These observations support atrial cardiomyopathy as the substrate for thrombogenesis and highlight the need for imaging-guided risk stratification. Left atrial reservoir strain (LARS), derived from speckle-tracking echocardiography, detects atrial dysfunction earlier than left atrial enlargement and has been associated with AF and thromboembolic events. The LA-HCM trial evaluates whether rivaroxaban reduces thromboembolic events in patients with HCM, sinus rhythm, no documented AF, and impaired LARS. LA-HCM is a prospective, multicentre, randomized, open-label trial with blinded endpoint adjudication (PROBE design), sponsored by Rennes University Hospital and conducted in 17 French centres. A total of 532 adults with HCM, sinus rhythm, no documented AF, and core-laboratory-confirmed LARS \u226420% are randomized 1:1 to rivaroxaban or standard care. Participants are followed for 24 months. The primary endpoint is the composite of all-cause death, myocardial infarction, ischemic stroke-including newly detected silent cerebral infarction on paired baseline and 24-month brain MRI-and systemic embolism at 24 months. LA-HCM tests whether rivaroxaban improves outcomes in a population with HCM, no documented AF, and impaired LARS. It evaluates a LARS-based treatment-allocation strategy but is not designed to validate the predictive utility or optimal threshold of LARS.",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Donal E",
+    "Wazzan AAL",
+    "Lairez O",
+    "Charron P",
+    "Piriou N",
+    "Biere L",
+    "Reant P",
+    "Paglia O",
+    "Labombarda F",
+    "Eicher JC",
+    "Barone-Rochette G",
+    "Ridon H",
+    "Habib G",
+    "Huttin O",
+    "Aissaoui N",
+    "Logeart D",
+    "Fauvel C",
+    "Mewton N",
+    "Galli E",
+    "Cariou E",
+    "Bernard A",
+    "Hulot JS",
+    "Fauchier L",
+    "Palassin P",
+    "Ferre JC",
+    "Ganivet A",
+    "Mansour A",
+    "Oger E"
+   ],
+   "doi": "10.1093/ehjci/jeag280",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842282",
+   "title": "Hypertension Management and Control in Cienfuegos, Cuba.",
+   "abstract": "",
+   "journal_abbr": "JAMA",
+   "journal_title": "JAMA",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Morej\u00f3n Giraldoni AF",
+    "Vald\u00e9s Gonz\u00e1lez Y",
+    "Benet Rodr\u00edguez M",
+    "Pedraza Alejo DL",
+    "Ondarsuhu D",
+    "Tamayo Mu\u00f1iz S",
+    "Moran AE",
+    "Ordunez P"
+   ],
+   "doi": "10.1001/jama.2026.19916",
+   "pmcid": "PMC13647180",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842241",
+   "title": "Prevalence of Unrecognized and Recognized Myocardial Infarction in the Rotterdam Study.",
+   "abstract": "",
+   "journal_abbr": "JAMA Cardiol",
+   "journal_title": "JAMA cardiology",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "van Oortmerssen JAE",
+    "Yang S",
+    "Farzaneh A",
+    "Boersma E",
+    "Roeters van Lennep JE",
+    "Kavousi M"
+   ],
+   "doi": "10.1001/jamacardio.2026.4233",
+   "pmcid": "PMC13647185",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842238",
+   "title": "Intensive vs Standard Blood Pressure Lowering in People With and Without Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+   "abstract": "IMPORTANCE: There is uncertainty about the effects of intensive blood pressure (BP) lowering on risks of cardiovascular disease and kidney failure in patients with chronic kidney disease (CKD).\nOBJECTIVE: To assess the standardized effects of intensive BP lowering on cardiovascular and kidney outcomes overall, and then to assess for effect modification by CKD status.\nDATA SOURCES: MEDLINE and Embase databases were searched from inception to January 16, 2026.\nSTUDY SELECTION: Randomized clinical trials comparing intensive vs standard BP lowering in adults with and without CKD, with at least 1 year of follow-up, were eligible for inclusion.\nDATA EXTRACTION AND SYNTHESIS: Meta-analyses were performed using inverse variance weighting after standardizing trial results according to the between-group difference in achieved systolic BP (SBP). Differences in relative effects between CKD and non-CKD populations were assessed using \u03c72 tests for heterogeneity.\nMAIN OUTCOMES AND MEASURES: The primary outcome was major cardiovascular events; secondary outcomes included kidney failure and estimated glomerular filtration rate (eGFR)-based surrogate outcomes for kidney failure.\nRESULTS: We identified 27 studies including 88 830 participants. Intensive BP lowering reduced the risk of cardiovascular events by 15% per 10-mm Hg lower SBP (relative risk [RR], 0.85; 95% CI, 0.81-0.89), without heterogeneity by CKD status. This corresponded to an estimated (SE) absolute reduction of 4.3 (1.2) cardiovascular events per 1000 person-years in individuals with CKD and 2.7 (0.4) events per 1000 person-years in those without CKD. Intensive BP lowering did not affect risk of kidney failure (RR per 10-mm Hg reduction, 0.97; 95% CI, 0.84-1.11) nor risk of 57% or 50% sustained eGFR declines (RR, 0.97; 95% CI, 0.83-1.14; and RR, 1.29; 95% CI, 0.94-1.76, respectively), without heterogeneity by CKD subgroup. Intensive BP lowering increased risk of 30% or greater and 40% or greater declines by 42% (RR, 1.42; 95% CI, 1.28-1.58) and 47% (RR, 1.47; 95% CI, 1.30-1.66).\nCONCLUSIONS AND RELEVANCE: Results of this systematic review and meta-analysis indicate that in adults with or without CKD, intensive BP lowering reduced the risk of cardiovascular events by 15% per 10-mm Hg lower SBP and increased the risk of sustained declines in eGFR, without an increase in risk of kidney failure. However, since baseline cardiovascular risk is higher in CKD, the absolute reduction in cardiovascular events was at least as large in this population; therefore, intensive BP lowering should be recommended in people with and without CKD.",
+   "journal_abbr": "JAMA Cardiol",
+   "journal_title": "JAMA cardiology",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Iatridi F",
+    "Roddick AJ",
+    "Staplin N",
+    "Che Z",
+    "Liu J",
+    "Arimoto R",
+    "Al-Mohammad A",
+    "Li Y",
+    "Ge J",
+    "Ku E",
+    "Sarnak MJ",
+    "Theodorakopoulou MP",
+    "Sarafidis P",
+    "Wanner C",
+    "Baigent C",
+    "Emberson JR",
+    "Haynes R",
+    "Li J",
+    "Herrington WG",
+    "Judge PK"
+   ],
+   "doi": "10.1001/jamacardio.2026.4445",
+   "pmcid": "PMC13647190",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841847",
+   "title": "Adverse Remodeling and Fibrosis Predict Outcomes in Excessive Trabeculation of the Left Ventricle: A Multiparametric CMR Risk Score.",
+   "abstract": "BACKGROUND: Excessive trabeculation of the left ventricle (ETLV) is a heterogeneous and controversial phenotype that overlaps with both physiological remodeling and cardiomyopathy.\nOBJECTIVES: This study sought to develop and validate a cardiac magnetic resonance (CMR)-based model to predict major adverse cardiovascular events (MACE) and to assess the incremental prognostic value of trabeculation metrics.\nMETHODS: In this international retrospective study, 589 patients with ETLV across 17 centers underwent core-laboratory CMR analysis. The composite MACE endpoint included heart failure, ventricular arrhythmia, systemic embolism, or all-cause death. A prediction model was derived from morphofunctional CMR parameters and validated in an independent cohort. The incremental value of trabeculation indices was then assessed. Outcomes were further compared with a propensity-matched cohort of 197 patients with dilated cardiomyopathy.\nRESULTS: Mean age was 43 \u00b1 18 years, 43% were women, mean left ventricular (LV) ejection fraction was 48% \u00b1 14%, and 12% had late gadolinium enhancement (LGE). Over a median follow-up of 3.6 years, 121 (21%) patients experienced MACE. A model including indexed LV end-diastolic volume, LV global longitudinal strain, and LGE extent demonstrated moderate prognostic performance (C-statistic 0.77 in derivation; 0.70 in validation) and calibration. Addition of trabeculated mass percentage (TM%) modestly improved discrimination (C-statistic 0.79 in derivation, P = 0.012; 0.72 in validation); an exploratory TM% \u226528% identified higher-risk patients. However, TM% was not predictive among individuals with normal indexed LV end-diastolic volume, preserved LV global longitudinal strain, and minimal LGE, who exhibited excellent outcomes. Prognosis was comparable in propensity-matched ETLV and dilated cardiomyopathy cohorts (P = 0.557).\nCONCLUSIONS: CMR-based risk stratification in ETLV is primarily driven by adverse LV remodeling and fibrosis, whereas trabeculation indices provide only modest incremental prognostic value. In the absence of high-risk imaging features, ETLV likely represents a benign morphologic trait. This pragmatic multiparametric CMR score may support clinical decision-making in this debated phenotype.",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Casas G",
+    "Rodenas-Alesina E",
+    "Limeres J",
+    "Urio-Garmendia G",
+    "Roque A",
+    "Mu\u00f1oz-Cabello P",
+    "Larra\u00f1aga-Moreira JM",
+    "Tassetti L",
+    "Kumar A",
+    "Emrich T",
+    "Masi A",
+    "Ramos N",
+    "Mart\u00edn-\u00c1lvarez E",
+    "Pellizzon A",
+    "Garcia-Pinilla JM",
+    "Tiron C",
+    "Gonz\u00e1lez-Carrillo J",
+    "Moro C",
+    "Ripoll-Vera T",
+    "Teis A",
+    "Lanzillo C",
+    "Bermudez-Jimenez FJ",
+    "Zorio E",
+    "Villacorta E",
+    "Mora-Ayestaran N",
+    "Schwitter J",
+    "Varga-Szemes A",
+    "Rabbat M",
+    "Pontone G",
+    "Barriales-Villa R",
+    "Aung N",
+    "Teixido-Tura G",
+    "Guala A",
+    "Petersen SE",
+    "Ferreira-Gonz\u00e1lez I",
+    "Rodr\u00edguez-Palomares JF"
+   ],
+   "doi": "10.1016/j.jcmg.2026.07.027",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841340",
+   "title": "Daily sedation interruption versus no daily sedation interruption for critically ill adults and children requiring invasive mechanical ventilation.",
+   "abstract": "RATIONALE: Daily sedation interruption (DSI) aims to limit drug accumulation and promote a more awake state, thereby reducing the duration of mechanical ventilation and its associated complications. This is an update of a Cochrane review first published in 2014.\nOBJECTIVES: To assess the effects of DSI versus sedation management without DSI on the duration of invasive mechanical ventilation, mortality, intensive care unit (ICU) length of stay, adverse events related to under- or oversedation (including accidental removal of endotracheal tube and tracheostomy), total doses of sedative and analgesic drug administered, and health-related quality of life, for critically ill people requiring intravenous sedation.\nSEARCH METHODS: We used CENTRAL, MEDLINE All, Embase Classic+Embase, Cumulative Index to Nursing and Allied Health Literature (CINAHL), Web of Science Core Collection, and two trial registers, together with reference checking, citation searching, and contact with study authors to identify the studies included in the review. The latest search date was 8 October 2025.\nELIGIBILITY CRITERIA: We included randomised controlled trials (RCTs) comparing DSI with sedation strategies that did not include DSI (protocolised sedation, non-protocolised usual care (clinician discretion), or analgesia first/no sedation) in mechanically ventilated, critically ill people (adults and infants or children under 18 years of age).\nOUTCOMES: Our critical outcomes were duration of mechanical ventilation (from randomisation to successful extubation or death), mortality, and ICU length of stay (LOS). Our important outcomes included hospital LOS, adverse events related to under- or oversedation (e.g. accidental removal of endotracheal tube or other lines or catheters, tracheostomy, new onset of delirium occurrence, use of physical restraint, and cardiac events), total drug doses, and health-related quality of life (HRQoL).\nRISK OF BIAS: We used the original Cochrane tool, RoB 1, to assess bias in the RCTs.\nSYNTHESIS METHODS: We synthesised results for each outcome using meta-analysis (random-effects modelling). We conducted subgroup and sensitivity analyses according to pre-defined criteria. We used GRADE to assess the certainty of evidence.\nINCLUDED STUDIES: This update included 23 trials (one cluster-randomised trial; 18 RCTs in adults, five in children) with 5987 (4910 adjusted) participants (3238 adults, 2750 (1673 adjusted) children). Nine trials used a sedation protocol comparator, nine used 'usual sedation practices' with sedative and analgesic drugs at the clinical team's discretion, and five used analgesia-first or no-sedation comparators.\nSYNTHESIS OF RESULTS: Daily sedation interruption may reduce the duration of mechanical ventilation compared with sedation strategies that do not include DSI (mean difference (MD) -0.15 log days, 95% confidence interval (CI) -0.29 to -0.01; I2 = 88%; 18 studies, 3815 participants; low-certainty evidence). These data translate to a relative reduction of 14% (95% CI 1% to 25%). Daily sedation interruption probably reduces mortality compared with sedation strategies that do not include DSI (relative risk (RR) 0.88, 95% CI 0.77 to 0.99; I2 = 0%; 18 studies, 4057 participants; 725 events; moderate-certainty evidence). Daily sedation interruption probably reduces ICU LOS (MD -0.12 log days, 95% CI -0.22 to -0.02; I2 = 72%; 18 studies, 4477 participants; moderate-certainty evidence). These data translate to a relative reduction of 11% (95% CI 2% to 20%). Daily sedation interruption probably reduces hospital LOS (MD -0.12 log days, 95% CI -0.22 to -0.02; I2 = 39%; 13 studies, 3589 participants; moderate-certainty evidence). These data translate to a relative reduction of 11% (95% CI 2% to 20%). For adverse events related to under- or oversedation, DSI may result in little to no difference in the rate of self/accidental removal of the endotracheal tube (RR 0.88, 95% CI 0.66 to 1.19; P = 0.41, I2 = 0%; 16 studies, 4342 participants; 171 events; low-certainty evidence) or self/accidental removal of lines or catheters (RR 1.44, 95% CI 0.80 to 2.57; P = 0.22, I2 = 0%; 7 studies, 1536 participants; 42 events; low-certainty evidence). DSI probably reduces rates of tracheostomy (RR 0.68, 95% CI 0.55 to 0.85; P < 0.001, I2 = 0%; 8 studies, 2503 participants; 263 events; moderate-certainty evidence). It may result in little to no difference in the rate of delirium occurrence, but the evidence is very uncertain (RR 0.92, 95% CI 0.74 to 1.15; P = 0.48, I2 = 59%; 4 studies, 1009 participants; 520 events; very low-certainty evidence). Compared with sedation management without DSI, DSI may result in little to no difference in the total dose of benzodiazepines, fentanyl, or propofol administered over the ICU admission. However, the evidence is very uncertain. Daily sedation interruption probably increases the total dose of morphine administered over the ICU admission (MD 0.07 log mg, 95% CI 0 to 0.13; P = 0.05, I2 = 0%; 4 studies, 404 participants; moderate-certainty evidence). These data translate to a relative increase of 7% (95% CI 0% to 14%). DSI may result in little to no difference in HRQoL compared with sedation management without DSI, with evidence in the mental health domain being very uncertain. Evidence certainty is limited by inconsistency (statistical heterogeneity) and imprecision due to wide CIs, including CIs that encompass both benefit and harm for some outcomes.\nAUTHORS' CONCLUSIONS: Based on low- and moderate-certainty evidence from 23 trials including nearly 6000 critically ill people, we found that DSI may reduce the duration of mechanical ventilation and probably reduces mortality, intensive care LOS, and hospital LOS compared with other sedation methods. Daily sedation interruption may have little to no effect on the adverse outcomes of accidental removal of the endotracheal tube or other lines or catheters, but probably reduces the need for tracheostomy. The evidence on sedation dosing is very uncertain; however, DSI probably increases opioid dosing. Given the evidence on the effect on sedation dosing is very uncertain, future trials should include data on total sedative and analgesic doses as well as delirium and health-related quality of life, as these remain under-evaluated.\nFUNDING: This review received no funding.\nREGISTRATION: Registration (CD009176) and previous version of the review: Cochrane Database of Systematic Reviews via DOI: 10.1002/14651858.CD009176.pub2. Protocol available via DOI 10.1002/14651858.CD009176.pub1.",
+   "journal_abbr": "Cochrane Database Syst Rev",
+   "journal_title": "The Cochrane database of systematic reviews",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Rose L",
+    "Williamson DR",
+    "McCullagh IJ",
+    "Skidmore B",
+    "Fergusson DA",
+    "Perreault MM",
+    "Burry LD"
+   ],
+   "doi": "10.1002/14651858.CD009176.pub3",
+   "pmcid": "PMC13643891",
+   "pub_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841215",
+   "title": "Role of Lifestyle and Risk Factor Modification Clinics in Patients With Atrial Fibrillation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "abstract": "BACKGROUND: Incidence and recurrence of atrial fibrillation (AF) are associated with several lifestyle risk factors. Lifestyle and risk factor modification (LRFM) clinics could have a role in comprehensively addressing AF from a holistic, patient-centered approach to improve clinical outcomes.\nMETHODS: We performed a systematic review and meta-analysis of randomized controlled trials evaluating the role of LRFM clinics compared with usual care in patients with AF. The primary end point was atrial arrhythmia recurrence. Secondary end points were AF and heart failure-related hospitalization, cardiovascular death, stroke or transient ischemic attack, and quality-of-life.\nRESULTS: Eleven randomized controlled trials with a total of 3364 patients were included (5 randomized controlled trials performed in the context of AF ablation). Mean age was 58 to 73 years, 30% were female, and 18% had persistent AF. Duration of follow-up ranged from 3 to 24 months. LRFM clinics significantly reduced the primary end point of arrhythmia recurrence compared with usual care after catheter ablation (odds ratio, 0.34 [95% CI, 0.23-0.51]; P<0.001, I2=0%). LRFM clinics also reduced AF-related hospitalization (odds ratio, 0.70 [95% CI, 0.51-0.98]; P=0.04, I2=21%) and improved quality-of-life (mean improvement on Short Form 36 Questionnaire, 8.90 [95% CI, 6.91-10.90]; P<0.001). There was no detected difference between LRFM clinics and usual care for heart failure-related hospitalization (P=0.16), cardiovascular deaths (P=0.79), or stroke/transient ischemic attack (P=0.83).\nCONCLUSIONS: In this meta-analysis of randomized controlled trials, LRFM clinics reduced AF recurrence after ablation, reduced AF-related hospitalization, and improved quality of life. This study supports a comprehensive multidisciplinary lifestyle risk modification model of care to improve clinical outcomes in patients with AF.",
+   "journal_abbr": "Circ Arrhythm Electrophysiol",
+   "journal_title": "Circulation. Arrhythmia and electrophysiology",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Zhao Y",
+    "Ha FJ",
+    "Brown AJ",
+    "Nerlekar N"
+   ],
+   "doi": "10.1161/CIRCEP.126.015055",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841197",
+   "title": "Standardized Spark-Pattern Cut-Mode Electrosurgical Bailout Workflow for Difficult Left Bundle Branch Area Pacing Lead Advancement: Procedural and Follow-Up Outcomes From a 15-Patient Case Series.",
+   "abstract": "BACKGROUND: Electrosurgical facilitation can aid difficult left bundle branch area pacing lead advancement, but standardized delivery patterns, reassessment logic, and follow-up lead performance remain insufficiently defined.\nMETHODS: We retrospectively analyzed 15 consecutive patients undergoing standardized spark-pattern cut-mode electrosurgical bailout after conventional mechanical left bundle branch area pacing lead advancement failed. The generator was operated in unipolar cut-mode at 20 W; spark-pattern delivery denoted brief sliding contact to the exposed cathode segment followed by immediate mechanical readvancement and ECG/electrogram reassessment. A prestandardization sustain-mode polymorphic ventricular tachycardia/ventricular fibrillation event outside the 15-patient cohort informed the safety workflow.\nRESULTS: Conventional advancement failed in all included patients. Across 50 target-site advancement attempts, spark-pattern cut-mode assistance was activated at 15 final target sites, requiring 1.5\u00b10.6 cycles per patient. Procedural success of left bundle branch area pacing lead deployment was achieved in 15/15. V1 terminal rightward progression occurred in 14/15, jump in 14/15, and split/discrete components in 12/15. Spark-associated premature ventricular complexes occurred in 15/15 but were isolated and self-limited; no nonsustained ventricular tachycardia, sustained ventricular tachycardia, polymorphic ventricular tachycardia/ventricular fibrillation, defibrillation, or hemodynamic instability occurred during the standardized workflow. Mean follow-up was 400\u00b1170 days; no clinically documented lead malfunction, dislodgement, microdislodgement, loss requiring revision, septal perforation, ventricular septal defect, pericardial effusion, or reintervention occurred.\nCONCLUSIONS: A standardized spark-pattern cut-mode bailout workflow provides a reproducible framework for difficult left bundle branch area pacing lead deployment. Progression markers should be distinguished from procedural success, and follow-up surveillance remains essential. Larger studies with longer follow-up and dedicated lead-integrity testing are required before general adoption.",
+   "journal_abbr": "Circ Arrhythm Electrophysiol",
+   "journal_title": "Circulation. Arrhythmia and electrophysiology",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Luo B",
+    "Jiang L",
+    "Du X",
+    "Li H",
+    "Lu D",
+    "Yuan D",
+    "Zhang L",
+    "Zheng N",
+    "Hu Z"
+   ],
+   "doi": "10.1161/CIRCEP.126.015435",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42838320",
+   "title": "Efficacy and Safety of Flecainide Versus Amiodarone for the Cardioversion of paroxysmal Atrial Fibrillation in Patients with Coronary Artery Disease without evidence of residual ischemia: The FLECA-ED Randomized Clinical Trial.",
+   "abstract": "BACKGROUND: Flecainide has been contraindicated in patients with coronary artery disease (CAD) since the Cardiac Arrhythmia Suppression Trial.\nOBJECTIVE: We compared intravenous flecainide with intravenous amiodarone for cardioversion of recent-onset paroxysmal atrial fibrillation (AF) in patients with documented CAD without residual or active ischemia presenting to the emergency department.\nMETHODS: In this investigator-initiated, multicenter, open-label, randomized trial, adults with paroxysmal AF and CAD without residual or active ischemia were assigned 1:1 to intravenous flecainide or amiodarone. All patients underwent 24-hour ambulatory ECG monitoring. The primary efficacy end point was conversion to sinus rhythm within 6 hours. The primary safety end point was the composite of nonsustained ventricular tachycardia, ventricular tachycardia, premature ventricular complexes, significant hypotension, and bradycardia below 50 bpm within 6 hours.\nRESULTS: Eighty-seven patients underwent randomization (42 flecainide, 45 amiodarone). Conversion to sinus rhythm within 6 hours occurred in 85.7% of patients in the flecainide group and 40.0% in the amiodarone group (P<0.001). Median time to conversion was 20 minutes versus 244 minutes (P<0.001), and hospital admission occurred in 14.3% versus 60.0%, respectively (P<0.001). No ventricular proarrhythmic events occurred within 24 hours in either group and no deaths were recorded through 30 days.\nCONCLUSION: In patients with paroxysmal AF and CAD without evidence of residual and active ischemia, intravenous flecainide was superior to amiodarone for acute cardioversion, with faster conversion to sinus rhythm and fewer hospital admissions. No serious ventricular proarrhythmia through 24 hours was observed, a hypothesis-generating finding.",
+   "journal_abbr": "Heart Rhythm",
+   "journal_title": "Heart rhythm",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Tsioufis PA",
+    "Tsiachris D",
+    "Argyriou N",
+    "Botis M",
+    "Doundoulakis I",
+    "Kordalis A",
+    "Antoniou CK",
+    "Matthaiopoulos G",
+    "Zamanis I",
+    "Mihas C",
+    "Xydonas S",
+    "Patsilinakos S",
+    "Kafkas N",
+    "Filippatos G",
+    "Gatzoulis K",
+    "Tsioufis K"
+   ],
+   "doi": "10.1016/j.hrthm.2026.09.051",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42837205",
+   "title": "Percutaneous coronary intervention using sirolimus-eluting balloons in patients at high bleeding risk: the SELUTION DeNovo HBR substudy.",
+   "abstract": "BACKGROUND: Drug-eluting stents (DES) are the current mainstay of percutaneous coronary intervention (PCI) in high bleeding risk (HBR) patients. However, drug-coated balloons may be an alternative that reduces reliance on prolonged courses of antiplatelet therapy.\nAIMS: The SELUTION DeNovo trial randomised 3,323 PCI candidates 1:1 to treatment with either sirolimus-eluting balloons (SEBs) and provisional stenting or systematic DES implantation. We report on a prespecified subgroup of HBR patients.\nMETHODS: A total of 522 enrolled patients met the Academic Research Consortium-HBR criteria. At 1 year, we assessed target vessel failure (TVF; a composite of cardiac death, target vessel myocardial infarction and clinically driven target vessel revascularisation), major bleeding (Bleeding Academic Research Consortium [BARC] 3-5) and net adverse clinical events (NACE; a composite of TVF and BARC 3-5 bleeding). Antithrombotic treatment was prescribed according to current guidelines and local practice.\nRESULTS: Altogether, 269 and 253 patients were identified as HBR in the SEB strategy and DES strategy arms, respectively. In the SEB arm, 17.1% of patients had bailout stenting. Overall, 67% of patients were discharged on oral anticoagulants. At 1 year, TVF occurred in 4.9% of the SEB arm vs 7.9% of the DES arm (absolute risk difference [RD] -3.05%, 95% confidence interval [CI]: -7.27 to 1.17). BARC 3-5 bleeding occurred in 2.3% vs 3.2% (absolute RD -0.91%, 95% CI: -3.71 to 1.89) and NACE in 6.8% vs 10.7% (absolute RD -3.94%, 95% CI: -8.80 to 0.92) in the SEB and DES arms, respectively. While the proportion of patients on dual antiplatelet therapy and single antiplatelet therapy did not differ significantly between the two groups during follow-up, all antiplatelet medication was stopped in 7.7% vs 2.5% at 30 days (p=0.005) and in 27.8% vs 14.9% of patients at 6 months (p<0.001) in the SEB and DES arms, respectively.\nCONCLUSIONS: Although this subset analysis is not powered for definitive conclusions, our data suggest that an SEB strategy with minimal stenting appears to be a safe and effective alternative to systematic DES implantation for HBR patients.",
+   "journal_abbr": "EuroIntervention",
+   "journal_title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Rissanen TT",
+    "Eccleshall S",
+    "Krackhardt F",
+    "Bogaerts K",
+    "Akiki T",
+    "Briguori C",
+    "Cayla G",
+    "Cruden N",
+    "den Hartog AW",
+    "Garot P",
+    "H\u00e4ner J",
+    "Iglesias JF",
+    "Jim\u00e9nez V",
+    "Johnson TW",
+    "Langer C",
+    "Meunier L",
+    "Poustis P",
+    "Ratib K",
+    "Sabat\u00e9 M",
+    "Secco G",
+    "Toth GG",
+    "Watkins S",
+    "Wiemer M",
+    "Wykrzykowska J",
+    "Spaulding C",
+    "Urban P",
+    "Selution DeNovo Investigators OBOT"
+   ],
+   "doi": "10.4244/EIJ-D-26-00889",
+   "pmcid": "PMC13617448",
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42837204",
+   "title": "Complexity of coronary artery disease in infarct-related cardiogenic shock and multivessel disease: a substudy of the DanGer Shock trial.",
+   "abstract": "BACKGROUND: The prognostic impact of multivessel coronary anatomy and complexity in infarct-related cardiogenic shock (CS) is insufficiently characterised.\nAIMS: We sought to investigate the prognostic value of baseline and residual SYNTAX scores and their influence on the effect of microaxial flow pump (mAFP) support in multivessel disease (MVD) and infarct-related CS.\nMETHODS: In this secondary analysis of the DanGer Shock trial, MVD was defined as \u22651 non-culprit stenosis \u226570% or an isolated left main (LM) culprit lesion. Baseline SYNTAX scores were categorised as low (\u226422), intermediate (23-32), or high (>32). Patients with an isolated LM culprit lesion were analysed separately. The primary outcome was 180-day all-cause mortality.\nRESULTS: Of 355 patients included in DanGer Shock, 256 patients had MVD; 211 had an available baseline SYNTAX score, with 26% of these in the low, 47% in the intermediate, and 27% in the high baseline SYNTAX groups. In all, 35 patients had an isolated LM culprit lesion. A high baseline SYNTAX score was associated with higher odds of 180-day all-cause mortality compared with low and intermediate baseline SYNTAX scores (adjusted odds ratio [OR] 3.12, 95% confidence interval [CI]: 1.17-8.69). A higher baseline SYNTAX score was associated with a higher residual SYNTAX score (p<0.001). The residual SYNTAX score independently predicted 180-day all-cause mortality. The mAFP effect was not modified by the baseline SYNTAX group (p for interaction=0.31). In patients with an isolated LM culprit lesion, mAFP use was associated with lower odds of 180-day all-cause mortality compared with standard care alone (adjusted OR 0.17, 95% CI: 0.03-0.99).\nCONCLUSIONS: Baseline and residual SYNTAX scores independently predicted 180-day mortality. The mAFP effect was not modified by SYNTAX measures. In the isolated left main subgroup, a hypothesis-generating signal towards a clinical benefit with mAFP use was observed.",
+   "journal_abbr": "EuroIntervention",
+   "journal_title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Marquard JM",
+    "Beske RP",
+    "Hassager C",
+    "Jensen LO",
+    "Eiskj\u00e6r H",
+    "Mangner N",
+    "Polzin A",
+    "Schulze PC",
+    "Skurk C",
+    "Nordbeck P",
+    "Panoulas V",
+    "Zimmer S",
+    "Sch\u00e4fer A",
+    "Werner N",
+    "Holmvang L",
+    "L\u00f8nborg JT",
+    "Udesen NLJ",
+    "Schmidt H",
+    "Junker A",
+    "Terkelsen CJ",
+    "Linke A",
+    "Zako S",
+    "Memisevic N",
+    "Konstantinou K",
+    "Schrage B",
+    "Clemmensen P",
+    "M\u00f8ller JE",
+    "Engstr\u00f8m T",
+    "Shock Investigators OBOTD"
+   ],
+   "doi": "10.4244/EIJ-D-26-00460",
+   "pmcid": "PMC13617449",
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42837202",
+   "title": "Standardised versus visual assessment of device success after percutaneous coronary intervention.",
+   "abstract": "BACKGROUND: The European Association of Percutaneous Cardiovascular Interventions (EAPCI)-endorsed algorithm for defining device success has not yet been prospectively tested against standardised quantitative coronary angiography (QCA) by a core lab.\nAIMS: We sought to assess whether visually evaluated device success by the operator at the end of percutaneous coronary intervention (PCI) aligns with the EAPCI-endorsed standardised definition adjudicated by the core lab and to evaluate its association with clinical outcomes.\nMETHODS: This prespecified analysis of the Multivessel TALENT trial included 1,548 patients with three-vessel disease randomised to treatment with either Supraflex Cruz or SYNERGY stents. PCI was attempted in 4,052 lesions. The core lab assessed post-PCI residual in-stent percentage diameter stenosis (%DS) by QCA (target <20%) and exploratory delta (\u0394) angiography-derived fractional flow reserve (angio-FFR) across the stent(s) (target <0.05). Device success was evaluated using the site-reported data (visual evaluation of in-stent %DS), core lab QCA, core lab angio-FFR, and combined core lab QCA+angio-FFR. The lesion-oriented composite endpoint (LOCE; comprising cardiovascular death, target vessel myocardial infarction, or target lesion revascularisation) was assessed at 1 year.\nRESULTS: Site-reported device success was 97.4%. Core lab definitions yielded lower rates: 93.8% for \u0394angio-FFR <0.05, 88.0% for residual %DS <20%, and 83.2% for QCA+angio-FFR (all p<0.001 vs site report after Bonferroni correction). Lesions not meeting QCA-based device success had a higher incidence of LOCE than those meeting the definition (12.0% vs 9.1%; log-rank p=0.041). Device success and LOCE rates did not differ between the two stents for any definition.\nCONCLUSIONS: In this prespecified lesion-level substudy, standardised assessment using the EAPCI device success algorithm with core lab QCA reclassified a substantial proportion of operator-adjudicated successes and identified lesions at higher 1-year LOCE risk. (ClinicalTrials.gov: NCT04390672).",
+   "journal_abbr": "EuroIntervention",
+   "journal_title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Oshima A",
+    "Revaiah PC",
+    "Kanehama N",
+    "Wlodarczak A",
+    "M\u00f6llmann H",
+    "Moreno R",
+    "Dziarmaga M",
+    "Sabat\u00e9 M",
+    "Legutko J",
+    "Silvestri M",
+    "Lemoine J",
+    "Choudhury A",
+    "Ince H",
+    "\u00d6ner A",
+    "Sharif F",
+    "Biscaglia S",
+    "Kochman J",
+    "Wykrzykowska J",
+    "Lesiak M",
+    "Amat-Santos IJ",
+    "Kumar A",
+    "Meneveau N",
+    "Landt M",
+    "Magro M",
+    "Zaman A",
+    "Veerasamy M",
+    "Tarantini G",
+    "Farah B",
+    "O'kane P",
+    "Del Blanco BG",
+    "Gomez-Hospital JA",
+    "Jozwa R",
+    "Schmitz T",
+    "Anderson R",
+    "Achenbach S",
+    "Hoye A",
+    "McNeice A",
+    "Lauten A",
+    "Van Belle E",
+    "Bartus S",
+    "Wacinski P",
+    "Devadathan S",
+    "Bednarek A",
+    "Wlodarczak S",
+    "Gurav A",
+    "Farina J",
+    "Ferraz-Costa G",
+    "Paluszkiewicz J",
+    "Miyashita K",
+    "Tobe A",
+    "Chinhenzva A",
+    "Garg S",
+    "Sunny S",
+    "N\u00ed Bheol\u00e1in G",
+    "Harte E",
+    "Tsai TY",
+    "Onuma Y",
+    "Serruys PW"
+   ],
+   "doi": "10.4244/EIJ-D-26-00413",
+   "pmcid": "PMC13617451",
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42836810",
+   "title": "Mechanical Thrombectomy Versus Anticoagulation Alone in Intermediate-High Risk PE: Improved Functional 90-Day Outcomes in STORM-PE RCT.",
+   "abstract": "BACKGROUND: Up to 50% of pulmonary embolism (PE) survivors experience long-term functional limitations and reduced quality of life (QoL). Reperfusion strategies can rapidly relieve right-ventricular (RV) dysfunction and prevent clinical deterioration or hemodynamic collapse; however, these approaches have never been evaluated in a randomized trial against anticoagulation alone using patient-centered outcomes.\nOBJECTIVES: This study sought to evaluate whether mechanical thrombectomy with anticoagulation improves functional, QoL, and safety outcomes compared with anticoagulation alone in patients with acute intermediate-high risk PE over 90 days.\nMETHODS: STORM-PE enrolled 100 PE patients randomized 1:1 to computer-assisted vacuum thrombectomy (CAVT) with anticoagulation or anticoagulation alone across 22 international sites, with RV-to-left-ventricular (RV/LV) ratio change at 48 hours as the primary endpoint. Secondary endpoints included major adverse events within 7 days, functional and QoL outcomes, mortality, and symptomatic PE recurrence through 90 days.\nRESULTS: For all patients, median time from randomization to last follow-up visit was 91.0 days [Q1-Q3: 80.5-100.0]. At 90 days, 66.0% (31/47) of CAVT and 64.2% (34/53) of anticoagulation patients completed the 6-min walk test. The CAVT arm exhibited a longer 6-min walk distance compared with anticoagulation alone (478.7 \u00b1 159.5 m vs 368.0 \u00b1 127.8 m, P = 0.003). More CAVT than anticoagulation patients were NYHA Functional Class I (97.4% [37/38] vs 75.6% [34/45], P = 0.005) at 90 days. Dyspnea and QoL scores were comparable between groups, with no differences between arms for all-cause mortality, PE-related mortality, and symptomatic PE recurrence within 90 days.\nCONCLUSIONS: In STORM-PE, CAVT with anticoagulation resulted in improved functional outcomes at 90 days compared with anticoagulation alone, with equivalent safety rates. This trial supports CAVT as an effective and safe reperfusion strategy for intermediate-high risk PE.\nCLINICAL TRIAL REGISTRATION: https://clinicaltrials.gov Unique Identifier: NCT05684796.",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Rosovsky RP",
+    "Konstantinides SV",
+    "Weinberg I",
+    "Dohad SY",
+    "Rosol Z",
+    "St\u0119pniewski J",
+    "Moriarty JM",
+    "Parikh SA",
+    "Holden A",
+    "Channick RN",
+    "McDonald B",
+    "Nagarsheth KH",
+    "Matusov Y",
+    "Lookstein RA",
+    "STORM-PE Trial Investigators and Collaborators"
+   ],
+   "doi": "10.1016/j.jcin.2026.07.042",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42836800",
+   "title": "Early Lower Pulmonary Arterial Diastolic Pressure Monitored With Pulmonary Arterial Catheters Is Associated With Improved Survival During VA ECMO for Patients With Acute Cardiogenic Shock: A Propensity-Matched Study.",
+   "abstract": "BACKGROUND: Venoarterial (VA) extracorporeal membrane oxygenation (ECMO) is used to support refractory cardiogenic shock (CS) but may increase peripheral afterload. Invasive hemodynamic measurement and cardiopulmonary congestion during VA ECMO may correlate with survival, but the precise mechanisms underlying this benefit are uncertain.\nOBJECTIVES: The aim of this study was to determine whether invasive hemodynamic monitoring with a pulmonary arterial catheter (PAC) and early on-support pulmonary artery diastolic pressure (PAD) are associated with survival during VA ECMO.\nMETHODS: Adult patients with CS from the ELSO (Extracorporeal Life Support Organization) Registry from 2015 to 2020 were analyzed. Invasive hemodynamic status was assessed at 24 hours of ECMO. The primary outcome was 30-day in-hospital mortality. The association between the use of left ventricular mechanical unloading (LVMU) and both 24-hour on-support invasive hemodynamic status and in-hospital mortality was examined using landmark adjustment.\nRESULTS: In total, 7,654 patients treated with VA ECMO for CS were identified, of whom 3,077 were managed with PACs. PAC use during VA ECMO was not significantly associated with lower in-hospital mortality, with an adjusted OR of death of 0.95 (95% CI: 0.897-1.006; P = 0.077). Among patients who survived 24 hours, higher single early values of on-support PAD at 24 hours (>18 mm Hg) were associated with greater in-hospital mortality within 30 days (HR: 1.29; 95% CI: 1.13-1.46; P < 0.001), which remained consistent within subgroups receiving concomitant LVMU (peripherally inserted ventricular assist device or intra-aortic balloon pump).\nCONCLUSIONS: There is a significant, graded relationship between higher single measures of 24-hour on-support PAD and death. Patient survival is greatest when 24-hour PAD is <18 mm Hg. PAD decreased at 24 hours among all comers, but 47% of patients received LVMU devices to support this reduction.",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-10-03",
+   "authors": [
+    "Tonna JE",
+    "Selzman CH",
+    "Horns JJ",
+    "Billia F",
+    "Luk A",
+    "Baran DA",
+    "Batchelor WB",
+    "Tehrani BN",
+    "Hanff TC",
+    "Kyriakopoulos CP",
+    "Taleb I",
+    "Jones T",
+    "Grandin EW",
+    "Garan AR",
+    "Kapur NK",
+    "Rali AS",
+    "Rycus P",
+    "Drakos SG"
+   ],
+   "doi": "10.1016/j.jchf.2026.103378",
+   "pmcid": "PMC13649307",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42836556",
+   "title": "Prognostic implications of complications during VA-ECMO for cardiogenic shock.",
+   "abstract": "PURPOSE: Veno-arterial extracorporeal oxygenation (VA-ECMO) provides comprehensive cardiopulmonary support in patients with cardiogenic shock (CS), but may result in complications. While complications rates are known, their impact on risk of death remains largely unknown.\nMETHODS: Using the Extracorporeal Life Support Organization (ELSO) Registry to identify adults with a diagnosis of CS treated with VA-ECMO (2017-2024), we analyzed the association between timing and type of complication and in-hospital mortality using three methodologies: 1) Cox proportional hazards analysis, treating complications as time-dependent covariates; 2) Multi-State Model (MSM) analysis, treating complications as transient states and estimating the differential mortality rate from each of these states; and 3) landmark Kaplan Meier survival analysis, estimating conditional survival curves, given survival to 3 weeks, based on count and timing of complications.\nRESULTS: Among 22,547 patients (31.7% female), 12,094 (54%) died during index hospitalization. More non-survivors experienced complications than survivors (74% vs 54%), with all sub-types occurring more frequently. Neurologic complications increased the hazard of mortality by 3.6 (95% C.I 3.4 - 3.8). MSM analysis indicated that the absolute 30-day risk of mortality was greater if a patient had a complication, increasing from 48.6% (0 complications) to 93.1% with a neurologic complication. Landmark survival analysis demonstrated that patients without complications within the first 3 weeks had the highest conditional survival.\nCONCLUSION: Complications on VA-ECMO have a significant and cumulative effect on in-hospital mortality, with a higher number associated with increased risk of death. Neurologic and pulmonary complications were associated with the greatest mortality risk.",
+   "journal_abbr": "Eur Heart J Acute Cardiovasc Care",
+   "journal_title": "European heart journal. Acute cardiovascular care",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Rali AS",
+    "Sarma D",
+    "Li H",
+    "Urner M",
+    "Boonstra P",
+    "Alexander PMA",
+    "Barbaro RP",
+    "Alviar C",
+    "Jentzer JC",
+    "Grandin EW",
+    "Bacchetta MD",
+    "Lima B",
+    "Shah Z",
+    "Rycus P",
+    "Tonna JE"
+   ],
+   "doi": "10.1093/ehjacc/zuag127",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42836296",
+   "title": "Lipid Burden and Efficacy of Preventive PCI of Vulnerable Atherosclerotic Coronary Plaques: Post Hoc Analysis From the PREVENT Trial.",
+   "abstract": "BACKGROUND: Preventive percutaneous coronary intervention (PCI) of non-flow-limiting lesions (fractional flow reserve >0.80) that are high-risk plaques has emerged as a potential strategy to reduce cardiac events. However, identifying which lesions derive the greatest benefit from preventive PCI compared with optimal medical therapy alone remains challenging. This post hoc analysis evaluates the role of the near-infrared spectroscopy-derived lipid core burden index in identifying high-risk plaques that may benefit from preventive PCI.\nMETHODS: Among the 1606 patients enrolled in the PREVENT trial (Preventive Coronary Intervention on Stenosis with Functionally Insignificant Vulnerable Plaque) from September 2015 to September 2021, an investigator-initiated, multicenter, open-label, randomized controlled trial, this post hoc analysis included 598 patients (mean age, 64.1\u00b18.8 years; 27.9% women) comprising 632 lesions with a plaque burden >70% and a minimal lumen area <4 mm2 by intravascular ultrasound in whom near-infrared spectroscopy evaluation was also performed. Lipid-rich plaque (LRP) was prespecified as having a maximum lipid core burden index over a 4-mm segment >315. The primary outcome was a composite of death from cardiac causes, target-vessel myocardial infarction, ischemia-driven target-vessel revascularization, or hospitalization for unstable or progressive angina.\nRESULTS: LRPs were present in 223 patients (37.3%) with 234 lesions. During median follow-up of 5.6 years, primary outcome events occurred more frequently in patients with LRPs than in those with non-LRPs (12.5% versus 4.7%; unadjusted hazard ratio, 2.08; 95% CI, 1.03-4.19; P=0.039) in the overall population. Within the LRP group, preventive PCI was associated with a lower risk of the primary outcome compared with optimal medical therapy alone (7.3% vs. 17.6%; adjusted hazard ratio, 0.23; 95% CI, 0.13-0.41; P<0.001). Conversely, no benefit of preventive PCI was observed in the non-LRP group (5.5% versus 4.2%; adjusted hazard ratio, 1.00; 95% CI, 0.54-1.86; P=0.97). A significant interaction was found between treatment strategy and the presence of LRP (Pinteraction<0.001).\nCONCLUSIONS: In this post hoc analysis of the PREVENT trial, preventive PCI was associated with a lower risk of the primary composite outcome in patients with near-infrared spectroscopy-defined LRPs, whereas no significant association was observed in those with non-LRPs despite their large plaque burden and small minimal lumen area. These findings suggest the importance of plaque composition, beyond morphological severity alone, in guiding preventive PCI.\nREGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT02316886.",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Wee SB",
+    "Ahn JM",
+    "Kang DY",
+    "Kim JH",
+    "Lee JB",
+    "Park HS",
+    "An SY",
+    "Seo KW",
+    "Lee SH",
+    "Ahn YK",
+    "Kim WJ",
+    "Nam CW",
+    "Jeong JO",
+    "Chae IH",
+    "Shiomi H",
+    "Kao HL",
+    "Hahn JY",
+    "Her SH",
+    "Lee BK",
+    "Ahn TH",
+    "Chang KY",
+    "Smyth D",
+    "Mintz GS",
+    "Stone GW",
+    "Park DW",
+    "Park SJ",
+    "PREVENT Investigators"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.080384",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42836281",
+   "title": "Incidence, Process of Care, and Outcomes of In-Hospital Cardiac Arrest in China: A Multicenter Prospective Registry Study.",
+   "abstract": "BACKGROUND: In-hospital cardiac arrest (IHCA) is an acute event associated with high mortality. Although survival has improved in high-income countries, contemporary multicenter data from low- and middle-income countries remain scarce, limiting global benchmarking and the identification of system-level opportunities for improvement.\nMETHODS: This cohort study used data from the BASIC-IHCA (Baseline Investigation of In-Hospital Cardiac Arrest) registry. Adult patients (\u226518 years) who experienced IHCA and received cardiopulmonary resuscitation between July 1, 2019, and December 31, 2020, at 37 hospitals across 29 provinces in China were included. The primary outcome was survival to 30 days or hospital discharge. Secondary outcomes included return of spontaneous circulation, 6- and 12-month survival, and favorable neurological outcome (Cerebral Performance Category score 1-2). Process measures focused on the timeliness of resuscitation response and the implementation of postresuscitation interventions.\nRESULTS: Among 17 602 patients (median age, 66 years; 65.5% male), the annual incidence of adult IHCA was 4.1 per 1000 admissions. Cardiac etiology was identified in 6569 (37.3%) patients, and 2380 (13.5%) presented with initial shockable rhythm. Among all patients, 16 872 (95.9%) received cardiopulmonary resuscitation within 1 minute; timely defibrillation or epinephrine was achieved in 71.4% and 84.4% of patients with initial shockable and nonshockable rhythms, respectively. Sustained return of spontaneous circulation was achieved in 6200 (35.2%) patients, of whom 222 (3.6%) received temperature control therapy and 320 (5.2%) underwent coronary angiography. Overall, 1610 (9.1%) patients survived to 30 days or discharge, with 1241 (7.1%) having a favorable neurological outcome. At 12 months, 1075 (6.1%) patients remained alive, and 986 (5.6%) had a favorable neurological outcome.\nCONCLUSIONS: This multicenter registry highlights a substantial burden of IHCA in China, with markedly low survival rates. Despite prompt initial resuscitation, critical gaps persist in postresuscitation care. Systemic and cultural factors, including the infrequent use of do not attempt cardiopulmonary resuscitation orders, may further contribute to survival disparities. These findings suggest several system-level opportunities to improve IHCA outcomes, including structured response systems, optimized critical care resource allocation, and greater integration of advanced care planning.",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Wang C",
+    "Zheng J",
+    "Zheng W",
+    "Yang K",
+    "Yan X",
+    "Chai Y",
+    "Chen F",
+    "Huang L",
+    "Wang R",
+    "Han X",
+    "Ma Y",
+    "Ma J",
+    "Zhang J",
+    "Bian Y",
+    "Cheng K",
+    "Liu R",
+    "Pan C",
+    "Shang R",
+    "Wang M",
+    "Song R",
+    "Pang J",
+    "Wang J",
+    "Girotra S",
+    "Zhang G",
+    "Xu F",
+    "Chen Y",
+    "BASIC-IHCA Coordinators and Investigators"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.080404",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42834820",
+   "title": "Potassium-Increasing Regimens in Patients at High Risk of Ventricular Arrhythmias: A Prespecified Observational Analysis of the Randomized POTCAST Trial.",
+   "abstract": "BACKGROUND AND AIMS: The POTCAST trial (n=1,200) showed that targeting high-normal plasma potassium levels reduced ventricular arrhythmias in patients with Implantable Cardioverter-Defibrillators (ICDs). We compared changes in plasma potassium and described outcomes across the three regimens used to increase plasma potassium.\nMETHODS: We studied 600 control participants and 572 intervention participants who completed potassium up-titration in POTCAST. Participants in the intervention arm were categorized according to treatment after plasma-potassium up-titration into: a) mineralocorticoid-receptor antagonists (MRAs) monotherapy, b) potassium-supplement monotherapy, or c) combination-therapy with both. The primary endpoint was a composite of sustained ventricular arrhythmia, appropriate ICD-therapy, hospitalization for arrhythmia or heart-failure or all-cause mortality. Safety outcomes included death and electrolyte/renal disturbances.\nRESULTS: After six months, plasma potassium increased from 4.12 to 4.27 mmol/L (p=0.004) with MRA, from 3.99 to 4.24 mmol/L (p<0.001) with potassium-supplements, and from 3.98 to 4.34 mmol/L (p<0.001) with combination-therapy. The primary endpoint occurred in 29% (n=175) of controls, 22% (n=16) in the MRA group, 21% (n=31) in the potassium-supplements group and in 22% (n=72) in the combination-therapy group (p=0.8 between regimens). Hypokalemia occurred in 13% of controls and in 3%, 9%, and 5% of participants receiving MRA, potassium-supplements and combination-therapy, respectively. Hyperkalemia occurred in 0.2% of controls and in 0%, 3%, and 4% of participants receiving MRA, potassium-supplements, and combination-therapy (p>0.1 between regimens).\nCONCLUSIONS: Treatment with MRA, potassium-supplements or both increased potassium levels. All regimens were associated with numerically lower endpoint rates than controls. We detected no statistically significant differences in endpoints or safety between regimens.",
+   "journal_abbr": "Europace",
+   "journal_title": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Danielsen EM",
+    "Frandsen EA",
+    "Winsl\u00f8w UCG",
+    "Zheng C",
+    "Sakthivel T",
+    "Iversen KK",
+    "Skovmand Bosselmann H",
+    "Risum N",
+    "Bundgaard H",
+    "J\u00f8ns C"
+   ],
+   "doi": "10.1093/europace/euag272",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42834810",
+   "title": "Biventricular vs conduction system pacing after atrioventricular node ablation for heart failure with atrial fibrillation: the CONDUCT-AF trial.",
+   "abstract": "BACKGROUND AND AIMS: Randomized evidence comparing conduction system pacing (CSP) and biventricular pacing (BVP) following atrioventricular node ablation in patients with refractory atrial fibrillation (AF) and heart failure (HF) remains limited. This study evaluated whether CSP with left bundle branch area pacing is non-inferior to BVP in patients undergoing atrioventricular node ablation.\nMETHODS: CONDUCT-AF was an investigator-initiated, multicentre, randomized trial conducted across 10 European centres. Patients with refractory AF, HF with left ventricular ejection fraction (LVEF) < 50%, narrow QRS duration (\u2264120 ms), and N-terminal pro-B-type natriuretic peptide > 600 ng/L were randomized 1:1 to CSP or BVP. The primary endpoint was the change in LVEF after 6 months, assessed by an independent core laboratory. Secondary endpoints included echocardiographic, clinical, and procedural outcomes. Analyses followed the intention-to-treat principle.\nRESULTS: Eighty-two patients were randomized (mean age 72 \u00b1 7 years, 46% male). At 6 months, LVEF improved similarly in CSP {from 36% [95% confidence interval (CI) 33-39] to 46% [95% CI 44-49]; P < .001} and BVP group [from 34% (95% CI 31-36) to 46% (95% CI 43-49); P < .001]. The between-group difference was .4% (95% CI -3.1-3.8; P = .002 for non-inferiority). Changes in left ventricular volumes, clinical parameters, and composite endpoint of worsening HF or cardiovascular death were comparable between groups. Paced QRS [mean difference -14 ms (95% CI -19 to -9; P < .001)] and procedural and fluoroscopy times were significantly shorter with CSP compared with BVP.\nCONCLUSIONS: In HF patients with refractory AF undergoing atrioventricular node ablation, CSP with left bundle branch area pacing was non-inferior to BVP for LVEF improvement at 6 months, providing comparable clinical outcomes and a favourable procedural profile.",
+   "journal_abbr": "Eur Heart J",
+   "journal_title": "European heart journal",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "\u017di\u017eek D",
+    "Ivanovski M",
+    "Mrak M",
+    "Pestrea C",
+    "Cicala E",
+    "Brusich S",
+    "Grgi\u0107 Romi\u0107 I",
+    "B\u00f3gyi P",
+    "Duray GZ",
+    "Dhont S",
+    "Traykov V",
+    "Ked\u017eo J",
+    "Jan M",
+    "Krpan M",
+    "Klemen L",
+    "Antoli\u010d B",
+    "Peterlin J",
+    "\u017dlahti\u010d T",
+    "Podlesnikar T",
+    "Mullens W",
+    "Zupan Me\u017enar A",
+    "of CONDUCT-AF Investigators"
+   ],
+   "doi": "10.1093/eurheartj/ehag699",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833794",
+   "title": "Comprehensive Aortic Stenosis Characterization Using Multiview Deep Learning.",
+   "abstract": "BACKGROUND: Accurate assessment of aortic stenosis (AS) requires integration of both structural and functional information characterized by visual traits as well as quantitation of gradients. Existing artificial intelligence models use solely either structural or functional information.\nOBJECTIVES: The authors aimed to develop and validate an automated multiview deep learning framework to assess AS severity.\nMETHODS: The authors developed EchoNet-AS, an open-source end-to-end integrated approach combining video-based convolutional neural networks to assess valve motion with segmentation models to automate measurement of aortic valve peak velocity and classify AS severity.\nRESULTS: EchoNet-AS was trained on 210,193 images from 16,076 studies from KPNC (Kaiser Permanente Northern California) and validated on 1,588 held-out test studies and a temporally distinct cohort of 19,202 studies. The final model was also externally validated on 2,415 studies from SHC (Stanford Healthcare) and 9,038 studies from CSMC (Cedars-Sinai Medical Center). Combining assessments from multiple echocardiographic videos and Doppler measurements, EchoNet-AS achieved excellent discrimination of severe AS with an area under the receiver-operating characteristic curve of 0.964 (95% CI: 0.952-0.973) in the KPNC held-out cohort and 0.986 (0.983-0.989) in the temporally distinct cohort, which was superior to models using single views or only Doppler measurements. The performance was consistently robust in distinct external cohorts with an area under the receiver-operating characteristic curve of 0.985 (0.975-0.992) at SHC and 0.989 (0.986-0.992) at CSMC.\nCONCLUSIONS: EchoNet-AS synthesizes information from both B-mode videos and Doppler images to accurately assess AS severity. Its strong performance generalizes robustly to external validation cohorts and shows potential as an automated clinical decision support tool.",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-10",
+   "authors": [
+    "Ieki H",
+    "Sahashi Y",
+    "Vukadinovic M",
+    "Rawlani M",
+    "Binder C",
+    "Yuan N",
+    "Ambrosy AP",
+    "Go AS",
+    "Chen W",
+    "Lee MS",
+    "He B",
+    "Cheng P",
+    "Ouyang D"
+   ],
+   "doi": "10.1016/j.jcmg.2026.07.013",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article",
+    "Validation Study"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42831529",
+   "title": "Percutaneous Left Atrial Appendage Closure: The CHAMPION-like vs CLOSURE-like Patient Phenotype Framework.",
+   "abstract": "AIMS: The near-simultaneous publication of CHAMPION-AF and CLOSURE-AF produced apparently discordant evidence regarding percutaneous left atrial appendage closure (LAAC) for stroke prevention in atrial fibrillation. We aimed to reconcile these findings through a phenotype-based framework and identify the determinants of net clinical benefit.\nMETHODS AND RESULTS: This narrative review integrates randomized trials, registries, consensus documents, and guidelines, focusing on patient selection, procedural risk, post-implant antithrombotic therapy, endpoint construction, competing mortality, and time to benefit. CHAMPION-AF evaluated LAAC against direct oral anticoagulation in an elective, anticoagulation-eligible population with lower bleeding risk, demonstrating non-inferior thromboembolic protection and less non-procedural bleeding. Conversely, CLOSURE-AF enrolled an older, multimorbid population with substantial renal dysfunction, previous bleeding, and high competing mortality. Although implantation success and stroke rates were comparable between treatment groups, early procedural and antithrombotic-related bleeding, a composite endpoint incorporating procedural events, and limited survival reduced the opportunity for delayed benefit. The highly selective recruitment pathway further limits generalisability. These findings define a continuum from the \"CHAMPION-like\" patient, with sufficient physiological reserve and life expectancy to realise long-term benefit, to the \"CLOSURE-like\" patient, in whom frailty and competing risk may outweigh the advantage of appendage exclusion.\nCONCLUSION: LAAC efficacy is not determined by device performance alone but by matching the intervention to patient phenotype and time horizon. Selection should integrate thromboembolic and bleeding risk, frailty, renal function, post-implant treatment tolerance, and expected survival. Future trials require transparent screening data, time-sensitive endpoints, landmark analyses, and competing-risk methods.",
+   "journal_abbr": "Europace",
+   "journal_title": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Berti S",
+    "Garot P",
+    "Trimarchi G",
+    "Nielsen-Kudsk JE",
+    "Lip GYH",
+    "Skurk C",
+    "Caso V",
+    "Boersma LVA",
+    "Della Rocca DG",
+    "Boriani G",
+    "Camm AJ"
+   ],
+   "doi": "10.1093/europace/euag286",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42828419",
+   "title": "Inflammation, Infarct Size and 10-Year Mortality in STEMI Patients Stratified by the ORBI Risk Score: A DANAMI-3 Sub-study.",
+   "abstract": "BACKGROUND: The ORBI Risk Score predicts in-hospital cardiogenic shock after primary percutaneous coronary intervention (PCI) for ST-elevation myocardial infarction (STEMI). Whether high-risk patients also have more systemic inflammation, larger infarcts and higher long-term mortality is not known.\nMETHODS: In a DANAMI-3 sub-study, 1,574 STEMI patients without cardiogenic shock were classified as high (ORBI \u22658, n = 273) or low risk (n = 1,301). Inflammation was assessed by routine C-reactive protein (CRP), leukocyte count and neutrophil-to-lymphocyte ratio (NLR) within 72 hours of PCI, and admission mid-regional pro-adrenomedullin (MR-proADM). Infarct size was measured by cardiac magnetic resonance. Ten-year all-cause mortality was obtained from the Danish Civil Registration System. Cox models were adjusted for age, sex, comorbidity, kidney function and randomised allocation.\nRESULTS: High-risk patients had higher peak CRP (72 vs. 11 mg/L), leukocyte count (12.8 vs. 10.4 \u00d7 109/L), NLR (6.2 vs. 3.5) and MR-proADM (0.73 vs. 0.62 nmol/L; all p < 0.001), and larger infarcts (final infarct size 15.7% vs. 10.1% of left ventricular mass). Ten-year mortality was 41% vs. 20% (hazard ratio 2.56, 95% CI 2.05-3.20; adjusted 1.47, 1.16-1.85). The adjusted hazard ratio was 4.79 within 30 days and 1.27 after the first year. The score discriminated 10-year mortality less well than age alone (area under the curve 0.67 vs. 0.79).\nCONCLUSIONS: The ORBI Risk Score identifies STEMI patients with more inflammation, larger infarcts and higher mortality, especially in the first year. Beyond the first year the association was largely explained by age. Whether anti-inflammatory treatment benefits these patients is a question for randomised trials.",
+   "journal_abbr": "Eur Heart J Acute Cardiovasc Care",
+   "journal_title": "European heart journal. Acute cardiovascular care",
+   "pub_date": "2026-10-03",
+   "authors": [
+    "Kunkel JB",
+    "L\u00f8nborg J",
+    "Frydland M",
+    "\u00d6zbek BT",
+    "Nepper-Christensen L",
+    "Vejlstrup N",
+    "Ahtarovski K",
+    "K\u00f8ber L",
+    "H\u00f8fsten DE",
+    "Marquard JM",
+    "Islam U",
+    "Duus Holle SL",
+    "Zhou Y",
+    "Holmvang L",
+    "Hassager C",
+    "Engstr\u00f8m T",
+    "S\u00f8holm H"
+   ],
+   "doi": "10.1093/ehjacc/zuag126",
+   "pmcid": "",
+   "pub_types": [
+    "Journal Article"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  }
+ ],
+ "editorials": [
+  {
+   "pmid": "42855198",
+   "title": "Britain is being left behind with measures to tackle medicines shortages.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Dayan M"
+   ],
+   "doi": "10.1136/bmj-2026-101092",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42855193",
+   "title": "The plan to allow physician assistants to see undifferentiated patients is irresponsible and poorly evidenced.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Dolphin T"
+   ],
+   "doi": "10.1136/bmj-2026-101107",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42855190",
+   "title": "Supporting equity, diversity, and inclusion in research.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Adiele GC",
+    "Ruzycki SM"
+   ],
+   "doi": "10.1136/bmj-2026-100989",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42853212",
+   "title": "Vessels are not independent observations in a sex-interaction analysis.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-10-09",
+   "authors": [
+    "Wang L",
+    "Yang Y",
+    "Sun Y"
+   ],
+   "doi": "10.1093/ehjci/jeag261",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42817865"
+   ]
+  },
+  {
+   "pmid": "42849936",
+   "title": "Helicobacter pylori: a global problem needing local solutions.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Katelaris P"
+   ],
+   "doi": "10.1136/bmj-2026-100987",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42849935",
+   "title": "Galleri: Trial results show why the NHS must not follow the US FDA in approving the multicancer test.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "McCartney M"
+   ],
+   "doi": "10.1136/bmj-2026-101063",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42849927",
+   "title": "The Longevity Delusion: Money, Myths, and Bad Science.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Smith R"
+   ],
+   "doi": "10.1136/bmj-2026-101072",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42849658",
+   "title": "Commentary: When Clinical Innovation Outpaces The Data: Lessons From NRP Versus DPP in DCD Heart Transplantation.",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Pawale AA",
+    "Weiss AJ",
+    "Anyanwu AC"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.024",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42849464",
+   "title": "Offline: Medicine for peace.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-10-10",
+   "authors": [
+    "Horton R"
+   ],
+   "doi": "10.1016/S0140-6736(26)02001-5",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42849461",
+   "title": "Rethinking lived experience.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-10-10",
+   "authors": [
+    "The Lancet"
+   ],
+   "doi": "10.1016/S0140-6736(26)02038-6",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42843856",
+   "title": "Assessing inappropriate prescribing cascades.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Linsky AM",
+    "Boockvar KS"
+   ],
+   "doi": "10.1136/bmj-2026-100801",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42843851",
+   "title": "David Oliver: Thirlwall has highlighted that NHS managers still face no statutory, regulated duty of candour and transparency.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Oliver D"
+   ],
+   "doi": "10.1136/bmj-2026-101026",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42843849",
+   "title": "WHO leadership race is litmus test for genuine global health cooperation.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Campbell J",
+    "Clark J"
+   ],
+   "doi": "10.1136/bmj-2026-100994",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842909",
+   "title": "Optogenetics in Sight.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Deisseroth K"
+   ],
+   "doi": "10.1056/NEJMe2610388",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842908",
+   "title": "More Than One Way to Save a Life in Septic Shock.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Iwashyna TJ"
+   ],
+   "doi": "10.1056/NEJMe2609170",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42842907",
+   "title": "Transcatheter Tricuspid-Valve Intervention for Severe Tricuspid Regurgitation.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-10-08",
+   "authors": [
+    "Patel MR"
+   ],
+   "doi": "10.1056/NEJMe2611648",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841841",
+   "title": "Still Searching: The Paradox of Low-Flow, Low-Gradient Severe Aortic Stenosis.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Pellikka PA"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.049",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841839",
+   "title": "When a Compelling Mechanism Meets a Neutral Trial: Lessons From ViVA for Coronary Vasospasm.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Toleva O"
+   ],
+   "doi": "10.1016/j.jacc.2026.09.013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841838",
+   "title": "FFRCT: So Close, Yet So Far.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Kadoya Y",
+    "Small GR",
+    "Chow BJW"
+   ],
+   "doi": "10.1016/j.jacc.2026.09.014",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841837",
+   "title": "From Mapping Disparities to Precision in Cardiovascular Health Equity.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Mehran R",
+    "Carrion-Isaacs E",
+    "Procopi N"
+   ],
+   "doi": "10.1016/j.jacc.2026.09.026",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42841557",
+   "title": "AI in Medical Writing: Why JACC Does Not Require Disclosure.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Krumholz HM"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.032",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42838927",
+   "title": "Reply to: Did prolonged high-level pump support precede acute kidney injury?",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Acute Cardiovasc Care",
+   "journal_title": "European heart journal. Acute cardiovascular care",
+   "pub_date": "2026-10-07",
+   "authors": [
+    "Nakashima T",
+    "Unoki T",
+    "Tsujita K"
+   ],
+   "doi": "10.1093/ehjacc/zuag122",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42740697"
+   ]
+  },
+  {
+   "pmid": "42838598",
+   "title": "Scarlett McNally: We must restore confidence and investment in specialty training.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "McNally S"
+   ],
+   "doi": "10.1136/bmj-2026-101007",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42838593",
+   "title": "John Launer: Home truths from the Kennel Club.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Launer J"
+   ],
+   "doi": "10.1136/bmj-2026-101005",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42838592",
+   "title": "Helen Salisbury: The snarl-up at the single point of access.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Salisbury H"
+   ],
+   "doi": "10.1136/bmj-2026-101038",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42834349",
+   "title": "Treatment of Mitral Regurgitation: A Heart Team Decision.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-10-06",
+   "authors": [
+    "Stolz L",
+    "Hausleiter J"
+   ],
+   "doi": "10.1093/ehjci/jeag279",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "41609859"
+   ]
+  },
+  {
+   "pmid": "42833799",
+   "title": "Cardiovascular Imaging: Are We Measuring What Matters?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-10",
+   "authors": [
+    "Thavendiranathan P",
+    "Chandrashekhar Y"
+   ],
+   "doi": "10.1016/j.jcmg.2026.09.001",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833796",
+   "title": "Beyond the Adult Paradigm: Redefining Risk Stratification in Pediatric Arrhythmogenic Cardiomyopathy.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-10",
+   "authors": [
+    "Hamilton RM",
+    "Joseph S"
+   ],
+   "doi": "10.1016/j.jcmg.2026.07.019",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833795",
+   "title": "Can Artificial Intelligence Read the Echocardiogram Like or Better Than an Expert?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-10",
+   "authors": [
+    "Oh JK",
+    "Chao CJ"
+   ],
+   "doi": "10.1016/j.jcmg.2026.08.002",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833779",
+   "title": "Converging Frameworks for Cardiovascular-Kidney-Metabolic Disease and Heart Failure: The Transition From Disease Treatment Toward Whole Health: Three 2026 Guidelines and the Second Universal Definition of Heart Failure.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-10",
+   "authors": [
+    "Bozkurt B"
+   ],
+   "doi": "10.1016/j.jchf.2026.103434",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833778",
+   "title": "The \"Pressure\" To Do Better.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-10",
+   "authors": [
+    "Heywood JT",
+    "Bhimaraj A"
+   ],
+   "doi": "10.1016/j.jchf.2026.103364",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42833682",
+   "title": "UK pandemic procurement reform must address both preparedness and integrity.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Hellowell M",
+    "Barrington R",
+    "Lynch J"
+   ],
+   "doi": "10.1136/bmj-2026-101010",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42832619",
+   "title": "Implantable Cardioverter Defibrillators in Hypertrophic Cardiomyopathy: Global Insights From Worldwide Registries.",
+   "abstract": "",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-10-05",
+   "authors": [
+    "Mason PK",
+    "Kramer CM"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.079687",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42830091",
+   "title": "Digital technology for health, not harm.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-10-04",
+   "authors": [
+    "The Lancet"
+   ],
+   "doi": "10.1016/S0140-6736(26)01991-4",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42827000",
+   "title": "Threats posed by Agentic AI require proactive mitigation.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-02",
+   "authors": [
+    "Morley J"
+   ],
+   "doi": "10.1136/bmj-2026-101022",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42826998",
+   "title": "Neighbourhood health in England can learn from successful international models.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-02",
+   "authors": [
+    "Baird B"
+   ],
+   "doi": "10.1136/bmj-2026-101003",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42826013",
+   "title": "More Than 1 in 5 Children Report Using AI for Emotional Support-Is It Good News or Bad?",
+   "abstract": "",
+   "journal_abbr": "JAMA",
+   "journal_title": "JAMA",
+   "pub_date": "2026-10-02",
+   "authors": [
+    "Schweitzer K"
+   ],
+   "doi": "10.1001/jama.2026.19502",
+   "pmcid": "",
+   "pub_types": [
+    "News",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42671856",
+    "42671864"
+   ]
+  },
+  {
+   "pmid": "42823070",
+   "title": "Foreign trained doctors, misconduct, and misleading headlines.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Bamrah JS",
+    "Grover J"
+   ],
+   "doi": "10.1136/bmj-2026-100910",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42823069",
+   "title": "A National Care Service: Burnham is right to prioritise people over profit in social care.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Goodair B"
+   ],
+   "doi": "10.1136/bmj-2026-101013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42823058",
+   "title": "Robot assisted hip and knee arthroplasty: It is high tech, but is it better?",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "J\u00e4rvinen TLN",
+    "V\u00e4nni V",
+    "Karjalainen T"
+   ],
+   "doi": "10.1136/bmj-2926-100981",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42822695",
+   "title": "Commentary: The Ross procedure in young adults : When is the puzzle complete?",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Bov\u00e9 T"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.018",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42822616",
+   "title": "Pediatric and Adult CAV: A Shared Diagnosis with Distinct Peripheral Molecular Signatures?",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Nour AM",
+    "Gelman AE"
+   ],
+   "doi": "10.1016/j.healun.2026.09.026",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42822464",
+   "title": "Offline: Can time be tamed?",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-10-03",
+   "authors": [
+    "Horton R"
+   ],
+   "doi": "10.1016/S0140-6736(26)01979-3",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42822462",
+   "title": "Peripheral arterial disease: counting what matters.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-10-03",
+   "authors": [
+    "The Lancet"
+   ],
+   "doi": "10.1016/S0140-6736(26)01985-9",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42817889",
+   "title": "Navigating Indeterminate Stress Echocardiography in Low-Gradient Aortic Stenosis: Improved Phenotyping but With Unclear Clinical Implications.",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Imaging",
+   "journal_title": "Circulation. Cardiovascular imaging",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "El-Sabawi B",
+    "Lindman BR"
+   ],
+   "doi": "10.1161/CIRCIMAGING.126.020501",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42814932",
+   "title": "Statins in Older Adults - Evidence at Last.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-10-01",
+   "authors": [
+    "Mortensen MB"
+   ],
+   "doi": "10.1056/NEJMe2611127",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42814076",
+   "title": "Evaluating Intracoronary Imaging-Guided PCI: Balancing Evidence Synthesis and Exploration of Heterogeneity.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Tanboga IH",
+    "Kaul S"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.040",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42814075",
+   "title": "Back to the Basics to BRIDGE Guideline-Directed Care.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Hashem C",
+    "Virani SS",
+    "Wong ND",
+    "Gianos E"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.046",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42814073",
+   "title": "Cardiovascular Health Trajectories After a Community-Based Hypertension Intervention: When the Benefit Follows the Target.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Chiu L",
+    "Pandey A"
+   ],
+   "doi": "10.1016/j.jacc.2026.06.046",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42814044",
+   "title": "Digoxin: An Opportunity to Investigate Utility in Advanced Heart Failure and Cardiogenic Shock.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Hanna M",
+    "Hanna MA",
+    "Starling RC"
+   ],
+   "doi": "10.1016/j.jchf.2026.103373",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42813717",
+   "title": "Lymphatic Interventions for Protein-Losing Enteropathy: New Frontier or Last-Ditch Therapy?",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Wu SJ",
+    "Veeram Reddy SR"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.019",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42813716",
+   "title": "Advancing Hemodynamic Understanding in High-Risk PCI: A Critical Appraisal of the CHIP-BCIS3 Hemodynamic Substudy.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Burkhoff D",
+    "Basir MB",
+    "Popma JJ",
+    "Kirtane AJ"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.010",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42813715",
+   "title": "Beyond Information Asymmetry in Medicine: The Changing Nature of Medical Authority and Expertise.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Krumholz HM"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.018",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42813266",
+   "title": "Drug-Coated Balloons for Side-Branch Treatment in Coronary Bifurcations: Ready for Prime Time?",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Interv",
+   "journal_title": "Circulation. Cardiovascular interventions",
+   "pub_date": "2026-09-30",
+   "authors": [
+    "Qamar A",
+    "Shah B"
+   ],
+   "doi": "10.1161/CIRCINTERVENTIONS.126.017233",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42810769",
+   "title": "Researchers with lived experience navigate unique ethical and emotional challenges.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Beever D",
+    "Fong WCG",
+    "Clement K",
+    "Williams HC"
+   ],
+   "doi": "10.1136/bmj-2026-100983",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42810765",
+   "title": "Data centres: Tech companies are putting health and the environment at risk by exploiting regulatory gaps.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "McNamara J"
+   ],
+   "doi": "10.1136/bmj-2026-100990",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42810468",
+   "title": "Concurrent Mechanical Circulatory Support During VA-ECMO Better Support, Better Outcomes, or Better Selection.",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Civitello A"
+   ],
+   "doi": "10.1016/j.healun.2026.09.020",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42808944",
+   "title": "Improved End-Organ Function After TTVR: The End-All Be-All?",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Brener MI",
+    "Vahl TP",
+    "Hahn RT"
+   ],
+   "doi": "10.1016/j.jchf.2026.103374",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805722",
+   "title": "LIRA-Guided Supra-Annular Sizing for TAVR in Bicuspid Aortic Valve Disease: Reproducible, But Is it Enough?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Kim WK",
+    "Frank D"
+   ],
+   "doi": "10.1016/j.jcin.2026.07.003",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805719",
+   "title": "Beyond the Grade: Residual Mitral Regurgitation and Long-Term Prognosis After Transcatheter Edge-to-Edge Repair.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Hibbert B",
+    "Lee JK"
+   ],
+   "doi": "10.1016/j.jcin.2026.08.004",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805717",
+   "title": "Aortic Leaflet Modification: How Do We Part the Sea?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Abdel-Wahab M",
+    "Lankisch N"
+   ],
+   "doi": "10.1016/j.jcin.2026.06.037",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805716",
+   "title": "Leaving Little or Nothing Behind: Goals and Challenges for Stent-Sparing Strategies in Coronary Bifurcation PCI.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Anderson HV'"
+   ],
+   "doi": "10.1016/j.jcin.2026.08.005",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805714",
+   "title": "Drug-Coated Balloon PCI for Bypass Graft Lesions: Stentless Restoration of Surgical Patency.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Macaya-Ten F",
+    "Gonzalo N"
+   ],
+   "doi": "10.1016/j.jcin.2026.06.035",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805689",
+   "title": "Incorporating research integrity into systematic reviews.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Franco JV",
+    "Skoetz N"
+   ],
+   "doi": "10.1136/bmj-2026-100671",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42805685",
+   "title": "Plans to end rough sleeping must focus on health exclusion and specialist services.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Tottie C"
+   ],
+   "doi": "10.1136/bmj-2026-100972",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42804768",
+   "title": "Strong Science Needs Strong Defenders: What I Learned From My Colleagues on the U.S. Preventive Services Task Force.",
+   "abstract": "",
+   "journal_abbr": "Ann Intern Med",
+   "journal_title": "Annals of internal medicine",
+   "pub_date": "2026-09-29",
+   "authors": [
+    "Silverstein M"
+   ],
+   "doi": "10.7326/ANNALS-26-03115",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42804569",
+   "title": "Optimizing Safety of Pulsed Field Ablation for Atrial Fibrillation: Much Accomplished, Still More to Do.",
+   "abstract": "",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Al-Khatib SM",
+    "Link MS",
+    "Russo AM"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.082070",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42804562",
+   "title": "CD8 T Cells Derived Granzyme B Mediated Heart Failure After Checkpoint Blockade.",
+   "abstract": "",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "\u010cih\u00e1kov\u00e1 D",
+    "Welsh RA"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.079961",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42803006",
+   "title": "Opportunistic CT-Based Quantification of Myosteatosis: A Potent Universal Imaging Biomarker for Frailty and Mortality.",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Imaging",
+   "journal_title": "Circulation. Cardiovascular imaging",
+   "pub_date": "2026-09-28",
+   "authors": [
+    "Pickhardt PJ"
+   ],
+   "doi": "10.1161/CIRCIMAGING.126.020488",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42800520",
+   "title": "When an inheritance becomes a burden.",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-26",
+   "authors": [
+    "Clerkin KJ",
+    "Stanton LJ"
+   ],
+   "doi": "10.1016/j.healun.2026.09.022",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42800519",
+   "title": "Listening to the Donor Heart: A Metabolic Window into DCD Heart Transplantation.",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-26",
+   "authors": [
+    "B\u00f6hmer J"
+   ],
+   "doi": "10.1016/j.healun.2026.09.019",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42790932",
+   "title": "Connecting healthcare and financial wellbeing services can help families, but it cannot compensate for inadequate income support.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Price A",
+    "Sarkadi A",
+    "Cameron C"
+   ],
+   "doi": "10.1136/bmj-2026-100957",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42790931",
+   "title": "Tackling the continued decline in UK child health.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Cirelli C",
+    "Thomas-Turner R",
+    "Modi N"
+   ],
+   "doi": "10.1136/bmj-2026-100958",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42790794",
+   "title": "Is It Time to Target Epicardial Adipose Tissue in Atrial Fibrillation?",
+   "abstract": "",
+   "journal_abbr": "Heart Rhythm",
+   "journal_title": "Heart rhythm",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Khanna S",
+    "Nerlekar N",
+    "Arnott C"
+   ],
+   "doi": "10.1016/j.hrthm.2026.09.041",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42789526",
+   "title": "Re: 'Prediction of clinical outcomes based on phenotypic grouping using left ventricular and left atrial strains in patients with heart failure with preserved ejection fraction'.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-09-25",
+   "authors": [
+    "Lee JH",
+    "Park JH"
+   ],
+   "doi": "10.1093/ehjci/jeag256",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42742108"
+   ]
+  },
+  {
+   "pmid": "42788937",
+   "title": "Conduction System Pacing in Children: Not Just Little Adults?",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Moore JP"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.015",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42788922",
+   "title": "Rebuilding the Advanced Heart Failure Fellowship Pipeline: By Design, Not Exhortation.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-24",
+   "authors": [
+    "Mehra MR"
+   ],
+   "doi": "10.1016/j.jchf.2026.103371",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42788910",
+   "title": "Grading Right Ventricular Dysfunction in Secondary Tricuspid Regurgitation: From Single Metrics to Integrated Assessment.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Muraru D",
+    "Kov\u00e1cs A"
+   ],
+   "doi": "10.1016/j.jcmg.2026.08.010",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42788909",
+   "title": "How Big a Role for Invasive Hemodynamics in the Diagnosis of Heart Failure With Preserved Ejection Fraction?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Smiseth OA",
+    "Thomas JD",
+    "Marwick TH",
+    "Flachskampf FA"
+   ],
+   "doi": "10.1016/j.jcmg.2026.07.022",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42788908",
+   "title": "New Eyes for an Old Problem.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Szilveszter B"
+   ],
+   "doi": "10.1016/j.jcmg.2026.08.014",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42785790",
+   "title": "Why do professional exams keep going wrong?",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-24",
+   "authors": [
+    "McLachlan JC"
+   ],
+   "doi": "10.1136/bmj-2026-100939",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42785315",
+   "title": "Offline: Bringing hope, organising action.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-09-26",
+   "authors": [
+    "Horton R"
+   ],
+   "doi": "10.1016/S0140-6736(26)01943-4",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42782231",
+   "title": "Who Gets the Most Benefit From the Marshall Plan?",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Fletcher M",
+    "Andrade JG"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.012",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42782229",
+   "title": "Expanding the Scope of Permissible Exercise in Arrhythmogenic Cardiomyopathy.",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Lerman BB",
+    "Cheung JW"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42782227",
+   "title": "Cardiac Radioablation: When Evidence Challenges Enthusiasm.",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Almendral J",
+    "Barrio-Lopez MT"
+   ],
+   "doi": "10.1016/j.jacep.2026.07.029",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42778227",
+   "title": "Scarlett McNally: We need a more nuanced approach to fixing errors in the electronic patient record.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "McNally S"
+   ],
+   "doi": "10.1136/bmj-2026-100901",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42778224",
+   "title": "We still do not know the answers to fundamental questions about menopause.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Meaidi A"
+   ],
+   "doi": "10.1136/bmj-2026-100911",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42778220",
+   "title": "Antidepressants and cardiac safety.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Beach SR",
+    "Celano CM",
+    "Gunther M",
+    "Huffman JC"
+   ],
+   "doi": "10.1136/bmj-2026-100828",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42778213",
+   "title": "Will centralisation improve the Scottish health system?",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Stewart E",
+    "Blane D"
+   ],
+   "doi": "10.1136/bmj-2026-100900",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42777941",
+   "title": "Commentary: Democratizing the Master's Craft in Robotic TECAB.",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Tabata M"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42777902",
+   "title": "The Valve We Leave Behind: Aortic Insufficiency and the Consequences of Sequential Mechanical Support.",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Joseph S",
+    "Silvestry S"
+   ],
+   "doi": "10.1016/j.healun.2026.09.017",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42777246",
+   "title": "Anito-cel for Multiple Myeloma.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-24",
+   "authors": [
+    "Lin Y"
+   ],
+   "doi": "10.1056/NEJMe2609181",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42776092",
+   "title": "Cross the Road Early: More Intensive Lipid-Lowering Earlier Along the Atherosclerotic Disease Continuum in VESALIUS-CV.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Peng AW",
+    "Minhas AS",
+    "Razavi AC",
+    "Kaul S",
+    "Blumenthal RS"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.045",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42776089",
+   "title": "Abrupt Wall Thickness Transitions Amid Ischemic Re-Entrant Ventricular Tachycardia.",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Ciaccio EJ",
+    "Peters NS",
+    "Biviano AB"
+   ],
+   "doi": "10.1016/j.jacep.2026.07.032",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42776061",
+   "title": "A Step in the Search for the Elusive Holy Grail of Early Detection of Cancer.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Hunter DJ"
+   ],
+   "doi": "10.1056/NEJMe2611312",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42775807",
+   "title": "The Return on Mentorship.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Krumholz HM"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.011",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42775465",
+   "title": "Virtual Reality to Supplement CT in Procedural Planning for Transcatheter Aortic Valve Implantation.",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Imaging",
+   "journal_title": "Circulation. Cardiovascular imaging",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Chatterjee K",
+    "Dundas J"
+   ],
+   "doi": "10.1161/CIRCIMAGING.126.020468",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42775463",
+   "title": "Common Thresholds, Different Consequences in Degenerative Mitral Regurgitation.",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Imaging",
+   "journal_title": "Circulation. Cardiovascular imaging",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Kusunose K"
+   ],
+   "doi": "10.1161/CIRCIMAGING.126.020484",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42775446",
+   "title": "National Improvement in Radial Access Experience.",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Interv",
+   "journal_title": "Circulation. Cardiovascular interventions",
+   "pub_date": "2026-09-23",
+   "authors": [
+    "Shah T",
+    "Nathan A"
+   ],
+   "doi": "10.1161/CIRCINTERVENTIONS.126.017396",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42772796",
+   "title": "Rammya Mathew: India can teach us about healthcare-but what exactly?",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Mathew R"
+   ],
+   "doi": "10.1136/bmj-2026-100862",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42772787",
+   "title": "Afghanistan's restrictions on women are becoming a public health emergency.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Akseer N",
+    "Aminee A",
+    "Sadat H"
+   ],
+   "doi": "10.1136/bmj-2026-100932",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42772783",
+   "title": "Helen Salisbury: What have you found out so far?",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Salisbury H"
+   ],
+   "doi": "10.1136/bmj-2026-100921",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42770781",
+   "title": "Beyond the Class Effect - Does Beta-Blocker Choice Matter after Myocardial Infarction?",
+   "abstract": "",
+   "journal_abbr": "NEJM Evid",
+   "journal_title": "NEJM evidence",
+   "pub_date": "2026-09-22",
+   "authors": [
+    "Perez-Rivera JA",
+    "Blanco-Fernandez F"
+   ],
+   "doi": "10.1056/EVIDe2600289",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42767678",
+   "title": "Improving transparency of drug regulatory decisions.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-21",
+   "authors": [
+    "Siebert M",
+    "Tibau A"
+   ],
+   "doi": "10.1136/bmj-2026-100749",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42766687",
+   "title": "The \u03b2-Blocker Breakup: Individualizing the A\u03b2YSS of Deprescription.",
+   "abstract": "",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-09-21",
+   "authors": [
+    "van Diepen S",
+    "Goodman SG"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.079321",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42766683",
+   "title": "Concordance, Not Cacophony: Nutrition Is Not as Confusing as You Think.",
+   "abstract": "",
+   "journal_abbr": "Circulation",
+   "journal_title": "Circulation",
+   "pub_date": "2026-09-21",
+   "authors": [
+    "Sullivan VK",
+    "Appel LJ"
+   ],
+   "doi": "10.1161/CIRCULATIONAHA.126.081223",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42764016",
+   "title": "Getting ready for the next pandemic.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-09-20",
+   "authors": [
+    "The Lancet"
+   ],
+   "doi": "10.1016/S0140-6736(26)01908-2",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42762218",
+   "title": "Left Ventricular Tissue Characterization by Cardiac Magnetic Resonance and Diastolic Dysfunction in HFpEF.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Imaging",
+   "journal_title": "JACC. Cardiovascular imaging",
+   "pub_date": "2026-08-29",
+   "authors": [
+    "Reddy YNV",
+    "Sundaram V"
+   ],
+   "doi": "10.1016/j.jcmg.2026.07.006",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42759985",
+   "title": "Kidney transplantation in older adults.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Kaewput W",
+    "Patel M"
+   ],
+   "doi": "10.1136/bmj-2026-100831",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42759980",
+   "title": "Fragmentation of care worsens outcomes in cellulitis management.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Cross E",
+    "Williams OM",
+    "Carlton E",
+    "Hamilton F"
+   ],
+   "doi": "10.1136/bmj-2026-100811",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42759680",
+   "title": "Nearly twice as many lungs: Is the intervention the donor care unit or the care?",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Benissan-Messan D",
+    "Patel KJ"
+   ],
+   "doi": "10.1016/j.healun.2026.09.013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42758063",
+   "title": "Beyond Wall Thickness: Defining Genotype-Phenotype Relationships in Pediatric Hypertrophic Cardiomyopathy.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-08",
+   "authors": [
+    "Suzuki T",
+    "Mital S"
+   ],
+   "doi": "10.1016/j.jchf.2026.103357",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42758061",
+   "title": "Two Views of the Heart Failure Epidemic.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-08-31",
+   "authors": [
+    "Joynt Maddox KE",
+    "Manian N"
+   ],
+   "doi": "10.1016/j.jchf.2026.103317",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42757716",
+   "title": "Highlights from the EACVI Summit 2026.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J",
+   "journal_title": "European heart journal",
+   "pub_date": "2026-09-18",
+   "authors": [
+    "Muraru D",
+    "Delgado V"
+   ],
+   "doi": "10.1093/eurheartj/ehag680",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42754300",
+   "title": "Ebola business narrative and the cycle of distrust.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Harman S",
+    "James M",
+    "Muzalia G",
+    "Villa J"
+   ],
+   "doi": "10.1136/bmj-2026-100849",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42754293",
+   "title": "Six rules for doctors using AI.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Sokol D"
+   ],
+   "doi": "10.1136/bmj-2026-100883",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42754251",
+   "title": "Amiodarone dose to treat ventricular tachycardia in Chagas cardiomyopathy.",
+   "abstract": "",
+   "journal_abbr": "Europace",
+   "journal_title": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+   "pub_date": "2026-09-02",
+   "authors": [
+    "Veloso HH",
+    "Mediano MFF"
+   ],
+   "doi": "10.1093/europace/euag142",
+   "pmcid": "PMC13585444",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "41329640"
+   ]
+  },
+  {
+   "pmid": "42753970",
+   "title": "Commentary: Warfarin's long goodbye in durable mechanical support.",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Mulvihill MS",
+    "John R"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.003",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42753969",
+   "title": "Commentary: Dynamic postoperative risk modeling: Is \"real time\" ready for \"prime time\".",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Miles TJ",
+    "Ghanta RK"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.004",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42753750",
+   "title": "Offline: The emptiness of the quantified self.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-09-19",
+   "authors": [
+    "Horton R"
+   ],
+   "doi": "10.1016/S0140-6736(26)01869-6",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42753749",
+   "title": "The unmet needs of people living with severe asthma.",
+   "abstract": "",
+   "journal_abbr": "Lancet",
+   "journal_title": "Lancet (London, England)",
+   "pub_date": "2026-09-19",
+   "authors": [
+    "The Lancet"
+   ],
+   "doi": "10.1016/S0140-6736(26)01904-5",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42752060",
+   "title": "Targeting the Cardiac Neuroaxis for Prevention of Postoperative Atrial Fibrillation: Are We Ready for Prime Time?",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-10",
+   "authors": [
+    "Po SS",
+    "Chakraborty P"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.005",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42752056",
+   "title": "Evolution in Functional Mapping for Ventricular Tachycardia: Can We Focus Better on the Target?",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Hsia HH"
+   ],
+   "doi": "10.1016/j.jacep.2026.07.036",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42752055",
+   "title": "When Less Can Be More in Cardioneuroablation.",
+   "abstract": "",
+   "journal_abbr": "JACC Clin Electrophysiol",
+   "journal_title": "JACC. Clinical electrophysiology",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Futyma P"
+   ],
+   "doi": "10.1016/j.jacep.2026.08.004",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42751777",
+   "title": "Drug-Coated Balloons or Drug-Eluting Stents for In-Stent Restenosis. Is That the Question?",
+   "abstract": "",
+   "journal_abbr": "Circ Cardiovasc Interv",
+   "journal_title": "Circulation. Cardiovascular interventions",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Alfonso F",
+    "Cuesta J",
+    "Rivero F"
+   ],
+   "doi": "10.1161/CIRCINTERVENTIONS.126.017397",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42749314",
+   "title": "The war on drugs is a war on women.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Stoicescu C",
+    "Mohd Salleh NA",
+    "Giacomello C",
+    "Faye RAY",
+    "Gatonye R"
+   ],
+   "doi": "10.1136/bmj-2026-100686",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748989",
+   "title": "Pulmonary nontuberculous mycobacteria after lung transplantation: Pathogen or prognostic marker?",
+   "abstract": "",
+   "journal_abbr": "J Heart Lung Transplant",
+   "journal_title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Baker AW"
+   ],
+   "doi": "10.1016/j.healun.2026.09.007",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748436",
+   "title": "Maternal Allergen Consumption and Infant Food Allergy - Reassurance, Not Prescription.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Jenmalm MC"
+   ],
+   "doi": "10.1056/NEJMe2610158",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748435",
+   "title": "Blinatumomab - A New Standard of Care in Acute Lymphoblastic Leukemia.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Myers RM",
+    "Hunger SP"
+   ],
+   "doi": "10.1056/NEJMe2610500",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748434",
+   "title": "Sodium Bicarbonate in Critical Illness - A New Chapter for the Book.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Ostermann M",
+    "Cook DJ"
+   ],
+   "doi": "10.1056/NEJMe2610218",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748433",
+   "title": "When More Is Not Better - Colonoscopy Surveillance after High-Risk Adenomas.",
+   "abstract": "",
+   "journal_abbr": "N Engl J Med",
+   "journal_title": "The New England journal of medicine",
+   "pub_date": "2026-09-17",
+   "authors": [
+    "Shaukat A",
+    "Levin TR"
+   ],
+   "doi": "10.1056/NEJMe2608876",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748206",
+   "title": "Cautionary Data on Antihypertensives in Aortic Diseases.",
+   "abstract": "",
+   "journal_abbr": "Hypertension",
+   "journal_title": "Hypertension (Dallas, Tex. : 1979)",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Fan G",
+    "Daugherty A",
+    "Lu HS"
+   ],
+   "doi": "10.1161/HYPERTENSIONAHA.126.27758",
+   "pmcid": "PMC13584833",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42748205",
+   "title": "Brief Commentary on Blood Pressure, Pulse Wave Velocity, and Body Composition in Children and Adolescents.",
+   "abstract": "",
+   "journal_abbr": "Hypertension",
+   "journal_title": "Hypertension (Dallas, Tex. : 1979)",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Litwin M"
+   ],
+   "doi": "10.1161/HYPERTENSIONAHA.126.27742",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42747882",
+   "title": "Beyond the virtual biopsy: a risk-adaptive CMR pathway for precision heart-transplant surveillance.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Choudhary RK",
+    "Malik MMUD",
+    "Jayaswal RP"
+   ],
+   "doi": "10.1093/ehjci/jeag230",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "41886609",
+    "42702533"
+   ]
+  },
+  {
+   "pmid": "42747428",
+   "title": "Lost in CLARIFY-cation: The Sex Gap That Refuses to Close.",
+   "abstract": "",
+   "journal_abbr": "Eur J Prev Cardiol",
+   "journal_title": "European journal of preventive cardiology",
+   "pub_date": "2026-09-16",
+   "authors": [
+    "Gulati M",
+    "Bairey-Merz CN"
+   ],
+   "doi": "10.1093/eurjpc/zwag488",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42609100"
+   ]
+  },
+  {
+   "pmid": "42747373",
+   "title": "Population-Wide Blood Pressure Control: It Takes a Village.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-10",
+   "authors": [
+    "Wu Y",
+    "Thorndike AN",
+    "Levy PD",
+    "Commodore-Mensah Y",
+    "Hardy ST",
+    "Juraschek SP"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.021",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42744347",
+   "title": "Confronting financial and political headwinds against sexual and reproductive health, rights, and justice.",
+   "abstract": "Health and political leaders must seize the opportunity to build lasting systems for governance, financing, and delivery of sexual and reproductive health, rights, and justice",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Clinton C"
+   ],
+   "doi": "10.1136/bmj-2026-100741",
+   "pmcid": "PMC13573753",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42744337",
+   "title": "United Nations reform must protect sexual and reproductive health and rights.",
+   "abstract": "",
+   "journal_abbr": "BMJ",
+   "journal_title": "BMJ (Clinical research ed.)",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "McGovern T"
+   ],
+   "doi": "10.1136/bmj-2026-100599",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42743345",
+   "title": "Cardiogenic Shock Systems of Referral: Right Patient, Right Place, Right Time.",
+   "abstract": "",
+   "journal_abbr": "Circ Heart Fail",
+   "journal_title": "Circulation. Heart failure",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Schurr JW",
+    "Wald JW"
+   ],
+   "doi": "10.1161/CIRCHEARTFAILURE.126.014983",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42743343",
+   "title": "Between Physiology and Practice Culture: Unresolved Variability of Vasoactive Therapy in Cardiogenic Shock.",
+   "abstract": "",
+   "journal_abbr": "Circ Heart Fail",
+   "journal_title": "Circulation. Heart failure",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Ortega-Hern\u00e1ndez JA",
+    "Baldetti L",
+    "Hern\u00e1ndez-Montfort J"
+   ],
+   "doi": "10.1161/CIRCHEARTFAILURE.126.014585",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42742627",
+   "title": "Preventing Microvascular Obstruction During Primary PCI: Back to a CLEAN Slate?",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Madanchi M",
+    "d'Entremont MA",
+    "Mehta SR"
+   ],
+   "doi": "10.1016/j.jacc.2026.07.033",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42742626",
+   "title": "When Evidence Meets the System: The Distance From Proof to Practice.",
+   "abstract": "",
+   "journal_abbr": "J Am Coll Cardiol",
+   "journal_title": "Journal of the American College of Cardiology",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Krumholz HM"
+   ],
+   "doi": "10.1016/j.jacc.2026.08.002",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735975",
+   "title": "TAVR for Bicuspid Aortic Stenosis: Toward a More Appropriate Comparator?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Van Belle E",
+    "Labrousse L",
+    "Guedeney P",
+    "Pibarot P"
+   ],
+   "doi": "10.1016/j.jcin.2026.07.021",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735973",
+   "title": "The Rise of the Solo TAVR Operator: Alone, Unarmed, and Unafraid.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Hibbert B"
+   ],
+   "doi": "10.1016/j.jcin.2026.08.001",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735972",
+   "title": "Preserve the Heart Team: Surgical Backup Is Not Optional in TAVR.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Cangut B",
+    "Marin-Cuartas M",
+    "Tang GHL"
+   ],
+   "doi": "10.1016/j.jcin.2026.07.016",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735970",
+   "title": "OCT-Guided PCI in Diabetes: Seeing More and Gaining Less, Optimized Stents But Persistent Risk.",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "de la Torre-Hern\u00e1ndez JM"
+   ],
+   "doi": "10.1016/j.jcin.2026.07.013",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735968",
+   "title": "Clopidogrel or Aspirin for Long-Term Secondary Prevention in Patients With Diabetes: What Is the Smartest Choice?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Franchi F",
+    "Rollini F"
+   ],
+   "doi": "10.1016/j.jcin.2026.06.033",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735967",
+   "title": "Shortening DAPT After Acute Coronary Syndromes: How Far Can We Go?",
+   "abstract": "",
+   "journal_abbr": "JACC Cardiovasc Interv",
+   "journal_title": "JACC. Cardiovascular interventions",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Spirito A"
+   ],
+   "doi": "10.1016/j.jcin.2026.08.002",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735782",
+   "title": "Commentary: From Static Morphology to Dynamic Risk Assessment in Thoracic Endovascular Aortic Repair.",
+   "abstract": "",
+   "journal_abbr": "J Thorac Cardiovasc Surg",
+   "journal_title": "The Journal of thoracic and cardiovascular surgery",
+   "pub_date": "2026-09-14",
+   "authors": [
+    "Gergen AK",
+    "Aftab M"
+   ],
+   "doi": "10.1016/j.jtcvs.2026.09.002",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735411",
+   "title": "Quality Improvement at a Crossroads: Securing Its Place in Academic Medicine.",
+   "abstract": "",
+   "journal_abbr": "Ann Intern Med",
+   "journal_title": "Annals of internal medicine",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Howard R",
+    "Englesbe M"
+   ],
+   "doi": "10.7326/ANNALS-26-02512",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42735409",
+   "title": "Disclosure Without Context: The Case for More Transparent Clinical Practice Guidelines.",
+   "abstract": "",
+   "journal_abbr": "Ann Intern Med",
+   "journal_title": "Annals of internal medicine",
+   "pub_date": "2026-09-15",
+   "authors": [
+    "Alpern JD",
+    "Satin DJ"
+   ],
+   "doi": "10.7326/ANNALS-26-02051",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42734601",
+   "title": "An Uneven Canvas for Vulnerable Hearts: Contemporary Heart Allocation Policy and Disparities.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-12",
+   "authors": [
+    "Shore S",
+    "Bitar A"
+   ],
+   "doi": "10.1016/j.jchf.2026.103361",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42734600",
+   "title": "Frailty Pre-Left Ventricular Assist Device: More at Risk and More to Gain.",
+   "abstract": "",
+   "journal_abbr": "JACC Heart Fail",
+   "journal_title": "JACC. Heart failure",
+   "pub_date": "2026-09-12",
+   "authors": [
+    "Denfeld QE",
+    "Reeves GR"
+   ],
+   "doi": "10.1016/j.jchf.2026.103365",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial"
+   ],
+   "comment_in": [],
+   "comment_on": []
+  },
+  {
+   "pmid": "42728840",
+   "title": "Novel Insights into Sex-Differences for Bicuspid Valvulo-Aortopathy within the Contemporary International Classification Consensus.",
+   "abstract": "",
+   "journal_abbr": "Eur Heart J Cardiovasc Imaging",
+   "journal_title": "European heart journal. Cardiovascular Imaging",
+   "pub_date": "2026-09-12",
+   "authors": [
+    "Michelena HI",
+    "Evangelista A"
+   ],
+   "doi": "10.1093/ehjci/jeag253",
+   "pmcid": "",
+   "pub_types": [
+    "Editorial",
+    "Comment"
+   ],
+   "comment_in": [],
+   "comment_on": [
+    "42670210"
+   ]
+  }
+ ]
+}
