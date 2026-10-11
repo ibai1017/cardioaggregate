@@ -502,13 +502,50 @@
    ],
    "editorial_take": null,
    "practice_implications": "For a patient with refractory atrial fibrillation, reduced LVEF and a narrow QRS who is going for atrioventricular node ablation, this trial supports left bundle branch area pacing as a reasonable default instead of a biventricular system: LVEF recovery was equivalent, paced QRS was 14 ms narrower, and the procedure was quicker with less fluoroscopy. The caveats are that the endpoint is a 6-month surrogate in 82 patients, so equivalence for heart failure events and death is unproven, and long-term left bundle lead performance is not addressed here. Reasonable practice is to offer conduction system pacing where operator expertise exists, with biventricular pacing retained as the fallback when lead placement fails, and to keep following these patients for lead integrity."
+  },
+  "42853165": {
+   "bottom_line": "In this 171-patient randomized feasibility trial after heart failure hospitalization, AI-guided wearable monitoring with structured clinician notification was feasible and reduced AI-detected physiological instability (HR, 0.76; 95% CI, 0.60-0.97; P = 0.025) but did not reduce heart failure rehospitalization (16.3% vs 18.7%; HR, 0.90; 95% CI, 0.43-1.84; P = 0.76).",
+   "design": "Prospective, randomized, open-label, blinded-endpoint (PROBE) implementation and feasibility study (LINK-HF2, NCT04502563) at 5 Veterans Affairs medical centers. Implementation outcomes were feasibility, acceptability and usability; all clinical endpoints were explicitly exploratory and compared with Cox proportional hazards models.",
+   "population": "171 analyzed adults enrolled at discharge after hospitalization for acute heart failure; 80 (46.8%) assigned to intervention and 91 (53.2%) to control. Age, sex, ejection fraction and other baseline characteristics not reported in the abstract. All participants wore a continuous multisensor patch for up to 90 days.",
+   "intervention": "AI-guided monitoring with clinician notification: a personalized similarity-based model detected deviations in cardiorespiratory and activity signals from the multisensor patch and generated notifications, which triggered a structured clinician response algorithm.",
+   "comparison": "Standard care; control participants also wore the continuous multisensor patch but their data did not generate clinician notifications.",
+   "outcomes": "This was a feasibility study, so implementation outcomes (feasibility, acceptability, usability) were primary; the main exploratory clinical endpoint was heart failure rehospitalization, which occurred in 13 (16.3%) intervention versus 17 (18.7%) control patients (HR, 0.90; 95% CI, 0.43-1.84; P = 0.76). The secondary exploratory composite of all-cause unplanned rehospitalization, emergency department visits and all-cause mortality did not differ (HR, 1.03; 95% CI, 0.63-1.70; P = 0.89). AI-detected physiological instability was lower in the intervention group (HR, 0.76; 95% CI, 0.60-0.97; P = 0.025).",
+   "key_results": [
+    "Heart failure rehospitalization: 13 (16.3%) intervention vs 17 (18.7%) control; HR, 0.90 (95% CI, 0.43-1.84); P = 0.76.",
+    "Composite of all-cause unplanned rehospitalization, emergency department visits and all-cause mortality: HR, 1.03 (95% CI, 0.63-1.70); P = 0.89.",
+    "AI-detected physiological instability: HR, 0.76 (95% CI, 0.60-0.97); P = 0.025, favouring the intervention.",
+    "Median monitoring adherence was 72.4% of follow-up days.",
+    "Clinicians responded to communicated notifications within a median of 1 day (range, 1-5 days).",
+    "Qualitative analysis showed high patient acceptance and clinician engagement; workflow integration and response uncertainty were the main implementation barriers."
+   ],
+   "strengths": [
+    "Randomized rather than single-arm, which is unusual for a digital-health feasibility study and avoids the before-after confounding that plagues remote monitoring literature.",
+    "Blinded endpoint assessment (PROBE design) mitigates ascertainment bias for rehospitalization in a trial where the intervention cannot be masked.",
+    "Control patients also wore the patch, so the comparison isolates the effect of acting on the AI notifications rather than the effect of wearing a sensor.",
+    "Mixed-methods approach: hard adherence and response-time metrics plus qualitative work that identifies why the intervention did or did not translate, which is the genuinely useful output of a feasibility study.",
+    "Multicentre enrollment across 5 Veterans Affairs sites in the high-risk postdischarge window, a clinically realistic setting.",
+    "Honest framing: the authors label the clinical endpoints exploratory and draw the right inference, that detection without a trusted, mechanistically matched therapeutic response does not change outcomes."
+   ],
+   "limitations": [
+    "A 171-patient feasibility study is nowhere near powered for clinical endpoints; the rehospitalization confidence interval (0.43-1.84) spans a halving to near-doubling of risk, so no conclusion about efficacy is possible in either direction.",
+    "All clinical endpoints were exploratory with multiple comparisons and no multiplicity adjustment, so the single nominally significant result (AI-detected instability, P = 0.025) should not be over-read.",
+    "That significant endpoint is the algorithm's own output rather than a patient-relevant outcome, and it is partly circular: the intervention arm was the one in which clinicians acted to suppress exactly those deviations.",
+    "Median adherence of only 72.4% of follow-up days caps any achievable benefit and reflects real-world wearable attrition.",
+    "Open-label design means intervention patients received additional clinical attention beyond the notifications themselves, which cannot be separated from the algorithm's contribution.",
+    "A Veterans Affairs population is predominantly older and male, limiting generalizability; baseline characteristics including ejection fraction and background guideline-directed therapy are not reported.",
+    "Monitoring lasted up to 90 days with follow-up duration not clearly stated, and no longer-term outcomes are available.",
+    "Funding source and device-manufacturer involvement are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This does not support adopting AI-guided wearable monitoring after heart failure discharge as routine care. The trial shows the technology is deployable in a real health system with acceptable adherence and prompt clinician response, and that acting on notifications suppresses the algorithm's own instability signal, but there was no hint of fewer rehospitalizations or deaths, and the trial was not built to detect one. Its most transferable lesson is about workflow: clinicians cited response uncertainty as a main barrier, so any future programme needs a prespecified, evidence-based action for each alert rather than a notification alone. Treat remote AI monitoring as investigational pending an adequately powered outcome trial."
   }
  },
  "basis": {
   "42838320": "abstract",
   "42836810": "abstract",
   "42842238": "full text",
-  "42834810": "abstract"
+  "42834810": "abstract",
+  "42853165": "abstract"
  },
  "candidates": [
   {
