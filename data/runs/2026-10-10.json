@@ -358,8 +358,43 @@
    "reason": "Development and multi-site external validation of a multiview deep learning model that grades aortic stenosis severity with high accuracy across four health systems."
   }
  },
- "summaries": {},
- "basis": {},
+ "summaries": {
+  "42838320": {
+   "bottom_line": "In 87 emergency department patients with recent-onset paroxysmal atrial fibrillation and coronary artery disease but no residual or active ischemia, intravenous flecainide converted far more patients to sinus rhythm within 6 hours than intravenous amiodarone (85.7% vs 40.0%, P<0.001), with no ventricular proarrhythmia in either arm through 24 hours.",
+   "design": "Investigator-initiated, multicenter, open-label, randomized clinical trial with 1:1 allocation (FLECA-ED).",
+   "population": "Adults presenting to the emergency department with recent-onset paroxysmal atrial fibrillation and documented coronary artery disease without residual or active ischemia; 87 patients randomized (42 flecainide, 45 amiodarone). Age, sex and other baseline characteristics not reported in the abstract.",
+   "intervention": "Intravenous flecainide for pharmacologic cardioversion (n=42). Dose not reported.",
+   "comparison": "Intravenous amiodarone (n=45). Dose not reported.",
+   "outcomes": "Primary efficacy endpoint: conversion to sinus rhythm within 6 hours, 85.7% with flecainide vs 40.0% with amiodarone (P<0.001); 95% CI not reported. Primary safety endpoint: composite of nonsustained ventricular tachycardia, ventricular tachycardia, premature ventricular complexes, significant hypotension and bradycardia below 50 bpm within 6 hours; no ventricular proarrhythmic events occurred within 24 hours in either group and the composite rate itself was not reported numerically.",
+   "key_results": [
+    "Conversion to sinus rhythm within 6 hours: 85.7% (flecainide) vs 40.0% (amiodarone), P<0.001.",
+    "Median time to conversion: 20 minutes vs 244 minutes, P<0.001.",
+    "Hospital admission: 14.3% vs 60.0%, P<0.001.",
+    "No ventricular proarrhythmic events within 24 hours in either group, with all patients monitored by 24-hour ambulatory ECG.",
+    "No deaths through 30 days in either group."
+   ],
+   "strengths": [
+    "Randomized design addressing a question that has rested on extrapolation from the Cardiac Arrhythmia Suppression Trial for decades.",
+    "Multicenter enrollment in a real emergency department setting, which matches where the decision is actually made.",
+    "Systematic 24-hour ambulatory ECG monitoring in all patients, so asymptomatic ventricular arrhythmia would be captured rather than missed.",
+    "Clinically meaningful secondary measures (time to conversion, hospital admission) reported alongside the rhythm endpoint.",
+    "Enrollment restricted to patients with objectively characterized coronary disease without residual or active ischemia, which defines the population to whom the result might apply."
+   ],
+   "limitations": [
+    "Only 87 patients, so the trial is far too small to exclude an uncommon but serious proarrhythmic hazard; the authors themselves call the safety signal hypothesis-generating.",
+    "Open-label design, which can influence decisions such as hospital admission and the ascertainment of soft endpoints like significant hypotension.",
+    "Follow-up for the safety composite was only 6 to 24 hours, with mortality to 30 days; later proarrhythmia or recurrence is not addressed.",
+    "The composite safety endpoint rate and confidence intervals for the primary efficacy difference are not reported in the abstract, so precision cannot be judged.",
+    "Amiodarone is a slow-acting comparator for acute cardioversion, so superiority on a 6-hour endpoint is partly a function of pharmacokinetics rather than a statement about overall rhythm strategy.",
+    "Generalizability is limited to patients in whom residual or active ischemia has been excluded; funding source and blinded endpoint adjudication are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This is the first randomized evidence that intravenous flecainide may be usable for acute cardioversion in selected patients with stable coronary disease and no residual or active ischemia, where it worked faster than amiodarone and cut admissions substantially. It is not yet grounds for abandoning the post-CAST contraindication: with 87 patients and no events, the trial cannot establish safety, and any use outside a trial should be confined to patients in whom ischemia has been objectively excluded, with continuous monitoring. A larger safety-powered trial is needed before guidelines change."
+  }
+ },
+ "basis": {
+  "42838320": "abstract"
+ },
  "candidates": [
   {
    "pmid": "42855844",
