@@ -613,6 +613,44 @@
    ],
    "editorial_take": null,
    "practice_implications": "This supports building structured risk factor management into AF care rather than treating rhythm control as a procedural problem alone. The strongest case is around catheter ablation, where referral to a multidisciplinary lifestyle and risk factor clinic was associated with roughly a two-thirds reduction in the odds of recurrence, alongside fewer AF hospitalizations and a clinically meaningful quality-of-life gain. Practically, that means systematically addressing weight, blood pressure, alcohol, sleep apnoea, glycaemia and physical activity before and after ablation, resourced as a service rather than left to advice in clinic. Two limits should be kept in view: the trials do not define which programme components are doing the work, and they are far too small and short to claim any effect on stroke or mortality, so these clinics complement rather than replace anticoagulation and guideline-directed therapy."
+  },
+  "42836281": {
+   "bottom_line": "In the first large multicentre Chinese registry of in-hospital cardiac arrest (17,602 adults at 37 hospitals), incidence was 4.1 per 1000 admissions and only 9.1% survived to 30 days or discharge (7.1% with a favourable neurological outcome), despite 95.9% receiving CPR within 1 minute; post-resuscitation care was the conspicuous gap, with temperature control in 3.6% and coronary angiography in 5.2% of those achieving return of spontaneous circulation.",
+   "design": "Multicentre prospective registry cohort study (BASIC-IHCA: Baseline Investigation of In-Hospital Cardiac Arrest). Descriptive; there is no comparator arm and no adjusted analysis. Enrolment from July 1, 2019 to December 31, 2020 at 37 hospitals across 29 provinces in China.",
+   "population": "17,602 adults (aged 18 years or older) who experienced in-hospital cardiac arrest and received cardiopulmonary resuscitation. Median age 66 years, 65.5% male. Cardiac etiology in 6,569 (37.3%); initial shockable rhythm in 2,380 (13.5%).",
+   "intervention": "No intervention was assigned; the exposure is in-hospital cardiac arrest with attempted resuscitation, with process-of-care measures (timeliness of resuscitation response and use of post-resuscitation interventions) described.",
+   "comparison": "None; this is a single-cohort descriptive registry. The implicit comparison is with published outcomes from high-income countries, but no formal comparison is reported.",
+   "outcomes": "Primary outcome, survival to 30 days or hospital discharge: 1,610 of 17,602 patients (9.1%). Secondary outcomes: sustained return of spontaneous circulation 6,200 (35.2%); favourable neurological outcome (Cerebral Performance Category 1-2) at 30 days or discharge 1,241 (7.1%); alive at 12 months 1,075 (6.1%); favourable neurological outcome at 12 months 986 (5.6%). Six-month survival was a stated secondary outcome but is not reported numerically. No effect estimates, confidence intervals or P values are reported, as the study is descriptive.",
+   "key_results": [
+    "Annual incidence of adult in-hospital cardiac arrest: 4.1 per 1000 admissions.",
+    "Survival to 30 days or hospital discharge: 1,610 of 17,602 (9.1%); favourable neurological outcome 1,241 (7.1%).",
+    "Sustained return of spontaneous circulation: 6,200 (35.2%).",
+    "Survival at 12 months: 1,075 (6.1%); favourable neurological outcome at 12 months 986 (5.6%).",
+    "Cardiopulmonary resuscitation within 1 minute: 16,872 patients (95.9%).",
+    "Timely defibrillation in 71.4% of patients with an initial shockable rhythm and timely epinephrine in 84.4% of those with a nonshockable rhythm.",
+    "Among the 6,200 patients with return of spontaneous circulation, only 222 (3.6%) received temperature control therapy and 320 (5.2%) underwent coronary angiography.",
+    "Initial shockable rhythm in only 2,380 (13.5%); cardiac etiology in 6,569 (37.3%)."
+   ],
+   "strengths": [
+    "Large and geographically broad: 17,602 patients from 37 hospitals across 29 provinces, which makes this the most substantial in-hospital cardiac arrest dataset from a middle-income country and fills a real gap in global benchmarking.",
+    "Prospective registry design with standardized outcome definitions (Cerebral Performance Category), rather than retrospective chart abstraction.",
+    "Follow-up extends to 12 months with neurological status, not just survival to discharge, so the durability of recovery is visible.",
+    "Process-of-care measures are reported alongside outcomes, which is what makes the dataset actionable: it localises the deficit to post-resuscitation care rather than to the initial response.",
+    "Reports both return of spontaneous circulation and survival, exposing the attrition between the two (35.2% to 9.1%) that is the key target for improvement.",
+    "Descriptive aims are matched by descriptive methods, with no overreaching causal claims."
+   ],
+   "limitations": [
+    "Purely descriptive with no comparator and no adjusted analysis, so the drivers of the low survival cannot be disentangled; attribution to post-resuscitation care gaps is plausible but not demonstrated.",
+    "Participating hospitals volunteered for a registry and are not necessarily representative of Chinese hospitals generally, and the direction of that bias is unclear (registry participants may be better resourced than average).",
+    "The enrolment window (July 2019 to December 2020) overlaps the COVID-19 pandemic, which plausibly affected both arrest incidence and resuscitation practice; no analysis by calendar period is reported.",
+    "Reported process measures are strikingly favourable (95.9% CPR within 1 minute), which raises concerns about self-reported or retrospectively documented timings in a registry without independent audit.",
+    "The low proportion with shockable rhythm (13.5%) and cardiac etiology (37.3%) suggests many arrests occurred in patients with advanced non-cardiac illness, so case mix rather than care quality may explain much of the low survival; the infrequent use of do-not-attempt-resuscitation orders, which the authors raise, means resuscitation was attempted in patients for whom it was futile.",
+    "Six-month survival was prespecified as a secondary outcome but is not reported.",
+    "No denominators or definitions are given for 'timely' defibrillation or epinephrine, and no measures of variation between the 37 hospitals are reported, which would be the most useful signal for improvement.",
+    "Data are from 2019 to 2020 and may not reflect current practice; funding source and the completeness of 12-month follow-up are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For cardiologists this is a benchmarking and systems paper rather than a clinical-decision one. Survival after in-hospital cardiac arrest in this Chinese cohort was about 9%, well below contemporary high-income country figures, and the registry locates the problem after the arrest rather than during it: initial response was fast, but only 3.6% of patients with return of spontaneous circulation received temperature control and 5.2% had coronary angiography. The lesson transferable to any system is to audit the post-resuscitation bundle (critical care access, targeted temperature management, early angiography in suitable patients) rather than only CPR response times. It also underscores the value of advance care planning: where resuscitation is attempted in patients with advanced non-cardiac illness and no do-not-attempt order, measured survival will remain low regardless of technical quality. Case mix means these figures should not be read as a direct indictment of resuscitation quality."
   }
  },
  "basis": {
@@ -622,7 +660,8 @@
   "42834810": "abstract",
   "42853165": "abstract",
   "42848330": "abstract",
-  "42841215": "abstract"
+  "42841215": "abstract",
+  "42836281": "abstract"
  },
  "candidates": [
   {
