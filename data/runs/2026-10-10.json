@@ -538,6 +538,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "This does not support adopting AI-guided wearable monitoring after heart failure discharge as routine care. The trial shows the technology is deployable in a real health system with acceptable adherence and prompt clinician response, and that acting on notifications suppresses the algorithm's own instability signal, but there was no hint of fewer rehospitalizations or deaths, and the trial was not built to detect one. Its most transferable lesson is about workflow: clinicians cited response uncertainty as a main barrier, so any future programme needs a prespecified, evidence-based action for each alert rather than a notification alone. Treat remote AI monitoring as investigational pending an adequately powered outcome trial."
+  },
+  "42848330": {
+   "bottom_line": "Pooling 7 randomized trials and 1,487 patients with persistent atrial fibrillation, adding low-voltage area ablation to pulmonary vein isolation reduced recurrent AF or atrial tachyarrhythmia at 12 months or more (HR, 0.67; 95% CI, 0.50-0.88; I2 = 55%; P = 0.004) at the cost of about 30 minutes of extra procedure time and with no excess in major complications.",
+   "design": "Systematic review and meta-analysis of randomized controlled trials with trial sequential analysis. Electronic databases searched from inception to September 2026. Random-effects models were used for pooling. The reporting guideline followed, number of reviewers screening and extracting, and formal risk-of-bias assessment are not reported.",
+   "population": "7 randomized controlled trials comprising 1,487 participants with persistent atrial fibrillation; weighted mean age 68 years, 60% male. Numbers allocated to each strategy, follow-up durations of individual trials, and arrhythmia monitoring methods are not reported.",
+   "intervention": "Pulmonary vein isolation plus adjunctive low-voltage area ablation, that is electroanatomically guided substrate modification targeting areas of low bipolar voltage.",
+   "comparison": "Pulmonary vein isolation alone.",
+   "outcomes": "Primary endpoint, recurrent AF or atrial tachyarrhythmia at 12 months or more after the index ablation: HR, 0.67 (95% CI, 0.50-0.88; I2 = 55%; P = 0.004) favouring pulmonary vein isolation plus low-voltage area ablation. Secondary endpoints: major periprocedural complications RR, 1.12 (95% CI, 0.60-2.10; P = 0.7); total procedure duration mean difference 30.5 minutes (95% CI, 5.8-55.2; P = 0.02); radiofrequency ablation duration mean difference 12.3 minutes (95% CI, 5.4-19.1; P < 0.001); fluoroscopy time not increased (figures not reported).",
+   "key_results": [
+    "Recurrent AF or atrial tachyarrhythmia at 12 months or more: HR, 0.67 (95% CI, 0.50-0.88; I2 = 55%; P = 0.004).",
+    "Trial sequential analysis showed the cumulative Z-curve crossed the monitoring boundary for benefit, supporting robustness of the effect.",
+    "Major periprocedural complications: RR, 1.12 (95% CI, 0.60-2.10; P = 0.7), that is no detectable excess.",
+    "Total procedure duration increased by a mean of 30.5 minutes (95% CI, 5.8-55.2; P = 0.02).",
+    "Radiofrequency ablation duration increased by a mean of 12.3 minutes (95% CI, 5.4-19.1; P < 0.001).",
+    "Fluoroscopy time was not increased (figures not reported).",
+    "Evidence base: 7 randomized trials, 1,487 participants, weighted mean age 68 years, 60% male."
+   ],
+   "strengths": [
+    "Restricted to randomized trials, so the comparison is not vulnerable to the selection bias that dominates observational substrate-modification literature.",
+    "Addresses a genuinely contested question, since the individual trials of low-voltage area ablation have been inconsistent and individually underpowered.",
+    "Primary endpoint required at least 12 months of follow-up after the index procedure, which is long enough to be clinically meaningful for an ablation outcome.",
+    "Trial sequential analysis adds information beyond a conventional pooled estimate by indicating whether the cumulative evidence has crossed a monitoring boundary rather than reflecting repeated testing of an accruing literature.",
+    "Random-effects pooling is the appropriate choice given real differences in mapping protocols and ablation technique between trials.",
+    "Both efficacy and the practical costs of the strategy (procedure time, radiofrequency time, fluoroscopy, complications) are reported, so the trade-off is explicit."
+   ],
+   "limitations": [
+    "Substantial heterogeneity (I2 = 55%) for the primary endpoint, which is unsurprising given that trials differ in voltage cut-offs, mapping rhythm and catheters, and which means the single pooled hazard ratio may not apply to any particular protocol.",
+    "Only 7 trials and 1,487 patients, so the pooled estimate rests on a small evidence base and the confidence interval (0.50-0.88) still admits anything from a large to a modest benefit.",
+    "No formal risk-of-bias assessment, PROSPERO registration or publication-bias evaluation is reported, and blinding is inherently difficult in ablation trials; outcome ascertainment depends on monitoring intensity that is not described.",
+    "Trial sequential analysis is sensitive to the assumed control event rate and relative risk reduction used to set the monitoring boundary, none of which are reported here, so the robustness claim cannot be independently checked.",
+    "The complication relative risk of 1.12 (95% CI, 0.60-2.10) is too imprecise to establish safety; a clinically important excess of tamponade, phrenic injury or atrio-oesophageal injury is not excluded.",
+    "Only arrhythmia recurrence is addressed; no data on quality of life, repeat ablation, heart failure events, stroke or mortality are reported.",
+    "The included trials predate or do not isolate pulsed field ablation, so applicability to contemporary practice where energy source and lesion durability are changing is uncertain.",
+    "Study-level rather than individual participant data, so the key clinical question of which patients (by low-voltage area extent, atrial size or AF duration) benefit cannot be answered; funding and conflicts are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For patients with persistent atrial fibrillation, this is the strongest synthesis yet that mapping and ablating low-voltage areas on top of pulmonary vein isolation cuts arrhythmia recurrence by roughly a third, and it costs about half an hour of extra procedure time without an evident safety penalty. It is reasonable to offer adjunctive low-voltage area ablation in centres with electroanatomic mapping expertise, particularly in patients with a high expected recurrence risk. Two cautions temper enthusiasm: the 55% heterogeneity means the voltage threshold and mapping protocol matter and the best one is undefined, and the safety estimate is too imprecise to be reassuring. This should not yet be treated as a mandatory step for every persistent AF ablation, and the strategy needs re-testing in the era of pulsed field ablation."
   }
  },
  "basis": {
@@ -545,7 +582,8 @@
   "42836810": "abstract",
   "42842238": "full text",
   "42834810": "abstract",
-  "42853165": "abstract"
+  "42853165": "abstract",
+  "42848330": "abstract"
  },
  "candidates": [
   {
