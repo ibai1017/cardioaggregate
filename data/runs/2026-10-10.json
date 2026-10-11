@@ -390,10 +390,44 @@
    ],
    "editorial_take": null,
    "practice_implications": "This is the first randomized evidence that intravenous flecainide may be usable for acute cardioversion in selected patients with stable coronary disease and no residual or active ischemia, where it worked faster than amiodarone and cut admissions substantially. It is not yet grounds for abandoning the post-CAST contraindication: with 87 patients and no events, the trial cannot establish safety, and any use outside a trial should be confined to patients in whom ischemia has been objectively excluded, with continuous monitoring. A larger safety-powered trial is needed before guidelines change."
+  },
+  "42836810": {
+   "bottom_line": "In this 100-patient randomized trial of intermediate-high risk pulmonary embolism, adding computer-assisted vacuum thrombectomy to anticoagulation improved 90-day functional outcomes (6-minute walk distance 478.7 +/- 159.5 m vs 368.0 +/- 127.8 m, P = 0.003) without differences in dyspnea, quality of life, mortality or PE recurrence.",
+   "design": "Randomized controlled trial (STORM-PE, NCT05684796), 1:1 allocation across 22 international sites; this report covers functional, quality-of-life and safety outcomes through 90 days. Blinding not reported.",
+   "population": "100 patients with acute intermediate-high risk pulmonary embolism; 47 assigned to thrombectomy and 53 to anticoagulation alone. Age, sex and baseline characteristics not reported in the abstract. Median time from randomization to last follow-up visit was 91.0 days (Q1-Q3 80.5-100.0).",
+   "intervention": "Computer-assisted vacuum thrombectomy (CAVT) plus anticoagulation.",
+   "comparison": "Anticoagulation alone.",
+   "outcomes": "The trial's primary endpoint was change in right-ventricular to left-ventricular (RV/LV) ratio at 48 hours; its effect estimate, 95% CI and P value are not reported in this abstract. Secondary endpoints reported here: 6-minute walk distance at 90 days, 478.7 +/- 159.5 m with CAVT vs 368.0 +/- 127.8 m with anticoagulation alone (P = 0.003); NYHA Functional Class I at 90 days, 97.4% (37/38) vs 75.6% (34/45) (P = 0.005). Dyspnea and quality-of-life scores were comparable between groups and all-cause mortality, PE-related mortality and symptomatic PE recurrence within 90 days did not differ between arms; the corresponding numbers, 95% CIs and P values are not reported.",
+   "key_results": [
+    "6-minute walk distance at 90 days: 478.7 +/- 159.5 m (CAVT) vs 368.0 +/- 127.8 m (anticoagulation alone), P = 0.003.",
+    "NYHA Functional Class I at 90 days: 97.4% (37/38) vs 75.6% (34/45), P = 0.005.",
+    "Test completion was incomplete and similar in both arms: 66.0% (31/47) of CAVT and 64.2% (34/53) of anticoagulation patients completed the 6-minute walk test.",
+    "Dyspnea and quality-of-life scores were comparable between groups (figures not reported).",
+    "No differences between arms in all-cause mortality, PE-related mortality or symptomatic PE recurrence within 90 days (figures not reported).",
+    "Safety rates were described as equivalent; major adverse events within 7 days were a secondary endpoint but are not reported numerically."
+   ],
+   "strengths": [
+    "First randomized comparison of a catheter reperfusion strategy against anticoagulation alone in intermediate-high risk PE using patient-centered functional outcomes rather than imaging surrogates alone.",
+    "Multinational enrollment across 22 sites, which supports applicability beyond a single expert centre.",
+    "Ninety-day follow-up with objective functional testing (6-minute walk distance) plus NYHA class, addressing the post-PE functional limitation that matters to patients.",
+    "Prospectively registered trial with mortality, PE recurrence and early major adverse events among the prespecified secondary endpoints."
+   ],
+   "limitations": [
+    "Only 100 patients, which is far too small to assess mortality, PE recurrence or procedural safety; the absence of differences in these outcomes is uninformative rather than reassuring.",
+    "The functional findings are secondary endpoints; the primary 48-hour RV/LV ratio result is not reported in this abstract, so the hierarchy of evidence cannot be judged here.",
+    "Roughly a third of patients in each arm did not complete the 6-minute walk test (31/47 and 34/53), so the headline walk distances come from selected subsets and are vulnerable to attrition bias.",
+    "Blinding is not reported, and an open design can influence effort-dependent measures such as 6-minute walk distance and the clinician-assigned NYHA class.",
+    "Multiple secondary endpoints were examined without any stated adjustment for multiplicity, so the P = 0.003 and P = 0.005 results should be read as exploratory.",
+    "Dyspnea and quality-of-life scores, which are the more direct patient-reported measures, did not differ, which sits awkwardly with the claimed functional benefit.",
+    "No confidence intervals are reported for the between-group differences, and the funding source and device-manufacturer involvement are not stated."
+   ],
+   "editorial_take": null,
+   "practice_implications": "STORM-PE provides the first randomized, patient-centered signal that catheter-based thrombectomy may improve 90-day functional recovery in intermediate-high risk PE, and it is worth knowing when counselling a patient about reperfusion. It is not practice-changing on its own: the functional outcomes are secondary, roughly a third of patients did not complete walk testing, patient-reported dyspnea and quality of life did not differ, and 100 patients cannot speak to mortality or procedural harm. Reserve thrombectomy for patients in whom a PE response team judges the risk-benefit favourable, and await adequately powered trials with hard clinical endpoints before broadening its use."
   }
  },
  "basis": {
-  "42838320": "abstract"
+  "42838320": "abstract",
+  "42836810": "abstract"
  },
  "candidates": [
   {
