@@ -575,6 +575,44 @@
    ],
    "editorial_take": null,
    "practice_implications": "For patients with persistent atrial fibrillation, this is the strongest synthesis yet that mapping and ablating low-voltage areas on top of pulmonary vein isolation cuts arrhythmia recurrence by roughly a third, and it costs about half an hour of extra procedure time without an evident safety penalty. It is reasonable to offer adjunctive low-voltage area ablation in centres with electroanatomic mapping expertise, particularly in patients with a high expected recurrence risk. Two cautions temper enthusiasm: the 55% heterogeneity means the voltage threshold and mapping protocol matter and the best one is undefined, and the safety estimate is too imprecise to be reassuring. This should not yet be treated as a mandatory step for every persistent AF ablation, and the strategy needs re-testing in the era of pulsed field ablation."
+  },
+  "42841215": {
+   "bottom_line": "Pooling 11 randomized trials and 3,364 patients with atrial fibrillation, lifestyle and risk factor modification clinics cut arrhythmia recurrence after catheter ablation (OR, 0.34; 95% CI, 0.23-0.51; P<0.001; I2=0%), reduced AF-related hospitalization (OR, 0.70; 95% CI, 0.51-0.98; P=0.04) and improved quality of life, with no detected effect on heart failure hospitalization, cardiovascular death or stroke.",
+   "design": "Systematic review and meta-analysis of randomized controlled trials comparing lifestyle and risk factor modification clinics with usual care. Databases searched, search dates, reporting guideline, registration, number of reviewers, pooling model (fixed versus random effects), risk-of-bias assessment and publication-bias evaluation are not reported.",
+   "population": "11 randomized controlled trials with 3,364 patients with atrial fibrillation, of which 5 trials were conducted in the context of AF ablation. Mean age ranged from 58 to 73 years, 30% were female and 18% had persistent AF. Follow-up ranged from 3 to 24 months. Numbers randomized to each arm are not reported.",
+   "intervention": "Care in a lifestyle and risk factor modification clinic: a comprehensive, multidisciplinary, patient-centered programme addressing modifiable AF risk factors. The specific components, intensity and duration of the programmes are not reported.",
+   "comparison": "Usual care.",
+   "outcomes": "Primary endpoint, atrial arrhythmia recurrence: OR, 0.34 (95% CI, 0.23-0.51; P<0.001; I2=0%) in the comparison after catheter ablation. Secondary endpoints: AF-related hospitalization OR, 0.70 (95% CI, 0.51-0.98; P=0.04; I2=21%); quality of life, mean improvement on the Short Form 36 Questionnaire 8.90 (95% CI, 6.91-10.90; P<0.001); heart failure-related hospitalization no detected difference (P=0.16); cardiovascular death no detected difference (P=0.79); stroke or transient ischemic attack no detected difference (P=0.83). Effect estimates and confidence intervals for the three null secondary endpoints are not reported.",
+   "key_results": [
+    "Atrial arrhythmia recurrence after catheter ablation: OR, 0.34 (95% CI, 0.23-0.51); P<0.001; I2=0%.",
+    "AF-related hospitalization: OR, 0.70 (95% CI, 0.51-0.98); P=0.04; I2=21%.",
+    "Quality of life: mean improvement on Short Form 36 of 8.90 (95% CI, 6.91-10.90); P<0.001.",
+    "Heart failure-related hospitalization: no detected difference, P=0.16 (effect estimate not reported).",
+    "Cardiovascular death: no detected difference, P=0.79 (effect estimate not reported).",
+    "Stroke or transient ischemic attack: no detected difference, P=0.83 (effect estimate not reported).",
+    "Evidence base: 11 randomized trials, 3,364 patients, 5 trials in the ablation setting, follow-up 3 to 24 months, 30% female, 18% persistent AF."
+   ],
+   "strengths": [
+    "Confined to randomized trials, which matters particularly for lifestyle interventions where motivated self-selection otherwise inflates apparent benefit.",
+    "Reasonable aggregate size for this literature (3,364 patients across 11 trials) on a question usually answered by single underpowered studies.",
+    "Zero statistical heterogeneity for the primary endpoint (I2=0%) and low heterogeneity for hospitalization (I2=21%), so the pooled estimates are internally consistent despite the trials differing in programme design.",
+    "Effect size for recurrence is large (OR, 0.34) and the confidence interval is tight, so the direction of benefit after ablation is not in doubt.",
+    "Quality of life was analysed with a single instrument (Short Form 36), and the improvement of 8.90 points exceeds what is usually considered clinically meaningful on that scale.",
+    "Reports the null secondary endpoints rather than only the favourable ones, which keeps the overall picture honest.",
+    "Separating the ablation and non-ablation settings is clinically appropriate, since recurrence means different things in each."
+   ],
+   "limitations": [
+    "Methodological reporting is thin: no search dates, pooling model, registration, formal risk-of-bias assessment or publication-bias assessment is described, so the quality of the synthesis cannot be appraised.",
+    "The primary endpoint result is specific to the 5 trials performed around catheter ablation, not to the whole 11-trial, 3,364-patient population, so the headline effect rests on a much smaller subset whose size is not reported.",
+    "Lifestyle interventions cannot be blinded, and arrhythmia recurrence and quality of life are both susceptible to differential ascertainment and expectation effects in an open design; the degree of rhythm monitoring in each trial is not reported.",
+    "What a lifestyle and risk factor modification clinic actually consists of is heterogeneous and not described, so the result does not specify a reproducible intervention; it may reflect weight loss, blood pressure or sleep apnoea treatment, exercise, alcohol reduction, better anticoagulation adherence, or simply more clinical contact.",
+    "Follow-up as short as 3 months in some trials is inadequate for recurrence or hospitalization endpoints, and durability beyond 24 months is unknown.",
+    "The trials are too small and too short to assess stroke, cardiovascular death or heart failure hospitalization; those null results are uninformative rather than evidence of no effect, and no effect estimates or confidence intervals are given.",
+    "The AF-related hospitalization result is borderline (upper confidence limit 0.98, P=0.04) among several secondary endpoints with no stated multiplicity adjustment.",
+    "Study-level data only, so no identification of which patients or which risk factors drive the benefit; 18% persistent AF and 30% women limit applicability to those groups, and funding and conflicts are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This supports building structured risk factor management into AF care rather than treating rhythm control as a procedural problem alone. The strongest case is around catheter ablation, where referral to a multidisciplinary lifestyle and risk factor clinic was associated with roughly a two-thirds reduction in the odds of recurrence, alongside fewer AF hospitalizations and a clinically meaningful quality-of-life gain. Practically, that means systematically addressing weight, blood pressure, alcohol, sleep apnoea, glycaemia and physical activity before and after ablation, resourced as a service rather than left to advice in clinic. Two limits should be kept in view: the trials do not define which programme components are doing the work, and they are far too small and short to claim any effect on stroke or mortality, so these clinics complement rather than replace anticoagulation and guideline-directed therapy."
   }
  },
  "basis": {
@@ -583,7 +621,8 @@
   "42842238": "full text",
   "42834810": "abstract",
   "42853165": "abstract",
-  "42848330": "abstract"
+  "42848330": "abstract",
+  "42841215": "abstract"
  },
  "candidates": [
   {
