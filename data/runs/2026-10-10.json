@@ -651,6 +651,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "For cardiologists this is a benchmarking and systems paper rather than a clinical-decision one. Survival after in-hospital cardiac arrest in this Chinese cohort was about 9%, well below contemporary high-income country figures, and the registry locates the problem after the arrest rather than during it: initial response was fast, but only 3.6% of patients with return of spontaneous circulation received temperature control and 5.2% had coronary angiography. The lesson transferable to any system is to audit the post-resuscitation bundle (critical care access, targeted temperature management, early angiography in suitable patients) rather than only CPR response times. It also underscores the value of advance care planning: where resuscitation is attempted in patients with advanced non-cardiac illness and no do-not-attempt order, measured survival will remain low regardless of technical quality. Case mix means these figures should not be read as a direct indictment of resuscitation quality."
+  },
+  "42836556": {
+   "bottom_line": "In 22,547 adults supported with VA-ECMO for cardiogenic shock in the ELSO Registry (2017-2024), in-hospital mortality was 54% and complications were strongly and cumulatively associated with death: neurologic complications tripled the hazard of mortality (HR, 3.6; 95% CI, 3.4-3.8) and raised absolute 30-day mortality risk from 48.6% with no complications to 93.1%.",
+   "design": "Retrospective observational cohort study of a multinational voluntary registry (Extracorporeal Life Support Organization Registry), 2017-2024. Three complementary analytic approaches were used: Cox proportional hazards with complications as time-dependent covariates, a multi-state model treating complications as transient states, and landmark Kaplan-Meier analysis of conditional survival given survival to 3 weeks. Covariates included in adjustment are not reported.",
+   "population": "22,547 adults with a diagnosis of cardiogenic shock treated with VA-ECMO; 31.7% female. Age, shock etiology, SCAI stage, cannulation strategy, concomitant left ventricular unloading and other baseline characteristics are not reported in the abstract.",
+   "intervention": "The exposure is the occurrence, type, timing and number of on-support complications during VA-ECMO (neurologic, pulmonary and other subtypes; individual subtype definitions not reported).",
+   "comparison": "Patients on VA-ECMO without the complication in question, with complication status handled as a time-dependent exposure rather than a baseline group.",
+   "outcomes": "Primary outcome, in-hospital mortality during the index hospitalization: 12,094 of 22,547 patients (54%). Complications occurred in 74% of non-survivors versus 54% of survivors, with all subtypes more frequent among non-survivors. Neurologic complications increased the hazard of mortality with HR 3.6 (95% CI, 3.4-3.8); the P value is not reported. In the multi-state model, absolute 30-day mortality risk rose from 48.6% with no complications to 93.1% with a neurologic complication (confidence intervals not reported). Landmark analysis showed the highest conditional survival among patients without complications within the first 3 weeks (figures not reported). Hazard ratios for pulmonary and other complication subtypes are not reported numerically.",
+   "key_results": [
+    "In-hospital mortality: 12,094 of 22,547 (54%).",
+    "Complications were more frequent in non-survivors than survivors: 74% vs 54%, with all subtypes occurring more often in non-survivors.",
+    "Neurologic complications: hazard of mortality increased 3.6-fold (95% CI, 3.4-3.8).",
+    "Multi-state model absolute 30-day mortality risk: 48.6% with no complications rising to 93.1% with a neurologic complication.",
+    "Mortality risk rose cumulatively with the number of complications.",
+    "Landmark analysis: patients free of complications in the first 3 weeks had the highest conditional survival.",
+    "Neurologic and pulmonary complications carried the greatest mortality risk (pulmonary estimate not reported)."
+   ],
+   "strengths": [
+    "Very large multinational cohort (22,547 patients) over a contemporary period (2017-2024), giving precision that no single centre could achieve for a therapy this uncommon.",
+    "Complications were modelled as time-dependent rather than baseline covariates, which avoids the immortal-time bias that invalidates most naive analyses of on-support events.",
+    "Three analytic approaches (time-dependent Cox, multi-state model, landmark conditional survival) were applied in parallel and gave concordant results, which is a meaningful internal consistency check.",
+    "The multi-state model reports absolute 30-day risks, not just hazard ratios, which is far more useful at the bedside and for family discussions.",
+    "Landmark analysis conditional on survival to 3 weeks addresses the question clinicians actually ask about patients still on support, rather than averaging over the whole cohort.",
+    "Distinguishes complication type and number rather than treating complications as a single binary exposure, identifying neurologic and pulmonary events as the dominant drivers."
+   ],
+   "limitations": [
+    "Observational and associative: a complication such as neurologic injury is both a cause of death and a marker of a sicker patient and of the very physiology that led to arrest or cannulation, so the 3.6-fold hazard cannot be read as the preventable fraction.",
+    "Reverse causation and competing treatment decisions are central here, since a devastating neurologic complication frequently triggers withdrawal of support; a 93.1% 30-day mortality partly reflects that decision rather than the biology alone.",
+    "Voluntary registry data with site-determined reporting: complication ascertainment, including whether neurologic injury was systematically screened for (imaging, neuromonitoring) versus clinically apparent, is not standardized or reported.",
+    "The adjustment set is not reported, so residual confounding by severity (SCAI stage, lactate, pre-cannulation arrest, cannulation mode, left ventricular unloading, centre volume) cannot be assessed.",
+    "Baseline characteristics and shock etiology are not reported, limiting any judgement about to whom these figures apply.",
+    "Only in-hospital mortality is reported; no neurological function, quality of life, or post-discharge survival outcomes are given, which matters most for a therapy whose purpose is meaningful survival.",
+    "Estimates for pulmonary and other complication subtypes are asserted but not quantified, and no P values or confidence intervals accompany the multi-state model risks.",
+    "Registry contributors are self-selected ECMO centres, so case mix and practice are not representative of all centres offering VA-ECMO; funding is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "These data quantify what shock teams observe: once a complication occurs on VA-ECMO, particularly a neurologic one, the prognosis changes decisively, and the risk accumulates with each additional complication. Practically that argues for aggressive complication prevention as the main modifiable lever during support (meticulous cannulation and distal perfusion, attention to differential hypoxia and left ventricular distension, anticoagulation protocols, and early neurologic surveillance so injury is detected rather than inferred late), and for complication status to be an explicit input to daily decisions about escalation, bridging to durable support, or transition to comfort care. The numbers are also useful for family conversations, since absolute 30-day mortality of roughly 49% with no complications versus 93% after a neurologic complication is more informative than a generic survival figure. Because the design is observational and withdrawal of support is entangled with the outcome, these figures should inform prognostication, not be treated as the benefit available from preventing the complication."
   }
  },
  "basis": {
@@ -661,7 +698,8 @@
   "42853165": "abstract",
   "42848330": "abstract",
   "42841215": "abstract",
-  "42836281": "abstract"
+  "42836281": "abstract",
+  "42836556": "abstract"
  },
  "candidates": [
   {
