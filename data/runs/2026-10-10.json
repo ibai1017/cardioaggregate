@@ -39,16 +39,16 @@
   "42833794"
  ],
  "selected": [
-  "42834810",
-  "42844166",
-  "42853165",
-  "42852467",
   "42838320",
   "42836810",
-  "42834820",
-  "42831529",
-  "42828419",
-  "42842238"
+  "42842238",
+  "42834810",
+  "42853165",
+  "42848330",
+  "42841215",
+  "42836281",
+  "42836556",
+  "42833794"
  ],
  "triage": {
   "42842238": {
@@ -230,6 +230,132 @@
    "sample_size": 71694,
    "impact": 2,
    "reason": "Large Italian administrative cohort describing cardio-renal-metabolic disease trajectories, descriptive epidemiology without a clear practice implication."
+  },
+  "42837205": {
+   "pmid": "42837205",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 522,
+   "impact": 3,
+   "reason": "Prespecified high bleeding risk subgroup of SELUTION DeNovo suggesting sirolimus-eluting balloons are a viable alternative to drug-eluting stents, but explicitly underpowered."
+  },
+  "42836556": {
+   "pmid": "42836556",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 22547,
+   "impact": 3,
+   "reason": "Very large ELSO registry analysis quantifying how complications, especially neurologic ones, drive mortality during VA-ECMO for cardiogenic shock."
+  },
+  "42848331": {
+   "pmid": "42848331",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1608,
+   "impact": 3,
+   "reason": "Large prospective registry showing early atrial tachyarrhythmia after pulsed field ablation strongly predicts late recurrence, questioning the traditional blanking period."
+  },
+  "42847616": {
+   "pmid": "42847616",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review proposing a pathway- and phenotype-based framework for ASCVD therapy, synthesis rather than new evidence."
+  },
+  "42847153": {
+   "pmid": "42847153",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 2987,
+   "impact": 2,
+   "reason": "Single-centre before-after study showing same-day discharge after pulmonary vein isolation cut costs with comparable complications, a service-delivery finding."
+  },
+  "42845233": {
+   "pmid": "42845233",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1052,
+   "impact": 2,
+   "reason": "Retrospective cohort showing an AI-ECG atrial fibrillation score and its early post-ablation recovery add modest discrimination for recurrence, needing prospective validation."
+  },
+  "42836800": {
+   "pmid": "42836800",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 7654,
+   "impact": 3,
+   "reason": "Large ELSO registry analysis linking 24-hour pulmonary artery diastolic pressure above 18 mm Hg to higher mortality on VA-ECMO, a useful hemodynamic target."
+  },
+  "42854881": {
+   "pmid": "42854881",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Case-cohort analysis nested in PREDIMAR associating remnant cholesterol and atherogenic NMR lipoprotein measures with atrial tachyarrhythmia recurrence, biomarker-level evidence."
+  },
+  "42854830": {
+   "pmid": "42854830",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 100,
+   "impact": 3,
+   "reason": "Single-centre prospective cohort giving scarce mid-term Tendyne transcatheter mitral valve replacement outcomes, with durable MR reduction but high mortality."
+  },
+  "42841847": {
+   "pmid": "42841847",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 589,
+   "impact": 3,
+   "reason": "Multicentre derivation and validation of a CMR risk score showing remodeling and fibrosis, not trabeculation, drive outcomes in excessive left ventricular trabeculation."
+  },
+  "42837204": {
+   "pmid": "42837204",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 256,
+   "impact": 3,
+   "reason": "DanGer Shock substudy showing baseline and residual SYNTAX scores predict 180-day mortality without modifying microaxial flow pump benefit."
+  },
+  "42854886": {
+   "pmid": "42854886",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 24,
+   "impact": 1,
+   "reason": "Nationwide survey of 24 ultra-rare fetal ventricular tachycardia cases, informative for fetal cardiology specialists but very niche."
+  },
+  "42841197": {
+   "pmid": "42841197",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 15,
+   "impact": 1,
+   "reason": "Fifteen-patient retrospective case series of an electrosurgical bailout technique for difficult left bundle branch area pacing leads, explicitly premature for adoption."
+  },
+  "42833794": {
+   "pmid": "42833794",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 19202,
+   "impact": 3,
+   "reason": "Development and multi-site external validation of a multiview deep learning model that grades aortic stenosis severity with high accuracy across four health systems."
   }
  },
  "summaries": {},
