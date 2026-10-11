@@ -466,12 +466,49 @@
    ],
    "editorial_take": null,
    "practice_implications": "For cardiovascular risk reduction, CKD is not a reason to accept a higher BP target: the relative benefit per 10-mm Hg is the same as in people without CKD, and because CKD patients have more events the absolute gain is at least as large (4.2 vs 2.7 events avoided per 1000 person-years). Mortality moved in the same direction (RR, 0.89; 95% CI, 0.83-0.95). The kidney signal needs the right interpretation: intensive treatment increases 30% and 40% sustained eGFR declines, plausibly a haemodynamic effect of the extra diuretic and calcium-channel blocker use needed to reach lower targets, and it did not translate into more kidney failure across 1331 events including long-term posttrial follow-up. Practically, pursue an intensive target in CKD rather than backing off, but monitor BP, eGFR and electrolytes closely after each intensification, do not abandon the strategy for an expected early eGFR dip, and stay alert for acute kidney injury, hypotension, syncope and falls. Uncertainty remains for eGFR below 30 mL/min/1.73 m2, where dedicated trials are still needed."
+  },
+  "42834810": {
+   "bottom_line": "In 82 patients with refractory atrial fibrillation and heart failure undergoing atrioventricular node ablation, conduction system pacing with left bundle branch area pacing was non-inferior to biventricular pacing for 6-month LVEF improvement (between-group difference 0.4%; 95% CI, -3.1 to 3.8; P = .002 for non-inferiority), with shorter paced QRS and shorter procedural and fluoroscopy times.",
+   "design": "Investigator-initiated, multicentre, randomized non-inferiority trial (CONDUCT-AF) across 10 European centres, 1:1 allocation, intention-to-treat analysis, with the primary echocardiographic endpoint adjudicated by an independent core laboratory. Patient and operator blinding not reported; the non-inferiority margin is not reported.",
+   "population": "82 randomized patients with refractory atrial fibrillation, heart failure with LVEF below 50%, narrow QRS duration of 120 ms or less, and NT-proBNP above 600 ng/L, all undergoing atrioventricular node ablation. Mean age 72 +/- 7 years, 46% male. Allocation numbers per arm are not reported.",
+   "intervention": "Conduction system pacing using left bundle branch area pacing.",
+   "comparison": "Biventricular pacing.",
+   "outcomes": "Primary endpoint, change in LVEF at 6 months by independent core laboratory: LVEF rose from 36% (95% CI, 33-39) to 46% (95% CI, 44-49) with conduction system pacing (P < .001) and from 34% (95% CI, 31-36) to 46% (95% CI, 43-49) with biventricular pacing (P < .001); between-group difference 0.4% (95% CI, -3.1 to 3.8; P = .002 for non-inferiority). Secondary endpoints: paced QRS mean difference -14 ms (95% CI, -19 to -9; P < .001) favouring conduction system pacing, and significantly shorter procedural and fluoroscopy times with conduction system pacing (figures not reported). Changes in left ventricular volumes, clinical parameters, and the composite of worsening heart failure or cardiovascular death were comparable between groups (figures, 95% CIs and P values not reported).",
+   "key_results": [
+    "Primary endpoint between-group LVEF difference at 6 months: 0.4% (95% CI, -3.1 to 3.8; P = .002 for non-inferiority).",
+    "LVEF with conduction system pacing improved from 36% (95% CI, 33-39) to 46% (95% CI, 44-49), P < .001.",
+    "LVEF with biventricular pacing improved from 34% (95% CI, 31-36) to 46% (95% CI, 43-49), P < .001.",
+    "Paced QRS was shorter with conduction system pacing: mean difference -14 ms (95% CI, -19 to -9; P < .001).",
+    "Procedural and fluoroscopy times were significantly shorter with conduction system pacing (durations not reported).",
+    "Left ventricular volumes, clinical parameters and the composite of worsening heart failure or cardiovascular death were comparable between groups (figures not reported)."
+   ],
+   "strengths": [
+    "Randomized head-to-head comparison in a setting where the choice between conduction system and biventricular pacing has rested largely on observational data and operator preference.",
+    "Multicentre design across 10 European centres, so the result is not a single-operator phenomenon.",
+    "The primary echocardiographic endpoint was read by an independent core laboratory, which protects the main outcome from the most likely source of measurement bias in an unblinded pacing trial.",
+    "Intention-to-treat analysis, with a well-defined entry phenotype (LVEF below 50%, QRS 120 ms or less, NT-proBNP above 600 ng/L) that matches the patients in whom this decision actually arises.",
+    "Both arms showed a large and similar absolute LVEF gain of roughly 10 to 12 points, confirming that ablate-and-pace itself works in this population.",
+    "Procedural advantages (shorter paced QRS, shorter procedure and fluoroscopy time) are concrete and favour the less invasive implant."
+   ],
+   "limitations": [
+    "Only 82 patients, so the trial is powered for a surrogate endpoint and cannot address worsening heart failure, hospitalization or death; the statement that clinical outcomes were comparable is uninformative at this sample size.",
+    "The primary endpoint is 6-month LVEF change, a surrogate; durability of lead performance and reverse remodelling beyond 6 months is not addressed.",
+    "The non-inferiority margin is not reported, so the clinical meaning of P = .002 for non-inferiority cannot be judged; the confidence interval for the difference (-3.1 to 3.8) nevertheless excludes any large LVEF penalty.",
+    "Blinding of patients, implanting operators and clinical-endpoint assessors is not reported; only the echocardiographic core laboratory is described as independent.",
+    "Allocation numbers per arm, crossover or bailout rates, and lead revision or threshold data are not reported, which matters because left bundle branch area pacing leads are relatively new.",
+    "Baseline LVEF differed slightly between arms (36% vs 34%), and with 41 or so patients per group small imbalances can influence a change-from-baseline endpoint.",
+    "Numerical values for the secondary endpoints (volumes, clinical parameters, composite events, procedure and fluoroscopy times) are not reported in the abstract, so their magnitude and precision cannot be appraised.",
+    "Enrollment was confined to 10 European centres with presumed conduction system pacing expertise, limiting generalizability to lower-volume implanters; funding source is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For a patient with refractory atrial fibrillation, reduced LVEF and a narrow QRS who is going for atrioventricular node ablation, this trial supports left bundle branch area pacing as a reasonable default instead of a biventricular system: LVEF recovery was equivalent, paced QRS was 14 ms narrower, and the procedure was quicker with less fluoroscopy. The caveats are that the endpoint is a 6-month surrogate in 82 patients, so equivalence for heart failure events and death is unproven, and long-term left bundle lead performance is not addressed here. Reasonable practice is to offer conduction system pacing where operator expertise exists, with biventricular pacing retained as the fallback when lead placement fails, and to keep following these patients for lead integrity."
   }
  },
  "basis": {
   "42838320": "abstract",
   "42836810": "abstract",
-  "42842238": "full text"
+  "42842238": "full text",
+  "42834810": "abstract"
  },
  "candidates": [
   {
