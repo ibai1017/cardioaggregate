@@ -423,11 +423,55 @@
    ],
    "editorial_take": null,
    "practice_implications": "STORM-PE provides the first randomized, patient-centered signal that catheter-based thrombectomy may improve 90-day functional recovery in intermediate-high risk PE, and it is worth knowing when counselling a patient about reperfusion. It is not practice-changing on its own: the functional outcomes are secondary, roughly a third of patients did not complete walk testing, patient-reported dyspnea and quality of life did not differ, and 100 patients cannot speak to mortality or procedural harm. Reserve thrombectomy for patients in whom a PE response team judges the risk-benefit favourable, and await adequately powered trials with hard clinical endpoints before broadening its use."
+  },
+  "42842238": {
+   "bottom_line": "In 27 trials with 88 830 participants, intensive blood pressure lowering reduced major cardiovascular events by 15% per 10-mm Hg lower systolic BP (RR, 0.85; 95% CI, 0.81-0.89) with no heterogeneity by CKD status, and although it increased sustained eGFR declines it did not increase kidney failure (RR, 0.97; 95% CI, 0.84-1.11); because event rates are higher in CKD, absolute benefit was at least as large there.",
+   "design": "Systematic review and meta-analysis of randomized clinical trials (PRISMA-reported). MEDLINE and Embase searched from inception to January 16, 2026. Trial-level relative risks were standardized to a 10-mm Hg lower achieved systolic BP by multiplying each trial's log RR and standard error by 10/d, then pooled by inverse variance weighting. CKD versus non-CKD effects were compared by chi-square heterogeneity tests (1-tailed), with chi-square tests for trend across achieved SBP differences. Risk of bias assessed with Cochrane Risk of Bias tool 2; publication bias by funnel plots and the Egger test. Analyses in R 4.4.3.",
+   "population": "27 parallel-group trials comprising 41 reports and 88 830 adults randomized to specified intensive versus standard BP targets, with at least 1 year of intervention and follow-up; average within-trial follow-up 1 to 8.4 years. Fourteen trials provided CKD data (1142 cardiovascular events among 11 103 patients; 422 kidney failure events among 5855 patients) and 19 trials provided non-CKD data (4498 cardiovascular events among 76 785 participants; 158 kidney failure events among 31 647 participants). Excluded: trials of non-BP-target interventions, trials randomizing to drugs rather than targets, crossover or cluster trials, and trials in hospitalized, pregnant, dialysis or acute-setting patients. Achieved SBP reduction was similar in CKD and non-CKD populations (11.1 vs 11.2 mm Hg). Trial-level achieved between-group SBP differences ranged from 1.3 to 15.4 mm Hg. Intensive SBP targets were most often less than 120 mm Hg (7 of 27, 26%) or less than 130 mm Hg (7 of 27, 26%); 4 trials used diastolic BP and 2 used mean arterial pressure targets. Sixteen studies were at low risk of bias and 11 had some concerns.",
+   "intervention": "Randomized allocation to an intensive BP target, with effects standardized per 10-mm Hg lower achieved systolic BP.",
+   "comparison": "Randomized allocation to a standard (less intensive) BP target in the same trials.",
+   "outcomes": "Primary outcome, major cardiovascular events as defined by each trial (5640 events in 24 trials): RR per 10-mm Hg lower SBP 0.85 (95% CI, 0.81-0.89) overall; 0.89 (95% CI, 0.81-0.99) in CKD populations versus 0.84 (95% CI, 0.80-0.88) in non-CKD populations, CKD versus non-CKD heterogeneity P = .26. Within-subgroup heterogeneity by Cochran Q: CKD P = .65, non-CKD P = .01. Key secondary outcome, kidney failure (580 events in 11 trials, 37 502 participants): RR per 10-mm Hg lower SBP 0.97 (95% CI, 0.84-1.11), CKD versus non-CKD heterogeneity P = .77; within-subgroup Cochran Q CKD P = .67, non-CKD P = .84. Combining within-trial and posttrial follow-up (1331 outcomes): RR 0.93 (95% CI, 0.84-1.02).",
+   "key_results": [
+    "Major cardiovascular events: RR per 10-mm Hg lower SBP 0.85 (95% CI, 0.81-0.89); 5640 events in 24 trials.",
+    "No heterogeneity by CKD status for cardiovascular events: CKD RR 0.89 (95% CI, 0.81-0.99) vs non-CKD RR 0.84 (95% CI, 0.80-0.88), P = .26.",
+    "Estimated absolute cardiovascular benefit overall was 3.0 (SE 0.4) outcomes avoided per 1000 person-years; by subgroup it was 4.2 (SE 1.2) in CKD vs 2.7 (SE 0.4) in non-CKD per 1000 person-years, P = .24. (The published abstract gives the CKD figure as 4.3 [1.2]; the full text reports 4.2 [1.2].)",
+    "Kidney failure: no effect, RR per 10-mm Hg lower SBP 0.97 (95% CI, 0.84-1.11); and RR 0.93 (95% CI, 0.84-1.02) combining within-trial and posttrial data (1331 outcomes).",
+    "Sustained eGFR declines were increased: 30% or greater decline RR 1.42 (95% CI, 1.28-1.58) and 40% or greater decline RR 1.47 (95% CI, 1.30-1.66) per 10-mm Hg lower SBP.",
+    "No significant increase in 50% or greater sustained eGFR decline (RR 1.29; 95% CI, 0.94-1.76) or in the composite of doubling of serum creatinine or kidney failure (RR 0.97; 95% CI, 0.83-1.14).",
+    "With posttrial follow-up, doubling of serum creatinine appeared increased (RR 1.15; 95% CI, 1.04-1.27; 4 trials) without an increase in kidney failure (RR 0.93; 95% CI, 0.84-1.02; 12 trials).",
+    "Exploratory all-cause mortality (2737 deaths in 24 trials): RR per 10-mm Hg lower SBP 0.89 (95% CI, 0.83-0.95), with no evidence of heterogeneity by CKD status.",
+    "Cardiovascular events in CKD were concentrated in a few trials: 819 of 1142 events (72%) came from 4 trials (SPRINT-CKD 254 [22%], ACCORD-CKD 240 [21%], HOT-CKD 176 [15%], AASK 149 [13%]); similarly 487 of 580 kidney failure events (84%) came from AASK, MDRD, ACCORD and REIN-2.",
+    "Sensitivity analyses without standardization and excluding trials with fewer than 500 participants gave similar results."
+   ],
+   "strengths": [
+    "Large and current evidence base: 27 randomized trials and 88 830 participants, incorporating three recently reported large trials (ESPRIT n = 11 255, BPROAD n = 12 821, STEP n = 8511) that add 32 587 participants including 1843 with CKD, and increasing CKD cardiovascular events by more than 30% over the previous Cochrane review (1142 vs 693).",
+    "Restriction to trials randomizing to BP targets rather than to specific drugs isolates the effect of BP lowering itself rather than off-target drug effects.",
+    "Standardizing each trial to a 10-mm Hg achieved SBP difference addresses the wide between-trial variation in achieved separation (1.3 to 15.4 mm Hg) and makes CKD and non-CKD comparisons interpretable; achieved reduction was near-identical in the two populations (11.1 vs 11.2 mm Hg).",
+    "Analysing the whole trial population before testing for CKD effect modification is methodologically sounder than a CKD-only synthesis, and it explains why this analysis differs from the Cochrane review that found no cardiovascular benefit in CKD (HR, 1.00; 95% CI, 0.87-1.15).",
+    "Duplicate independent screening, extraction and formal Cochrane Risk of Bias 2 assessment, with unpublished CKD subgroup data obtained directly from the MDRD, AASK and ESPRIT investigators.",
+    "Kidney failure, a hard but late-accruing endpoint, was strengthened by adding up to 10 years of posttrial follow-up from 5 trials, giving 1331 events rather than 580.",
+    "Prespecified sensitivity analyses (unstandardized estimates, excluding trials under 500 participants) and funnel plot assessment were all concordant with the main results."
+   ],
+   "limitations": [
+    "Trial-level (tabular) rather than individual participant data, so the authors could not analyse components of the composite cardiovascular endpoint or subgroups by diabetes status, eGFR category or albuminuria.",
+    "Residual uncertainty specifically for eGFR below 30 mL/min/1.73 m2, where trial data remain sparse; this is precisely the group in which guidelines disagree.",
+    "Some participants counted as non-CKD probably had occult CKD, which would dilute any true CKD versus non-CKD difference and reduce power for the heterogeneity tests; the P = .26 interaction is therefore weak evidence of homogeneity rather than proof of it.",
+    "Each trial's own definition of major cardiovascular events was used, and trials differed in BP measurement method and in whether systolic, diastolic or mean arterial pressure was targeted, adding heterogeneity (non-CKD Cochran Q P = .01).",
+    "The standardization method assumes a log-linear BP-outcome relationship and that all benefit is mediated by BP lowering alone; it also means the headline RR is a per-10-mm Hg construct rather than the effect of any single target.",
+    "Evidence is dominated by a handful of trials: 4 trials supplied 72% of CKD cardiovascular events and 84% of kidney failure events, so the pooled estimates are not as independent as the trial count suggests.",
+    "Funnel plots showed some asymmetry for cardiovascular events (though the formal test was nonsignificant), raising the possibility of small-study or publication effects.",
+    "Harms other than kidney endpoints were not meta-analysed here; the increase in acute kidney injury seen in SPRINT (204/4678 [4.4%] vs 120/4683 [2.6%]; HR, 1.71; P < .001) and the hypotension, syncope and fall risks noted from other meta-analyses are discussed rather than quantified.",
+    "One-tailed P values for heterogeneity and no prespecified significance threshold, with many outcomes examined and no multiplicity adjustment, so the secondary kidney findings are best read as exploratory.",
+    "All-cause mortality was explicitly exploratory, and funding sources for this meta-analysis are not reported in the material provided."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For cardiovascular risk reduction, CKD is not a reason to accept a higher BP target: the relative benefit per 10-mm Hg is the same as in people without CKD, and because CKD patients have more events the absolute gain is at least as large (4.2 vs 2.7 events avoided per 1000 person-years). Mortality moved in the same direction (RR, 0.89; 95% CI, 0.83-0.95). The kidney signal needs the right interpretation: intensive treatment increases 30% and 40% sustained eGFR declines, plausibly a haemodynamic effect of the extra diuretic and calcium-channel blocker use needed to reach lower targets, and it did not translate into more kidney failure across 1331 events including long-term posttrial follow-up. Practically, pursue an intensive target in CKD rather than backing off, but monitor BP, eGFR and electrolytes closely after each intensification, do not abandon the strategy for an expected early eGFR dip, and stay alert for acute kidney injury, hypotension, syncope and falls. Uncertainty remains for eGFR below 30 mL/min/1.73 m2, where dedicated trials are still needed."
   }
  },
  "basis": {
   "42838320": "abstract",
-  "42836810": "abstract"
+  "42836810": "abstract",
+  "42842238": "full text"
  },
  "candidates": [
   {
