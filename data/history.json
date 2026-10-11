@@ -1,0 +1,65 @@
+{
+ "articles": {
+  "42833794": {
+   "digest": "2026-10-10",
+   "journal": "JACC Cardiovasc Imaging",
+   "title": "Comprehensive Aortic Stenosis Characterization Using Multiview Deep Learning.",
+   "url": "https://doi.org/10.1016/j.jcmg.2026.07.013"
+  },
+  "42834810": {
+   "digest": "2026-10-10",
+   "journal": "Eur Heart J",
+   "title": "Biventricular vs conduction system pacing after atrioventricular node ablation for heart failure with atrial fibrillation: the CONDUCT-AF trial.",
+   "url": "https://doi.org/10.1093/eurheartj/ehag699"
+  },
+  "42836281": {
+   "digest": "2026-10-10",
+   "journal": "Circulation",
+   "title": "Incidence, Process of Care, and Outcomes of In-Hospital Cardiac Arrest in China: A Multicenter Prospective Registry Study.",
+   "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.080404"
+  },
+  "42836556": {
+   "digest": "2026-10-10",
+   "journal": "Eur Heart J Acute Cardiovasc Care",
+   "title": "Prognostic implications of complications during VA-ECMO for cardiogenic shock.",
+   "url": "https://doi.org/10.1093/ehjacc/zuag127"
+  },
+  "42836810": {
+   "digest": "2026-10-10",
+   "journal": "JACC Cardiovasc Interv",
+   "title": "Mechanical Thrombectomy Versus Anticoagulation Alone in Intermediate-High Risk PE: Improved Functional 90-Day Outcomes in STORM-PE RCT.",
+   "url": "https://doi.org/10.1016/j.jcin.2026.07.042"
+  },
+  "42838320": {
+   "digest": "2026-10-10",
+   "journal": "Heart Rhythm",
+   "title": "Efficacy and Safety of Flecainide Versus Amiodarone for the Cardioversion of paroxysmal Atrial Fibrillation in Patients with Coronary Artery Disease without evidence of residual ischemia: The FLECA-ED Randomized Clinical Trial.",
+   "url": "https://doi.org/10.1016/j.hrthm.2026.09.051"
+  },
+  "42841215": {
+   "digest": "2026-10-10",
+   "journal": "Circ Arrhythm Electrophysiol",
+   "title": "Role of Lifestyle and Risk Factor Modification Clinics in Patients With Atrial Fibrillation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "url": "https://doi.org/10.1161/CIRCEP.126.015055"
+  },
+  "42842238": {
+   "digest": "2026-10-10",
+   "journal": "JAMA Cardiol",
+   "title": "Intensive vs Standard Blood Pressure Lowering in People With and Without Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+   "url": "https://doi.org/10.1001/jamacardio.2026.4445"
+  },
+  "42848330": {
+   "digest": "2026-10-10",
+   "journal": "JACC Clin Electrophysiol",
+   "title": "Adjunctive Low-Voltage Area Ablation Reduces Atrial Fibrillation Recurrence in Persistent Atrial Fibrillation: A Systematic Review, Meta-Analysis, and Trial Sequential Analysis.",
+   "url": "https://doi.org/10.1016/j.jacep.2026.08.023"
+  },
+  "42853165": {
+   "digest": "2026-10-10",
+   "journal": "JACC Heart Fail",
+   "title": "Artificial Intelligence-Enabled Detection and Management of Physiological Instability in Heart Failure: Results of the Randomized LINK-HF2 Trial.",
+   "url": "https://doi.org/10.1016/j.jchf.2026.103422"
+  }
+ },
+ "editorials": {}
+}

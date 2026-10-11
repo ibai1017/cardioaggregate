@@ -1,6 +1,6 @@
 {
  "date": "2026-10-10",
- "finalized": false,
+ "finalized": true,
  "emailed": false,
  "queue": [
   "42842238",
