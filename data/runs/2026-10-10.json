@@ -688,6 +688,42 @@
    ],
    "editorial_take": null,
    "practice_implications": "These data quantify what shock teams observe: once a complication occurs on VA-ECMO, particularly a neurologic one, the prognosis changes decisively, and the risk accumulates with each additional complication. Practically that argues for aggressive complication prevention as the main modifiable lever during support (meticulous cannulation and distal perfusion, attention to differential hypoxia and left ventricular distension, anticoagulation protocols, and early neurologic surveillance so injury is detected rather than inferred late), and for complication status to be an explicit input to daily decisions about escalation, bridging to durable support, or transition to comfort care. The numbers are also useful for family conversations, since absolute 30-day mortality of roughly 49% with no complications versus 93% after a neurologic complication is more informative than a generic survival figure. Because the design is observational and withdrawal of support is entangled with the outcome, these figures should inform prognostication, not be treated as the benefit available from preventing the complication."
+  },
+  "42833794": {
+   "bottom_line": "EchoNet-AS, an open-source deep learning framework that combines B-mode valve-motion video analysis with automated Doppler peak velocity measurement, discriminated severe aortic stenosis with an AUC of 0.964 (95% CI, 0.952-0.973) in a held-out test set and 0.985 to 0.989 across two external health systems, outperforming single-view or Doppler-only models.",
+   "design": "Retrospective model development and validation study (labelled a validation study). A video-based convolutional neural network for valve motion was combined with segmentation models that automate aortic valve peak velocity measurement and classify aortic stenosis severity, in an end-to-end open-source pipeline. Validation comprised a held-out internal test set, a temporally distinct internal cohort, and two external health-system cohorts.",
+   "population": "Training: 210,193 images from 16,076 echocardiographic studies at Kaiser Permanente Northern California (KPNC). Internal validation: 1,588 held-out test studies plus a temporally distinct cohort of 19,202 studies. External validation: 2,415 studies from Stanford Healthcare (SHC) and 9,038 studies from Cedars-Sinai Medical Center (CSMC). Patient-level numbers, age, sex, aortic stenosis prevalence and distribution of severity grades are not reported in the abstract.",
+   "intervention": "Automated assessment of aortic stenosis severity by EchoNet-AS, integrating multiple echocardiographic views (B-mode videos) with Doppler-derived peak velocity.",
+   "comparison": "Models using single views or Doppler measurements alone; the reference standard against which severity was adjudicated is not reported (presumably clinical echocardiographic interpretation, but this is not stated).",
+   "outcomes": "Discrimination of severe aortic stenosis by area under the receiver-operating characteristic curve: 0.964 (95% CI, 0.952-0.973) in the KPNC held-out test cohort; 0.986 (0.983-0.989) in the temporally distinct KPNC cohort; 0.985 (0.975-0.992) at Stanford Healthcare; 0.989 (0.986-0.992) at Cedars-Sinai Medical Center. Performance was reported as superior to single-view or Doppler-only models, but those comparator AUCs, the between-model differences and P values are not reported. Calibration, sensitivity, specificity and predictive values at any operating threshold are not reported.",
+   "key_results": [
+    "Severe aortic stenosis discrimination, KPNC held-out test set: AUC 0.964 (95% CI, 0.952-0.973).",
+    "Temporally distinct KPNC cohort (19,202 studies): AUC 0.986 (0.983-0.989).",
+    "External validation at Stanford Healthcare (2,415 studies): AUC 0.985 (0.975-0.992).",
+    "External validation at Cedars-Sinai Medical Center (9,038 studies): AUC 0.989 (0.986-0.992).",
+    "Combining multiple echocardiographic videos with Doppler measurements was superior to single-view or Doppler-only models (comparator figures not reported).",
+    "Trained on 210,193 images from 16,076 studies; the pipeline is open-source and end-to-end."
+   ],
+   "strengths": [
+    "Large training set and, more importantly, genuine external validation in two independent health systems, which is the step most published echocardiographic AI models skip.",
+    "A temporally distinct validation cohort tests for dataset drift over time, not just for patient-level overfitting.",
+    "Performance was consistent across all four cohorts (AUC 0.964 to 0.989) with tight confidence intervals, so the result is not a single-site artefact.",
+    "The design is conceptually right for the clinical problem: aortic stenosis grading integrates valve appearance and motion with Doppler haemodynamics, and this is the first framework to combine both rather than one or the other.",
+    "The authors demonstrate the incremental value of multiview integration over single-view and Doppler-only approaches, so the added complexity is justified rather than assumed.",
+    "Open-source release allows independent replication and local revalidation, which is essential before any clinical deployment."
+   ],
+   "limitations": [
+    "Retrospective and purely diagnostic-accuracy: there is no evidence that using the model changes management, detects stenosis earlier, or improves any patient outcome.",
+    "The reference standard is not reported. If the label is the clinical report, the model is being trained and tested against human interpretation and inherits its errors, and it cannot exceed that ceiling.",
+    "Only discrimination (AUC) is reported. Calibration, sensitivity, specificity and positive and negative predictive value at a usable threshold are absent, and AUC alone does not tell a clinician how the tool would behave on a given study.",
+    "Severe aortic stenosis versus the rest is the easy task; the clinically difficult cases are moderate stenosis, low-flow low-gradient disease, bicuspid valves, concomitant regurgitation and poor acoustic windows, and performance in those subgroups is not reported.",
+    "Study-level rather than patient-level reporting, with no demographics, aortic stenosis prevalence or severity distribution, so spectrum bias cannot be assessed and the predictive values in a given population cannot be derived.",
+    "Comparator model performance is asserted as inferior but not quantified, and no statistical comparison is reported.",
+    "It is unclear how studies with incomplete or non-diagnostic views were handled; excluding uninterpretable studies would inflate apparent performance relative to real-world use.",
+    "All validation sites are large US systems with presumably high-quality imaging; generalizability to point-of-care, community or handheld acquisition is untested. Funding and conflicts are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This is a well-validated diagnostic tool, not yet a clinical practice change. The near-ceiling discrimination for severe aortic stenosis across four cohorts, including two external health systems, makes EchoNet-AS a credible candidate for automated quality control and triage: flagging studies whose images and Doppler suggest severe stenosis for prompt reading, screening echocardiographic archives for undiagnosed severe disease, and supporting less experienced readers. It should not be used to grade stenosis autonomously. The reported metric is discrimination only, with no calibration or threshold performance, the reference standard appears to be human interpretation, and the genuinely hard problems in aortic stenosis (moderate disease, low-flow low-gradient states, poor windows) are not addressed. Any adoption should involve local revalidation, which the open-source release makes feasible, with reading physicians retaining the final grade."
   }
  },
  "basis": {
@@ -699,7 +735,8 @@
   "42848330": "abstract",
   "42841215": "abstract",
   "42836281": "abstract",
-  "42836556": "abstract"
+  "42836556": "abstract",
+  "42833794": "abstract"
  },
  "candidates": [
   {
