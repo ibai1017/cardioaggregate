@@ -50,7 +50,188 @@
   "42828419",
   "42842238"
  ],
- "triage": {},
+ "triage": {
+  "42842238": {
+   "pmid": "42842238",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "hypertension",
+   "sample_size": 88830,
+   "impact": 4,
+   "reason": "Meta-analysis of 27 trials showing intensive BP lowering cuts cardiovascular events by 15% per 10 mm Hg regardless of CKD status, directly supporting intensive targets in CKD."
+  },
+  "42841340": {
+   "pmid": "42841340",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 5987,
+   "impact": 1,
+   "reason": "Cochrane review of daily sedation interruption in mechanically ventilated patients addresses ICU sedation practice rather than a cardiology question."
+  },
+  "42834810": {
+   "pmid": "42834810",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 82,
+   "impact": 3,
+   "reason": "Small randomized non-inferiority trial finding conduction system pacing equivalent to biventricular pacing after AV node ablation, relevant but underpowered for clinical endpoints."
+  },
+  "42844166": {
+   "pmid": "42844166",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "imaging",
+   "sample_size": 532,
+   "impact": 1,
+   "reason": "Design and rationale paper for the LA-HCM trial with no results yet, so it cannot change practice."
+  },
+  "42853165": {
+   "pmid": "42853165",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 171,
+   "impact": 3,
+   "reason": "Randomized feasibility trial of AI-guided wearable monitoring after heart failure discharge that was feasible but showed no reduction in exploratory clinical events."
+  },
+  "42852467": {
+   "pmid": "42852467",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 1075,
+   "impact": 3,
+   "reason": "Post hoc STRONG-HF analysis showing that reaching target GDMT doses is diuretic-sparing, a useful but non-randomized observation."
+  },
+  "42848330": {
+   "pmid": "42848330",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1487,
+   "impact": 3,
+   "reason": "Meta-analysis of seven RCTs showing adjunctive low-voltage area ablation reduces persistent AF recurrence, though with substantial heterogeneity."
+  },
+  "42841215": {
+   "pmid": "42841215",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 3364,
+   "impact": 3,
+   "reason": "Meta-analysis of 11 RCTs supporting lifestyle and risk factor modification clinics for reducing AF recurrence after ablation and improving quality of life."
+  },
+  "42838320": {
+   "pmid": "42838320",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 87,
+   "impact": 4,
+   "reason": "Randomized trial challenging the post-CAST contraindication to flecainide in stable coronary disease, with markedly faster cardioversion than amiodarone despite small size."
+  },
+  "42836810": {
+   "pmid": "42836810",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 100,
+   "impact": 4,
+   "reason": "First randomized comparison of mechanical thrombectomy versus anticoagulation alone in intermediate-high risk PE using patient-centered functional outcomes."
+  },
+  "42836296": {
+   "pmid": "42836296",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 598,
+   "impact": 3,
+   "reason": "Post hoc PREVENT analysis suggesting preventive PCI benefit is confined to NIRS-defined lipid-rich plaques, a strong signal but hypothesis-generating."
+  },
+  "42834820": {
+   "pmid": "42834820",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1172,
+   "impact": 3,
+   "reason": "Prespecified non-randomized comparison of three potassium-raising regimens within POTCAST, showing similar potassium rises and no significant differences between regimens."
+  },
+  "42831529": {
+   "pmid": "42831529",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "structural_valve",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review proposing a phenotype framework to reconcile CHAMPION-AF and CLOSURE-AF, conceptually useful but adds no new data."
+  },
+  "42828419": {
+   "pmid": "42828419",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 1574,
+   "impact": 2,
+   "reason": "DANAMI-3 sub-study linking the ORBI risk score to inflammation, infarct size and 10-year mortality, though it discriminated worse than age alone."
+  },
+  "42836281": {
+   "pmid": "42836281",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 17602,
+   "impact": 3,
+   "reason": "Large multicentre Chinese registry documenting in-hospital cardiac arrest incidence and very low survival, valuable for global benchmarking of resuscitation systems."
+  },
+  "42855844": {
+   "pmid": "42855844",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "heart_failure",
+   "sample_size": 232592,
+   "impact": 1,
+   "reason": "Mechanistic mouse and cell work on palmitic acid and KDM5A with a UK Biobank association, preclinical and not actionable for clinicians."
+  },
+  "42842282": {
+   "pmid": "42842282",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "hypertension",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Short report on hypertension management in one Cuban city with no abstract provided, so no results can be assessed."
+  },
+  "42842241": {
+   "pmid": "42842241",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Rotterdam Study report on unrecognized myocardial infarction prevalence with no abstract provided, so no results can be assessed."
+  },
+  "42837202": {
+   "pmid": "42837202",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 1548,
+   "impact": 2,
+   "reason": "Prespecified Multivessel TALENT substudy showing core lab QCA reclassifies many operator-declared device successes, mainly of methodological interest."
+  },
+  "42853981": {
+   "pmid": "42853981",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 71694,
+   "impact": 2,
+   "reason": "Large Italian administrative cohort describing cardio-renal-metabolic disease trajectories, descriptive epidemiology without a clear practice implication."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
