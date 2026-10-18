@@ -699,6 +699,39 @@
    ],
    "editorial_take": null,
    "practice_implications": "For selected, otherwise stable patients whose only reason to remain in hospital is ongoing parenteral diuresis, subcutaneous furosemide via a wearable minipump with structured 3-day review can plausibly free several hospital days without an excess of serious adverse events. The trial is small, open-label and shows a doubling of heart failure readmissions that it cannot rule out as real, so this is best viewed as a promising, resource-dependent pathway for carefully chosen patients and systems that can guarantee close follow-up, rather than an established standard."
+  },
+  "42861574": {
+   "bottom_line": "In a systematic review and meta-analysis of 37 studies (n = 1,298,291), physical activity was associated with 22% lower odds of atrial fibrillation in the general population (OR 0.78; 95% CI 0.68, 0.89) while athlete status was associated with substantially higher odds (OR 2.74; 95% CI 1.72, 4.39); spline modelling placed the greatest benefit at 26 MET-hr/wk and a reversal to increased odds beyond 78 MET-hr/wk, roughly 6-7 hours per week of endurance training.",
+   "design": "Systematic review and meta-analysis with weighted random-effects pooling and a weighted restricted cubic spline dose-response model of logarithmic odds; four databases searched from January 1990 to June 2025.",
+   "population": "37 included studies comprising 1,298,291 individuals, from general populations through to athletes; the dose-response analysis used 26 studies (n = 1,022,790).",
+   "intervention": "Physical activity exposure, standardised across studies to metabolic equivalent of task hours per week (MET-hr/wk), including athlete status as a separate exposure category.",
+   "comparison": "Sedentary control groups within each included study.",
+   "outcomes": "Atrial fibrillation incidence or prevalence, expressed as pooled odds ratios. In the general population, physical activity was associated with a 22% reduction in odds of AF (22 studies; OR 0.78; 95% CI 0.68, 0.89). Athlete status was associated with increased odds of AF (15 studies; OR 2.74; 95% CI 1.72, 4.39). P values were not reported.",
+   "key_results": [
+    "General population: physical activity associated with 22% lower odds of atrial fibrillation (22 studies; OR 0.78; 95% CI 0.68, 0.89).",
+    "Athlete status: higher odds of atrial fibrillation (15 studies; OR 2.74; 95% CI 1.72, 4.39).",
+    "Dose-response (26 studies; n = 1,022,790): greatest reduction in odds of AF at 26 MET-hr/wk of physical activity.",
+    "Doses beyond 78 MET-hr/wk were associated with increased odds of AF, described by the authors as the equivalent of 6-7 hours per week of endurance training.",
+    "The overall relationship was U-shaped across the full continuum of exposure."
+   ],
+   "strengths": [
+    "Very large pooled sample (1,298,291 individuals across 37 studies), giving precision at both ends of the exposure range.",
+    "Exposures standardised to MET-hr/wk, allowing heterogeneous activity measures to be placed on one quantitative scale and producing an actionable numeric threshold.",
+    "Spline modelling of the full continuum rather than category comparisons, which is the only way to locate the point at which the curve reverses.",
+    "Broad search across four databases over a 35-year window, with athletes analysed separately from general populations.",
+    "Addresses a question patients ask directly - how much endurance exercise is too much - and translates the threshold into hours of training per week."
+   ],
+   "limitations": [
+    "Pooling of observational studies only: the associations cannot establish that high exercise volume causes atrial fibrillation, and residual confounding (height, body size, alcohol, sleep apnoea, hypertension) is likely.",
+    "Both incidence and prevalence studies were combined and results are reported as odds ratios, mixing study designs and inviting bias in the pooled estimate.",
+    "Detection bias is a major concern at the extremes: athletes are more monitored and more symptom-aware, and AF ascertainment methods are likely to differ between athlete cohorts and general populations.",
+    "Physical activity is overwhelmingly self-reported in epidemiological cohorts, so the MET-hr/wk conversion carries substantial measurement error, and the 26 and 78 MET-hr/wk thresholds are modelled point estimates presented without confidence intervals.",
+    "Heterogeneity statistics (I2), P values, publication-bias assessment, risk-of-bias ratings and whether the review was prospectively registered are not reported in the abstract.",
+    "The athlete estimate is imprecise (95% CI 1.72, 4.39) and 'athlete' is a heterogeneous category spanning very different sports, sexes, ages and training histories.",
+    "Funding is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This supports the standard advice that regular moderate activity protects against atrial fibrillation, and provides a number to use in conversation: benefit appears maximal around 26 MET-hr/wk, with a signal of increased AF odds beyond roughly 78 MET-hr/wk or 6-7 hours per week of endurance training. Because the evidence is observational and vulnerable to detection bias, it should temper rather than forbid high-volume training: a reason to discuss AF risk, symptoms and modifiable co-factors such as alcohol with endurance athletes, and reassurance that nothing here argues against recommending ordinary exercise volumes to patients at risk of AF."
   }
  },
  "basis": {
@@ -706,7 +739,8 @@
   "42866879": "abstract",
   "42862588": "abstract",
   "42872914": "abstract",
-  "42872757": "abstract"
+  "42872757": "abstract",
+  "42861574": "abstract"
  },
  "candidates": [
   {
