@@ -800,6 +800,41 @@
    ],
    "editorial_take": null,
    "practice_implications": "Nothing here changes how to treat an individual woman with heart failure, but two points are worth carrying into clinic. First, the evidence base for HFrEF therapy is drawn from cohorts only about one-fifth female, which should be acknowledged rather than ignored when extrapolating - though the interaction estimates give no reason to expect less benefit in women, if anything the opposite. Second, the signal of possibly greater relative benefit, taken with known sex differences in drug exposure at a given dose, reinforces that women should be titrated to guideline-directed target doses rather than left at lower doses, and strengthens the case for trials powered to examine sex-specific dosing and response."
+  },
+  "42862105": {
+   "bottom_line": "In 56,362 patients aged 45 years or older undergoing non-cardiac surgery at two university hospitals, established preoperative statin therapy was associated with lower 365-day mortality (HR 0.81; 95% CI 0.73-0.90; absolute risk difference -1.2 percentage points; number needed to treat 83) in a dose-dependent fashion (high-intensity HR 0.71 [95% CI 0.60-0.83]; low/intermediate-intensity HR 0.84 [95% CI 0.74-0.96]), while the 30-day association was directionally similar but not significant (HR 0.78; 95% CI 0.57-1.07).",
+   "design": "Retrospective observational cohort study (2016-2023) at two university hospitals, using inverse probability of treatment weighting with random forest-estimated propensity scores targeting the average treatment effect in the treated, with associations estimated by weighted Cox regression.",
+   "population": "56,362 patients aged 45 years or older undergoing non-cardiac surgery at two university hospitals between 2016 and 2023. Overall, 372 patients (0.6%) died within 30 days and 3,735 (6.6%) within 365 days.",
+   "intervention": "Established preoperative statin exposure, assessed as status (any vs none), intensity (high vs low/intermediate) and regimen (high vs low/intermediate vs none).",
+   "comparison": "No preoperative statin therapy.",
+   "outcomes": "Primary outcomes were 30- and 365-day mortality. Statin therapy was associated with a non-significant reduction in 30-day mortality (HR 0.78; 95% CI 0.57-1.07) and with lower 365-day mortality (HR 0.81; 95% CI 0.73-0.90; absolute risk difference -1.2 percentage points; number needed to treat 83). P values were not reported.",
+   "key_results": [
+    "30-day mortality: HR 0.78 (95% CI 0.57-1.07) - directionally consistent but not statistically significant.",
+    "365-day mortality: HR 0.81 (95% CI 0.73-0.90), absolute risk difference -1.2 percentage points, number needed to treat 83.",
+    "Dose-response versus no statin at 365 days: high-intensity therapy HR 0.71 (95% CI 0.60-0.83) with absolute risk difference -2.3 points; low/intermediate-intensity HR 0.84 (95% CI 0.74-0.96).",
+    "Event numbers: 372 deaths (0.6%) at 30 days and 3,735 deaths (6.6%) at 365 days.",
+    "All covariates were balanced after weighting, and findings were consistent across sensitivity analyses."
+   ],
+   "strengths": [
+    "Large cohort (56,362 patients) with enough 1-year deaths (3,735) to estimate the long-term association precisely.",
+    "Addresses a question that randomized evidence cannot currently answer, since trials of de novo perioperative statin initiation were discredited by research misconduct.",
+    "Modern causal-inference approach: inverse probability of treatment weighting with machine-learning (random forest) propensity scores targeting the average treatment effect in the treated, with documented covariate balance after weighting.",
+    "Internally coherent dose-response gradient (high-intensity HR 0.71 vs low/intermediate HR 0.84), which strengthens the case for a real biological effect rather than pure confounding.",
+    "Reports absolute risk differences and a number needed to treat alongside hazard ratios, making the magnitude interpretable.",
+    "Findings stated to be consistent across sensitivity analyses."
+   ],
+   "limitations": [
+    "Observational design: statin users are systematically different from non-users, and the central threat here is healthy-user and healthy-adherer bias, which propensity weighting on measured covariates cannot remove.",
+    "Confounding by indication runs in both directions - statin users have more atherosclerotic disease but are also more engaged with medical care - so residual confounding is likely and the direction unpredictable.",
+    "Exposure was defined by preoperative prescription status; actual perioperative continuation, adherence, duration of prior therapy, LDL cholesterol achieved and postoperative resumption are not reported.",
+    "A survival benefit at 365 days without a significant 30-day effect is more consistent with the known long-term benefit of statins in patients with vascular disease than with a specific perioperative mechanism; the window of attribution is unclear.",
+    "Two university hospitals only, so case mix, surgical practice and prescribing patterns may not generalise.",
+    "Composite 'morbidity' outcomes promised in the title are not reported in the abstract, nor are cause-specific mortality, myocardial injury after non-cardiac surgery, or statin-related harms such as myopathy and rhabdomyolysis.",
+    "No P values are given, the covariate set used for weighting is not described, and funding is not reported.",
+    "The authors themselves call for randomized confirmation; until then the number needed to treat of 83 should not be read as a causal estimate."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This does not justify starting a statin solely to cover an operation, but it adds weight to the practical rule of not stopping one. For patients already on statin therapy who are scheduled for non-cardiac surgery, the data support continuing it through the perioperative period - and, where indicated on standard cardiovascular grounds, continuing at high intensity rather than de-escalating. The absence of a convincing 30-day signal suggests the benefit observed is largely the ordinary long-term benefit of statin therapy in a high-risk surgical population, which is itself a reason to use the surgical episode as an opportunity to review and optimise lipid-lowering treatment."
   }
  },
  "basis": {
@@ -810,7 +845,8 @@
   "42872757": "abstract",
   "42861574": "abstract",
   "42888496": "abstract",
-  "42876202": "abstract"
+  "42876202": "abstract",
+  "42862105": "abstract"
  },
  "candidates": [
   {
