@@ -161,3 +161,26 @@ def test_api_driver(env, monkeypatch):
 def test_prescore_rewards_editorials_and_flagship_journals():
     trial, _ = parse_articles((FIXTURES / "sample.xml").read_bytes())
     assert prescore(trial, True, 1) > prescore(trial, False, 1) > prescore(trial, False, 2)
+
+
+def test_email_has_link_and_goes_out_once(env, monkeypatch):
+    cli, write, cfg, _ = env
+    from cardioaggregate import emailer
+
+    sent = []
+    monkeypatch.setattr(emailer, "send_digest", lambda subject, html, text: sent.append((subject, html, text)) or True)
+    cli("prepare")
+    cli("save-triage", write("t.json", [RATING]))
+    cli("save-summary", write("s.json", SUMMARY))
+    cli("finalize")
+    assert len(sent) == 1
+    subject, html, text = sent[0]
+    run = run_mod.latest_run(cfg)
+    url = f"https://ibai1017.github.io/cardioaggregate/digests/{run.date}.html"
+    assert subject.endswith("1 paper")
+    assert url in html and url in text
+    assert "Drug X cut CV death" in html
+    assert run.emailed
+
+    cli("email")  # already sent: nothing more
+    assert len(sent) == 1

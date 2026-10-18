@@ -50,7 +50,7 @@ subspecialty: heart_failure | electrophysiology | interventional | structural_va
   cardiac_surgery | congenital | cardio_oncology | general
 sample_size: total analysed as stated in the abstract, or null
 impact: 1 to 5 (5 practice changing landmark, 4 important, 3 solid and relevant,
-  2 incremental, 1 niche)"""
+  2 incremental, 1 niche). Only 4 and 5 reach the digest; follow the rubric's anchors."""
 
 SUMMARY_FORMAT = """Write a JSON file with these keys:
 {"pmid": "...", "bottom_line": "...", "design": "...", "population": "...",
@@ -241,10 +241,14 @@ def cmd_diagnose(cfg: dict, args) -> int:
     start = today - timedelta(days=args.days)
     print(f"PubMed entry dates {start} to {today}\n")
     lost: dict[str, str] = {}
+    no_abstract: list[str] = []
     for j in cfg["journals"]:
         stages = diagnostic_stages(j)
         counts = [pubmed.count(term, start, today) for _, term in stages]
         print(f"{j['abbr']:<34}" + "  ".join(f"{name} {n}" for (name, _), n in zip(stages, counts)))
+        if j.get("tier") == 1:
+            with_abstract = set(pubmed.search(stages[1][1], start, today))
+            no_abstract += [p for p in pubmed.search(stages[0][1], start, today) if p not in with_abstract]
         if j.get("tier") == 1 and len(stages) > 3:
             # Papers that pass the basic checks but fail the topic/design filters.
             kept = set(pubmed.search(stages[-1][1], start, today))
@@ -254,6 +258,10 @@ def cmd_diagnose(cfg: dict, args) -> int:
                     lost[pmid] = j["abbr"]
     full = pubmed.count(build_research_query(cfg["journals"]), start, today)
     print(f"\nFull research query: {full}")
+    if no_abstract:
+        print(f"\nFlagship journal records without an abstract ({len(no_abstract)}):")
+        for a in pubmed.fetch(no_abstract):
+            print(f"  {a.journal_abbr:<22} {', '.join(a.pub_types)[:40]:<40} {a.title[:110]}")
     if lost:
         print(f"\nFlagship journal papers removed by the topic/design filters ({len(lost)}):")
         for a in pubmed.fetch(list(lost))[:150]:

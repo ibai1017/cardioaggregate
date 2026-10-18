@@ -69,16 +69,16 @@ journals:
 
 # Selection rules applied to the model's triage of each candidate.
 # impact is the model's 1 to 5 rating of likely effect on cardiology practice.
+# Only papers that clear these bars make the digest; nothing pads a quiet week.
 selection:
-  min_impact_rct: 3            # primary results of randomized trials
+  min_impact_rct: 4            # primary results of randomized trials
   min_impact_rct_secondary: 4  # post hoc / secondary analyses of trials
-  min_impact_meta: 3           # meta-analyses and systematic reviews
+  min_impact_meta: 4           # meta-analyses and systematic reviews
   large_observational_n: 10000 # "very large" observational threshold
-  min_impact_observational_large: 3
+  min_impact_observational_large: 4
   min_impact_observational_other: 5
-  target_articles: 10          # size of a normal week
-  surge_min_impact: 4          # papers rated this or higher always get in...
-  max_articles: 20             # ...up to this ceiling (e.g. ESC, AHA, ACC weeks)
+  max_articles: 20             # ceiling for conference weeks (ESC, AHA, ACC)
+  busy_week: 12                # flag the week as busy above this many papers
   max_also_screened: 60        # how many near misses to list at the bottom
   max_triage: 80               # Claude only reads the top candidates by free prescore
 
@@ -89,6 +89,9 @@ llm:
   triage_effort: "low"
   summary_effort: "medium"
   triage_batch_size: 40
+
+# Public address of the site, used for the link in the weekly email.
+site_url: "https://ibai1017.github.io/cardioaggregate"
 
 # Where output goes. docs/ is what GitHub Pages serves.
 output_dir: "docs"

@@ -42,7 +42,7 @@ _env = Environment(
 
 
 def render_digest(digest_date, entries, late_editorials, also_screened, screened_count, used_llm,
-                  target_articles=10, preliminary=False) -> str:
+                  busy_week=12, preliminary=False) -> str:
     grouped = {key: [] for key, _ in SECTIONS}
     for e in entries:
         grouped[section_of(e["triage"])].append(e)
@@ -55,7 +55,7 @@ def render_digest(digest_date, entries, late_editorials, also_screened, screened
         also_screened=also_screened,
         screened_count=screened_count,
         used_llm=used_llm,
-        target_articles=target_articles,
+        busy_week=busy_week,
         preliminary=preliminary,
         design_labels=DESIGN_LABELS,
         subspecialty_labels=SUBSPECIALTY_LABELS,
@@ -67,12 +67,27 @@ def render_index(output_dir: Path) -> str:
     return _env.get_template("index.html.j2").render(digests=digests)
 
 
-def render_text(digest_date, entries) -> str:
+def digest_url(cfg: dict, digest_date: str) -> str:
+    return f"{cfg['site_url'].rstrip('/')}/digests/{digest_date}.html"
+
+
+def render_email(digest_date, entries, url) -> tuple[str, str]:
+    """A short email: the link to the page, then each paper's title and bottom line."""
+    return (
+        _env.get_template("email.html.j2").render(digest_date=digest_date, entries=entries, url=url),
+        render_text(digest_date, entries, url),
+    )
+
+
+def render_text(digest_date, entries, url=None) -> str:
     lines = [f"Cardiology digest, week ending {digest_date}", ""]
+    if url:
+        lines += [f"Read it here: {url}", ""]
+    if not entries:
+        lines.append("Nothing met the selection rules this week.")
     for e in entries:
         a, s = e["article"], e["summary"]
         lines.append(f"* {a.title} ({a.journal_abbr})")
-        lines.append(f"  {a.url}")
         if s:
             lines.append(f"  {s.bottom_line}")
         lines.append("")

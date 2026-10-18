@@ -53,11 +53,12 @@ def test_queries_cover_every_journal():
 
 
 def test_selection_rules():
-    assert passes(triage(design="rct", impact=3), RULES)
-    assert not passes(triage(design="rct", impact=2), RULES)
+    assert passes(triage(design="rct", impact=4), RULES)
+    assert not passes(triage(design="rct", impact=3), RULES)
     assert not passes(triage(design="rct_secondary", impact=3), RULES)
     assert passes(triage(design="rct_secondary", impact=4), RULES)
-    assert passes(triage(design="observational", impact=3, n=50_000), RULES)
+    assert passes(triage(design="observational", impact=4, n=50_000), RULES)
+    assert not passes(triage(design="observational", impact=3, n=50_000), RULES)
     assert not passes(triage(design="observational", impact=4, n=2_000), RULES)
     assert not passes(triage(design="rct", impact=5, relevant=False), RULES)
     assert not passes(triage(design="other", impact=5), RULES)
@@ -73,19 +74,18 @@ def _batch(impacts):
     return arts, tri
 
 
-def test_normal_week_fills_to_target():
+def test_quiet_week_is_not_padded():
     arts, tri = _batch([4, 4] + [3] * 30)
     chosen, rest = select(arts, tri, RULES)
-    assert len(chosen) == RULES["target_articles"]
-    assert [t.impact for _, t in chosen][:2] == [4, 4]
-    assert len(rest) == min(30 + 2 - RULES["target_articles"], RULES["max_also_screened"])
+    assert [t.impact for _, t in chosen] == [4, 4]
+    assert len(rest) == min(30, RULES["max_also_screened"])
 
 
 def test_busy_week_keeps_all_high_impact_up_to_ceiling():
     arts, tri = _batch([5] * 3 + [4] * 12 + [3] * 10)
     chosen, _ = select(arts, tri, RULES)
-    assert len(chosen) == 15  # every 4 and 5, no room for 3s
-    assert all(t.impact >= 4 for _, t in chosen)
+    assert len(chosen) == 15
+    assert chosen[0][1].impact == 5
 
     arts, tri = _batch([4] * 40)
     chosen, rest = select(arts, tri, RULES)
@@ -121,7 +121,7 @@ def test_render_digest():
                 "editorials": [editorial], "basis": "abstract", "error": None}]
     html = render_digest("2026-10-04", entries, [], [], 12, True)
     assert "Busy week" not in html
-    assert "Busy week" in render_digest("2026-10-04", entries * 3, [], [], 12, True, target_articles=2)
+    assert "Busy week" in render_digest("2026-10-04", entries * 3, [], [], 12, True, busy_week=2)
     assert "Drug X cut events by 20%." in html
     assert "A New Option for HFpEF?" in html
     assert "n = 6,012" in html

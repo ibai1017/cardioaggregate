@@ -19,7 +19,7 @@ from pathlib import Path
 
 from .history import History
 from .pubmed import Article, PubMed, build_editorial_query, build_research_query
-from .render import render_digest, render_index, render_text
+from .render import digest_url, render_digest, render_email, render_index
 from .schemas import PicoSummary, TriageItem
 from .select import heuristic_triage, prescore, select
 
@@ -244,7 +244,7 @@ def write_digest(run: Run, cfg: dict, preliminary: bool) -> str:
         others[: rules["max_also_screened"]],
         len(run.candidates),
         used_llm=bool(run.triage),
-        target_articles=rules["target_articles"],
+        busy_week=rules["busy_week"],
         preliminary=preliminary,
     )
     output_dir = Path(cfg["output_dir"])
@@ -259,7 +259,7 @@ def finalize(run: Run, cfg: dict, send_email: bool = True) -> None:
     if run.untriaged():
         # Claude did not get through the queue: select with what we have.
         run.reselect(cfg["selection"])
-    html = write_digest(run, cfg, preliminary=False)
+    write_digest(run, cfg, preliminary=False)
 
     history = History(cfg["history_file"])
     late = late_editorials(run, history)
@@ -276,20 +276,19 @@ def finalize(run: Run, cfg: dict, send_email: bool = True) -> None:
     print(f"Finalized digest {run.date}: {len(entries)} articles, {len(run.summaries)} summarized")
 
     if send_email:
-        email_run(run, cfg, html)
+        email_run(run, cfg)
 
 
-def email_run(run: Run, cfg: dict, html: str | None = None) -> bool:
+def email_run(run: Run, cfg: dict) -> bool:
     """Send a finalized digest once. Returns True if an email went out."""
     from .emailer import send_digest
 
     if run.emailed or not run.finalized:
         return False
     entries = build_entries(run)
-    if html is None:
-        html = (Path(cfg["output_dir"]) / "digests" / f"{run.date}.html").read_text()
-    if not send_digest(f"Cardiology digest {run.date}: {len(entries)} articles", html,
-                       render_text(run.date, entries)):
+    html, text = render_email(run.date, entries, digest_url(cfg, run.date))
+    count = f"{len(entries)} paper{'s' if len(entries) != 1 else ''}"
+    if not send_digest(f"Cardiology digest {run.date}: {count}", html, text):
         return False
     run.emailed = True
     run.save()

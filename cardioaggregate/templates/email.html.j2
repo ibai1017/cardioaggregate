@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<body style="margin:0;padding:24px 16px;background:#ffffff;color:#1d1d1f;font:16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<div style="max-width:640px;margin:0 auto;">
+  <p style="margin:0;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#a4161a;font-weight:600;">CardioAggregate</p>
+  <h1 style="margin:4px 0 4px;font-size:22px;">Cardiology digest, week ending {{ digest_date }}</h1>
+  <p style="margin:0 0 20px;color:#6b6b70;">{{ entries|length }} paper{{ "s" if entries|length != 1 }} this week</p>
+  <p style="margin:0 0 24px;"><a href="{{ url }}" style="display:inline-block;background:#a4161a;color:#ffffff;text-decoration:none;padding:10px 18px;border-radius:6px;font-weight:600;">Read the digest</a></p>
+  {% if not entries %}<p style="color:#6b6b70;">Nothing met the selection rules this week.</p>{% endif %}
+  {% for e in entries %}
+  <div style="margin:0 0 16px;padding:0 0 16px;border-bottom:1px solid #e4e2dd;">
+    <p style="margin:0;font-size:13px;color:#6b6b70;"><strong style="color:#1d1d1f;">{{ e.article.journal_abbr }}</strong></p>
+    <p style="margin:2px 0 4px;font-weight:600;">{{ e.article.title }}</p>
+    {% if e.summary %}<p style="margin:0;color:#3a3a3e;">{{ e.summary.bottom_line }}</p>{% endif %}
+  </div>
+  {% endfor %}
+  <p style="margin:24px 0 0;font-size:13px;color:#6b6b70;">Summaries are written by Claude from the abstract or open access text. Check numbers against the paper before acting on them.</p>
+</div>
+</body>
+</html>
