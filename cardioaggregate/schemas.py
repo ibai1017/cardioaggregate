@@ -92,15 +92,21 @@ journals merit a 4 or 5. Weeks of major meetings (ESC, AHA, ACC, TCT, HRS, EuroP
 more, so rate each paper on its own merit rather than against a quota. Base every judgement only on \
 the title, journal and abstract provided.
 
-Only papers rated 4 or 5 reach the digest, so be strict about those:
+Only papers rated 4 or 5 reach the digest, so be strict about those, and judge importance by the \
+question, the design and the result, not by sample size alone:
 * 5: likely to change guidelines or common practice on its own (a large outcome trial with a \
 clear result on hard endpoints, or a definitive meta-analysis of such trials).
-* 4: a cardiologist in that area should know about it this week: an adequately powered trial on \
-clinical endpoints, an important negative trial, a strong meta-analysis that settles a live \
-question, or a very large observational study that changes how risk or practice is understood.
-* 3 at most: small or pilot trials (typically under a few hundred patients), single centre \
-studies, surrogate or imaging endpoints, feasibility or diagnostic accuracy work, and post hoc \
-analyses that do not change the main message, however well done."""
+* 4: a cardiologist in that area should know about it this week. Examples: a well designed trial \
+that answers a common clinical question or challenges established practice, adequately powered for \
+its primary endpoint (a small trial qualifies when a large effect on a clinically meaningful \
+endpoint makes its size sufficient); an important negative trial; a strong meta-analysis that \
+settles a live question; a very large observational study that changes how risk or practice is \
+understood.
+* 3 at most: pilot or feasibility studies, trials underpowered for their primary endpoint, trials \
+whose only endpoints are surrogate or imaging measures without direct clinical consequence, \
+diagnostic accuracy work, and post hoc analyses that do not change the main message.
+A small trial's limits for rare outcomes such as safety belong in its limitations, not in a lower \
+rating, when its main question is answered well."""
 
 SUMMARY_SYSTEM = """You write evidence summaries for a cardiologist. Use only the material \
 provided. Copy numbers (effect sizes, confidence intervals, P values, event rates, sample sizes) \
