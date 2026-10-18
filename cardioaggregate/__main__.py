@@ -24,7 +24,7 @@ import yaml
 from pydantic import ValidationError
 
 from .fulltext import fetch_full_text
-from .pubmed import PubMed
+from .pubmed import PubMed, build_research_query
 from .run import Run, email_run, finalize, latest_run, open_run, prepare, write_digest
 from .schemas import (
     SUMMARY_SYSTEM,
@@ -231,6 +231,36 @@ def cmd_check_journals(cfg: dict, _args) -> int:
     return check_journals(cfg["journals"], PubMed())
 
 
+def cmd_diagnose(cfg: dict, args) -> int:
+    """Count PubMed hits per journal as each filter is added (free, no Claude).
+    For flagship journals, list papers the topic or design filter removed."""
+    from .pubmed import diagnostic_stages
+
+    pubmed = PubMed()
+    today = date.today()
+    start = today - timedelta(days=args.days)
+    print(f"PubMed entry dates {start} to {today}\n")
+    lost: dict[str, str] = {}
+    for j in cfg["journals"]:
+        stages = diagnostic_stages(j)
+        counts = [pubmed.count(term, start, today) for _, term in stages]
+        print(f"{j['abbr']:<34}" + "  ".join(f"{name} {n}" for (name, _), n in zip(stages, counts)))
+        if j.get("tier") == 1 and len(stages) > 3:
+            # Papers that pass the basic checks but fail the topic/design filters.
+            kept = set(pubmed.search(stages[-1][1], start, today))
+            base = pubmed.search(stages[2][1], start, today)
+            for pmid in base:
+                if pmid not in kept:
+                    lost[pmid] = j["abbr"]
+    full = pubmed.count(build_research_query(cfg["journals"]), start, today)
+    print(f"\nFull research query: {full}")
+    if lost:
+        print(f"\nFlagship journal papers removed by the topic/design filters ({len(lost)}):")
+        for a in pubmed.fetch(list(lost))[:150]:
+            print(f"  {a.journal_abbr:<22} {', '.join(a.pub_types)[:40]:<40} {a.title[:110]}")
+    return 0
+
+
 def check_journals(journals: list[dict], pubmed: PubMed) -> int:
     """A wrong abbreviation silently yields nothing, so check each one returns
     recent records whose MEDLINE abbreviation matches exactly."""
@@ -276,6 +306,9 @@ def main(argv=None) -> int:
         p.set_defaults(func=func)
     sub.add_parser("check-journals").set_defaults(func=cmd_check_journals)
     sub.add_parser("email").set_defaults(func=cmd_email)
+    p = sub.add_parser("diagnose")
+    p.add_argument("--days", type=int, default=7)
+    p.set_defaults(func=cmd_diagnose)
 
     args = parser.parse_args(argv)
     return args.func(load_config(args.config), args)

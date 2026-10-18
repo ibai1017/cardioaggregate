@@ -140,6 +140,25 @@ def build_research_query(journals: list[dict]) -> str:
     return f"{_or(clauses)} AND hasabstract NOT {excluded}"
 
 
+def diagnostic_stages(journal: dict) -> list[tuple[str, str]]:
+    """The research query for one journal, built up one filter at a time, so a
+    count at each stage shows which filter removes its papers."""
+    excluded = _or([f'"{pt}"[pt]' for pt in sorted(EXCLUDED_PUB_TYPES)])
+    term = f'"{journal["abbr"]}"[ta]'
+    stages = [("journal", term)]
+    term += " AND hasabstract"
+    stages.append(("+abstract", term))
+    term += f" NOT {excluded}"
+    stages.append(("+not excluded types", term))
+    if journal.get("topic_filter"):
+        term += f" AND {_or(CARDIO_TERMS)}"
+        stages.append(("+cardio topic", term))
+    if journal.get("design_filter"):
+        term += f" AND {_or(DESIGN_TERMS)}"
+        stages.append(("+design", term))
+    return stages
+
+
 def build_editorial_query(journals: list[dict]) -> str:
     tas = _or([f'"{j["abbr"]}"[ta]' for j in journals])
     return f'{tas} AND ("Editorial"[pt] OR "Comment"[pt]) NOT "Letter"[pt]'
