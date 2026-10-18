@@ -594,11 +594,47 @@
    ],
    "editorial_take": null,
    "practice_implications": "Asundexian is not yet approved, but these data support the central premise of factor XIa inhibition: meaningful antithrombotic effect without the expected excess in major or intracranial bleeding when added to antiplatelet therapy after noncardioembolic stroke. The signal for lower gastrointestinal bleeding, mostly rectal, is the practical caveat and suggests that if the drug reaches clinic, patients with prior gastrointestinal bleeding or anorectal pathology will warrant closer counselling and a low threshold to investigate new rectal bleeding rather than attribute it to haemorrhoids."
+  },
+  "42862588": {
+   "bottom_line": "Using US transplant registry data (training n=21,859; validation n=7,897; test n=8,256), a continuous medical urgency score (US-CRS) built from 5 laboratory values and 4 support devices discriminated 6-week mortality without transplant far better than the current 6-status system (mean time-dependent AUC 0.807 vs 0.693) and, in simulation, would place sicker candidates at the top of the match run (observed 6-week transplant-censored mortality for the first candidate 15.7% [95% CI, 13.9%-17.6%] vs 11.2% [95% CI, 10.1%-12.5%]).",
+   "design": "Registry-based observational development and validation study with chronologically split training (2019-2023), validation (2023-2024) and test (2024-2025) datasets, a marginal structural model of 6-week mortality without transplant, comparison of 8 candidate models in held-out data, and a match-run simulation of waitlist reordering.",
+   "population": "All adult (aged 18 years or older) US heart transplant candidates from January 2019 to August 2025: training n=21,859, validation n=7,897, test n=8,256 (mean [SD] age, 53 [13] years; 74% male). Match-run analysis covered 45,530 donor hearts.",
+   "intervention": "Ranking of candidates by the US Candidate Risk Score (US-CRS), a continuous medical urgency score comprising 5 laboratory values and 4 therapeutic devices (durable left ventricular assist device, intra-aortic balloon pump, microaxial flow pump, and advanced mechanical circulatory support).",
+   "comparison": "The current 6-status, therapy-based US donor heart allocation system.",
+   "outcomes": "Six-week mortality without transplant, assessed by weighted time-dependent AUC and calibration by status. In test-set cross-sections of candidates waiting on the same calendar date, US-CRS had similar or significantly higher time-dependent AUC than the 6-status system (mean AUC, 0.807 vs 0.693). In the match-run simulation, observed 6-week transplant-censored mortality for the first candidate on the match run rose from 11.2% (95% CI, 10.1%-12.5%) under the current system to 15.7% (95% CI, 13.9%-17.6%) under US-CRS.",
+   "key_results": [
+    "Mean time-dependent AUC for 6-week mortality without transplant: 0.807 with US-CRS vs 0.693 with the current 6-status system in test-set cross-sections of candidates actively waiting on the same calendar date.",
+    "US-CRS showed acceptable calibration by status, especially for candidates who received their status by exception - the group the current system handles worst.",
+    "The selected model used 5 laboratory values and 4 therapeutic devices (durable LVAD, intra-aortic balloon pump, microaxial flow pump, advanced mechanical circulatory support).",
+    "Match-run simulation across 45,530 donor hearts: 67% of transplant recipients moved down in rank order under a US-CRS-based policy.",
+    "Observed 6-week transplant-censored mortality of the first candidate on the match run: 15.7% (95% CI, 13.9%-17.6%) under US-CRS vs 11.2% (95% CI, 10.1%-12.5%) under the current system, indicating the score puts higher-risk candidates first.",
+    "Eight candidate models were compared in held-out data before the final score was chosen."
+   ],
+   "strengths": [
+    "National registry coverage of all adult US candidates over 2019-2025, so the development population is the actual target population for the policy.",
+    "Chronological rather than random data splitting, with a test set (2024-2025) later than the development data, which tests robustness to practice drift and to the 2018 allocation-policy era.",
+    "A marginal structural model appropriately handles the time-varying nature of therapy and the competing event of transplant, rather than modelling mortality at listing only.",
+    "Evaluation goes beyond discrimination to calibration by status and to a concrete match-run simulation of 45,530 donor hearts, translating a statistical model into policy consequences.",
+    "Built from objective laboratory values and device support rather than therapy-based tiers, directly targeting the gaming and exception-request problems of the current 6-status system.",
+    "Large absolute improvement in discrimination (AUC 0.807 vs 0.693) that is unlikely to be explained by overfitting given held-out testing."
+   ],
+   "limitations": [
+    "Observational registry study: the benefit is demonstrated as better risk ranking, not as improved waitlist or post-transplant survival, which no simulation can establish.",
+    "Six-week mortality without transplant is a surrogate for the real objective of maximizing survival benefit; prioritizing the sickest candidates may not maximize post-transplant survival or total life-years, and post-transplant outcomes were not modelled.",
+    "Registry data are subject to missing and misreported laboratory values and to centre-level variation in practice; the score's inputs (e.g. device use) remain partly under centre control and could themselves be gamed.",
+    "The match-run simulation assumes unchanged candidate listing and acceptance behaviour, which would almost certainly change under a new policy.",
+    "Score performance in important subgroups (women, congenital heart disease, amyloidosis, retransplant, candidates on durable LVAD support) and the identity of the 5 laboratory values are not reported in the abstract.",
+    "Calibration was assessed by current status categories, and the trade-off of 67% of recipients moving down in rank order - including which groups lose priority - is not quantified in the abstract.",
+    "Funding and sponsor role are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For clinicians who list patients for heart transplantation, this is the evidence base behind the expected move from the 6-status tiers to a continuous US-CRS-based urgency score. Practically, allocation priority would shift toward objective physiology (laboratory values) interacting with the type of mechanical support, reducing the value of status-by-exception requests and of therapy choices made to secure a tier. Listing practice, documentation of laboratory data and the timing of device escalation would all become more consequential, while candidates currently advantaged by therapy-based tiering - 67% of recipients moved down in rank in simulation - may wait longer."
   }
  },
  "basis": {
   "42863871": "abstract",
-  "42866879": "abstract"
+  "42866879": "abstract",
+  "42862588": "abstract"
  },
  "candidates": [
   {
