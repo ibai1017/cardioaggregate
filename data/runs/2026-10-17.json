@@ -665,13 +665,48 @@
    ],
    "editorial_take": null,
    "practice_implications": "For cardiologists consulted on septic shock in the perioperative setting, this is the first randomized support for adding low-dose dobutamine to norepinephrine during surgical source control, with a substantial reduction in postoperative AKI including stage 2 and 3 injury. The open-label design and the absence of reported mortality or dialysis outcomes mean this should not yet be treated as a mandate; it is reasonable to consider low-dose dobutamine in septic shock patients with hypoperfusion going to the operating room, while monitoring for tachycardia and awaiting confirmation in blinded trials reporting patient-important endpoints."
+  },
+  "42872757": {
+   "bottom_line": "In SUBCUT-HF II, an open-label UK trial of 172 patients hospitalized for heart failure and still requiring parenteral diuretics, early discharge on wearable-minipump subcutaneous furosemide gained 4.0 more days alive and out of hospital at 30 days (95% CI: 2.1-5.8; P < 0.001) and shortened index admission by 5.5 days (95% CI: 7.4-3.6; P < 0.001), at the cost of numerically more heart failure readmissions (14% vs 6%; OR 2.45 [95% CI: 0.81-7.43]).",
+   "design": "Multicenter, open-label, randomized, active-controlled trial in the United Kingdom (SUBCUT-HF II; NCT05419115).",
+   "population": "172 patients hospitalized for heart failure who required ongoing parenteral diuretic therapy; 92 assigned to the early discharge strategy and 80 to usual care.",
+   "intervention": "Early discharge strategy with pH-neutral subcutaneous furosemide delivered by a wearable, patient-operated minipump, plus postdischarge review every 3 days while receiving subcutaneous furosemide.",
+   "comparison": "Usual inpatient care with continued conventional parenteral diuretic therapy. Both groups had a 2-week clinic review.",
+   "outcomes": "Primary outcome was days alive and out of hospital (DAOH) at 30 days after randomization: 4.0 more DAOH with early discharge (95% CI: 2.1-5.8 days; P < 0.001).",
+   "key_results": [
+    "Primary outcome, DAOH at 30 days: 4.0 days more with the early discharge strategy (95% CI: 2.1-5.8 days; P < 0.001).",
+    "Index hospitalization shorter by a mean of 5.5 days (95% CI: 7.4-3.6 days; P < 0.001).",
+    "DAOH benefit sustained at 60 days: difference 4.2 days (95% CI: 0.9-7.6 days).",
+    "Heart failure readmissions: 13 (14%) in the early discharge group vs 5 (6%) with usual care; OR 2.45 (95% CI: 0.81-7.43).",
+    "Serious adverse events: 25% with early discharge vs 23% with usual care.",
+    "Device-related problems occurred with 3% of minipump placements, none serious."
+   ],
+   "strengths": [
+    "Randomized and multicenter, testing a complete care strategy rather than a drug, which is how the intervention would be used in practice.",
+    "DAOH is a patient-centred primary endpoint that captures both survival and hospital burden, and the benefit was large relative to its confidence interval (4.0 days, 95% CI 2.1-5.8).",
+    "Benefit persisted at 60 days (4.2 days, 95% CI 0.9-7.6), so the gain was not merely a shifted admission.",
+    "Enrolled the clinically relevant population - patients still requiring parenteral diuretics - rather than patients already ready for discharge.",
+    "Structured postdischarge safety net (review every 3 days) that is reproducible, with serious adverse events similar between arms (25% vs 23%) and few device problems (3%, none serious)."
+   ],
+   "limitations": [
+    "Small trial (172 patients; 92 vs 80) and open-label, with no blinding of patients, clinicians or outcome ascertainment; length of stay and discharge timing are investigator-determined and highly susceptible to performance bias.",
+    "Unequal group sizes (92 vs 80) are unexplained in the abstract and raise questions about the randomization procedure.",
+    "DAOH is partly a direct consequence of the intervention itself (earlier discharge), so a positive result is close to inevitable by design; it does not establish clinical benefit.",
+    "Heart failure readmissions were more than twice as frequent with early discharge (14% vs 6%); the trial was underpowered for this outcome (OR 2.45, 95% CI 0.81-7.43) and cannot exclude meaningful harm.",
+    "No reported effect on mortality, renal function, electrolytes, symptoms or quality of life in the abstract, and no cost-effectiveness data despite the economic rationale.",
+    "Single-country (UK) trial with intensive 3-day review, requiring both the pH-neutral subcutaneous furosemide formulation and a community follow-up infrastructure that many systems lack.",
+    "Follow-up limited to 60 days; funding and sponsor role are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For selected, otherwise stable patients whose only reason to remain in hospital is ongoing parenteral diuresis, subcutaneous furosemide via a wearable minipump with structured 3-day review can plausibly free several hospital days without an excess of serious adverse events. The trial is small, open-label and shows a doubling of heart failure readmissions that it cannot rule out as real, so this is best viewed as a promising, resource-dependent pathway for carefully chosen patients and systems that can guarantee close follow-up, rather than an established standard."
   }
  },
  "basis": {
   "42863871": "abstract",
   "42866879": "abstract",
   "42862588": "abstract",
-  "42872914": "abstract"
+  "42872914": "abstract",
+  "42872757": "abstract"
  },
  "candidates": [
   {
