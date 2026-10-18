@@ -18,15 +18,15 @@ It costs nothing to run beyond the Claude plan you already have. GitHub Actions 
 
 ```
 Saturday, GitHub Actions (free)          Sunday to Tuesday, Claude Code routine (your plan)       Free
-PubMed -> prescore -> preliminary page   triage top 80 -> select ~10 -> PICO summaries           final page + email
+PubMed -> prescore -> preliminary page   triage top 80 -> select 4s and 5s -> PICO            final page + email
 ```
 
 1. **Candidates (free).** Every Saturday a GitHub Action runs one PubMed query that pulls everything added in the last 7 days from the configured journals that has an abstract and looks like a trial, meta-analysis, systematic review or cohort/registry study. General journals are limited to cardiovascular topics. Brand new PubMed records rarely have MeSH terms or curated publication types yet, so these filters use title and abstract words.
 2. **Prescore (free).** A simple score ranks the candidates: study design, flagship journal, sample size, and above all whether the paper has an accompanying editorial (journals rarely commission one for a minor paper). Only the top 80 go to Claude, which keeps the reading cheap. A preliminary digest built from this score is published straight away, so you always get something even if the routine misses a week.
 3. **Triage (Claude).** The routine reads the queued abstracts 20 at a time and rates each one: design (primary RCT, secondary analysis, meta-analysis, systematic review, observational), subspecialty, sample size, and impact from 1 to 5.
-4. **Selection (free).** Rules in `config.yaml` pick the digest: a normal week is about 10 papers; papers rated 4 or 5 always get in up to a ceiling of 20, so a week with a major meeting (ESC, AHA, ACC) grows on its own and is flagged as a busy week. The best 60 near misses are listed at the bottom with the reason.
+4. **Selection (free).** Only papers rated 4 or 5 make the digest (observational studies also need at least 10,000 participants, or a 5). Nothing pads a quiet week, so the length follows what was published: a few papers in a quiet week, up to 20 in a week with a major meeting (ESC, AHA, ACC), which is flagged as a busy week. The best 60 near misses are listed at the bottom with the reason.
 5. **Summaries (Claude).** Only the selected papers get the full PICO summary, appraisal and editorial view, one at a time. The full text and editorial text are used when they are open access in Europe PMC; otherwise the abstract.
-6. **Finalize (free).** The final page replaces the preliminary one, `data/history.json` records what was covered so nothing repeats, and an Action emails the digest.
+6. **Finalize (free).** The final page replaces the preliminary one, `data/history.json` records what was covered so nothing repeats, and an Action emails a short message with the link to the page and each paper's one line takeaway.
 
 **Progress is saved after every step.** Each batch of ratings and each summary is committed to the repo, so the routine can stop at any point (usage limit, closed session) and the next day's run carries on. The routine runs on Sunday, Monday and Tuesday, and does nothing once the week is done. If it still hasn't finished by the following Saturday, that run finalizes the old week with whatever was done, using the free score for anything left.
 
@@ -36,9 +36,10 @@ PubMed -> prescore -> preliminary page   triage top 80 -> select ~10 -> PICO sum
 
 1. **GitHub Pages.** Settings → Pages → Deploy from a branch → `main` / `docs`. Pages on a *private* repository requires a paid GitHub plan; either make the repository public (it only contains summaries of published papers) or rely on email.
 2. **NCBI (optional but recommended).** Add the repository secrets `NCBI_EMAIL` (your email) and `NCBI_API_KEY` (free from your NCBI account). This raises PubMed rate limits and is NCBI's requested etiquette.
-3. **Email (optional).** Add `SMTP_HOST`, `SMTP_PORT` (465 for SSL or 587 for STARTTLS), `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` and optionally `EMAIL_FROM`. For Gmail use `smtp.gmail.com`, port 465, and an app password.
-4. **First run.** Actions → Weekly digest → Run workflow, with `days: 14` for a fuller first page. Each run first checks that every journal abbreviation in `config.yaml` matches PubMed and warns about any that don't.
-5. **The routine.** A Claude Code routine fires on Sunday, Monday and Tuesday and follows [`ROUTINE.md`](ROUTINE.md). It needs only GitHub access; PubMed is fetched by Actions. Optionally allow `www.ebi.ac.uk` in the routine's cloud environment network settings so it can read open access full texts.
+3. **Email (optional).** Add `SMTP_HOST`, `SMTP_PORT` (465 for SSL or 587 for STARTTLS), `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` and optionally `EMAIL_FROM` as repository secrets. For Gmail use `smtp.gmail.com`, port 465, and an app password. Keep the recipient in the `EMAIL_TO` secret rather than in the code, because this repository is public. The link in the email comes from `site_url` in `config.yaml`.
+4. **Search check (optional).** Actions → Diagnose search → Run workflow prints how many PubMed records each journal has at each filter step, and lists what the filters removed.
+5. **First run.** Actions → Weekly digest → Run workflow, with `days: 14` for a fuller first page. Each run first checks that every journal abbreviation in `config.yaml` matches PubMed and warns about any that don't.
+6. **The routine.** A Claude Code routine fires on Sunday, Monday and Tuesday and follows [`ROUTINE.md`](ROUTINE.md). It needs only GitHub access; PubMed is fetched by Actions. Optionally allow `www.ebi.ac.uk` in the routine's cloud environment network settings so it can read open access full texts.
 
 **Prefer pay per use?** Add an `ANTHROPIC_API_KEY` repository secret and the Saturday Action does the triage and summaries itself with the API (`python -m cardioaggregate api`), roughly $1 to $3 a week. Then the routine is not needed.
 
