@@ -629,12 +629,49 @@
    ],
    "editorial_take": null,
    "practice_implications": "For clinicians who list patients for heart transplantation, this is the evidence base behind the expected move from the 6-status tiers to a continuous US-CRS-based urgency score. Practically, allocation priority would shift toward objective physiology (laboratory values) interacting with the type of mechanical support, reducing the value of status-by-exception requests and of therapy choices made to secure a tier. Listing practice, documentation of laboratory data and the timing of device escalation would all become more consequential, while candidates currently advantaged by therapy-based tiering - 67% of recipients moved down in rank in simulation - may wait longer."
+  },
+  "42872914": {
+   "bottom_line": "In 584 adults with septic shock undergoing surgical source control at 39 Chinese hospitals, adding intraoperative dobutamine (up to 5 ug/kg/min) to norepinephrine reduced new-onset or worsening AKI within 7 postoperative days from 34.7% (102/294) to 22.8% (66/290) (adjusted risk ratio 0.64 [95% CI, 0.49-0.83]), with more tachycardia and no difference in 9 of 11 secondary outcomes.",
+   "design": "Randomized, open-label clinical trial at 39 tertiary hospitals in China, enrolling June 2024 to August 2025 with follow-up ending 15 November 2025 (NCT06462313).",
+   "population": "584 adults with septic shock undergoing surgical source control (median [IQR] age 67.5 [55.0-76.0] years; 192 [32.9%] female); 290 assigned to dobutamine plus norepinephrine and 294 to norepinephrine alone.",
+   "intervention": "Intraoperative intravenous dobutamine infusion up to 5 ug/kg/min combined with norepinephrine.",
+   "comparison": "Norepinephrine alone.",
+   "outcomes": "Primary outcome was new-onset AKI or worsening of preoperative AKI within 7 days after surgery by KDIGO criteria: 22.8% (66/290) with dobutamine plus norepinephrine vs 34.7% (102/294) with norepinephrine alone (adjusted risk ratio 0.64 [95% CI, 0.49-0.83]). There were 11 secondary outcomes, including SOFA score on postoperative day 1 and urine output 1 hour post intervention.",
+   "key_results": [
+    "Primary outcome (new-onset or worsening AKI within 7 postoperative days): 22.8% (66/290) vs 34.7% (102/294); adjusted risk ratio 0.64 (95% CI, 0.49-0.83).",
+    "Stage 2 AKI: 4.8% vs 9.9%; adjusted risk ratio 0.48 (95% CI, 0.26-0.88). Stage 3 AKI: 7.9% vs 13.6%; adjusted risk ratio 0.56 (95% CI, 0.35-0.91).",
+    "SOFA score on postoperative day 1: adjusted difference -0.53 (95% CI, -0.98 to -0.07), favouring dobutamine plus norepinephrine.",
+    "Urine output 1 hour after intervention: adjusted difference 0.55 (95% CI, 0.03 to 1.07) mL/kg/h, higher with dobutamine plus norepinephrine.",
+    "No significant differences in 9 of the 11 secondary outcomes.",
+    "Tachycardia (heart rate >100/min) occurred more frequently with dobutamine plus norepinephrine (rates and effect estimate not reported).",
+    "Mortality was not reported among the results in the abstract."
+   ],
+   "strengths": [
+    "Randomized design addressing a question previously supported only by very low-certainty evidence despite a guideline recommendation for dobutamine in septic shock with cardiac dysfunction.",
+    "Multicentre (39 tertiary hospitals), giving reasonable spread of practice within the host country.",
+    "Clinically meaningful, objectively defined primary outcome using standard KDIGO criteria, with a large absolute reduction (22.8% vs 34.7%).",
+    "Internally consistent effect across AKI severity, with reductions in both stage 2 (ARR 0.48) and stage 3 (ARR 0.56) injury rather than only mild creatinine shifts.",
+    "Supportive physiological signals in the same direction (lower day 1 SOFA, higher early urine output).",
+    "Prospectively registered with a prespecified primary outcome and a defined follow-up end date."
+   ],
+   "limitations": [
+    "Open-label with no placebo infusion, so decisions about fluids, vasopressors, nephrotoxins and renal replacement therapy could have been influenced by knowledge of allocation - a major concern for a creatinine- and urine-output-based endpoint.",
+    "The primary outcome is AKI within 7 days rather than a patient-important outcome; mortality, dialysis dependence and length of stay are not reported in the abstract.",
+    "Nine of 11 secondary outcomes showed no difference, and the two positive ones (day 1 SOFA, 1-hour urine output) have confidence intervals that approach the null, with no apparent correction for multiplicity.",
+    "Conducted entirely in Chinese tertiary hospitals; baseline AKI rates of 34.7% in the control arm are high, so absolute benefit may not transfer to settings with different practice.",
+    "Reported effects are adjusted risk ratios with no unadjusted figures or P values given, and the adjustment model is not described in the abstract.",
+    "Tachycardia was more frequent but arrhythmia, myocardial injury and other dobutamine-specific harms are not quantified; whether patients had baseline cardiac dysfunction (the guideline indication) is not stated.",
+    "Follow-up limited to the early postoperative period; funding and sponsor role are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For cardiologists consulted on septic shock in the perioperative setting, this is the first randomized support for adding low-dose dobutamine to norepinephrine during surgical source control, with a substantial reduction in postoperative AKI including stage 2 and 3 injury. The open-label design and the absence of reported mortality or dialysis outcomes mean this should not yet be treated as a mandate; it is reasonable to consider low-dose dobutamine in septic shock patients with hypoperfusion going to the operating room, while monitoring for tachycardia and awaiting confirmation in blinded trials reporting patient-important endpoints."
   }
  },
  "basis": {
   "42863871": "abstract",
   "42866879": "abstract",
-  "42862588": "abstract"
+  "42862588": "abstract",
+  "42872914": "abstract"
  },
  "candidates": [
   {
