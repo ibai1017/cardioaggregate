@@ -56,16 +56,16 @@
   "42858771"
  ],
  "selected": [
+  "42863871",
+  "42866879",
+  "42862588",
   "42872914",
   "42872757",
-  "42880972",
-  "42870411",
+  "42861574",
+  "42888496",
+  "42876202",
   "42862105",
-  "42863867",
-  "42886087",
-  "42885348",
-  "42866922",
-  "42863877"
+  "42872886"
  ],
  "triage": {
   "42872914": {
@@ -427,6 +427,105 @@
    "sample_size": 2074,
    "impact": 2,
    "reason": "Swiss post-acute coronary syndrome cohort of 2,074 patients showing a J-shaped association between 1-year systolic blood pressure and MACE with the lowest risk at 130-140 mmHg."
+  },
+  "42887625": {
+   "pmid": "42887625",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1233,
+   "impact": 2,
+   "reason": "Latent class analysis of 1,233 atrial fibrillation patients identifying four comorbidity phenotypes with differing outcomes and a consistent benefit of integrated care adherence across them."
+  },
+  "42886153": {
+   "pmid": "42886153",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 177,
+   "impact": 3,
+   "reason": "Prospective comparison of echocardiography with reference-standard cardiac MRI in 177 patients showing selected ASE criteria in combination are 91%-95% specific for severe mitral regurgitation, potentially reducing the need for full quantification."
+  },
+  "42874074": {
+   "pmid": "42874074",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 176,
+   "impact": 2,
+   "reason": "Single-centre historical cohort of 176 patients suggesting lower extremity elastic bandaging improves diuretic efficiency by 340 mL per 40 mg furosemide equivalent without changing urine output."
+  },
+  "42865104": {
+   "pmid": "42865104",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 550,
+   "impact": 2,
+   "reason": "EARLY-HF pilot of 550 at-risk adults showing primary care and digital recruitment reach underserved groups cheaply and that 23% had clinically actionable unrecognised cardiac abnormalities."
+  },
+  "42887626": {
+   "pmid": "42887626",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 46698,
+   "impact": 3,
+   "reason": "Medicare analysis of 46,698 tined leadless pacemaker implants showing cardiac perforation rates declined over time and were lower with higher implanter volume (OR 0.93 per 10 additional implants)."
+  },
+  "42886864": {
+   "pmid": "42886864",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 292,
+   "impact": 2,
+   "reason": "Danish nationwide propensity-matched analysis of only 292 patients associating GLP-1 receptor agonist use after aortic valve replacement with fewer composite events (HR 0.69, 0.50-0.96), a topical but confounding-prone signal."
+  },
+  "42867362": {
+   "pmid": "42867362",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 21891,
+   "impact": 2,
+   "reason": "Rotterdam Study epoch analysis across three decades showing heart failure prevalence rose while 5-year incidence fell from 16.3 to 7.9 per 1,000 person-years, with shifting risk determinants."
+  },
+  "42863873": {
+   "pmid": "42863873",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 3956840,
+   "impact": 3,
+   "reason": "CathPCI Registry analysis of 3,956,840 procedures showing intraprocedural cardiac arrest complicates 0.93% of PCI with 40.5% in-hospital mortality, rising in incidence while risk-adjusted mortality fell slightly."
+  },
+  "42863457": {
+   "pmid": "42863457",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 105,
+   "impact": 2,
+   "reason": "Small longitudinal echocardiographic follow-up (105 re-enrolled men) showing sustained left ventricular hypertrophy and systolic dysfunction with continued anabolic-androgenic steroid use and partial reversal after discontinuation."
+  },
+  "42858806": {
+   "pmid": "42858806",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 268,
+   "impact": 3,
+   "reason": "Single-centre comparison of 130 beating heart transplants with 138 cold-storage controls suggesting normothermic perfusion permits greater use of extended criteria donors with 1-year survival of 93% vs 81%."
+  },
+  "42858771": {
+   "pmid": "42858771",
+   "cardiology_relevant": false,
+   "design": "observational",
+   "subspecialty": "general",
+   "sample_size": 347,
+   "impact": 1,
+   "reason": "Retrospective lung transplant pathology study of 347 interstitial lung disease patients showing severe pulmonary hypertension is rarely idiopathic pulmonary fibrosis, a pulmonology-focused question."
   }
  },
  "summaries": {},
