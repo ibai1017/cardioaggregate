@@ -766,6 +766,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "This supports current practice: use NT-proBNP 300 ng/L or below to rule out acute heart failure in the dyspneic emergency department patient, where the 97.0% negative predictive value makes an alternative diagnosis the safer working assumption, and use the age-stratified cut-points (450, 900 and 1,800 ng/L) rather than a single fixed rule-in value. The caution is renal dysfunction, where accuracy drops and specificity falls to about 63% - here a raised NT-proBNP should prompt imaging and clinical correlation rather than a diagnosis. Obesity, reassuringly, did not materially degrade performance of the age-dependent thresholds."
+  },
+  "42876202": {
+   "bottom_line": "Across 56 chronic heart failure randomized trials (39 drug, 17 device), women made up only 27.0% (95% CI: 22.0% to 32.4%) of drug-trial and 25.3% (95% CI: 21.0% to 29.9%) of device-trial participants - 21.0% in HFrEF versus 49.6% in HFpEF trials (p < 0.001) - and pooled sex-interaction estimates hinted at a somewhat greater relative treatment benefit in women (drug trials: HR interaction 0.94 [95% CI 0.89-1.01], RR interaction 0.81 [95% CI 0.68-0.96]).",
+   "design": "Systematic review and meta-analysis of randomized controlled trials searched in PubMed-MEDLINE, using random-effects models with prespecified subgroup analyses of pooled sex-treatment interaction estimates.",
+   "population": "56 randomized controlled trials in chronic heart failure (39 drug trials, 17 device trials) that tested pharmacological or device-based interventions against a hard primary endpoint (mortality and hospitalization) and reported enrollment of women.",
+   "intervention": "Female sex as the modifier of randomized pharmacological or device-based heart failure therapy; the analysis pooled trial-reported sex-specific treatment effects (HR or RR).",
+   "comparison": "Male sex within the same trials; enrollment proportions were also compared between HFrEF and HFpEF trials and between drug and device trials.",
+   "outcomes": "Proportion of women enrolled and pooled sex-treatment interaction on trial primary endpoints (mortality and hospitalization). Pooled women enrollment: 27.0% (95% CI: 22.0% to 32.4%) in drug trials and 25.3% (95% CI: 21.0% to 29.9%) in device trials. Pooled sex interaction in drug trials: 0.94 (95% CI 0.89-1.01) for trials reporting HR and 0.81 (95% CI 0.68-0.96) for those reporting RR.",
+   "key_results": [
+    "Pooled proportion of women enrolled: 27.0% (95% CI: 22.0% to 32.4%) in drug trials and 25.3% (95% CI: 21.0% to 29.9%) in device trials.",
+    "Women were far more underrepresented in HFrEF than HFpEF trials: 21.0% vs 49.6% (p < 0.001).",
+    "Drug trials, pooled sex interaction: 0.94 (95% CI 0.89-1.01) among trials reporting hazard ratios and 0.81 (95% CI 0.68-0.96) among those reporting risk ratios, both directionally favouring women.",
+    "No interaction between HFrEF and HFpEF trials (HR: p = 0.44; RR: p = 0.95).",
+    "Pooled interaction estimate on event counts: 0.90 (95% CI 0.84-0.96).",
+    "Device trials, pooled sex interaction: 1.05 (95% CI 0.90-1.22) for trials reporting HR and 0.68 (95% CI 0.50-0.93) for those reporting RR."
+   ],
+   "strengths": [
+    "Restricted to randomized trials with hard primary endpoints (mortality and hospitalization), so the treatment-effect comparisons rest on randomized evidence rather than observational data.",
+    "Covers a substantial body of evidence (56 trials) and separates drug from device interventions, which have different mechanisms of potential sex-related effect modification.",
+    "Quantifies the enrollment gap precisely and exposes the striking HFrEF versus HFpEF contrast (21.0% vs 49.6%), which localizes where the representation problem actually lies.",
+    "Uses interaction estimates rather than naive comparison of within-sex effect sizes, which is the methodologically correct approach to effect modification.",
+    "Prespecified subgroup analyses and random-effects pooling, with consistency checks across HR, RR and event-count metrics."
+   ],
+   "limitations": [
+    "Meta-analysis of trial-level published subgroup data, not individual patient data, so the interaction estimates are vulnerable to reporting bias - only trials that published sex-specific effects could contribute.",
+    "Sex subgroup analyses within individual trials are typically underpowered and exploratory; pooling them does not overcome the fact that none was designed to detect sex-treatment interaction.",
+    "The headline drug-trial interaction is inconsistent across metrics: the HR-based estimate crosses unity (0.94; 95% CI 0.89-1.01) while the RR-based estimate does not (0.81; 95% CI 0.68-0.96), and the same discordance appears for devices (HR 1.05 vs RR 0.68), suggesting the finding is metric-dependent rather than robust.",
+    "Pooling heterogeneous interventions, eras, endpoints and follow-up durations into a single interaction estimate has questionable clinical interpretability.",
+    "Search limited to PubMed-MEDLINE, raising the possibility of missed trials; heterogeneity statistics (I2), risk-of-bias assessment and prospective registration are not reported in the abstract.",
+    "Lower enrollment of women partly reflects the true epidemiology of HFrEF rather than selection alone, and the analysis cannot separate recruitment bias from disease distribution.",
+    "No exploration of mechanisms (pharmacokinetics, dosing, body size, adherence) and no data on whether women received comparable doses; funding is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Nothing here changes how to treat an individual woman with heart failure, but two points are worth carrying into clinic. First, the evidence base for HFrEF therapy is drawn from cohorts only about one-fifth female, which should be acknowledged rather than ignored when extrapolating - though the interaction estimates give no reason to expect less benefit in women, if anything the opposite. Second, the signal of possibly greater relative benefit, taken with known sex differences in drug exposure at a given dose, reinforces that women should be titrated to guideline-directed target doses rather than left at lower doses, and strengthens the case for trials powered to examine sex-specific dosing and response."
   }
  },
  "basis": {
@@ -775,7 +809,8 @@
   "42872914": "abstract",
   "42872757": "abstract",
   "42861574": "abstract",
-  "42888496": "abstract"
+  "42888496": "abstract",
+  "42876202": "abstract"
  },
  "candidates": [
   {
