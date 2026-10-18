@@ -67,7 +67,188 @@
   "42866922",
   "42863877"
  ],
- "triage": {},
+ "triage": {
+  "42872914": {
+   "pmid": "42872914",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 584,
+   "impact": 3,
+   "reason": "Multicentre open-label RCT in 584 patients showing intraoperative dobutamine plus norepinephrine reduced postoperative AKI (ARR 0.64, 95% CI 0.49-0.83), relevant to inotrope use in shock but outside core cardiology practice."
+  },
+  "42872757": {
+   "pmid": "42872757",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 172,
+   "impact": 3,
+   "reason": "Positive but small phase II open-label randomized trial (n=172) in which subcutaneous furosemide-enabled early discharge added 4.0 days alive and out of hospital at 30 days."
+  },
+  "42880972": {
+   "pmid": "42880972",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "interventional",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative state-of-the-art review of intracoronary imaging to guide PCI with no new data."
+  },
+  "42870411": {
+   "pmid": "42870411",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "acute_critical_care",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "EAPCI/ACVC clinical consensus statement updating practical guidance on temporary mechanical circulatory support in AMI-related cardiogenic shock."
+  },
+  "42867023": {
+   "pmid": "42867023",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "general",
+   "sample_size": 6897,
+   "impact": 1,
+   "reason": "Cochrane review of dialysis modality in kidney failure; reports lower cardiovascular death (RR 0.78, 95% CI 0.66-0.92) but the decision belongs to nephrology rather than cardiology."
+  },
+  "42862105": {
+   "pmid": "42862105",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 56362,
+   "impact": 3,
+   "reason": "Large two-centre weighted cohort (n=56,362) linking established preoperative statin therapy to dose-dependent lower 365-day mortality after non-cardiac surgery (HR 0.81, 95% CI 0.73-0.90)."
+  },
+  "42886002": {
+   "pmid": "42886002",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Cochrane review protocol only, with no results to report."
+  },
+  "42863867": {
+   "pmid": "42863867",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 4398,
+   "impact": 3,
+   "reason": "Substudy of the cluster-randomized DIFOCCULT-3 trial (n=4,398) showing an occlusion-focused approach triaged far more patients to immediate invasive management (45.4% vs 13.6%) and identified more acute coronary occlusions within 2 hours."
+  },
+  "42861682": {
+   "pmid": "42861682",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "hypertension",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Cochrane review protocol on blood pressure targets with no findings yet."
+  },
+  "42861574": {
+   "pmid": "42861574",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1298291,
+   "impact": 3,
+   "reason": "Dose-response meta-analysis of 37 studies (n=1,298,291) describing a U-shaped physical activity-atrial fibrillation relationship reversing beyond 78 MET-hr/wk."
+  },
+  "42888496": {
+   "pmid": "42888496",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "heart_failure",
+   "sample_size": 26948,
+   "impact": 3,
+   "reason": "Diagnostic meta-analysis of 31 studies (26,948 patients) supporting NT-proBNP 300 ng/L for rule-out and age-dependent thresholds for rule-in of acute heart failure in the emergency department."
+  },
+  "42888173": {
+   "pmid": "42888173",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 40132,
+   "impact": 2,
+   "reason": "Pooled cohort analysis (40,132 participants) showing risk-weighted apoB adds coronary risk information beyond apoB, but with small and inconsistent discrimination gains."
+  },
+  "42866879": {
+   "pmid": "42866879",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 12254,
+   "impact": 4,
+   "reason": "Prespecified bleeding analysis of the 12,254-patient OCEANIC-STROKE trial, important safety characterization of asundexian showing no excess major bleeding but more lower gastrointestinal bleeding (csHR 1.75, 95% CI 1.27-2.41)."
+  },
+  "42886087": {
+   "pmid": "42886087",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 605,
+   "impact": 3,
+   "reason": "RELIEVE-HF safety and durability analysis showing reliable interatrial shunt performance through 2 years but divergent safety by phenotype, with more adverse events in HFpEF."
+  },
+  "42885348": {
+   "pmid": "42885348",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 150,
+   "impact": 2,
+   "reason": "Small neutral randomized trial (n=150) in which six months of colchicine did not change carotid-femoral pulse wave velocity despite lowering hsCRP."
+  },
+  "42866922": {
+   "pmid": "42866922",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "interventional",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Design and rationale paper for the COMBINE-INTERVENE trial, with no outcome data reported."
+  },
+  "42863877": {
+   "pmid": "42863877",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 932,
+   "impact": 3,
+   "reason": "Nationwide propensity-matched registry (466 pairs) associating conduction system pacing after TAVR with fewer cardiovascular deaths or heart failure hospitalizations (HR 0.57, 95% CI 0.39-0.83)."
+  },
+  "42863871": {
+   "pmid": "42863871",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "interventional",
+   "sample_size": 2651,
+   "impact": 4,
+   "reason": "Meta-analysis of 4 randomized trials (2,651 patients) finding higher 1-year all-cause death with immediate versus staged complete revascularization in STEMI (HR 1.50, 95% CI 1.02-2.21), directly informing a common procedural decision."
+  },
+  "42858955": {
+   "pmid": "42858955",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Expert opinion on cardiovascular risk assessment and management in transgender and gender diverse people receiving gender-affirming hormone therapy, based on observational evidence only."
+  },
+  "42876202": {
+   "pmid": "42876202",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Meta-analysis of 56 heart failure randomized trials documenting persistent underrepresentation of women (27.0% in drug trials) and a possibly greater relative drug benefit in women."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
