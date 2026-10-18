@@ -560,10 +560,45 @@
    ],
    "editorial_take": null,
    "practice_implications": "These pooled randomized data do not support routinely completing nonculprit PCI during the index STEMI procedure. For haemodynamically stable patients, deferring nonculprit revascularization to a staged procedure remains the safer default, while accepting that the mortality signal rests on few events and that the apparent reduction in recurrent MI with immediate treatment is driven by periprocedural events. Immediate treatment may still be reasonable for selected patients with ongoing ischaemia or instability, where the trials provide little guidance."
+  },
+  "42866879": {
+   "bottom_line": "In this prespecified bleeding analysis of OCEANIC-STROKE (12,254 participants), adding the factor XIa inhibitor asundexian to antiplatelet therapy after noncardioembolic ischemic stroke or high-risk TIA did not significantly increase major bleeding (1.9% vs 1.7%; csHR 1.10 [95% CI, 0.85-1.44]; P=0.46), but lower gastrointestinal bleeding was more frequent (1.7% vs 1.0%; csHR 1.75 [95% CI, 1.27-2.41]).",
+   "design": "Prespecified safety/bleeding analysis of a randomized, placebo-controlled trial (OCEANIC-STROKE; NCT05686070), with while-on-treatment analyses including events through 2 days after the last dose and death and permanent discontinuation handled as competing risks.",
+   "population": "Safety population of 12,254 participants with noncardioembolic ischemic stroke or high-risk transient ischemic attack who received at least 1 dose of study drug (asundexian n=6,124; placebo n=6,130).",
+   "intervention": "Asundexian added to background antiplatelet therapy (dose not reported in the abstract).",
+   "comparison": "Placebo added to background antiplatelet therapy.",
+   "outcomes": "Bleeding categorized by International Society on Thrombosis and Haemostasis criteria as major, clinically relevant nonmajor (CRNM), or minor. Major bleeding: 117 (1.9%) with asundexian vs 107 (1.7%) with placebo (csHR 1.10 [95% CI, 0.85-1.44]; P=0.46). Major or CRNM bleeding: 339 (5.5%) vs 307 (5.0%) (csHR 1.12 [95% CI, 0.96-1.30]; P=0.16). Any bleeding: 763 (12.5%) vs 752 (12.3%) (csHR 1.02 [95% CI, 0.93-1.13]; P=0.65).",
+   "key_results": [
+    "Major bleeding: 117 (1.9%) asundexian vs 107 (1.7%) placebo; csHR 1.10 (95% CI, 0.85-1.44); P=0.46.",
+    "Major or clinically relevant nonmajor bleeding: 339 (5.5%) vs 307 (5.0%); csHR 1.12 (95% CI, 0.96-1.30); P=0.16.",
+    "Any bleeding: 763 (12.5%) vs 752 (12.3%); csHR 1.02 (95% CI, 0.93-1.13); P=0.65.",
+    "Symptomatic intracranial hemorrhage: 41 (0.7%) with asundexian vs 36 (0.6%) with placebo (comparative effect estimate not reported).",
+    "Any gastrointestinal bleeding: 186 (3.0%) vs 147 (2.4%); csHR 1.28 (95% CI, 1.03-1.59). Lower gastrointestinal bleeding: 102 (1.7%) vs 59 (1.0%); csHR 1.75 (95% CI, 1.27-2.41), primarily rectal bleeding.",
+    "Treatment effects on major and major or CRNM bleeding were consistent across prespecified subgroups, including planned dual antiplatelet therapy.",
+    "Procedure-related bleeding and mucosal bleeding did not differ significantly (effect estimates not reported)."
+   ],
+   "strengths": [
+    "Large randomized, placebo-controlled safety population (12,254 participants) with balanced group sizes, so bleeding comparisons are not confounded by indication.",
+    "Bleeding adjudicated using standard ISTH categories, with reporting by severity and by anatomical site rather than a single composite.",
+    "While-on-treatment analysis with death and permanent discontinuation treated as competing risks, which is the appropriate framework for drug-attributable bleeding.",
+    "Prespecified subgroup analyses, including the clinically important subgroup receiving planned dual antiplatelet therapy, showed consistency.",
+    "Directly addresses the key clinical question for factor XIa inhibition: whether the ischemic benefit seen in the parent trial comes at a bleeding cost."
+   ],
+   "limitations": [
+    "Secondary safety analysis of a completed trial, so the site-specific and subgroup comparisons are exploratory and not adjusted for multiplicity; the lower gastrointestinal bleeding finding could reflect chance among many comparisons.",
+    "Absolute event numbers for the more severe endpoints are modest (117 vs 107 major bleeds; 41 vs 36 symptomatic intracranial hemorrhages), so the confidence interval for major bleeding (0.85-1.44) cannot exclude a clinically meaningful 44% relative increase.",
+    "Intracranial hemorrhage was reported descriptively without a hazard ratio or P value, limiting interpretation of the endpoint cardiologists and neurologists most fear.",
+    "Asundexian dose, duration of exposure, follow-up time and background antiplatelet regimens are not reported in the abstract.",
+    "While-on-treatment censoring 2 days after the last dose excludes later events and may understate bleeding in patients who discontinue.",
+    "Efficacy outcomes are not re-reported here, so net clinical benefit cannot be computed from this analysis alone; funding and sponsor role are not reported in the abstract."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Asundexian is not yet approved, but these data support the central premise of factor XIa inhibition: meaningful antithrombotic effect without the expected excess in major or intracranial bleeding when added to antiplatelet therapy after noncardioembolic stroke. The signal for lower gastrointestinal bleeding, mostly rectal, is the practical caveat and suggests that if the drug reaches clinic, patients with prior gastrointestinal bleeding or anorectal pathology will warrant closer counselling and a low threshold to investigate new rectal bleeding rather than attribute it to haemorrhoids."
   }
  },
  "basis": {
-  "42863871": "abstract"
+  "42863871": "abstract",
+  "42866879": "abstract"
  },
  "candidates": [
   {
