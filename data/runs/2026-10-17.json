@@ -732,6 +732,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "This supports the standard advice that regular moderate activity protects against atrial fibrillation, and provides a number to use in conversation: benefit appears maximal around 26 MET-hr/wk, with a signal of increased AF odds beyond roughly 78 MET-hr/wk or 6-7 hours per week of endurance training. Because the evidence is observational and vulnerable to detection bias, it should temper rather than forbid high-volume training: a reason to discuss AF risk, symptoms and modifiable co-factors such as alcohol with endurance athletes, and reassurance that nothing here argues against recommending ordinary exercise volumes to patients at risk of AF."
+  },
+  "42888496": {
+   "bottom_line": "In a meta-analysis of 31 studies (26,948 dyspneic emergency department patients), NT-proBNP 300 ng/L or below ruled out acute heart failure with 97.9% (96.9-98.5) sensitivity and a 97.0% (96.5-97.4) negative predictive value, while age-dependent rule-in thresholds (450, 900 and 1,800 ng/L for ages <50, 50-75 and 75+ years) outperformed fixed thresholds (AUC 0.84 [0.83-0.85] vs 0.73 [0.69-0.77]); performance fell in chronic kidney disease (AUC 0.77 [0.75-0.78]).",
+   "design": "Systematic review and meta-analysis of diagnostic accuracy studies published up to 28 August 2025.",
+   "population": "31 studies comprising 26,948 patients presenting to the emergency department with dyspnoea. Subgroup analyses included age-dependent thresholds in 14,410 patients, chronic kidney disease in 2,271 patients and obesity (body mass index 30 or above) in 3,562 patients.",
+   "intervention": "NT-proBNP measurement interpreted against fixed thresholds (including 300 ng/L or below for rule-out) and against age-dependent thresholds of 450 ng/L or above for patients aged under 50 years, 900 ng/L or above for ages 50-75 years, and 1,800 ng/L or above for ages 75 years and over.",
+   "comparison": "Reference standard diagnosis of acute heart failure as adjudicated in each included study; fixed versus age-dependent threshold strategies were compared against one another.",
+   "outcomes": "Diagnostic accuracy (AUC, sensitivity, specificity, negative predictive value). Rule-out threshold 300 ng/L or below: AUC 0.73 (0.69-0.77), sensitivity 97.9% (96.9-98.5), specificity 46.2% (36.4-56.2), negative predictive value 97.0% (96.5-97.4). Age-dependent thresholds: AUC 0.84 (0.83-0.85), sensitivity 85.9% (85.0-86.7), specificity 82.0% (81.2-82.9). P values were not reported.",
+   "key_results": [
+    "Rule-out with NT-proBNP 300 ng/L or below: AUC 0.73 (0.69-0.77), sensitivity 97.9% (96.9-98.5), specificity 46.2% (36.4-56.2), negative predictive value 97.0% (96.5-97.4).",
+    "Age-dependent thresholds (450 ng/L if aged <50 years, 900 ng/L if 50-75 years, 1,800 ng/L if 75 years or over), assessed in 14,410 patients: AUC 0.84 (0.83-0.85), sensitivity 85.9% (85.0-86.7), specificity 82.0% (81.2-82.9).",
+    "Chronic kidney disease (n = 2,271): all fixed thresholds gave AUC below 0.80; age-dependent thresholds gave AUC 0.77 (0.75-0.78) with specificity only 62.6% (59.4-65.7).",
+    "Obesity with body mass index 30 or above (n = 3,562, age-dependent thresholds only): AUC 0.82 (0.81-0.84), sensitivity 81.2% (79.2-83.1), broadly comparable to the overall population.",
+    "The authors conclude that 300 ng/L or below is an excellent rule-out threshold while age-dependent thresholds are superior for ruling in acute heart failure."
+   ],
+   "strengths": [
+    "Large pooled diagnostic dataset (31 studies, 26,948 patients) addressing the exact decision made at the front door in dyspnoea.",
+    "Evaluates both rule-out and rule-in strategies rather than a single cut-point, and reports sensitivity, specificity, AUC and negative predictive value with confidence intervals.",
+    "Prespecified clinically important subgroups (chronic kidney disease, obesity) in which natriuretic peptide interpretation is known to be problematic.",
+    "Directly validates the age-stratified thresholds already embedded in guidelines, giving quantitative support for a strategy many clinicians already use.",
+    "Confirms the high negative predictive value (97.0%) that underpins safe discharge decisions in low-probability patients.",
+    "Recent search date (August 2025), so contemporary assays and practice are represented."
+   ],
+   "limitations": [
+    "Meta-analysis of diagnostic accuracy studies with heterogeneous reference standards for acute heart failure adjudication, which is itself imperfect and often informed by the biomarker under test (incorporation bias).",
+    "Pooled sensitivity and specificity depend heavily on disease prevalence and spectrum in the contributing emergency departments, so the reported negative predictive value will not transfer to settings with very different pretest probability.",
+    "Heterogeneity statistics (I2), risk-of-bias assessment (for example QUADAS-2), publication-bias testing and whether the review was prospectively registered are not reported in the abstract.",
+    "Subgroup evidence is thin: only 2,271 patients with chronic kidney disease and 3,562 with obesity, with obesity assessed only for age-dependent thresholds and no renal-function-specific thresholds tested.",
+    "Specificity of the 300 ng/L rule-out threshold is poor (46.2%), so this cut-point alone leaves a large indeterminate group, and the intermediate 'grey zone' is not characterised.",
+    "Confidence intervals around some pooled estimates are implausibly narrow for aggregated diagnostic data, suggesting fixed-effect-like pooling or within-study correlation that may understate uncertainty.",
+    "Assay platforms, timing of sampling relative to presentation, and treatment before sampling are not described; P values and funding are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This supports current practice: use NT-proBNP 300 ng/L or below to rule out acute heart failure in the dyspneic emergency department patient, where the 97.0% negative predictive value makes an alternative diagnosis the safer working assumption, and use the age-stratified cut-points (450, 900 and 1,800 ng/L) rather than a single fixed rule-in value. The caution is renal dysfunction, where accuracy drops and specificity falls to about 63% - here a raised NT-proBNP should prompt imaging and clinical correlation rather than a diagnosis. Obesity, reassuringly, did not materially degrade performance of the age-dependent thresholds."
   }
  },
  "basis": {
@@ -740,7 +774,8 @@
   "42862588": "abstract",
   "42872914": "abstract",
   "42872757": "abstract",
-  "42861574": "abstract"
+  "42861574": "abstract",
+  "42888496": "abstract"
  },
  "candidates": [
   {
