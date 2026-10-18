@@ -528,8 +528,43 @@
    "reason": "Retrospective lung transplant pathology study of 347 interstitial lung disease patients showing severe pulmonary hypertension is rarely idiopathic pulmonary fibrosis, a pulmonology-focused question."
   }
  },
- "summaries": {},
- "basis": {},
+ "summaries": {
+  "42863871": {
+   "bottom_line": "In a meta-analysis of 4 randomized trials (2,651 patients) with STEMI and multivessel disease, immediate complete revascularization was associated with higher 1-year all-cause mortality than a staged strategy (HR 1.50; 95% CI 1.02-2.21; P = 0.04), a statistically fragile signal that argues against routine immediate nonculprit PCI.",
+   "design": "Frequentist pairwise random-effects meta-analysis of multicenter randomized controlled trials; protocol registered on PROSPERO (CRD420251124207).",
+   "population": "Patients presenting with ST-segment elevation myocardial infarction and multivessel disease enrolled in multicenter RCTs; 4 trials comprising 2,651 patients. Trials required exclusive use of second-generation or newer drug-eluting stents and follow-up of at least 1 year.",
+   "intervention": "Immediate complete revascularization, with nonculprit lesion PCI performed during the index procedure.",
+   "comparison": "Staged complete revascularization, with nonculprit lesion PCI performed at a later time.",
+   "outcomes": "Primary outcome was all-cause mortality: higher with immediate complete revascularization (HR 1.50; 95% CI 1.02-2.21; P = 0.04; prediction interval 0.80-2.81; I2 = 0%; tau2 = 0). Secondary outcomes were myocardial infarction, cardiac death and unplanned revascularization.",
+   "key_results": [
+    "All-cause death at 1 year: HR 1.50 (95% CI 1.02-2.21; P = 0.04; prediction interval 0.80-2.81; I2 = 0%; tau2 = 0) with immediate versus staged complete revascularization.",
+    "Recurrent MI using protocol-specified definitions that included procedural MI: HR 0.58 (95% CI 0.36-0.94; P = 0.02; prediction interval 0.22-1.54; I2 = 0%; tau2 = 0.034), favouring immediate revascularization.",
+    "Spontaneous MI: HR 0.91 (95% CI 0.55-1.48; P = 0.90; prediction interval 0.41-2.00; I2 = 0%; tau2 = 0.00), no difference.",
+    "Cardiac death and unplanned revascularization were comparable between strategies (effect estimates not reported in the abstract).",
+    "Statistical heterogeneity was absent for the mortality endpoint (I2 = 0%), but the prediction interval crossed 1.0 (0.80-2.81)."
+   ],
+   "strengths": [
+    "Restricted to multicenter randomized trials, so the comparison of timing is based on randomized evidence rather than registry data.",
+    "Prespecified inclusion criteria requiring contemporary second-generation or newer drug-eluting stents and at least 1 year of follow-up, improving applicability to current practice.",
+    "Protocol registered prospectively on PROSPERO and analysed with random-effects models reporting prediction intervals as well as confidence intervals.",
+    "No statistical heterogeneity for the mortality and MI endpoints (I2 = 0%), suggesting consistency of direction across the 4 trials.",
+    "Directly addresses a decision clinicians face in every STEMI patient with multivessel disease."
+   ],
+   "limitations": [
+    "Only 4 trials and 2,651 patients, with a relatively low number of deaths; the authors themselves describe the mortality finding as statistically fragile.",
+    "The mortality confidence interval barely excludes 1.0 (1.02-2.21) and the prediction interval (0.80-2.81) includes no effect, so a future trial could show no harm.",
+    "All-cause mortality was not the primary endpoint of the contributing trials, raising the possibility of a chance finding; cardiac death showed no difference, which is biologically discordant with an all-cause mortality excess.",
+    "Trial-level (not patient-level) HRs were pooled, preventing adjustment for baseline differences or analysis of subgroups such as shock, lesion complexity or timing of the staged procedure.",
+    "The apparent MI benefit of immediate revascularization depended on definitions including procedural MI and disappeared for spontaneous MI, so the endpoint advantage may be largely definitional.",
+    "Staging intervals, nonculprit assessment methods and crossover rates across the included trials are not reported in the abstract, and funding was not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "These pooled randomized data do not support routinely completing nonculprit PCI during the index STEMI procedure. For haemodynamically stable patients, deferring nonculprit revascularization to a staged procedure remains the safer default, while accepting that the mortality signal rests on few events and that the apparent reduction in recurrent MI with immediate treatment is driven by periprocedural events. Immediate treatment may still be reasonable for selected patients with ongoing ischaemia or instability, where the trials provide little guidance."
+  }
+ },
+ "basis": {
+  "42863871": "abstract"
+ },
  "candidates": [
   {
    "pmid": "42888496",
