@@ -236,6 +236,186 @@
    "sample_size": 1925,
    "impact": 2,
    "reason": "Matched cohort of pregnancy outcomes after living kidney donation, chiefly an obstetric and transplant counselling question."
+  },
+  "42913979": {
+   "pmid": "42913979",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1039,
+   "impact": 3,
+   "reason": "Secondary analysis of a cluster-randomized rural AF care trial showing a favourable but statistically non-significant reduction in recurrent nonfatal events."
+  },
+  "42900678": {
+   "pmid": "42900678",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 857,
+   "impact": 2,
+   "reason": "Translational case-control immunology study linking familial hypercholesterolaemia to reduced thymic output, with no immediate clinical application."
+  },
+  "42896184": {
+   "pmid": "42896184",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "general",
+   "sample_size": 21496506,
+   "impact": 3,
+   "reason": "Very large claims analysis showing growing cardiovascular diagnosis during Medicare Advantage in-home assessments with lower subsequent treatment, a health policy rather than clinical practice finding."
+  },
+  "42895999": {
+   "pmid": "42895999",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "cardio_oncology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "State-of-the-art narrative review of radiation-associated coronary disease with no new data."
+  },
+  "42895770": {
+   "pmid": "42895770",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1088866,
+   "impact": 2,
+   "reason": "Very large registry analysis of mobility-derived greenspace visitation whose association with MACE was no longer significant after adjusting for social vulnerability."
+  },
+  "42913970": {
+   "pmid": "42913970",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 26830,
+   "impact": 3,
+   "reason": "Large real-world post-market surveillance showing favourable 10-year mechanical survival of one ICD lead model, reassuring but not practice changing."
+  },
+  "42913976": {
+   "pmid": "42913976",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 3459,
+   "impact": 3,
+   "reason": "Multicenter registry showing AF pattern stratifies residual stroke risk after left atrial appendage occlusion, useful for follow-up planning."
+  },
+  "42906920": {
+   "pmid": "42906920",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 2078,
+   "impact": 2,
+   "reason": "Cohort study confirming that hs-CRP is associated with cardiovascular events in chronic kidney disease, incremental to existing evidence."
+  },
+  "42913982": {
+   "pmid": "42913982",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 113,
+   "impact": 3,
+   "reason": "Small two-centre prospective study suggesting septal fibrosis on MRI predicts response to left bundle branch area pacing, requiring validation."
+  },
+  "42913974": {
+   "pmid": "42913974",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 147,
+   "impact": 2,
+   "reason": "Retrospective imaging series reporting no significant pulmonary vein narrowing after adjunctive PV sleeve pulsed field ablation."
+  },
+  "42911157": {
+   "pmid": "42911157",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 423,
+   "impact": 3,
+   "reason": "Multicenter retrospective series showing high success and low complication rates when extracting leads under a current safety advisory, directly useful to implanters."
+  },
+  "42910977": {
+   "pmid": "42910977",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 123,
+   "impact": 3,
+   "reason": "Single-arm pivotal device trial in intermediate-risk pulmonary embolism meeting performance goals on safety and the surrogate RV/LV ratio, with no comparator."
+  },
+  "42905523": {
+   "pmid": "42905523",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 551,
+   "impact": 3,
+   "reason": "Long-term ICD cohort in Brugada syndrome supporting a clinical and genetic risk score for predicting arrhythmic events."
+  },
+  "42900033": {
+   "pmid": "42900033",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 412,
+   "impact": 2,
+   "reason": "Methodological comparison of perivascular fat attenuation aggregation approaches against plaque progression, with no significant differences between measures."
+  },
+  "42900029": {
+   "pmid": "42900029",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 825,
+   "impact": 3,
+   "reason": "Large multicenter cohort describing 10-year outcomes and emerging mechanisms in idiopathic ventricular fibrillation, informative but hypothesis-generating on therapy."
+  },
+  "42899353": {
+   "pmid": "42899353",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 915,
+   "impact": 2,
+   "reason": "Retrospective study showing automated CT body composition adds modest prognostic discrimination after TAVR."
+  },
+  "42895024": {
+   "pmid": "42895024",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "hypertension",
+   "sample_size": 472,
+   "impact": 3,
+   "reason": "Birth cohort study linking life-course systolic blood pressure burden to late-life myocardial fibrosis on MRI, mechanistically interesting but with imaging endpoints."
+  },
+  "42918519": {
+   "pmid": "42918519",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 21,
+   "impact": 2,
+   "reason": "21-patient feasibility registry of leadless Bachmann bundle pacing with electrophysiologic rather than clinical endpoints."
+  },
+  "42918518": {
+   "pmid": "42918518",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 22,
+   "impact": 2,
+   "reason": "22-patient retrospective series of a bailout ablation strategy for refractory Purkinje ectopy, promising but very small."
+  },
+  "42913987": {
+   "pmid": "42913987",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 136,
+   "impact": 3,
+   "reason": "Single-arm 12-month results for a focal pulsed field ablation platform showing good freedom from arrhythmia without a randomized comparison."
   }
  },
  "summaries": {},
