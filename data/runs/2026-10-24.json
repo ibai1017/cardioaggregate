@@ -521,8 +521,41 @@
    "reason": "Small retrospective Fontan transplant cohort yielding exploratory liver volume thresholds that need external validation."
   }
  },
- "summaries": {},
- "basis": {},
+ "summaries": {
+  "42895015": {
+   "bottom_line": "Swapping a central-laboratory high-sensitivity troponin assay for a whole-blood point-of-care hs-cTnI assay within the same accelerated chest pain pathway cut emergency department length of stay by 13% (about 47 minutes) with no signal of missed events at 30 days.",
+   "design": "Pragmatic, stepped-wedge cluster-randomized trial across 6 emergency department sites, February 2023 to January 2025; primary outcome analysed with a generalized linear mixed model adjusted for covariates associated with length of stay",
+   "population": "59 980 emergency department presentations (44 747 individuals; mean 61\u00b119 years of age; 49.5% female) with possible acute coronary syndrome at six participating sites; 31 392 presentations occurred during the intervention arm",
+   "intervention": "Accelerated diagnostic pathway with a single-sample rule-out step using a whole-blood point-of-care high-sensitivity cardiac troponin I assay in the emergency department",
+   "comparison": "Usual care: the same accelerated diagnostic pathway with a single-sample rule-out step using a central laboratory high-sensitivity troponin assay",
+   "outcomes": "Primary effectiveness outcome, emergency department length of stay: reduced by 13% with point-of-care testing (95% CI, 9%-16%; P<0.001) after adjustment for covariates associated with length of stay, corresponding to a reduction of 47 minutes (95% CI, 33-61 minutes) from a control-arm mean length of stay of 376 minutes. Safety outcome, myocardial infarction or cardiac death within 30 days: 0.39% in the control arm versus 0.39% in the intervention arm (P=0.54).",
+   "key_results": [
+    "Control-arm mean emergency department length of stay was 376 minutes.",
+    "30-day myocardial infarction or cardiac death was identical in the two arms at 0.39% and 0.39% (P=0.54).",
+    "Six sites contributed 59 980 presentations from 44 747 individuals, of which 31 392 presentations fell in the intervention arm.",
+    "Registered as ACTRN12619001189112."
+   ],
+   "strengths": [
+    "Randomization at the cluster level with a stepped-wedge design, so every site contributed both control and intervention time and secular trends are accounted for in the analysis.",
+    "Large, pragmatic, real-world sample of nearly 60 000 unselected presentations, which supports generalizability to routine emergency department practice.",
+    "Both arms used the same accelerated single-sample rule-out pathway, isolating the effect of where the assay is run rather than confounding it with a change in the diagnostic algorithm.",
+    "A prespecified safety outcome of 30-day myocardial infarction or cardiac death was reported alongside the efficiency endpoint."
+   ],
+   "limitations": [
+    "The primary endpoint is a care-delivery measure (length of stay), not a patient outcome, so the clinical value depends on how much the 47 minutes saved matters locally.",
+    "Open-label by necessity: clinicians knew which assay was in use, and co-interventions or Hawthorne effects during intervention periods cannot be excluded.",
+    "Only six sites, all within one trial network, and length of stay gains may not transfer to departments whose baseline mean of 376 minutes, laboratory turnaround or staffing differ.",
+    "Stepped-wedge designs are vulnerable to time-varying confounding; the effect estimate required adjustment for covariates associated with length of stay.",
+    "The 30-day event rate was very low (0.39% in both arms), so the trial can exclude only a fairly large difference in safety rather than a small excess of missed infarction.",
+    "Cost, assay precision in whole blood, and downstream testing or admission rates are not reported in the abstract."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For departments already running a single-sample hs-cTn rule-out pathway, moving the assay to the point of care is a reasonable operational change: it shortened stays by roughly three quarters of an hour without any excess of 30-day infarction or cardiac death. It does not change who is ruled out or the diagnostic thresholds themselves, so the decision rests on local turnaround times, assay quality assurance and cost rather than on new clinical evidence of benefit."
+  }
+ },
+ "basis": {
+  "42895015": "abstract"
+ },
  "candidates": [
   {
    "pmid": "42920302",
