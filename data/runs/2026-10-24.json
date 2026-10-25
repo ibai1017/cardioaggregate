@@ -55,7 +55,11 @@
   "42900032",
   "42896765"
  ],
- "selected": [],
+ "selected": [
+  "42895015",
+  "42910974",
+  "42912400"
+ ],
  "triage": {
   "42895015": {
    "pmid": "42895015",
@@ -416,6 +420,105 @@
    "sample_size": 136,
    "impact": 3,
    "reason": "Single-arm 12-month results for a focal pulsed field ablation platform showing good freedom from arrhythmia without a randomized comparison."
+  },
+  "42913977": {
+   "pmid": "42913977",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 70,
+   "impact": 2,
+   "reason": "Small mechanistic mapping and simulation study suggesting lower atrial voltage in women is physiological, with exploratory sex-specific cutoffs."
+  },
+  "42913971": {
+   "pmid": "42913971",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 499,
+   "impact": 2,
+   "reason": "Exploratory wearable AI-ECG age phenotyping associated with left atrial size, with reproducibility the authors call insufficient for individual use."
+  },
+  "42913969": {
+   "pmid": "42913969",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 10,
+   "impact": 2,
+   "reason": "Ten-case feasibility series of epicardial suture closure for peri-device leaks after endocardial LAA occlusion."
+  },
+  "42913094": {
+   "pmid": "42913094",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 10,
+   "impact": 2,
+   "reason": "First-in-human ten-patient feasibility study of a soft robotic biventricular support device applied briefly before LVAD implantation."
+  },
+  "42911160": {
+   "pmid": "42911160",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 46,
+   "impact": 3,
+   "reason": "Single-cohort mapping study proposing a stimulus-QRS to electrogram-QRS mismatch cutoff that flags intramural ventricular arrhythmia origins, practical for ablation operators."
+  },
+  "42909432": {
+   "pmid": "42909432",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 52,
+   "impact": 3,
+   "reason": "Small prospective IDE cohort of conduction system pacing defibrillator leads with propensity-matched comparison showing greater ejection fraction gain than biventricular CRT, promising but not randomized."
+  },
+  "42909422": {
+   "pmid": "42909422",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 167,
+   "impact": 2,
+   "reason": "Feasibility study of intravascular imaging-guided drug-coated balloon therapy in femoropopliteal lesions with a single predictor of restenosis."
+  },
+  "42906831": {
+   "pmid": "42906831",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 82,
+   "impact": 2,
+   "reason": "Small retrospective single-centre comparison of two donation-after-circulatory-death heart recovery strategies with wide confidence intervals and only directional signals."
+  },
+  "42905911": {
+   "pmid": "42905911",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review of sedation and anaesthesia practice for pulsed-field ablation without new comparative data."
+  },
+  "42900032": {
+   "pmid": "42900032",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 181,
+   "impact": 3,
+   "reason": "Derivation and validation of the electromechanical window as a risk marker for ventricular arrhythmia in mitral valve prolapse, a useful but still diagnostic-accuracy level finding."
+  },
+  "42896765": {
+   "pmid": "42896765",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 37,
+   "impact": 2,
+   "reason": "Small retrospective Fontan transplant cohort yielding exploratory liver volume thresholds that need external validation."
   }
  },
  "summaries": {},
