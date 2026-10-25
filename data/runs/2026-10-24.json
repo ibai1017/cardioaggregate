@@ -56,7 +56,188 @@
   "42896765"
  ],
  "selected": [],
- "triage": {},
+ "triage": {
+  "42895015": {
+   "pmid": "42895015",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 59980,
+   "impact": 4,
+   "reason": "Large pragmatic stepped-wedge cluster-randomized trial showing point-of-care hs-cTnI cut ED length of stay by 47 minutes with no excess 30-day MI or cardiac death, directly relevant to chest pain pathways."
+  },
+  "42896534": {
+   "pmid": "42896534",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 1095,
+   "impact": 3,
+   "reason": "Adequately powered neutral perioperative trial of cardiac index-guided hemodynamic therapy, solid but mainly of interest to anesthesia and perioperative teams."
+  },
+  "42905688": {
+   "pmid": "42905688",
+   "cardiology_relevant": false,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Narrative review of childhood obesity management that touches cardiovascular risk factors but is not primarily cardiology."
+  },
+  "42918407": {
+   "pmid": "42918407",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 405,
+   "impact": 3,
+   "reason": "Single-arm prospective cohort describing distal reintervention rates and predictors after frozen elephant trunk repair, useful to aortic surgeons but not comparative."
+  },
+  "42913972": {
+   "pmid": "42913972",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 49963,
+   "impact": 3,
+   "reason": "Network meta-analysis of observational data on ventricular arrhythmia timing in ACS gives prognostic insight but no change in management."
+  },
+  "42909425": {
+   "pmid": "42909425",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 150,
+   "impact": 3,
+   "reason": "Randomized comparison of ablation strategies powered only for ablation time, with exploratory one-year efficacy findings that need confirmation."
+  },
+  "42906925": {
+   "pmid": "42906925",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 23111,
+   "impact": 3,
+   "reason": "Broad meta-analysis of digital health interventions in CAD with a CVD event benefit resting on few trials and acknowledged evidence gaps."
+  },
+  "42900708": {
+   "pmid": "42900708",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 299,
+   "impact": 3,
+   "reason": "Randomized trial of side-branch drug-coated balloon with an angiographic primary endpoint and no difference in clinical events."
+  },
+  "42920302": {
+   "pmid": "42920302",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1700,
+   "impact": 3,
+   "reason": "Pooled secondary analysis of two phase 3 obicetrapib trials plus trial-level meta-analysis addressing new-onset diabetes, reassuring but not practice changing before the outcome trial."
+  },
+  "42918521": {
+   "pmid": "42918521",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 2215,
+   "impact": 3,
+   "reason": "Large national conduction system pacing registry with useful success and failure predictors but hypothesis-generating outcome comparisons."
+  },
+  "42913985": {
+   "pmid": "42913985",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 31,
+   "impact": 2,
+   "reason": "31-patient sham-controlled pilot of median nerve stimulation with surrogate ectopy endpoints and no significant AF burden reduction."
+  },
+  "42913481": {
+   "pmid": "42913481",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "heart_failure",
+   "sample_size": 5353,
+   "impact": 3,
+   "reason": "Bayesian dose-response network meta-analysis of exercise training in heart failure informing rehabilitation prescriptions via peak VO2 rather than clinical outcomes."
+  },
+  "42911149": {
+   "pmid": "42911149",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Design and rationale paper for an ongoing trial with no results reported."
+  },
+  "42910974": {
+   "pmid": "42910974",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "structural_valve",
+   "sample_size": 1476,
+   "impact": 4,
+   "reason": "Meta-analysis of randomized trials settling a live question on whether to revascularize coronary disease before TAVI, favouring routine and especially physiology-guided PCI."
+  },
+  "42905909": {
+   "pmid": "42905909",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review positioning combined pulsed field ablation and left atrial appendage closure without new data."
+  },
+  "42913986": {
+   "pmid": "42913986",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 448,
+   "impact": 3,
+   "reason": "Bayesian meta-analysis of three sham-controlled AF ablation trials supporting a quality-of-life benefit but with low certainty and uncertain magnitude."
+  },
+  "42912400": {
+   "pmid": "42912400",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 12847,
+   "impact": 4,
+   "reason": "Very large cohort with 30-year follow-up showing markedly higher long-term mortality with high coronary calcium at age 30 to 45, informing how early prevention is targeted."
+  },
+  "42909452": {
+   "pmid": "42909452",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 597,
+   "impact": 3,
+   "reason": "Explicitly descriptive secondary analysis of SirPAD in femoropopliteal disease without tissue loss, suggestive of lower revascularization but not confirmatory."
+  },
+  "42909429": {
+   "pmid": "42909429",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "heart_failure",
+   "sample_size": 8991,
+   "impact": 3,
+   "reason": "Meta-analysis of case-control echocardiographic studies after preeclampsia reporting subclinical strain and mass differences without clinical outcomes."
+  },
+  "42914154": {
+   "pmid": "42914154",
+   "cardiology_relevant": false,
+   "design": "observational",
+   "subspecialty": "hypertension",
+   "sample_size": 1925,
+   "impact": 2,
+   "reason": "Matched cohort of pregnancy outcomes after living kidney donation, chiefly an obstetric and transplant counselling question."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
