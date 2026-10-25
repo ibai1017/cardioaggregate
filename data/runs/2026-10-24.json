@@ -580,11 +580,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "This supports treating significant coronary disease in TAVI candidates rather than leaving it alone, with most of the measurable gain in unplanned revascularisation and a real excess of major bleeding to weigh in frail patients. Where lesion significance is uncertain, the network comparison favours a physiology-guided rather than purely angiographic approach, though that signal comes from indirect comparisons in a small number of trials and should not yet be read as a definitive answer."
+  },
+  "42912400": {
+   "bottom_line": "Among 12 847 adults aged 30 to 45 years referred for a clinically indicated CAC scan, a CAC score above the 90th percentile carried adjusted hazard ratios of 1.87 for all-cause, 2.60 for cardiovascular and 3.71 for coronary heart disease mortality versus CAC 0, with modelled 30-year CHD mortality of 3.0% versus 0.6%. Absolute risks remain modest, but the gradient identifies a young high-risk phenotype worth intensive prevention.",
+   "design": "Retrospectively assembled multicentre cohort study (CAC Consortium, four US institutions) with time-to-event multivariable regression; median follow-up 22.6 years, with cumulative incidence modelled in 5-year increments to 30 years using a mixed Kaplan-Meier and Weibull approach",
+   "population": "12 847 adults aged 30 to 45 years referred for clinically indicated CAC scanning; mean (SD) age 40.5 (3.6) years, 9922 (77.2%) male. CAC distribution: 9262 (72.1%) CAC score of 0, 1626 (12.7%) CAC 75% to 90%, 1703 (13.3%) CAC greater than 90%",
+   "intervention": "Exposure: elevated coronary artery calcium in young adulthood, specifically a CAC score greater than the 90th percentile",
+   "comparison": "Young adults with a CAC score of 0 (with an intermediate 75% to 90% percentile group also described)",
+   "outcomes": "Mortality by underlying cause. Multivariable adjusted hazard ratios for CAC greater than 90% versus CAC of 0, adjusted for age, sex and traditional atherosclerotic CVD risk factors: all-cause mortality 1.87 (95% CI, 1.54-2.27), CVD mortality 2.60 (95% CI, 1.77-3.82), CHD mortality 3.71 (95% CI, 2.24-6.16). P values not reported.",
+   "key_results": [
+    "There were 624 deaths in total, of which 149 were CVD deaths and 81 CHD deaths.",
+    "Modelled 30-year risk for CAC greater than 90% versus CAC of 0: all-cause mortality 12.9% versus 7.5%, CVD mortality 4.5% versus 1.5%, CHD mortality 3.0% versus 0.6%.",
+    "Median follow-up was 22.6 years, so the 30-year estimates are partly extrapolated by Weibull modelling.",
+    "Risk estimates for the intermediate 75% to 90% percentile group are not reported in the abstract."
+   ],
+   "strengths": [
+    "Exceptionally long follow-up (median 22.6 years) in an age group for which long-term CAC outcome data have been lacking.",
+    "Large sample for this age band (12 847 participants aged 30 to 45) drawn from four institutions, with a graded CAC exposure.",
+    "Estimates adjusted for age, sex and traditional atherosclerotic CVD risk factors, and both relative hazards and modelled absolute risks are presented.",
+    "Cause-specific mortality (CVD and CHD) is reported, not only all-cause death, and the proportion of deaths attributable to CVD and CHD across CAC groups was examined."
+   ],
+   "limitations": [
+    "Retrospectively assembled cohort of patients referred for clinically indicated scans, so participants are not a general population sample and referral indication may itself track risk.",
+    "The outcome is mortality ascertained from cause of death only; non-fatal myocardial infarction, revascularisation and incident CVD are not captured, so total event burden is underestimated.",
+    "Predominantly male (77.2%), which limits inference for young women.",
+    "Residual confounding is likely: adjustment covered traditional risk factors, but statin and other preventive therapy over two decades of follow-up, and risk factor changes after the scan, are not accounted for in the abstract.",
+    "The 30-year cumulative incidence figures rest on Weibull extrapolation beyond the median 22.6 years of observed follow-up.",
+    "Few cause-specific events (149 CVD and 81 CHD deaths) give wide confidence intervals, most obviously for CHD mortality (2.24-6.16).",
+    "Observational design cannot show that acting on a high CAC score in young adulthood improves outcomes; no treatment comparison was made."
+   ],
+   "editorial_take": null,
+   "practice_implications": "A CAC score above the 90th percentile in a 30- to 45-year-old is not a benign incidental finding: it marks a roughly 2- to 4-fold higher long-term mortality gradient persisting over two decades, and supports intensifying lipid lowering and risk factor control in that group. The absolute 30-year CHD mortality difference (3.0% versus 0.6%) is small, so this argues for aggressive risk factor treatment in those already scanned rather than for population CAC screening in young adults, which these data cannot justify."
   }
  },
  "basis": {
   "42895015": "abstract",
-  "42910974": "abstract"
+  "42910974": "abstract",
+  "42912400": "abstract"
  },
  "candidates": [
   {
