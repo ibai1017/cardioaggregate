@@ -551,10 +551,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "For departments already running a single-sample hs-cTn rule-out pathway, moving the assay to the point of care is a reasonable operational change: it shortened stays by roughly three quarters of an hour without any excess of 30-day infarction or cardiac death. It does not change who is ruled out or the diagnostic thresholds themselves, so the decision rests on local turnaround times, assay quality assurance and cost rather than on new clinical evidence of benefit."
+  },
+  "42910974": {
+   "bottom_line": "In a meta-analysis of randomised trials in patients referred for TAVI, routine PCI reduced MACE (RR 0.80, 95% CI: 0.65-0.98) and unplanned revascularisation at the cost of more major bleeding (RR 1.57, 95% CI: 1.07-2.32); in the network comparison, physiology-guided PCI ranked best for ischaemic outcomes.",
+   "design": "Systematic review with pairwise meta-analysis and network meta-analysis of randomised controlled trials (PROSPERO CRD420261330194); five trials (N=1,644) in the systematic review, four trials (N=1,476) in the primary quantitative synthesis",
+   "population": "Patients with severe aortic stenosis and coronary artery disease referred for transcatheter aortic valve implantation, enrolled in randomised trials of coronary revascularisation strategy",
+   "intervention": "Routine coronary revascularisation with percutaneous coronary intervention, assessed overall and, in the network meta-analysis, as angiography-guided or physiology-guided PCI",
+   "comparison": "Conservative management of coronary artery disease (no routine revascularisation)",
+   "outcomes": "Primary outcome, a study-defined composite of major adverse cardiovascular events: routine PCI versus conservative treatment RR 0.80 (95% CI: 0.65-0.98). P values not reported. Secondary outcomes: unplanned revascularisation RR 0.30 (95% CI: 0.11-0.83) and major bleeding RR 1.57 (95% CI: 1.07-2.32) with routine PCI.",
+   "key_results": [
+    "In the network meta-analysis, physiology-guided PCI significantly reduced MACE, stroke and unplanned revascularisation compared with conservative treatment and ranked highest for all ischaemic outcomes among revascularisation strategies.",
+    "Effect estimates for all-cause death, cardiovascular death and myocardial infarction were listed as secondary endpoints but are not reported numerically in the abstract.",
+    "Five trials (N=1,644 patients) met inclusion criteria; one was not included in the primary quantitative synthesis, leaving four trials with N=1,476."
+   ],
+   "strengths": [
+    "Restricted to randomised trials, so the comparison of routine revascularisation with conservative management is not confounded by the indication bias that dominates registry data on this question.",
+    "Prospectively registered protocol (PROSPERO CRD420261330194) with a prespecified primary composite endpoint.",
+    "The network meta-analysis adds a clinically useful distinction between angiography-guided and physiology-guided PCI that no single trial was powered to make.",
+    "Both ischaemic benefit and the bleeding penalty are reported, so the trade-off is visible rather than implied."
+   ],
+   "limitations": [
+    "Small evidence base: four trials and 1,476 patients in the primary synthesis, and the MACE confidence interval (0.65-0.98) only just excludes 1.00.",
+    "The primary endpoint was a study-defined composite that differed across trials, and the benefit appears driven largely by unplanned revascularisation (RR 0.30) rather than death or myocardial infarction, for which no estimates are given in the abstract.",
+    "Network meta-analysis conclusions about physiology-guided PCI rest on indirect comparisons within few trials and are at high risk of being underpowered; ranking statistics overstate certainty.",
+    "No P values, heterogeneity statistics, risk-of-bias ratings or certainty-of-evidence grading are reported in the abstract, and timing of PCI relative to TAVI is not described.",
+    "Trials of coronary revascularisation around TAVI are open-label, so endpoints such as unplanned revascularisation are susceptible to ascertainment bias.",
+    "Follow-up duration and whether the increased major bleeding translated into other harm are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This supports treating significant coronary disease in TAVI candidates rather than leaving it alone, with most of the measurable gain in unplanned revascularisation and a real excess of major bleeding to weigh in frail patients. Where lesion significance is uncertain, the network comparison favours a physiology-guided rather than purely angiographic approach, though that signal comes from indirect comparisons in a small number of trials and should not yet be read as a definitive answer."
   }
  },
  "basis": {
-  "42895015": "abstract"
+  "42895015": "abstract",
+  "42910974": "abstract"
  },
  "candidates": [
   {
