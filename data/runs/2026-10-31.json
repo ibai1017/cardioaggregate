@@ -539,10 +539,46 @@
    ],
    "editorial_take": null,
    "practice_implications": "This is the first randomized outcome evidence that pacing mode matters clinically in atrioventricular block with preserved ejection fraction, and it supports offering left bundle-branch area pacing rather than right ventricular pacing to patients expected to be paced more than 40% of the time, where operator experience allows. The benefit shown is prevention of heart failure events, not of death, and the modest size, single-country setting, unreported masking and 79.7% rate of confirmed left bundle-branch capture mean it strengthens rather than settles the case; confirmation in a larger multinational trial with longer follow-up and lead-performance data would still be valuable."
+  },
+  "42956796": {
+   "bottom_line": "Pooling individual participant data from all five randomised trials of the guideline-recommended 0/1 h high-sensitivity troponin pathway against the 0/3 h standard, earlier retesting did not shorten emergency department length of stay (geometric mean ratio 1.03; 95% CI 0.85-1.25) or clearly increase direct discharge (pooled OR 1.31; 95% CI 0.79-2.16), and the 30-day safety comparison remained imprecise (pooled OR 0.83; 95% CI 0.45-1.53).",
+   "design": "Systematic review and individual participant data meta-analysis of randomised controlled trials. PubMed, Cochrane CENTRAL, Scopus and the International Clinical Trials Registry Platform were searched from inception to July 6, 2026 without language restriction; outcome definitions were harmonised across trials and the primary analysis used a two-stage random-effects meta-analysis. Registered with PROSPERO (CRD420261383452).",
+   "population": "110 933 emergency department presentations with suspected myocardial infarction from five randomised trials, all of which supplied individual participant data; 55 489 presentations were managed with the 0/1 h pathway and 55 444 with the 0/3 h pathway.",
+   "intervention": "0/1 h high-sensitivity cardiac troponin pathway, with blood draws at 0 h and 1 h.",
+   "comparison": "0/3 h pathway, with blood draws at 0 h and 3 h, that is, standard care.",
+   "outcomes": "Primary safety outcome, all-cause death or new type 1 myocardial infarction within 30 days: 446 presentations (0.8%) with the 0/1 h pathway versus 562 presentations (1.0%) with the 0/3 h pathway (random-effects pooled odds ratio 0.83 [95% CI 0.45-1.53]; I2 = 62.9%; tau2 = 0.143). Primary efficacy outcome, emergency department length of stay: 314 min (IQR 211-481) versus 308 min (IQR 209-453) (random-effects pooled geometric mean ratio 1.03 [95% CI 0.85-1.25]; I2 = 99.2%; tau2 = 0.024). Primary efficacy outcome, direct discharge from the emergency department: 37 190 presentations (67.0%) versus 36 485 presentations (65.8%) (random-effects pooled odds ratio 1.31 [95% CI 0.79-2.16]; I2 = 97.8%; tau2 = 0.156). P values were not reported.",
+   "key_results": [
+    "Death or new type 1 myocardial infarction within 30 days: 0.8% (0/1 h) versus 1.0% (0/3 h); pooled odds ratio 0.83 (95% CI 0.45-1.53), I2 = 62.9%.",
+    "Emergency department length of stay was essentially identical: median 314 min versus 308 min; geometric mean ratio 1.03 (95% CI 0.85-1.25), with near-complete between-trial heterogeneity (I2 = 99.2%).",
+    "Direct discharge from the emergency department: 67.0% versus 65.8%; pooled odds ratio 1.31 (95% CI 0.79-2.16), I2 = 97.8%.",
+    "All five randomised trials identified by the search provided individual participant data, covering 110 933 presentations.",
+    "The primary safety outcome was refined after receipt of the individual participant data but before data harmonisation or analysis, from all-cause death or any new myocardial infarction to all-cause death or new type 1 myocardial infarction within 30 days.",
+    "Emergency department length of stay was not reported for the whole analysis population in four of the five trials.",
+    "Funded by the Swiss National Science Foundation, Swiss Heart Foundation, University Hospital Basel, University of Basel and the Foundation for Cardiovascular Research Basel."
+   ],
+   "strengths": [
+    "Restricted to randomised comparisons and captured every trial the search identified, with individual participant data obtained from all five, so there is no retrieval bias within the randomised evidence base.",
+    "Individual participant data allowed harmonised outcome definitions across trials, which the authors note had differed, making the pooled safety estimate interpretable in a way the published trial reports were not.",
+    "Very large analysis population of 110 933 presentations, with both an efficacy and a hard safety endpoint rather than diagnostic performance measures alone.",
+    "Prospectively registered with PROSPERO, and the change to the primary safety outcome is disclosed along with its timing relative to harmonisation and analysis.",
+    "Heterogeneity is reported transparently (I2 and tau2 for every outcome) and a random-effects two-stage model was used rather than a model that would have concealed it."
+   ],
+   "limitations": [
+    "Only five trials contribute, so random-effects pooling with substantial tau2 yields wide confidence intervals; the safety interval (OR 0.45-1.53) is compatible with both a meaningful reduction and a meaningful excess of death or type 1 myocardial infarction.",
+    "Heterogeneity for both efficacy outcomes is extreme (I2 = 99.2% for length of stay and 97.8% for direct discharge), so the pooled averages describe no single health-care system well and the authors themselves caution that effects may not transfer.",
+    "Emergency department length of stay was unavailable for the whole analysis population in four of five trials, so the principal efficacy outcome rests on partial data and is open to selective availability.",
+    "The primary safety outcome was changed after the individual participant data had been received; although this preceded harmonisation and analysis, it is not a fully prespecified comparison.",
+    "The abstract does not describe the designs, settings or eras of the contributing trials, so differences in assay, local pathway and discharge culture cannot be judged, and no P values are given for any outcome.",
+    "The comparison isolates retest timing within a troponin pathway; it does not address single-sample rule-out, risk scores or the wider accelerated protocols with which a 0/1 h strategy is usually implemented.",
+    "A 30-day horizon may be too short to capture the downstream consequences of discharge decisions, and no longer follow-up is reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "The 0/1 h pathway should not be adopted on the expectation that it moves patients through the emergency department faster: across the randomised evidence it saved no time (median 314 versus 308 min) and increased direct discharge only non-significantly. Short-term event rates were low with both strategies, so a department already running a well-functioning 0/3 h pathway has little reason to change on safety or throughput grounds alone, and conversely no strong reason to abandon an established 0/1 h pathway. The imprecise pooled safety estimate and near-total between-trial heterogeneity mean the decision is properly a local one about assay availability, staffing, bed flow and diagnostic workflow rather than one the pooled data can settle."
   }
  },
  "basis": {
-  "42949742": "abstract"
+  "42949742": "abstract",
+  "42956796": "abstract"
  },
  "candidates": [
   {
