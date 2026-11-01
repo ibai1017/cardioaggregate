@@ -501,8 +501,49 @@
    "reason": "Large UK Biobank cohort in which adding a retinal AI score to SCORE2 reclassified statin eligibility only modestly, with no gain in C-index or net benefit."
   }
  },
- "summaries": {},
- "basis": {},
+ "summaries": {
+  "42949742": {
+   "bottom_line": "In patients with atrioventricular block, preserved ejection fraction and an anticipated pacing burden above 40%, left bundle-branch area pacing cut the 24-month composite of death, heart failure events or upgrade to biventricular pacing from 12.5% to 2.4% (absolute risk difference -10.1%; 95% CI, -16.8% to -3.4%; P = .003), driven by fewer heart failure events rather than by mortality.",
+   "design": "Prospective, multicenter, randomized, controlled, superiority trial (LEAP-Block) at 14 Chinese hospitals, January 2021 to August 2025, with last follow-up on June 3, 2025; 1:1 randomization and 24-month follow-up. Masking not reported.",
+   "population": "499 patients with left ventricular ejection fraction 50% or greater and atrioventricular block requiring ventricular pacing with an anticipated pacing burden greater than 40%, randomized from 551 assessed for eligibility; the primary analysis included 482 patients (mean age, 67 years; 46% female).",
+   "intervention": "Left bundle-branch area pacing (LBBAP), n = 249 randomized and 242 analysed.",
+   "comparison": "Conventional right ventricular pacing (RVP), n = 250 randomized and 240 analysed.",
+   "outcomes": "Primary end point, the 24-month composite of all-cause death, heart failure events or upgrade to biventricular pacing: 2.4% with LBBAP versus 12.5% with RVP (absolute risk difference, -10.1% [95% CI, -16.8% to -3.4%]; P = .003). The 24-month Kaplan-Meier estimated cumulative incidence of the primary end point was 5.0% for LBBAP versus 13.2% for RVP (hazard ratio, 0.37 [95% CI, 0.19 to 0.73]; P = .004). Secondary end points included heart failure events, 3.4% versus 11.3% (absolute risk difference, -7.9% [95% CI, -13.0% to -2.8%]); no significant differences were observed in all-cause death, upgrade to biventricular pacing, device-related complications or pacing-induced cardiomyopathy (individual event counts not reported).",
+   "key_results": [
+    "Primary composite end point at 24 months: 2.4% (LBBAP) versus 12.5% (RVP); absolute risk difference, -10.1% (95% CI, -16.8% to -3.4%); P = .003.",
+    "Kaplan-Meier cumulative incidence of the primary end point at 24 months: 5.0% versus 13.2%; hazard ratio, 0.37 (95% CI, 0.19 to 0.73); P = .004.",
+    "Heart failure events: 3.4% versus 11.3%; absolute risk difference, -7.9% (95% CI, -13.0% to -2.8%).",
+    "All-cause death, upgrade to biventricular pacing, device-related complications and pacing-induced cardiomyopathy did not differ significantly between groups.",
+    "Acute procedural success was similar: 237 of 242 (97.9%) with LBBAP versus 239 of 240 (99.6%) with RVP; P = .22.",
+    "Left bundle-branch capture was confirmed in only 188 of 236 patients (79.7%) assigned to LBBAP.",
+    "Superiority of LBBAP was consistent across all prespecified subgroups.",
+    "Registered as NCT04730921; funding not reported."
+   ],
+   "strengths": [
+    "Randomized, multicenter, prespecified superiority design with clinical end points, addressing a pacing-mode question that has until now rested largely on observational and physiological data.",
+    "Enrolled exactly the population in which the question matters most: preserved ejection fraction with an anticipated high pacing burden (greater than 40%), where pacing-induced cardiomyopathy is the main hazard.",
+    "Follow-up of 24 months with a clinically meaningful composite that includes death and heart failure events rather than only electrocardiographic or echocardiographic surrogates.",
+    "Acute procedural success was high and nearly identical in the two arms, so the outcome difference is unlikely to reflect a failure to deliver the assigned therapy.",
+    "Treatment effect was consistent across all prespecified subgroups, and the effect size is large (hazard ratio, 0.37)."
+   ],
+   "limitations": [
+    "Conducted entirely at 14 Chinese hospitals by operators experienced in conduction system pacing, so procedural success and complication rates may not transfer to lower-volume centres.",
+    "Masking is not reported; heart failure events and the decision to upgrade to biventricular pacing are both susceptible to assessor and operator bias in an unblinded pacing trial.",
+    "The composite is driven by heart failure events (3.4% versus 11.3%); there was no significant difference in all-cause death, and the trial is far too small to address mortality.",
+    "Event numbers are small in absolute terms, so the confidence interval around the hazard ratio is wide (0.19 to 0.73) and the point estimate is likely to be imprecise.",
+    "17 of 499 randomized patients were not in the primary analysis (482 analysed), so the analysis is not strictly intention to treat.",
+    "Left bundle-branch capture was confirmed in only 79.7% of the LBBAP arm, meaning roughly a fifth received deep septal rather than true conduction system capture; the trial therefore tests an anatomical strategy rather than confirmed conduction system pacing.",
+    "The crude proportions (2.4% versus 12.5%) and the Kaplan-Meier estimates (5.0% versus 13.2%) differ appreciably, implying censoring or incomplete follow-up that the abstract does not quantify.",
+    "24 months may be short relative to the time course over which pacing-induced cardiomyopathy and lead-related problems accrue, and long-term LBBAP lead performance is not addressed.",
+    "Funding and sponsor role are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This is the first randomized outcome evidence that pacing mode matters clinically in atrioventricular block with preserved ejection fraction, and it supports offering left bundle-branch area pacing rather than right ventricular pacing to patients expected to be paced more than 40% of the time, where operator experience allows. The benefit shown is prevention of heart failure events, not of death, and the modest size, single-country setting, unreported masking and 79.7% rate of confirmed left bundle-branch capture mean it strengthens rather than settles the case; confirmation in a larger multinational trial with longer follow-up and lead-performance data would still be valuable."
+  }
+ },
+ "basis": {
+  "42949742": "abstract"
+ },
  "candidates": [
   {
    "pmid": "42963029",
