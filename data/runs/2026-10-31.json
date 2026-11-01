@@ -234,6 +234,186 @@
    "sample_size": 591,
    "impact": 3,
    "reason": "Multicenter retrospective cohort showing worst transplant-free survival in MS/AA hypoplastic left heart syndrome with ventriculocoronary connections; useful prognostically but retrospective."
+  },
+  "42961405": {
+   "pmid": "42961405",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 735460,
+   "impact": 3,
+   "reason": "Very large Medicare analysis separating patient from hospital rurality in HFrEF care, showing lower GDMT use and higher mortality tied to rural hospitals; important health-services evidence but observational."
+  },
+  "42961402": {
+   "pmid": "42961402",
+   "cardiology_relevant": false,
+   "design": "other",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "JAMA medical news item with no abstract or original data."
+  },
+  "42953942": {
+   "pmid": "42953942",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 5506,
+   "impact": 3,
+   "reason": "Post hoc SMART-CHOICE 3 analysis suggesting clopidogrel monotherapy benefit concentrates in higher atherothrombotic risk patients, but the interaction test was not significant (P=0.242)."
+  },
+  "42946534": {
+   "pmid": "42946534",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review arguing for screening for hypercortisolism in cardio-kidney-metabolic disease; useful orientation but no new data and no trial evidence yet."
+  },
+  "42932419": {
+   "pmid": "42932419",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Mechanistic review of activin type II receptor signalling and sotatercept in CpcPH-HFpEF; conceptual rather than new clinical evidence."
+  },
+  "42948904": {
+   "pmid": "42948904",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 11568,
+   "impact": 3,
+   "reason": "Large Chinese registry recalibrating the multimarker calculator and testing the 2026 AHA/ACC pulmonary embolism categories; useful risk-stratification work but model performance rather than outcome evidence."
+  },
+  "42948888": {
+   "pmid": "42948888",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 34976,
+   "impact": 3,
+   "reason": "Large multicenter PET registry showing graded mortality risk with lower LVEF reserve; solid prognostic imaging data without a direct management consequence."
+  },
+  "42926135": {
+   "pmid": "42926135",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 58668,
+   "impact": 4,
+   "reason": "Nationwide sequential landmark target trial emulation in 58,668 refractory out-of-hospital arrests finds ECPR benefit persisting beyond the conventional 60-minute cutoff, directly challenging current ECPR selection windows."
+  },
+  "42925297": {
+   "pmid": "42925297",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 994,
+   "impact": 3,
+   "reason": "Post hoc OPTION-STEMI analysis suggesting worse outcomes with immediate complete revascularization in patients 70 years and older; a hypothesis the authors say needs confirmation in powered trials."
+  },
+  "42954927": {
+   "pmid": "42954927",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 4573,
+   "impact": 3,
+   "reason": "Nationwide FRANCE-PFA registry showing severe obesity is not independently associated with pulsed-field ablation complications or 1-year recurrence; reassuring but observational."
+  },
+  "42950123": {
+   "pmid": "42950123",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 1702,
+   "impact": 3,
+   "reason": "Multicenter CMR study with external validation showing right atrial conduit strain adds prognostic value in HFmrEF; incremental risk marker rather than a management change."
+  },
+  "42944673": {
+   "pmid": "42944673",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 3110,
+   "impact": 3,
+   "reason": "Post hoc QUEST analysis showing the qiliqiangxin treatment effect is consistent across baseline NT-proBNP and atrial fibrillation status, which does not change the trial's main message."
+  },
+  "42933915": {
+   "pmid": "42933915",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 3484,
+   "impact": 3,
+   "reason": "Large OCEAN-Mitral registry analysis showing residual or new-onset pulmonary hypertension after M-TEER marks higher 2-year risk; useful for surveillance but observational."
+  },
+  "42946203": {
+   "pmid": "42946203",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 538,
+   "impact": 2,
+   "reason": "External validation and recalibration of an adult congenital heart surgery risk model resting on only 23 composite events."
+  },
+  "42944676": {
+   "pmid": "42944676",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 155,
+   "impact": 3,
+   "reason": "Single-center CT study finding only subclinical right coronary narrowing after cavotricuspid isthmus ablation with either pulsed-field or radiofrequency energy, though it was not powered to show equivalence."
+  },
+  "42944652": {
+   "pmid": "42944652",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 462,
+   "impact": 2,
+   "reason": "Single-cohort CMR study of liver extracellular volume in tricuspid regurgitation with a borderline adjusted hazard ratio (1.82; 95% CI, 1.03-3.18) and no external validation."
+  },
+  "42933919": {
+   "pmid": "42933919",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 938,
+   "impact": 2,
+   "reason": "Prospective Dutch registry describing 2-year limb salvage after popliteal and infrapopliteal revascularization for chronic limb-threatening ischemia; descriptive real-world outcomes."
+  },
+  "42933917": {
+   "pmid": "42933917",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 461,
+   "impact": 2,
+   "reason": "Retrospective single-center cohort linking recurrent mitral regurgitation after successful M-TEER to higher mortality, mainly in degenerative disease."
+  },
+  "42933913": {
+   "pmid": "42933913",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "interventional",
+   "sample_size": 420,
+   "impact": 3,
+   "reason": "Prospective single-arm device trial of a laser-based intravascular lithotripsy system meeting prespecified performance goals, with no randomized comparator."
+  },
+  "42962984": {
+   "pmid": "42962984",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Short mechanistic commentary interpreting the pulmonary vascular resistance reduction seen with sotatercept in the CADENCE trial."
   }
  },
  "summaries": {},
