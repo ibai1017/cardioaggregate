@@ -54,7 +54,188 @@
   "42921701"
  ],
  "selected": [],
- "triage": {},
+ "triage": {
+  "42961411": {
+   "pmid": "42961411",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 22746,
+   "impact": 3,
+   "reason": "Reassuring three-cohort study that high-dose IV loop diuretics cause only transient hearing shifts, but the audiometry cohorts are small and the large cohort relies on ICD-10 coding."
+  },
+  "42956771": {
+   "pmid": "42956771",
+   "cardiology_relevant": false,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 424,
+   "impact": 2,
+   "reason": "Well conducted paediatric ARDS ventilation trial stopped early for futility, but it is paediatric critical care rather than cardiology."
+  },
+  "42933458": {
+   "pmid": "42933458",
+   "cardiology_relevant": false,
+   "design": "rct",
+   "subspecialty": "general",
+   "sample_size": 299,
+   "impact": 1,
+   "reason": "Phase 3 oncology trial of first-line pembrolizumab in endometrial cancer with no cardiovascular endpoints."
+  },
+  "42929671": {
+   "pmid": "42929671",
+   "cardiology_relevant": false,
+   "design": "rct",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 300,
+   "impact": 2,
+   "reason": "Positive randomized trial of thrombectomy for mild stroke with large-vessel occlusion; important but a neurointerventional rather than cardiology question."
+  },
+  "42929656": {
+   "pmid": "42929656",
+   "cardiology_relevant": false,
+   "design": "rct",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 336,
+   "impact": 2,
+   "reason": "Randomized trial extending thrombectomy to 24-72 hours with better function but more haemorrhage and death; neurointerventional practice rather than cardiology."
+  },
+  "42925557": {
+   "pmid": "42925557",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "heart_failure",
+   "sample_size": 70543,
+   "impact": 3,
+   "reason": "Large meta-analysis quantifying a 0.60 g/dL haemoglobin rise with SGLT2 inhibitors, but the endpoints are laboratory measures and the authors call the clinical significance unclear."
+  },
+  "42954433": {
+   "pmid": "42954433",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "general",
+   "sample_size": 1860,
+   "impact": 1,
+   "reason": "Cochrane review of dopaminergic agents for motor recovery after stroke; stroke rehabilitation rather than cardiology."
+  },
+  "42929381": {
+   "pmid": "42929381",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "general",
+   "sample_size": 1584,
+   "impact": 1,
+   "reason": "Cochrane review of music-based interventions in haemodialysis, with low to very low certainty evidence and no cardiology relevance."
+  },
+  "42961436": {
+   "pmid": "42961436",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 48,
+   "impact": 3,
+   "reason": "First-in-human phase I study of an angiotensinogen-targeting siRNA showing 93% AGT suppression and exploratory BP lowering; promising but a small early-phase safety study."
+  },
+  "42954428": {
+   "pmid": "42954428",
+   "cardiology_relevant": false,
+   "design": "systematic_review",
+   "subspecialty": "general",
+   "sample_size": 781,
+   "impact": 1,
+   "reason": "Cochrane review of gestational diabetes screening settings resting on a single per-protocol-analysed trial; obstetric service delivery, not cardiology."
+  },
+  "42963029": {
+   "pmid": "42963029",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 3209,
+   "impact": 3,
+   "reason": "Causal machine-learning secondary analysis of two cluster-randomized AF trials suggesting heterogeneous benefit from ABC pathway care; hypothesis-generating and does not change the trials' main message."
+  },
+  "42956796": {
+   "pmid": "42956796",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 110933,
+   "impact": 4,
+   "reason": "Individual participant data meta-analysis of all five randomized trials finds the guideline-recommended 0/1 h troponin pathway does not shorten ED stay or clearly increase direct discharge, directly challenging a widely promoted chest pain strategy."
+  },
+  "42937218": {
+   "pmid": "42937218",
+   "cardiology_relevant": false,
+   "design": "other",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Cochrane protocol only, with no results, for middle meningeal artery embolization in subdural haematoma."
+  },
+  "42933519": {
+   "pmid": "42933519",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 155989,
+   "impact": 3,
+   "reason": "Large network meta-analysis suggesting semaglutide lowers new-onset atrial fibrillation, but arrhythmias were not the component trials' prespecified endpoints and the authors call for confirmation."
+  },
+  "42928598": {
+   "pmid": "42928598",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 7534,
+   "impact": 2,
+   "reason": "Meta-analysis of digital commitment devices reporting modest gains in step count and weight with no clinical cardiovascular endpoints and follow-up under 12 months."
+  },
+  "42920302": {
+   "pmid": "42920302",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1700,
+   "impact": 3,
+   "reason": "Pooled secondary analysis of BROADWAY/BROOKLYN plus updated meta-analysis showing obicetrapib does not worsen glycaemia; reassuring safety context ahead of the PREVAIL outcome trial."
+  },
+  "42961442": {
+   "pmid": "42961442",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "hypertension",
+   "sample_size": 12771,
+   "impact": 3,
+   "reason": "Large multinational pulmonary hypertension registry linking higher systemic systolic pressure to better survival, but the association is prognostic and vulnerable to reverse causation."
+  },
+  "42961412": {
+   "pmid": "42961412",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 104,
+   "impact": 3,
+   "reason": "Prespecified secondary imaging analysis of FLOWPROMOTE showing greater CT plaque regression with more intensive lipid lowering; small and limited to surrogate imaging endpoints."
+  },
+  "42949742": {
+   "pmid": "42949742",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 482,
+   "impact": 4,
+   "reason": "First randomized outcome trial of left bundle-branch area pacing versus right ventricular pacing in AV block with preserved EF, cutting the composite of death, heart failure events or biventricular upgrade from 12.5% to 2.4%; directly informs pacing mode choice."
+  },
+  "42934200": {
+   "pmid": "42934200",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 591,
+   "impact": 3,
+   "reason": "Multicenter retrospective cohort showing worst transplant-free survival in MS/AA hypoplastic left heart syndrome with ventriculocoronary connections; useful prognostically but retrospective."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
