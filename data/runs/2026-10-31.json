@@ -53,7 +53,11 @@
   "42925963",
   "42921701"
  ],
- "selected": [],
+ "selected": [
+  "42949742",
+  "42956796",
+  "42926135"
+ ],
  "triage": {
   "42961411": {
    "pmid": "42961411",
@@ -414,6 +418,87 @@
    "sample_size": null,
    "impact": 2,
    "reason": "Short mechanistic commentary interpreting the pulmonary vascular resistance reduction seen with sotatercept in the CADENCE trial."
+  },
+  "42954928": {
+   "pmid": "42954928",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 2170,
+   "impact": 3,
+   "reason": "Post hoc CABANA analysis showing obesity does not modify the relative benefit of atrial fibrillation ablation; a reassuring subgroup finding that does not change the trial's conclusions."
+  },
+  "42946272": {
+   "pmid": "42946272",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 20588,
+   "impact": 3,
+   "reason": "Large national registry showing heart-kidney and heart-liver candidates are transplanted less often and delisted for death or deterioration more often than heart-alone candidates; relevant to allocation policy but observational."
+  },
+  "42944670": {
+   "pmid": "42944670",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 820,
+   "impact": 2,
+   "reason": "Case-control transcriptomics identifying three circulating miRNAs that discriminate hypertrophic cardiomyopathy; promising discovery work needing prospective validation."
+  },
+  "42935470": {
+   "pmid": "42935470",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "hypertension",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Multidisciplinary convening report on trial design barriers in early-onset preeclampsia, with no new data."
+  },
+  "42935448": {
+   "pmid": "42935448",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 279,
+   "impact": 3,
+   "reason": "Prospective pediatric cardiomyopathy registry study finding a pathogenic variant in only 19% of children with dilated cardiomyopathy and no association with phenotypic severity or death or transplant."
+  },
+  "42934199": {
+   "pmid": "42934199",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 53,
+   "impact": 2,
+   "reason": "Single-centre prospective series of 53 non-elective TAVI procedures with favourable outcomes but no comparator, as the authors acknowledge."
+  },
+  "42933551": {
+   "pmid": "42933551",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 3994,
+   "impact": 3,
+   "reason": "Large multicenter consortium analysis linking female donor to male recipient sex mismatch to a 43% higher odds of severe primary graft dysfunction independent of size matching; useful for risk stratification."
+  },
+  "42925963": {
+   "pmid": "42925963",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Narrative review of preservation strategies for the rare en bloc heart-lung graft, with an explicitly observational and sparse evidence base."
+  },
+  "42921701": {
+   "pmid": "42921701",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 40672,
+   "impact": 2,
+   "reason": "Large UK Biobank cohort in which adding a retinal AI score to SCORE2 reclassified statin eligibility only modestly, with no gain in C-index or net benefit."
   }
  },
  "summaries": {},
