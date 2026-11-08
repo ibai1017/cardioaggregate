@@ -689,11 +689,45 @@
    ],
    "editorial_take": null,
    "practice_implications": "This is the first randomized evidence that intervening before aortic stenosis becomes severe can change outcomes, and it should prompt a different conversation with patients who have moderate stenosis plus symptoms or structural or functional abnormalities. The benefit is a reduction in heart-failure events, not survival, over 2 years, so the decision turns on symptom burden and heart-failure risk weighed against committing a patient to a prosthetic valve earlier in life. Guideline change is plausible but will likely await longer-term durability and mortality data; in the meantime, careful at-risk-feature phenotyping rather than blanket treatment of moderate stenosis is the reasonable approach."
+  },
+  "42969897": {
+   "bottom_line": "In 1105 patients with CCTA-derived FFR of 0.80 or less and a stenosis greater than 70%, a coronary CT angiography-guided PCI strategy was noninferior to IVUS-guided PCI for 12-month target-vessel failure (4.1% vs 4.6%; risk difference, -0.42 percentage points; 95% CI, -2.82 to 1.99; P<0.001 for noninferiority) but not superior (P = 0.73).",
+   "design": "Investigator-initiated, international, open-label, randomized noninferiority trial with blinded end-point adjudication and 1:1 allocation. Noninferiority margin for the absolute risk difference was 4.5 percentage points, with a prespecified hierarchical testing strategy for superiority. Funded by GE HealthCare and Heartflow (P4, NCT05253677).",
+   "population": "1105 patients with a clinical indication for revascularization, at least one epicardial lesion with a diameter stenosis of more than 70%, and a fractional flow reserve derived from CCTA of 0.80 or less. Median age 65 years, 21.7% women.",
+   "intervention": "CCTA-guided PCI strategy, using the anatomical and physiological information available before catheterization for procedural planning (556 patients).",
+   "comparison": "IVUS-guided PCI strategy (549 patients).",
+   "outcomes": "Primary end point was target-vessel failure, a composite of death from cardiac causes, target-vessel myocardial infarction, or ischemia-driven target-vessel revascularization, at 12 months: 23 patients (4.1%) in the CCTA-guided group vs 25 (4.6%) in the IVUS-guided group (risk difference, -0.42 percentage points; 95% CI, -2.82 to 1.99; P<0.001 for noninferiority; P = 0.73 for superiority).",
+   "key_results": [
+    "Target-vessel failure at 12 months: 23/556 (4.1%) with CCTA guidance vs 25/549 (4.6%) with IVUS guidance; risk difference -0.42 percentage points (95% CI, -2.82 to 1.99).",
+    "Noninferiority met against a prespecified 4.5 percentage point margin (P<0.001); superiority not met (P = 0.73).",
+    "Clinical procedural complications: 6 patients in the CCTA-guided group and 9 in the IVUS-guided group (no effect estimate, CI or P value reported).",
+    "Individual components of the composite end point were not reported separately in the abstract.",
+    "Procedural efficiency measures such as contrast volume, radiation dose and procedure time were not reported."
+   ],
+   "strengths": [
+    "Randomized comparison against IVUS guidance, the strategy already shown to improve outcomes, rather than against angiography alone, so the control arm represents best current practice.",
+    "Blinded end-point adjudication, which matters because the composite includes ischemia-driven revascularization, a decision susceptible to operator knowledge of imaging strategy.",
+    "Investigator-initiated with a prespecified noninferiority margin and a hierarchical testing strategy for superiority, limiting post hoc interpretation.",
+    "Enrollment required both an anatomical criterion (>70% stenosis) and a physiological one (CCTA-derived FFR <=0.80), giving a well characterized population in which CCTA planning is actually feasible.",
+    "The 95% CI for the risk difference (-2.82 to 1.99) is narrow and well inside the 4.5 percentage point margin, so the noninferiority conclusion is not borderline."
+   ],
+   "limitations": [
+    "Open-label strategy trial, so although adjudication was blinded, operators knew the assigned imaging strategy and this could influence revascularization decisions during follow-up.",
+    "Twelve-month follow-up is short for stent-related outcomes; the benefit of intravascular imaging on target-vessel failure typically accrues over longer periods.",
+    "Only 48 primary events occurred in total, so the trial has limited power to detect differences in individual components or in safety signals, and the low event rate reflects a relatively selected population.",
+    "Funded by the CCTA technology manufacturers (GE HealthCare and Heartflow), the parties with a commercial interest in the experimental strategy.",
+    "Results apply only to patients whose anatomy and physiology were confirmed suitable on CCTA beforehand, excluding those with heavy calcification, prior stents, poor image quality or arrhythmia who make up much of real-world PCI practice.",
+    "Noninferiority, not superiority, was demonstrated, and important practical outcomes (contrast load, radiation, procedure duration, cost, and whether CCTA replaced or added to invasive imaging) are not reported.",
+    "Only 21.7% of participants were women, limiting inference by sex."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Where high-quality CCTA with derived FFR is already obtained before catheterization, using it to plan PCI yields 12-month target-vessel failure rates indistinguishable from mandatory IVUS, which offers a route to pre-planned, standardized procedures without an intravascular imaging run. This does not displace intravascular imaging for the complex or calcified lesions that fall outside the trial's entry criteria, and because it is a noninferiority result from a manufacturer-funded trial with only 48 events at 1 year, IVUS remains the default where CCTA infrastructure, image quality or operator experience is lacking."
   }
  },
  "basis": {
   "42970643": "abstract",
-  "42970708": "abstract"
+  "42970708": "abstract",
+  "42969897": "abstract"
  },
  "candidates": [
   {
