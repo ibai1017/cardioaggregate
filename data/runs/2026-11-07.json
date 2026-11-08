@@ -65,7 +65,15 @@
   "42965535",
   "42994710"
  ],
- "selected": [],
+ "selected": [
+  "42970643",
+  "42970708",
+  "42969897",
+  "42981569",
+  "42978512",
+  "42965504",
+  "42968334"
+ ],
  "triage": {
   "42976899": {
    "pmid": "42976899",
@@ -606,6 +614,15 @@
    "sample_size": 10044,
    "impact": 3,
    "reason": "Multi-cohort validation of an echocardiography-based artificial intelligence model for detecting and predicting early HFpEF, diagnostic performance work rather than a management trial."
+  },
+  "42994710": {
+   "pmid": "42994710",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 107,
+   "impact": 3,
+   "reason": "Small single-center retrospective series describing a 3.7% incidence of unexpected ventricular fibrillation during pulsed field ablation in patients with cardiac devices, a useful safety signal based on four events."
   }
  },
  "summaries": {},
