@@ -756,13 +756,47 @@
    ],
    "editorial_take": null,
    "practice_implications": "Plozasiran gives a large, replicated triglyceride reduction in severe hypertriglyceridemia, and the pooled signal of fewer adjudicated acute pancreatitis events is the first suggestion that an APOC3-targeted agent can prevent the complication that matters most in this group. For the cardiologist or lipidologist managing patients with triglycerides in the severe range and a history or risk of pancreatitis, this positions plozasiran as a likely future option alongside olezarsen, but the pancreatitis benefit rests on a pooled analysis with unreported event counts and no confidence interval, so treatment decisions should await the full publication and regulatory review rather than being changed on this result alone."
+  },
+  "42978512": {
+   "bottom_line": "In 592 patients with HFrEF on contemporary therapy at 23 Danish hospitals, hydralazine-isosorbide dinitrate did not reduce the composite of worsening heart failure events or death over a mean 3.7 years (30.6% vs 30.5%; HR 0.90; 95% CI 0.67-1.21; P = .48), a clearly negative result for a legacy therapy.",
+   "design": "Multicentre, randomized (1:1), double-blind, placebo-controlled trial at 23 Danish hospitals (H-HeFT). Mean follow-up 3.7 years. Secondary endpoints included components of the primary outcome.",
+   "population": "592 predominantly White patients with chronic HFrEF: New York Heart Association class II-IV, elevated N-terminal pro-B-type natriuretic peptide, and LVEF <=40%. Median age 72 years, 18% women.",
+   "intervention": "Hydralazine-isosorbide dinitrate, target dose hydralazine 75 mg plus isosorbide dinitrate 40 mg three times daily (294 patients).",
+   "comparison": "Matching placebo (298 patients), on top of contemporary heart failure treatment.",
+   "outcomes": "Primary endpoint was a composite of hospitalization with worsening heart failure, an urgent outpatient visit resulting in intravenous or metolazone therapy for heart failure, heart transplantation, left ventricular assist device implantation, or death: 90 of 294 patients (30.6%) with H-ISDN vs 91 of 298 (30.5%) with placebo (HR 0.90; 95% CI 0.67-1.21; P = .48).",
+   "key_results": [
+    "Primary composite: 90/294 (30.6%) with H-ISDN vs 91/298 (30.5%) with placebo; HR 0.90 (95% CI 0.67-1.21); P = .48.",
+    "Deaths: 57 in the H-ISDN group vs 72 with placebo; HR 0.72 (95% CI 0.51-1.02), a nominally favourable but non-significant secondary finding.",
+    "Worsening heart failure events: 52 vs 47 patients; HR 1.01 (95% CI 0.68-1.50), with no signal of benefit.",
+    "Rates of achieving the target dose of hydralazine 75 mg/isosorbide dinitrate 40 mg three times daily, and discontinuation or adverse event rates, are not reported.",
+    "Background use of contemporary therapy (renin-angiotensin system inhibitors or sacubitril-valsartan, beta-blockers, mineralocorticoid receptor antagonists, SGLT2 inhibitors) is not quantified in the abstract.",
+    "Funding source: not reported."
+   ],
+   "strengths": [
+    "Double-blind, placebo-controlled randomized design directly retesting a legacy therapy in the era of contemporary quadruple HFrEF treatment, which is exactly the question clinicians need answered.",
+    "Long mean follow-up of 3.7 years with a hard, clinically meaningful composite that captures urgent outpatient intravenous or metolazone treatment as well as hospitalization, transplantation, LVAD and death.",
+    "Enrolment required objective disease severity (LVEF <=40% plus elevated NT-proBNP), so the population was genuinely at risk, and the 30% event rate confirms this.",
+    "Multicentre across 23 hospitals with a pragmatic, nationwide Danish setting and near-complete event capture typical of Danish registries.",
+    "The point estimate and confidence interval for the primary endpoint (HR 0.90; 95% CI 0.67-1.21) sit close to unity with event rates essentially identical, so this is an informative negative result rather than an uninterpretable one."
+   ],
+   "limitations": [
+    "592 patients and 181 primary events give limited power; the 95% CI (0.67-1.21) does not exclude a 33% relative risk reduction, so a moderate benefit cannot be formally ruled out.",
+    "The mortality signal (HR 0.72; 95% CI 0.51-1.02) is a secondary endpoint, not multiplicity-controlled, and borders significance, which invites over-interpretation given the flat primary result.",
+    "Predominantly White Danish population with only 18% women, so the findings cannot be extrapolated to self-identified Black patients, the group in whom the original A-HeFT benefit was demonstrated and in whom current guideline recommendations apply.",
+    "Achieved doses, tolerability and discontinuation rates are not reported, so it is unclear whether a null result reflects lack of efficacy or inability to maintain the thrice-daily target dose.",
+    "Background contemporary therapy is asserted but not quantified, so the degree to which patients were truly optimized on quadruple therapy is unknown.",
+    "Funding source is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Adding hydralazine-isosorbide dinitrate to contemporary HFrEF therapy did not reduce heart failure events or death in this predominantly White Danish cohort, which argues against using it as a routine add-on in such patients and supports directing effort instead at optimizing the four guideline-directed drug classes. The trial does not overturn the guideline recommendation in self-identified Black patients, who were not represented here, and the non-significant mortality difference is a secondary observation that should not drive prescribing. Practically, this is a useful de-prescribing signal for a burdensome thrice-daily regimen in patients who do not fit the A-HeFT population."
   }
  },
  "basis": {
   "42970643": "abstract",
   "42970708": "abstract",
   "42969897": "abstract",
-  "42981569": "abstract"
+  "42981569": "abstract",
+  "42978512": "abstract"
  },
  "candidates": [
   {
