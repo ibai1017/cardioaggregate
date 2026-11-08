@@ -823,6 +823,41 @@
    ],
    "editorial_take": null,
    "practice_implications": "For patients with severe pure aortic regurgitation who are turned down for or refuse surgery, this trial provides the first randomized support for transcatheter treatment: a two-thirds relative reduction in a composite driven by far fewer heart failure rehospitalizations, offset by more early bleeding and pacemaker implantation. It strengthens the case for referring such patients to a heart team with transcatheter expertise rather than defaulting to medical therapy, but the benefit rests on an unblinded soft endpoint with a single non-dedicated device in a Chinese population at 1 year, so it should not yet be read as licensing routine TAVR for pure regurgitation in surgical candidates or with devices untested in this anatomy."
+  },
+  "42968334": {
+   "bottom_line": "A PROSPERO-registered meta-analysis of 32 randomized trials and 77,178 participants found all-cause mortality lower with PCSK9-targeting therapy (IRR 0.88, 95% CI 0.82-0.95), alongside fewer myocardial infarctions, strokes and revascularizations, though the estimate is driven by the large antibody outcome trials in established atherosclerosis.",
+   "design": "Systematic review and random-effects meta-analysis of randomized trials, with treatment effects pooled as incidence rate ratios; registered in PROSPERO (CRD420261395609). Prespecified subgroup analyses by trial-level known atherosclerosis status, plus leave-one-out sensitivity analyses.",
+   "population": "32 randomized trials enrolling 77,178 participants in stable or clinically stabilized populations. Individual atherosclerosis status could not be determined beyond trial-level eligibility criteria.",
+   "intervention": "PCSK9-targeting therapies: alirocumab, evolocumab or inclisiran.",
+   "comparison": "Placebo or active control.",
+   "outcomes": "Primary outcome was all-cause mortality: IRR 0.88 (95% CI 0.82-0.95). By trial-level enrollment criteria, IRR 0.90 (95% CI 0.83-0.98) in trials requiring known atherosclerosis and IRR 0.78 (95% CI 0.62-0.97) in trials without that requirement (interaction p = 0.21). PCSK9-targeting treatment additionally reduced myocardial infarction, stroke and coronary revascularization rates; effect estimates, confidence intervals and P values for these outcomes are not reported.",
+   "key_results": [
+    "All-cause mortality: IRR 0.88 (95% CI 0.82-0.95) favouring PCSK9-targeting therapy.",
+    "Trials requiring known atherosclerosis at enrollment: IRR 0.90 (95% CI 0.83-0.98).",
+    "Trials without a known-atherosclerosis enrollment requirement: IRR 0.78 (95% CI 0.62-0.97); interaction p = 0.21, so no evidence of subgroup effect modification.",
+    "Myocardial infarction, stroke and coronary revascularization were all reduced, but no effect estimates, confidence intervals or P values are reported.",
+    "Leave-one-out estimates remained directionally consistent.",
+    "Mortality estimates were predominantly informed by the large cardiovascular outcome trials, and heterogeneity statistics, cardiovascular versus non-cardiovascular mortality, follow-up duration and funding source are not reported."
+   ],
+   "strengths": [
+    "Prospectively registered in PROSPERO with a prespecified primary outcome and prespecified subgroup analysis, which limits selective reporting in a field where individual trials were each neutral for mortality.",
+    "Large pooled evidence base of 32 trials and 77,178 participants, restricted to randomized comparisons against placebo or active control.",
+    "All-cause mortality as the primary outcome is the least biasable endpoint and avoids the ascertainment problems of composite or adjudicated endpoints.",
+    "Incidence rate ratios with random-effects pooling appropriately handle differing follow-up durations across trials of very different size.",
+    "Leave-one-out analyses confirm no single trial drives the result, and the directionally concordant reductions in myocardial infarction, stroke and revascularization are biologically coherent with a mortality benefit.",
+    "The authors state their own limitation plainly: the estimate cannot be extended to populations not selected for atherosclerosis or to individual agents, particularly inclisiran."
+   ],
+   "limitations": [
+    "Trial-level rather than individual participant data, so atherosclerosis status could only be inferred from enrollment criteria and no patient-level confounder or effect-modifier analysis was possible.",
+    "The pooled mortality estimate is dominated by a few large cardiovascular outcome trials of monoclonal antibodies (FOURIER- and ODYSSEY-type populations), so it largely reflects those trials rather than the full set of 32.",
+    "Inclisiran contributes little to the mortality estimate, yet the pooled result risks being read as a class effect; agent-specific estimates are not reported.",
+    "No effect estimates, confidence intervals or P values are given for myocardial infarction, stroke or coronary revascularization, so the magnitude of those benefits cannot be judged.",
+    "Heterogeneity statistics, risk-of-bias assessment, publication bias testing, and the split between cardiovascular and non-cardiovascular death are not reported.",
+    "Pooling trials with heterogeneous comparators (placebo and active control), background statin intensity and follow-up durations may mix clinically distinct questions.",
+    "The CI for all-cause mortality (0.82-0.95) excludes no effect but is compatible with a relative reduction as small as 5%, and funding source is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Individual PCSK9 inhibitor trials were each underpowered for mortality, and this meta-analysis suggests that pooled across 77,178 randomized participants there is a roughly 12% lower all-cause mortality with PCSK9-targeting therapy, coherent with reductions in myocardial infarction, stroke and revascularization. That supports continued confidence in these agents for secondary prevention in established atherosclerotic disease, where the evidence is concentrated. It does not justify extending a survival claim to primary prevention populations or to inclisiran specifically, since the estimate rests on antibody outcome trials in patients with known atherosclerosis and on trial-level rather than patient-level data."
   }
  },
  "basis": {
@@ -831,7 +866,8 @@
   "42969897": "abstract",
   "42981569": "abstract",
   "42978512": "abstract",
-  "42965504": "abstract"
+  "42965504": "abstract",
+  "42968334": "abstract"
  },
  "candidates": [
   {
