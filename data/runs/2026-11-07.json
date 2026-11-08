@@ -246,6 +246,186 @@
    "sample_size": 24,
    "impact": 3,
    "reason": "Mechanistic randomized trial of only 24 patients with physiologic myocardial oxygen supply-demand endpoints, informative but far from clinical outcome evidence."
+  },
+  "42976368": {
+   "pmid": "42976368",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "structural_valve",
+   "sample_size": 148,
+   "impact": 3,
+   "reason": "Single-center randomized trial of routine TAVI postdilation whose primary endpoint was a fluoroscopic valve asymmetry index, an imaging surrogate without demonstrated clinical consequence."
+  },
+  "42969021": {
+   "pmid": "42969021",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "imaging",
+   "sample_size": 2236,
+   "impact": 3,
+   "reason": "Prevalence meta-analysis showing absence of infarct-pattern late gadolinium enhancement does not exclude angiographic coronary disease, useful diagnostic context rather than practice-changing evidence."
+  },
+  "42981223": {
+   "pmid": "42981223",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 2200,
+   "impact": 3,
+   "reason": "Pooled post hoc analysis of MOMENTUM 3 showing obesity and frailty are additively associated with worse HeartMate 3 outcomes, relevant to candidate selection but hypothesis-generating."
+  },
+  "42968621": {
+   "pmid": "42968621",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Pro-and-contra debate article on stopping anticoagulation after atrial fibrillation ablation, with no new data of its own."
+  },
+  "42965921": {
+   "pmid": "42965921",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Expert opinion review summarising evidence that dietary and supplemental omega-3 intake up to 1500 mg/day does not meaningfully raise atrial fibrillation risk, helpful for a common patient question but not primary research."
+  },
+  "42980633": {
+   "pmid": "42980633",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 299,
+   "impact": 3,
+   "reason": "Two-year follow-up of a single-arm transcatheter mitral valve replacement cohort with no comparator, extending rather than changing the trial's one-year message."
+  },
+  "42967827": {
+   "pmid": "42967827",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 553,
+   "impact": 3,
+   "reason": "Prospective registry cohort finding microvascular resistance reserve was not associated with clinical outcomes in ANOCA, a prognostic index study rather than a treatment trial."
+  },
+  "42986697": {
+   "pmid": "42986697",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 20681,
+   "impact": 2,
+   "reason": "Registry analysis with counterfactual modelling of donor coronary angiography and heart transplant utilisation, a niche organ-allocation question with model-based conclusions."
+  },
+  "42978109": {
+   "pmid": "42978109",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 165563,
+   "impact": 3,
+   "reason": "Large retrospective cohort documenting sex-based gaps at every step of the atrial fibrillation care pathway, descriptive but relevant to care delivery."
+  },
+  "42975601": {
+   "pmid": "42975601",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 3455,
+   "impact": 3,
+   "reason": "Prespecified subgroup analysis of FAVOR III China showing low post-PCI quantitative flow ratio predicts 5-year events, with limited binary discrimination and no treatment interaction."
+  },
+  "42974820": {
+   "pmid": "42974820",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 537376,
+   "impact": 3,
+   "reason": "Two very large population cohorts showing remnant cholesterol above 1 mmol/L adds coronary risk in familial hypercholesterolaemia, refining risk assessment without testing an intervention."
+  },
+  "42971570": {
+   "pmid": "42971570",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 2001,
+   "impact": 3,
+   "reason": "Prespecified CKD sub-analysis of ECLIPSE whose hemodialysis signal rests on a modest subgroup with a non-significant interaction test that the authors say needs confirmation."
+  },
+  "42969139": {
+   "pmid": "42969139",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 236910,
+   "impact": 3,
+   "reason": "Very large Veterans Affairs cohort characterising antecedent kidney function before incident HFpEF and its graded association with cardiovascular death, informative risk phenotyping."
+  },
+  "42969101": {
+   "pmid": "42969101",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 192466,
+   "impact": 3,
+   "reason": "External validation of the PREVENT-HF risk equations across heart failure subtypes, prediction-model performance work without subtype-specific thresholds yet."
+  },
+  "42993106": {
+   "pmid": "42993106",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 2722,
+   "impact": 3,
+   "reason": "Derivation and external validation of AI-quantified plaque volume thresholds predicting future culprit lesions, built on few events and without demonstrated management consequences."
+  },
+  "42993105": {
+   "pmid": "42993105",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 1674,
+   "impact": 3,
+   "reason": "Development and multicenter validation of a deep learning tool quantifying aortic valve fibrosis and calcification with prognostic value, diagnostic and prognostic rather than practice changing."
+  },
+  "42993097": {
+   "pmid": "42993097",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1014,
+   "impact": 2,
+   "reason": "Observational time-dependent analysis showing ventricular arrhythmia and heart failure events are bidirectionally associated in post-infarct ICD recipients, an incremental association study."
+  },
+  "42986123": {
+   "pmid": "42986123",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 5988,
+   "impact": 3,
+   "reason": "Post hoc subgroup analysis of EMPEROR-Preserved reporting a graded empagliflozin benefit by echocardiographic diastolic dysfunction that the authors cannot reliably explain."
+  },
+  "42982386": {
+   "pmid": "42982386",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Methodological machine learning study of conformal calibration auditing for AI-ECG atrial fibrillation detection, of limited direct clinical use today."
+  },
+  "42978146": {
+   "pmid": "42978146",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 3918,
+   "impact": 3,
+   "reason": "Multicentre cohort showing sequential coronary CT angiography and quantitative PET give incremental long-term risk stratification, prognostic imaging evidence rather than a management trial."
   }
  },
  "summaries": {},
