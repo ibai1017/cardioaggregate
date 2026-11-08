@@ -789,6 +789,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "Adding hydralazine-isosorbide dinitrate to contemporary HFrEF therapy did not reduce heart failure events or death in this predominantly White Danish cohort, which argues against using it as a routine add-on in such patients and supports directing effort instead at optimizing the four guideline-directed drug classes. The trial does not overturn the guideline recommendation in self-identified Black patients, who were not represented here, and the non-significant mortality difference is a secondary observation that should not drive prescribing. Practically, this is a useful de-prescribing signal for a burdensome thrice-daily regimen in patients who do not fit the A-HeFT population."
+  },
+  "42965504": {
+   "bottom_line": "In 210 patients with severe pure aortic regurgitation unsuitable for or declining surgery, transfemoral TAVR with the VitaFlow system plus medical therapy cut the 1-year composite of death, disabling stroke or heart failure rehospitalization from 24.8% to 8.3% (HR 0.31; 95% CI, 0.14-0.66; P=0.001), driven by fewer heart failure rehospitalizations, at the cost of more early bleeding and pacemaker implantation.",
+   "design": "Prospective, investigator-initiated, multicenter, randomized, open-label trial at 18 centers in China with 1:1 allocation (SEASON-AR, NCT04864145).",
+   "population": "210 patients with severe pure aortic regurgitation for whom surgery was considered difficult or unacceptable by the local heart team, or who persistently declined surgery. Age, sex, surgical risk scores, left ventricular size and function, and other baseline characteristics are not reported in the abstract.",
+   "intervention": "Transfemoral TAVR with the VitaFlow system plus guideline-directed medical therapy (109 patients).",
+   "comparison": "Guideline-directed medical therapy alone (101 patients).",
+   "outcomes": "Primary end point was the composite of all-cause death, disabling stroke, or heart failure rehospitalization at 1 year: Kaplan-Meier estimates 8.3% with TAVR vs 24.8% with GDMT (HR, 0.31 [95% CI, 0.14-0.66]; P=0.001).",
+   "key_results": [
+    "Primary composite at 1 year: 8.3% with TAVR plus GDMT vs 24.8% with GDMT alone; HR 0.31 (95% CI, 0.14-0.66); P=0.001.",
+    "Heart failure rehospitalization: 3.7% vs 21.3%; HR 0.16 (95% CI, 0.06-0.47); P<0.001, the main driver of the composite.",
+    "All-cause death and disabling stroke were not reported separately in the abstract.",
+    "TAVR was associated with higher rates of major or life-threatening bleeding and new permanent pacemaker implantation, most occurring within 30 days of the procedure; rates, effect estimates and P values for these harms are not reported.",
+    "Crossover from GDMT to valve replacement is not reported.",
+    "Funding source is not reported."
+   ],
+   "strengths": [
+    "First adequately powered randomized comparison of TAVR against medical therapy alone in severe pure aortic regurgitation, a population with no device-based evidence base and no dedicated approved device in most regions.",
+    "The effect size is large and the confidence interval excludes no effect by a wide margin (HR 0.31; 95% CI, 0.14-0.66), so the modest sample size of 210 is sufficient for the question as asked.",
+    "Investigator-initiated and multicenter across 18 sites, reducing the influence of a single expert operator.",
+    "Clinically meaningful composite of death, disabling stroke and heart failure rehospitalization rather than haemodynamic or echocardiographic surrogates.",
+    "Procedural harms (bleeding, new pacemaker) are reported alongside benefit rather than omitted, and their early timing is specified."
+   ],
+   "limitations": [
+    "Open-label with no sham, and the composite was driven almost entirely by heart failure rehospitalization (3.7% vs 21.3%), a soft, judgement-dependent endpoint highly susceptible to unblinded management decisions; whether events were adjudicated by a blinded committee is not reported.",
+    "Only 210 patients with few hard events; death and disabling stroke are not reported separately, so there is no evidence of a mortality benefit.",
+    "One-year follow-up gives no information on valve durability, late paravalvular regurgitation or device migration, which are the particular concerns when implanting into a non-calcified annulus.",
+    "Conducted entirely in China with a single device (VitaFlow), so results may not transfer to other populations or to other transcatheter valves, especially those not designed for aortic regurgitation anatomy.",
+    "Harm rates for major or life-threatening bleeding and new permanent pacemaker implantation are stated only qualitatively, without numbers, confidence intervals or P values, so the risk-benefit trade-off cannot be quantified.",
+    "Enrolment depended on local heart team judgement that surgery was difficult or unacceptable, plus patients who declined surgery, which is a subjective and heterogeneous entry criterion limiting reproducibility.",
+    "Baseline characteristics and funding source are not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For patients with severe pure aortic regurgitation who are turned down for or refuse surgery, this trial provides the first randomized support for transcatheter treatment: a two-thirds relative reduction in a composite driven by far fewer heart failure rehospitalizations, offset by more early bleeding and pacemaker implantation. It strengthens the case for referring such patients to a heart team with transcatheter expertise rather than defaulting to medical therapy, but the benefit rests on an unblinded soft endpoint with a single non-dedicated device in a Chinese population at 1 year, so it should not yet be read as licensing routine TAVR for pure regurgitation in surgical candidates or with devices untested in this anatomy."
   }
  },
  "basis": {
@@ -796,7 +830,8 @@
   "42970708": "abstract",
   "42969897": "abstract",
   "42981569": "abstract",
-  "42978512": "abstract"
+  "42978512": "abstract",
+  "42965504": "abstract"
  },
  "candidates": [
   {
