@@ -657,10 +657,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "After uncomplicated left atrial appendage closure in patients eligible for any regimen, 6 months of DAPT no longer looks necessary: aspirin alone, or a reduced-dose NOAC for 3 months followed by aspirin, gave noninferior 6-month composite outcomes with numerically less major and nonmajor bleeding. Aspirin alone is the simplest option and had the lowest primary event rate, though its 2.7% device-related thrombus rate versus 0.9% with reduced-dose NOAC is worth weighing in patients judged at higher thrombotic risk, and these exploratory signals plus the 6-month horizon argue for individualized choice pending longer follow-up."
+  },
+  "42970708": {
+   "bottom_line": "In 744 patients with moderate aortic stenosis and at least one at-risk feature, transfemoral TAVR reduced the 2-year composite of death or a heart-failure event from 23.9% to 16.7% (risk difference, -7.2 percentage points; 95% CI, -13.1 to -1.3; P = 0.02), driven entirely by fewer heart-failure events with no difference in mortality.",
+   "design": "International, open-label, randomized trial with 1:1 allocation to transfemoral TAVR with a balloon-expandable valve or clinical surveillance. Superiority testing in the intention-to-treat population; funded by Edwards Lifesciences (PROGRESS, NCT04889872).",
+   "population": "744 patients with moderate aortic stenosis and at least one at-risk feature (a symptom or a structural or functional abnormality associated with faster disease progression or adverse cardiovascular outcomes). Mean age 78 years, 39.1% women, 45.6% at low surgical risk, mean aortic-valve area 1.2 cm2, mean aortic-valve peak velocity 3.3 m per second.",
+   "intervention": "Transfemoral TAVR with a balloon-expandable valve (373 patients).",
+   "comparison": "Clinical surveillance, the guideline-recommended strategy of echocardiographic assessment every 1 or 2 years (371 patients).",
+   "outcomes": "Primary effectiveness end point was the composite of death from any cause or a heart-failure event with or without hospitalization at 2 years: Kaplan-Meier estimates 16.7% with TAVR vs 23.9% with clinical surveillance (risk difference, -7.2 percentage points; 95% CI, -13.1 to -1.3; P = 0.02 for superiority).",
+   "key_results": [
+    "Primary composite of death or heart-failure event at 2 years: 16.7% with TAVR vs 23.9% with clinical surveillance (risk difference, -7.2 percentage points; 95% CI, -13.1 to -1.3; P = 0.02 for superiority).",
+    "All-cause death at 2 years: 8.4% with TAVR vs 7.3% with clinical surveillance (no effect estimate, CI or P value reported).",
+    "Heart-failure event at 2 years: 10.8% with TAVR vs 19.0% with clinical surveillance (no effect estimate, CI or P value reported), so the composite benefit was driven by heart-failure events.",
+    "The incidence of procedure-related adverse events did not differ meaningfully between TAVR patients and surveillance patients who went on to undergo aortic-valve replacement; specific rates were not reported.",
+    "Crossover rate from surveillance to aortic-valve replacement: not reported."
+   ],
+   "strengths": [
+    "Randomized trial addressing a question guidelines currently answer with watchful waiting, in a population (moderate aortic stenosis) far larger than the severe-stenosis population already treated.",
+    "Intention-to-treat superiority analysis with a clinically meaningful composite of death and heart-failure events rather than a haemodynamic or imaging surrogate.",
+    "Enrichment for at-risk features targets the patients most likely to progress, which both raises event rates and defines a clinically identifiable group for application of the result.",
+    "Procedure-related adverse events were compared against surveillance patients who crossed over to valve replacement, a fair comparison of procedural risk.",
+    "Nearly half the cohort (45.6%) was at low surgical risk, and the mean age of 78 years reflects contemporary TAVR practice."
+   ],
+   "limitations": [
+    "Open-label design with no sham procedure, so heart-failure events, which are partly judgement-based and symptom-driven, could be ascertained or adjudicated differently between groups; whether adjudication was blinded is not reported.",
+    "The composite benefit came entirely from heart-failure events (10.8% vs 19.0%); all-cause death was numerically slightly higher with TAVR (8.4% vs 7.3%), so this is not a mortality benefit.",
+    "Two-year follow-up is short relative to the lifetime consequences of implanting a valve in patients who do not yet have severe stenosis, including valve durability, reintervention, pacemaker need and coronary access.",
+    "Funded by the valve manufacturer (Edwards Lifesciences), and results apply only to transfemoral balloon-expandable TAVR.",
+    "Rates of crossover from surveillance to valve replacement are not reported, so the true contrast between strategies at 2 years is unclear, and the comparator was surveillance rather than early surgery.",
+    "Confidence interval for the primary risk difference extends to -1.3 percentage points, so the benefit could be considerably smaller than the point estimate; the at-risk-feature definition is broad and the contribution of individual features is not reported."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This is the first randomized evidence that intervening before aortic stenosis becomes severe can change outcomes, and it should prompt a different conversation with patients who have moderate stenosis plus symptoms or structural or functional abnormalities. The benefit is a reduction in heart-failure events, not survival, over 2 years, so the decision turns on symptom burden and heart-failure risk weighed against committing a patient to a prosthetic valve earlier in life. Guideline change is plausible but will likely await longer-term durability and mortality data; in the meantime, careful at-risk-feature phenotyping rather than blanket treatment of moderate stenosis is the reasonable approach."
   }
  },
  "basis": {
-  "42970643": "abstract"
+  "42970643": "abstract",
+  "42970708": "abstract"
  },
  "candidates": [
   {
