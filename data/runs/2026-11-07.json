@@ -66,7 +66,188 @@
   "42994710"
  ],
  "selected": [],
- "triage": {},
+ "triage": {
+  "42976899": {
+   "pmid": "42976899",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 5379,
+   "impact": 4,
+   "reason": "Very large multinational registry with 10-year follow-up and target trial emulation finding no detectable mortality difference between left main PCI and CABG, informing Heart Team discussions."
+  },
+  "42970643": {
+   "pmid": "42970643",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1857,
+   "impact": 5,
+   "reason": "First adequately powered randomized trial of post-LAAC antithrombotic therapy, showing aspirin alone and reduced-dose NOAC noninferior to DAPT with less bleeding, which should change standard post-implant regimens."
+  },
+  "42969897": {
+   "pmid": "42969897",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 1105,
+   "impact": 4,
+   "reason": "Randomized NEJM trial showing CCTA-guided PCI noninferior to IVUS-guided PCI for 12-month target-vessel failure, a new option for procedural planning that interventionalists should know."
+  },
+  "42981569": {
+   "pmid": "42981569",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 757,
+   "impact": 4,
+   "reason": "Two phase 3 trials of plozasiran in severe hypertriglyceridemia show large triglyceride reductions plus a lower adjudicated acute pancreatitis rate, supporting a new APOC3-targeted therapy."
+  },
+  "42980634": {
+   "pmid": "42980634",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "structural_valve",
+   "sample_size": 876,
+   "impact": 3,
+   "reason": "Multicenter randomized noninferiority trial of single versus double ProGlide closure after transfemoral TAVR, but the primary composite was driven predominantly by minor vascular complications."
+  },
+  "42978512": {
+   "pmid": "42978512",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 592,
+   "impact": 4,
+   "reason": "Important negative randomized trial showing hydralazine-isosorbide dinitrate does not reduce heart failure events or death in contemporary HFrEF care."
+  },
+  "42970708": {
+   "pmid": "42970708",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "structural_valve",
+   "sample_size": 744,
+   "impact": 5,
+   "reason": "Randomized trial showing TAVR superior to clinical surveillance for death or heart failure events in moderate aortic stenosis with at-risk features, which would extend the treatment indication beyond severe disease."
+  },
+  "42965504": {
+   "pmid": "42965504",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "structural_valve",
+   "sample_size": 210,
+   "impact": 4,
+   "reason": "First randomized comparison of TAVR versus medical therapy in severe pure aortic regurgitation at high surgical risk, with a large reduction in the composite endpoint that makes its modest size sufficient."
+  },
+  "42975595": {
+   "pmid": "42975595",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "interventional",
+   "sample_size": 1100,
+   "impact": 1,
+   "reason": "Rationale and design protocol paper for the P4 trial, with no results of its own."
+  },
+  "42965935": {
+   "pmid": "42965935",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 6016,
+   "impact": 3,
+   "reason": "Twelve-month follow-up of the BRIGHT-4 trial confirming durability of the 30-day bivalirudin benefit without changing the trial's original message."
+  },
+  "42993694": {
+   "pmid": "42993694",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 154,
+   "impact": 3,
+   "reason": "Small randomized trial in Brazil whose primary endpoint was a guideline-directed therapy score rather than a clinical outcome, useful but not practice changing broadly."
+  },
+  "42982388": {
+   "pmid": "42982388",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 400,
+   "impact": 2,
+   "reason": "Exploratory substudy of SMART-MI examining infarct type as an effect modifier, with a non-significant interaction and no change to the parent trial's message."
+  },
+  "42980655": {
+   "pmid": "42980655",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 167,
+   "impact": 3,
+   "reason": "Small randomized trial finding no reduction in atrial fibrillation burden from weight loss intervention after ablation, limited by low baseline burden and a Holter-based surrogate endpoint."
+  },
+  "42969902": {
+   "pmid": "42969902",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 120,
+   "impact": 3,
+   "reason": "Single-center randomized trial whose primary endpoints were imaging measures of minimum stent area rather than clinical outcomes, and the authors call for larger validation."
+  },
+  "42968334": {
+   "pmid": "42968334",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 77178,
+   "impact": 4,
+   "reason": "Meta-analysis of 32 randomized trials totalling over 77,000 participants addressing the live question of whether PCSK9-targeting therapy lowers all-cause mortality."
+  },
+  "42967611": {
+   "pmid": "42967611",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 100,
+   "impact": 3,
+   "reason": "Single-center randomized study of behavior-based electrogram-guided ablation with promising 24-month rhythm outcomes that the authors state require multicenter confirmation."
+  },
+  "42989611": {
+   "pmid": "42989611",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative perspective proposing an AF Heart Team framework for hybrid ablation, with no new data."
+  },
+  "42975386": {
+   "pmid": "42975386",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 482,
+   "impact": 3,
+   "reason": "Three-year exploratory, non-multiplicity-adjusted follow-up of the SIRONA trial in peripheral artery disease, with no difference in the patient-reported primary outcomes."
+  },
+  "42974690": {
+   "pmid": "42974690",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 83,
+   "impact": 2,
+   "reason": "Small prospective non-randomized cohort of fludrocortisone for autonomic syncope without a control group, so before-after symptom reduction cannot be attributed to therapy."
+  },
+  "42966011": {
+   "pmid": "42966011",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 24,
+   "impact": 3,
+   "reason": "Mechanistic randomized trial of only 24 patients with physiologic myocardial oxygen supply-demand endpoints, informative but far from clinical outcome evidence."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
