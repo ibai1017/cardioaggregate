@@ -426,6 +426,186 @@
    "sample_size": 3918,
    "impact": 3,
    "reason": "Multicentre cohort showing sequential coronary CT angiography and quantitative PET give incremental long-term risk stratification, prognostic imaging evidence rather than a management trial."
+  },
+  "42974878": {
+   "pmid": "42974878",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1988,
+   "impact": 2,
+   "reason": "Modest single-cohort analysis suggesting fibrinogen and lipoprotein(a) jointly raise 20-year atherosclerotic risk, with wide confidence intervals and no management implication."
+  },
+  "42966580": {
+   "pmid": "42966580",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 9118,
+   "impact": 2,
+   "reason": "Registry analysis finding little impact of donor-recipient HLA matching on heart transplant outcomes, a niche allocation-policy question."
+  },
+  "42994521": {
+   "pmid": "42994521",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 158,
+   "impact": 2,
+   "reason": "Small single-center retrospective comparison of patch repair versus extended surgery for aortic root abscess, subject to substantial selection bias."
+  },
+  "42993130": {
+   "pmid": "42993130",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 120,
+   "impact": 3,
+   "reason": "Multicenter retrospective cohort providing the first substantial long-term durability data for conduction system pacing in children, relevant but uncontrolled."
+  },
+  "42982609": {
+   "pmid": "42982609",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 297,
+   "impact": 3,
+   "reason": "Single-arm device performance analysis of a modular leadless pacemaker and subcutaneous defibrillator system tested against performance goals rather than a comparator."
+  },
+  "42975599": {
+   "pmid": "42975599",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 312,
+   "impact": 2,
+   "reason": "Small retrospective vessel-level analysis showing CT-derived flow ratio and its gradient predict coronary events, incremental prognostic modelling."
+  },
+  "42969900": {
+   "pmid": "42969900",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 335,
+   "impact": 3,
+   "reason": "Single-arm pivotal device study of a new coronary intravascular lithotripsy system meeting performance goals at 30 days, with no randomized comparator."
+  },
+  "42965547": {
+   "pmid": "42965547",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 474,
+   "impact": 3,
+   "reason": "Multicenter registry landmark analysis identifying a discharge tricuspid gradient threshold associated with mortality after transcatheter tricuspid valve replacement, a data-driven cutoff needing validation."
+  },
+  "42994522": {
+   "pmid": "42994522",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 96,
+   "impact": 2,
+   "reason": "Small single-center retrospective series of endocarditis surgery in congenital heart disease spanning 23 years, descriptive and niche."
+  },
+  "42993131": {
+   "pmid": "42993131",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 252,
+   "impact": 3,
+   "reason": "Exploratory diagnostic accuracy study of combined ECG and echocardiographic markers for cardiac sarcoidosis, requiring prospective validation before use as a triage tool."
+  },
+  "42988237": {
+   "pmid": "42988237",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "general",
+   "sample_size": 9084,
+   "impact": 3,
+   "reason": "Large cross-sectional study establishing age- and sex-specific normative QRS duration values for athlete pre-participation screening, useful reference data without outcomes."
+  },
+  "42982385": {
+   "pmid": "42982385",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 41,
+   "impact": 2,
+   "reason": "Small mechanistic human and canine study linking repeated deep septal screwing attempts during left bundle branch area pacing to myocardial injury and fibrosis."
+  },
+  "42982089": {
+   "pmid": "42982089",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1452,
+   "impact": 2,
+   "reason": "Matched survey-based comparison finding similar reproductive lifespan but more preeclampsia in women with familial hypercholesterolaemia, limited by self-reported recall."
+  },
+  "42980619": {
+   "pmid": "42980619",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review proposing a hierarchy of evidence for defining the arrhythmogenic substrate in scar-related ventricular tachycardia, with no new data."
+  },
+  "42975593": {
+   "pmid": "42975593",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 221808,
+   "impact": 3,
+   "reason": "Risk score for bailout mechanical circulatory support during PCI with large external validation, prediction-model work that does not itself change management."
+  },
+  "42975592": {
+   "pmid": "42975592",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 58,
+   "impact": 2,
+   "reason": "Small retrospective paired CT study of the virtual circle method's accuracy for redo-TAVR planning, a technical measurement-accuracy analysis."
+  },
+  "42969901": {
+   "pmid": "42969901",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Single-arm one-year safety and effectiveness report for a next-generation dual-seal left atrial appendage occluder, descriptive endpoints with no comparator."
+  },
+  "42968619": {
+   "pmid": "42968619",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 123,
+   "impact": 2,
+   "reason": "Feasibility study of collecting consumer smartphone and smartwatch activity and rhythm data after pulmonary vein isolation, with exploratory functional findings."
+  },
+  "42967235": {
+   "pmid": "42967235",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 78,
+   "impact": 3,
+   "reason": "Early feasibility study of a novel posterior leaflet restoration implant for secondary mitral regurgitation, with post hoc stratification and high one-year mortality."
+  },
+  "42965535": {
+   "pmid": "42965535",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 10044,
+   "impact": 3,
+   "reason": "Multi-cohort validation of an echocardiography-based artificial intelligence model for detecting and predicting early HFpEF, diagnostic performance work rather than a management trial."
   }
  },
  "summaries": {},
