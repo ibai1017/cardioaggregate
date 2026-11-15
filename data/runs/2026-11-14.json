@@ -1096,6 +1096,38 @@
    ],
    "editorial_take": null,
    "practice_implications": "Confirms what the pharmacology predicted: crushed ticagrelor achieves adequate platelet inhibition at the end of PCI in only about a fifth of patients in cardiogenic shock, whereas cangrelor does so reliably, with no excess major bleeding (6% versus 5%). Clinical outcomes were numerically better with cangrelor but the trial cannot prove it, so this is a reasonable basis for preferring intravenous cangrelor in intubated or shocked patients undergoing primary PCI on mechanistic grounds while recognising that hard-outcome benefit remains unproven. Plan the transition to an oral P2Y12 inhibitor explicitly, and treat the failed non-inferiority test as an artefact of a 1 percentage point margin rather than evidence against cangrelor."
+  },
+  "42998308": {
+   "bottom_line": "In a prespecified second randomization of 3048 Korean patients with atherosclerotic cardiovascular disease, starting with statin-ezetimibe combination therapy rather than statin monotherapy achieved roughly 7 to 9 mg/dL lower LDL cholesterol but did not change 3-year cardiovascular events (8.5% versus 7.9%; HR 1.07; 95% CI, 0.83 to 1.37; P = 0.596).",
+   "design": "Prespecified second randomization within the randomized, open-label Ez-PAVE trial at 17 centers in South Korea, enrolling January 2021 to July 2022 with 3 years of follow-up; patients had first been randomized to an intensive (LDL-C <55 mg/dL) or conventional (<70 mg/dL) target, with lipid-lowering therapy titrated by protocol (NCT04626973).",
+   "population": "3048 patients with atherosclerotic cardiovascular disease; mean age 64.4 +/- 9.0 years, 638 (20.9%) female.",
+   "intervention": "Initial statin-ezetimibe combination therapy (n = 1525).",
+   "comparison": "Initial statin monotherapy, with ezetimibe added later if needed to reach the assigned LDL-C target (n = 1523).",
+   "outcomes": "Primary endpoint was a 3-year composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, any revascularization, or hospitalization for unstable angina: 128 patients (8.5%) with combination therapy versus 119 (7.9%) with monotherapy; hazard ratio 1.07 (95% CI, 0.83 to 1.37; P = 0.596).",
+   "key_results": [
+    "Primary composite at 3 years: 128/1525 (8.5%) combination therapy versus 119/1523 (7.9%) monotherapy; HR 1.07 (95% CI, 0.83 to 1.37; P = 0.596).",
+    "Achieved median LDL-C was lower with combination therapy in both strata: intensive-targeting 53 mg/dL (IQR 45-62) versus 62 mg/dL (IQR 53-74); conventional-targeting 63 mg/dL (IQR 55-73) versus 70 mg/dL (IQR 62-81).",
+    "Ezetimibe was later added to 241 patients (34.3%) in the intensive-targeting monotherapy group and 177 (24.8%) in the conventional-targeting monotherapy group, substantially narrowing the between-group contrast over time.",
+    "The effect of intensive versus conventional LDL-C targeting was consistent regardless of the initial regimen (P for interaction = 0.583).",
+    "Safety endpoints were similar between groups; specific event numbers not reported in the abstract."
+   ],
+   "strengths": [
+    "A genuine prespecified randomization rather than a post hoc comparison, with a 2-by-2 structure that also allows the interaction with LDL-C target to be tested formally.",
+    "Large (3048 patients) with a clinically relevant 3-year composite endpoint and protocol-driven titration, which mirrors how treat-to-target lipid management actually works.",
+    "Reports achieved LDL-C in both strata, making clear that the intended lipid separation was produced and quantifying it.",
+    "Transparently reports crossover: the proportions of monotherapy patients who later received ezetimibe (34.3% and 24.8%) are given, letting readers judge the diluted contrast.",
+    "Tests the interaction with the primary targeting strategy and finds no heterogeneity (P = 0.583), supporting the generalizability of the target-directed approach."
+   ],
+   "limitations": [
+    "This is a strategy comparison with a convergent design: because monotherapy patients received ezetimibe when they missed target, the two arms differed mainly in the timing of combination therapy, so a null result was close to built in and does not test the lipid hypothesis.",
+    "The achieved LDL-C difference (about 7 to 9 mg/dL) is far too small to expect a detectable event reduction over 3 years; with 247 events the trial had no power to detect the roughly 2% relative risk reduction such a difference would predict.",
+    "The confidence interval (0.83 to 1.37) is wide and cannot exclude either a 17% benefit or a 37% harm, so the conclusion of no difference is a statement about power, not equivalence.",
+    "The composite endpoint is dominated by any revascularization, a softer and partly operator-driven outcome that can mask differences in hard events; no component-level data are given.",
+    "Conducted entirely in South Korea with only 20.9% women, limiting generalizability; statin type, dose intensity and adherence are not reported.",
+    "Open-label design, and safety endpoints are described only as similar without event numbers, so the tolerability argument for upfront combination therapy cannot be verified here."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Reassuring but not practice-changing: whether you start with a statin alone and add ezetimibe when the target is missed, or start with both, you end up at a similar place clinically, and the choice can be made on convenience, tolerability and cost. The practical argument for upfront combination therapy survives intact, since it got more patients to target (median LDL-C 53 versus 62 mg/dL in the intensive stratum) and spared a third of monotherapy patients a later titration visit. Do not read this as evidence against ezetimibe or against lower LDL-C targets: the achieved lipid difference was only about 7 to 9 mg/dL and the trial was far too small to detect the benefit that difference would be expected to produce."
   }
  },
  "basis": {
@@ -1109,7 +1141,8 @@
   "43001751": "abstract",
   "43001742": "abstract",
   "43001746": "abstract",
-  "42998670": "abstract"
+  "42998670": "abstract",
+  "42998308": "abstract"
  },
  "candidates": [
   {
