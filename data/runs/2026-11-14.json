@@ -257,6 +257,186 @@
    "sample_size": 231,
    "impact": 3,
    "reason": "Nonrandomized nationwide comparison of prehospital ECPR with a striking survival difference but substantial potential for confounding and modest sample size."
+  },
+  "42999953": {
+   "pmid": "42999953",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 424,
+   "impact": 3,
+   "reason": "First randomized trial of dapagliflozin in heart transplant recipients, but with an eGFR-slope surrogate endpoint and a small between-group difference in a niche population."
+  },
+  "42998670": {
+   "pmid": "42998670",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 605,
+   "impact": 4,
+   "reason": "First randomized comparison of P2Y12 inhibitor strategies in infarct-related cardiogenic shock, a daily clinical problem, with far more consistent platelet inhibition using cangrelor."
+  },
+  "42998238": {
+   "pmid": "42998238",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 777,
+   "impact": 4,
+   "reason": "Eight-year mortality follow-up of a randomized trial answering whether revascularization helps stable coronary disease in advanced chronic kidney disease, a difficult and common decision."
+  },
+  "43031493": {
+   "pmid": "43031493",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative mechanistic review of alcohol and cardiovascular disease with no new primary data."
+  },
+  "43018963": {
+   "pmid": "43018963",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative clinical review of acute ischemic stroke treatment aimed primarily at a general and neurology audience."
+  },
+  "43018508": {
+   "pmid": "43018508",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1290,
+   "impact": 4,
+   "reason": "Individual participant data meta-analysis of the randomized trials in the population where LAAC is actually used clinically, finding no efficacy or bleeding advantage over contemporary medical therapy."
+  },
+  "43018506": {
+   "pmid": "43018506",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative evidence review interpreting existing LAAC trials rather than contributing new data."
+  },
+  "42999950": {
+   "pmid": "42999950",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 65,
+   "impact": 3,
+   "reason": "Small randomized trial of intravenous iron in HFpEF with a peak oxygen uptake endpoint and no power for clinical outcomes."
+  },
+  "42998293": {
+   "pmid": "42998293",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "imaging",
+   "sample_size": 208,
+   "impact": 2,
+   "reason": "Imaging substudy explicitly not powered separately, with only 60 patients evaluable for its primary endpoint and findings the authors call hypothesis-generating."
+  },
+  "42998239": {
+   "pmid": "42998239",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Extended follow-up of COURAGE, but no abstract or results were provided so its findings cannot be judged."
+  },
+  "43018502": {
+   "pmid": "43018502",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review of post-LAAC antithrombotic regimens summarizing existing small and heterogeneous trials."
+  },
+  "43023359": {
+   "pmid": "43023359",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 269,
+   "impact": 3,
+   "reason": "Moderate-sized randomized ablation trial with a neutral result, limited by acute posterior wall isolation success in only 66% of the intervention arm."
+  },
+  "43020520": {
+   "pmid": "43020520",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "hypertension",
+   "sample_size": 12434,
+   "impact": 3,
+   "reason": "Large prespecified cognitive ancillary analysis of BPROAD with a null primary cognitive outcome that does not change the parent trial's message."
+  },
+  "43003599": {
+   "pmid": "43003599",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "structural_valve",
+   "sample_size": 901,
+   "impact": 3,
+   "reason": "Subgroup analysis of EARLY TAVR showing a consistent treatment effect by guideline indication, reinforcing rather than changing the main trial result."
+  },
+  "42999997": {
+   "pmid": "42999997",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "heart_failure",
+   "sample_size": 134,
+   "impact": 2,
+   "reason": "Small single-network trial of a digital health tool with a medication optimization process score as its primary endpoint."
+  },
+  "43017810": {
+   "pmid": "43017810",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1396,
+   "impact": 3,
+   "reason": "Exploratory meta-analysis of 16 small studies that usefully informs timing of Lp(a) measurement after ACS but rests on limited, heterogeneous data."
+  },
+  "43014627": {
+   "pmid": "43014627",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative framework review on anticoagulation for subclinical atrial fibrillation without new primary data."
+  },
+  "43013292": {
+   "pmid": "43013292",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 9650,
+   "impact": 3,
+   "reason": "Prespecified total-event secondary analysis of SOUL that is consistent with, and does not alter, the already published primary finding."
+  },
+  "42998308": {
+   "pmid": "42998308",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 3048,
+   "impact": 4,
+   "reason": "Prespecified second randomization of 3,048 patients with 3-year clinical outcomes answering whether to start statin-ezetimibe combination therapy upfront in established atherosclerotic disease."
+  },
+  "42998063": {
+   "pmid": "42998063",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 2189,
+   "impact": 3,
+   "reason": "Post hoc subgroup analysis with a null interaction test and limited precision that does not change the parent trial's message."
   }
  },
  "summaries": {},
