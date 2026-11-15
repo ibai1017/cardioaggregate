@@ -197,6 +197,102 @@
    "journal": "N Engl J Med",
    "title": "Plozasiran for Severe Hypertriglyceridemia and Risk of Pancreatitis.",
    "url": "https://doi.org/10.1056/NEJMoa2610014"
+  },
+  "42998238": {
+   "digest": "2026-11-14",
+   "journal": "Circulation",
+   "title": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in Patients With Advanced Chronic Kidney Disease: ISCHEMIA-CKD EXTEND.",
+   "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.083858"
+  },
+  "42998244": {
+   "digest": "2026-11-14",
+   "journal": "JAMA",
+   "title": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND.",
+   "url": "https://doi.org/10.1001/jama.2026.20375"
+  },
+  "42998308": {
+   "digest": "2026-11-14",
+   "journal": "Circulation",
+   "title": "Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial.",
+   "url": "https://doi.org/10.1161/CIRCULATIONAHA.126.083811"
+  },
+  "42998670": {
+   "digest": "2026-11-14",
+   "journal": "Lancet",
+   "title": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
+   "url": "https://doi.org/10.1016/S0140-6736(26)00976-1"
+  },
+  "42999998": {
+   "digest": "2026-11-14",
+   "journal": "JAMA",
+   "title": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: The COAST-AF Randomized Clinical Trial.",
+   "url": "https://doi.org/10.1001/jama.2026.24331"
+  },
+  "43001734": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
+   "url": "https://doi.org/10.1056/NEJMoa2610159"
+  },
+  "43001741": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
+   "url": "https://doi.org/10.1056/NEJMoa2612924"
+  },
+  "43001742": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
+   "url": "https://doi.org/10.1056/NEJMoa2606634"
+  },
+  "43001746": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes.",
+   "url": "https://doi.org/10.1056/NEJMoa2612922"
+  },
+  "43001751": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
+   "url": "https://doi.org/10.1056/NEJMoa2612126"
+  },
+  "43001758": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Community and EMS Interventions to Improve Survival in Cardiac Arrest.",
+   "url": "https://doi.org/10.1056/NEJMoa2612757"
+  },
+  "43001763": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block.",
+   "url": "https://doi.org/10.1056/NEJMoa2612972"
+  },
+  "43003106": {
+   "digest": "2026-11-14",
+   "journal": "Lancet",
+   "title": "Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT): a double-blind, randomised, placebo-controlled, phase 3 trial.",
+   "url": "https://doi.org/10.1016/S0140-6736(26)02140-9"
+  },
+  "43013818": {
+   "digest": "2026-11-14",
+   "journal": "N Engl J Med",
+   "title": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
+   "url": "https://doi.org/10.1056/NEJMoa2602435"
+  },
+  "43014822": {
+   "digest": "2026-11-14",
+   "journal": "BMJ",
+   "title": "Effect of discontinuing antihypertensives on perioperative hypotension in older patients before non-cardiac surgery: multicentre, randomised, double blind, controlled trial.",
+   "url": "https://doi.org/10.1136/bmj-2026-101087"
+  },
+  "43018508": {
+   "digest": "2026-11-14",
+   "journal": "J Am Coll Cardiol",
+   "title": "Left Atrial Appendage Closure in Atrial Fibrillation Patients With High Risk of Stroke and Bleeding: An Individual Participant Data Meta-Analysis of Randomized Trials.",
+   "url": "https://doi.org/10.1016/j.jacc.2026.09.033"
   }
  },
  "editorials": {}
