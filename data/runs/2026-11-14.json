@@ -963,6 +963,38 @@
    ],
    "editorial_take": null,
    "practice_implications": "Survodutide clears the regulatory cardiovascular safety bar, so cardiologists need not withhold it from patients with obesity and cardiovascular disease on cardiovascular-risk grounds. But this trial gives no cardiovascular benefit to offer patients, unlike the outcome data now available for semaglutide and tirzepatide, and the roughly 20% discontinuation rate for gastrointestinal events means dose escalation must be slow and expectations set accordingly. Until an efficacy outcome trial reports, prefer agents with proven cardiovascular benefit when the indication is cardiovascular risk reduction rather than weight loss alone."
+  },
+  "43001751": {
+   "bottom_line": "In 6376 patients with atherosclerotic cardiovascular disease, chronic kidney disease and hsCRP of at least 2 mg/L, monthly ziltivekimab reduced free interleukin-6 by 76% and hsCRP by 64% yet produced no reduction in 3-point MACE over a median 33 months (17.6% versus 17.7%; HR 0.99; 95% CI, 0.88 to 1.11; P = 0.84), with numerically more serious infections.",
+   "design": "Multinational, double-blind, randomized, placebo-controlled outcome trial (ZEUS, NCT05021835), funded by Novo Nordisk.",
+   "population": "6376 adults in the full analysis population with established atherosclerotic cardiovascular disease, chronic kidney disease and cardiovascular inflammation (high-sensitivity CRP at least 2 mg per liter); mean age 69.4 years, 27.5% women.",
+   "intervention": "Subcutaneous ziltivekimab 15 mg once monthly (n = 3184).",
+   "comparison": "Matching placebo once monthly (n = 3192).",
+   "outcomes": "Primary efficacy endpoint was 3-point MACE (death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke): 561 patients (17.6%) with ziltivekimab versus 565 (17.7%) with placebo; hazard ratio 0.99 (95% CI, 0.88 to 1.11; P = 0.84) over a median follow-up of 33 months.",
+   "key_results": [
+    "Primary 3-point MACE: 561/3184 (17.6%) ziltivekimab versus 565/3192 (17.7%) placebo; HR 0.99 (95% CI, 0.88 to 1.11; P = 0.84).",
+    "Target engagement was profound: at 24 months the between-group difference in median percent change was -76 percentage points for free interleukin-6 and -64 percentage points for high-sensitivity CRP.",
+    "Serious adverse events: 54.6% with ziltivekimab versus 54.8% with placebo.",
+    "Serious infections: 20.4% with ziltivekimab versus 17.9% with placebo; no effect estimate or P value reported.",
+    "Median follow-up 33 months with 1126 primary endpoint events, a high event rate (about 17.7% over 33 months) reflecting the chronic kidney disease population."
+   ],
+   "strengths": [
+    "Large (6376 patients), double-blind, placebo-controlled trial with hard clinical endpoints and 1126 accrued events, powered to detect a clinically meaningful effect.",
+    "Unambiguous biological target engagement (76% reduction in free interleukin-6, 64% in hsCRP), so the null result tests the interleukin-6 hypothesis itself rather than inadequate dosing.",
+    "Enriched enrolment for residual inflammatory risk (hsCRP at least 2 mg/L) plus chronic kidney disease, the population in which the hypothesis was most plausible and event rates are highest.",
+    "The confidence interval (0.88 to 1.11) is tight enough to exclude any benefit of the magnitude seen with canakinumab in CANTOS or colchicine in LoDoCo2, making this an informative negative trial.",
+    "Safety was reported with specific attention to serious infections, the expected hazard of interleukin-6 blockade."
+   ],
+   "limitations": [
+    "Industry funded (Novo Nordisk); the abstract gives no information on independent endpoint adjudication or data access.",
+    "The serious infection excess (20.4% versus 17.9%) is reported without an effect estimate, confidence interval or P value, so its magnitude and statistical strength cannot be judged; a 2.5 percentage point absolute excess in a frail chronic kidney disease population is clinically relevant.",
+    "No breakdown of the individual components of MACE, and no data on heart failure, kidney outcomes or all-cause mortality, which were plausible mechanisms of benefit for an anti-inflammatory in chronic kidney disease.",
+    "Background therapy (statin, SGLT2 inhibitor, antiplatelet use) and baseline LDL cholesterol and hsCRP distributions are not reported, so it cannot be judged whether modern background treatment left little residual inflammatory risk to modify.",
+    "Restricted to patients with chronic kidney disease, so the result does not formally exclude benefit of interleukin-6 inhibition in atherosclerosis without chronic kidney disease, although the biological rationale was strongest in this group.",
+    "Median follow-up of 33 months may be short if anti-inflammatory benefit requires longer exposure, though the completely flat hazard ratio argues against a delayed effect."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Interleukin-6 inhibition should not be pursued for residual inflammatory risk in atherosclerosis with chronic kidney disease: despite near-complete pathway blockade there was no signal of benefit and a numerical excess of serious infections. Combined with the modest canakinumab result, this narrows the clinically useful anti-inflammatory options for residual risk to colchicine, and reinforces that an elevated hsCRP in a patient with chronic kidney disease should prompt optimisation of proven therapies (lipid lowering, SGLT2 inhibition, blood pressure and antithrombotic management) rather than a search for cytokine-directed treatment. Measuring hsCRP remains prognostic but is not, on this evidence, a route to a targeted therapy."
   }
  },
  "basis": {
@@ -972,7 +1004,8 @@
   "43013818": "abstract",
   "43001758": "abstract",
   "43014822": "abstract",
-  "43003106": "abstract"
+  "43003106": "abstract",
+  "43001751": "abstract"
  },
  "candidates": [
   {
