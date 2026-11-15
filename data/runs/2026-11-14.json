@@ -1229,6 +1229,39 @@
    ],
    "editorial_take": null,
    "practice_implications": "Settles the long-running question of whether routine revascularization prolongs life in chronic coronary disease with preserved ejection fraction and no left main disease: over 11 years it does not, with a restricted mean survival difference of 14 days and only an 18% posterior probability of even a 1 percentage point benefit. Use this when counselling patients who equate a stent with longevity: revascularization in this setting is for symptoms and quality of life, and the decision should rest on angina burden and preference while optimising medical therapy. The findings do not apply to left main disease, reduced ejection fraction, refractory angina or acute coronary syndromes."
+  },
+  "42998238": {
+   "bottom_line": "Over a median 8 years and 429 deaths among 777 patients with advanced chronic kidney disease and moderate-to-severe ischemia, an initial invasive strategy gave no long-term survival benefit over guideline-directed medical therapy alone (8-year all-cause mortality 57.4% versus 56.8%; adjusted HR 1.05; 95% CI, 0.87 to 1.28), with the point estimates and a -99 day restricted mean survival difference all favouring the conservative strategy.",
+   "design": "Prespecified extended vital-status follow-up of the randomized ISCHEMIA-CKD trial; long-term survival ascertained by site contact, health record review and centralized death database searches (ISCHEMIA-CKD EXTEND, NCT01985360).",
+   "population": "777 participants randomized in ISCHEMIA-CKD with moderate or severe myocardial ischemia and advanced chronic kidney disease (388 invasive, 389 conservative); vital status retention among survivors was 95%.",
+   "intervention": "Initial invasive strategy: coronary angiography and revascularization when feasible, added to guideline-directed medical therapy (n = 388).",
+   "comparison": "Initial conservative strategy: guideline-directed medical therapy alone, with invasive procedures reserved for failure of medical therapy (n = 389).",
+   "outcomes": "Primary outcome for the extended phase was all-cause mortality: cumulative 8-year mortality 57.4% with the invasive strategy versus 56.8% with the conservative strategy; adjusted hazard ratio 1.05 (95% CI, 0.87 to 1.28). Cardiovascular mortality at 8 years was 40.3% versus 38.4%; adjusted hazard ratio 1.06 (95% CI, 0.84 to 1.34).",
+   "key_results": [
+    "All-cause mortality at 8 years: 57.4% invasive versus 56.8% conservative; adjusted HR 1.05 (95% CI, 0.87 to 1.28).",
+    "Cardiovascular mortality at 8 years: 40.3% versus 38.4%; adjusted HR 1.06 (95% CI, 0.84 to 1.34).",
+    "Restricted mean survival time: 1941 days (1834-2047) with the invasive strategy versus 1990 days (1885-2094) with the conservative strategy; adjusted difference -99 days (-245 to 46).",
+    "Bayesian posterior probability of at least a 1 percentage point lower versus higher death with the invasive strategy: 28% versus 52%; for cardiovascular mortality, 23% versus 56%.",
+    "429 deaths (55% of the cohort) over a median 8 years, with 95% vital status retention among survivors."
+   ],
+   "strengths": [
+    "Long-term randomized follow-up of a population almost always excluded from coronary revascularization trials, where management decisions are made on extrapolation and registry data.",
+    "Excellent ascertainment: 95% vital status retention among survivors, achieved by combining site contact with health record and centralized death database searches.",
+    "A very high event rate (429 deaths, 55% mortality) means that despite the modest sample size the mortality comparison is reasonably informative.",
+    "Reports restricted mean survival time (-99 days) and bayesian posterior probabilities alongside hazard ratios, giving a clinically interpretable sense of magnitude and direction rather than only a non-significant P value.",
+    "All estimates point consistently in the same direction (no benefit, if anything slight harm from the invasive strategy), which is more persuasive than a single null hazard ratio.",
+    "Prespecified extension of a registered randomized trial, with cause-specific mortality reported separately."
+   ],
+   "limitations": [
+    "Modest sample size (777) means the confidence interval for all-cause mortality (0.87 to 1.28) cannot exclude a worthwhile 13% relative benefit or a 28% relative harm.",
+    "Only vital status was collected in the extension: nonfatal myocardial infarction, dialysis initiation, angina, quality of life and repeat revascularization are unavailable, so the full long-term trade-off cannot be assessed.",
+    "Treatment is no longer randomized during extended follow-up; crossover to revascularization in the conservative arm and attrition of medical therapy adherence are not reported and would bias toward the null.",
+    "Competing risk of death from kidney disease and other noncardiovascular causes is overwhelming in this population (57% mortality at 8 years), which structurally limits any strategy's ability to improve survival and should temper generalization to patients with less advanced kidney disease.",
+    "Baseline kidney function strata, dialysis status at randomization, and whether procedural contrast exposure caused measurable kidney function loss are not reported here, although contrast nephropathy is the central concern with an invasive strategy in this group.",
+    "Mortality in the parent trial was already similar at 2.2 years, so this extension confirms rather than changes the main message; it does not resolve whether a subgroup benefits."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Supports a conservative, medically managed default for patients with advanced chronic kidney disease and stable coronary disease with moderate-to-severe ischemia: eight years of randomized follow-up show no survival advantage from routine angiography and revascularization, and every estimate including restricted mean survival time trends the other way. Given the competing risks and procedural hazards of contrast exposure and vascular access in this population, reserve an invasive strategy for refractory symptoms, acute coronary syndromes or anatomy not represented in the trial, and focus on optimising medical therapy and kidney-protective treatment."
   }
  },
  "basis": {
@@ -1246,7 +1279,8 @@
   "42998308": "abstract",
   "42999998": "abstract",
   "43018508": "abstract",
-  "42998244": "abstract"
+  "42998244": "abstract",
+  "42998238": "abstract"
  },
  "candidates": [
   {
