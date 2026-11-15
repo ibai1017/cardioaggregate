@@ -77,7 +77,188 @@
   "42998070"
  ],
  "selected": [],
- "triage": {},
+ "triage": {
+  "43013818": {
+   "pmid": "43013818",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 15317,
+   "impact": 4,
+   "reason": "Large NEJM comparative-effectiveness trial showing aspirin was not noninferior to rivaroxaban or warfarin for VTE prophylaxis after arthroplasty, settling a conflicting literature."
+  },
+  "43001758": {
+   "pmid": "43001758",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 22459,
+   "impact": 4,
+   "reason": "Important negative cluster-randomized trial showing a multifaceted community and EMS strategy did not improve neurologically intact survival after out-of-hospital cardiac arrest."
+  },
+  "42998297": {
+   "pmid": "42998297",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 14665,
+   "impact": 3,
+   "reason": "Randomized AI-ECG screening trial with a statistically fragile result on a largely surrogate composite that included pre-AF findings."
+  },
+  "43014822": {
+   "pmid": "43014822",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 2012,
+   "impact": 4,
+   "reason": "Double-blind trial answering the common preoperative question of whether to hold ACE inhibitors or ARBs, with a large reduction in perioperative hypotension."
+  },
+  "43003106": {
+   "pmid": "43003106",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 5507,
+   "impact": 4,
+   "reason": "Phase 3 cardiovascular outcome safety trial establishing that the dual glucagon/GLP-1 agonist survodutide does not increase cardiovascular risk in obesity."
+  },
+  "43002247": {
+   "pmid": "43002247",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "heart_failure",
+   "sample_size": 1426,
+   "impact": 3,
+   "reason": "Echocardiographic substudy of a trial that missed its primary clinical endpoint, with modest changes in structural and functional measures."
+  },
+  "43001751": {
+   "pmid": "43001751",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 6376,
+   "impact": 4,
+   "reason": "Important negative outcome trial showing marked interleukin-6 lowering with ziltivekimab did not reduce MACE in atherosclerosis with chronic kidney disease."
+  },
+  "43001742": {
+   "pmid": "43001742",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1880,
+   "impact": 4,
+   "reason": "Randomized deprescribing trial addressing the common question of stopping primary-prevention statins after age 70, with noninferiority met."
+  },
+  "43001741": {
+   "pmid": "43001741",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 4368,
+   "impact": 5,
+   "reason": "Large outcome trial showing a systolic target below 120 mm Hg reduced major cardiovascular events after ischemic stroke or TIA, likely to shape blood-pressure targets."
+  },
+  "43001734": {
+   "pmid": "43001734",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 8322,
+   "impact": 5,
+   "reason": "Definitive 8,322-patient outcome trial showing profound lipoprotein(a) lowering with pelacarsen did not reduce cardiovascular events, reframing the entire Lp(a) hypothesis."
+  },
+  "43000001": {
+   "pmid": "43000001",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 1706,
+   "impact": 3,
+   "reason": "Pragmatic implementation cluster trial of single-pill combination therapy with a blood-pressure endpoint in two specific health systems."
+  },
+  "42998244": {
+   "pmid": "42998244",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 5179,
+   "impact": 4,
+   "reason": "Extended 9-year follow-up of ISCHEMIA providing new long-term mortality data that cardiologists use when counselling patients with chronic coronary disease."
+  },
+  "43018511": {
+   "pmid": "43018511",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 481,
+   "impact": 3,
+   "reason": "Prematurely terminated and underpowered LAAC trial whose long-term estimates the authors themselves describe as exploratory."
+  },
+  "43006184": {
+   "pmid": "43006184",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 508,
+   "impact": 3,
+   "reason": "Modest-sized randomized comparison of off-pump versus on-pump CABG in frail patients with a neutral primary composite outcome."
+  },
+  "43002382": {
+   "pmid": "43002382",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "imaging",
+   "sample_size": 120,
+   "impact": 3,
+   "reason": "Small prespecified CMR substudy with imaging-only endpoints nested in a trial that missed its primary clinical endpoint."
+  },
+  "43002172": {
+   "pmid": "43002172",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 235,
+   "impact": 3,
+   "reason": "Phase 2b dose-ranging trial of a novel ANGPTL4 antibody with a triglyceride surrogate endpoint and no outcome data."
+  },
+  "43002161": {
+   "pmid": "43002161",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "general",
+   "sample_size": 712,
+   "impact": 2,
+   "reason": "Two phase 3 trials of orforglipron for obstructive sleep apnea with an apnea-hypopnea index endpoint, of incremental interest to cardiologists."
+  },
+  "43001763": {
+   "pmid": "43001763",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 685,
+   "impact": 5,
+   "reason": "Randomized trial stopped early for benefit showing left bundle-branch pacing more than halved death, heart-failure hospitalization or pacing-induced cardiomyopathy versus RV pacing."
+  },
+  "43001746": {
+   "pmid": "43001746",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "hypertension",
+   "sample_size": 9476,
+   "impact": 4,
+   "reason": "Large important negative trial showing a systolic target below 120 mm Hg did not reduce major cardiovascular events in type 2 diabetes."
+  },
+  "43001740": {
+   "pmid": "43001740",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 231,
+   "impact": 3,
+   "reason": "Nonrandomized nationwide comparison of prehospital ECPR with a striking survival difference but substantial potential for confounding and modest sample size."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
