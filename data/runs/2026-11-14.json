@@ -1029,6 +1029,39 @@
    ],
    "editorial_take": null,
    "practice_implications": "Supports discussing statin discontinuation with multimorbid primary-prevention patients over 70, particularly where life expectancy is limited, pill burden is high or adverse effects are troubling: over 2 years the average cost is about 2 weeks of event-free survival. But present it honestly as a small trade-off rather than a free choice, since one additional myocardial infarction, stroke or death occurred for roughly every 29 patients who stopped over about 2 years. For patients with a longer expected horizon, high baseline risk or good tolerance, continuation remains the better-supported default, and the trial says nothing about secondary prevention, where statins should not be stopped."
+  },
+  "43001746": {
+   "bottom_line": "In 9476 patients with type 2 diabetes, elevated blood pressure and high cardiovascular risk, a systolic target below 120 mm Hg achieved a 13.6 mm Hg blood-pressure separation but did not significantly reduce major cardiovascular events over a median 4 years (6.0% versus 6.7%; HR 0.90; 95% CI, 0.77 to 1.06; P = 0.20).",
+   "design": "Multicenter, open-label, randomized controlled trial conducted in Brazil (OPTIMAL-DIABETES, NCT04040634), funded by Hospital Israelita Albert Einstein and the Brazilian Ministry of Health.",
+   "population": "9476 ethnically diverse patients with elevated blood pressure, type 2 diabetes and high cardiovascular risk; mean age 64.7 +/- 8.2 years, 5871 (62.0%) women.",
+   "intervention": "Intensive therapy targeting systolic blood pressure less than 120 mm Hg (n = 4745).",
+   "comparison": "Standard therapy targeting systolic blood pressure less than 140 mm Hg (n = 4731).",
+   "outcomes": "Primary endpoint was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure: 286 patients (6.0%; 1.65 events per 100 person-years) with intensive therapy versus 315 (6.7%; 1.83 events per 100 person-years) with standard therapy; hazard ratio 0.90 (95% CI, 0.77 to 1.06; P = 0.20) over a median follow-up of 4.0 years (IQR, 3.9 to 4.0).",
+   "key_results": [
+    "Primary composite: 286/4745 (6.0%; 1.65 per 100 person-years) intensive versus 315/4731 (6.7%; 1.83 per 100 person-years) standard; HR 0.90 (95% CI, 0.77 to 1.06; P = 0.20).",
+    "Mean systolic blood pressure during follow-up (excluding the first 3 months) was 121.8 +/- 10.8 mm Hg with intensive therapy versus 135.4 +/- 8.2 mm Hg with standard therapy, a separation of about 13.6 mm Hg.",
+    "Serious adverse events: 706 patients (14.9%) with intensive therapy versus 693 (14.6%) with standard therapy.",
+    "601 primary endpoint events accrued over a median follow-up of 4.0 years (IQR, 3.9 to 4.0).",
+    "Notably high proportion of women (62.0%) in an ethnically diverse Brazilian cohort."
+   ],
+   "strengths": [
+    "Large randomized trial (9476 patients) with a hard clinical composite and successful achievement of the intended 13.6 mm Hg blood-pressure separation, so the intended contrast was genuinely tested.",
+    "Ethnically diverse population with an unusually high representation of women (62.0%), both groups under-represented in landmark blood-pressure trials.",
+    "Publicly funded, with no commercial interest in the direction of the result.",
+    "Uniform and essentially complete follow-up (median 4.0 years, IQR 3.9 to 4.0), indicating excellent retention and administrative censoring at a planned date rather than loss to follow-up.",
+    "Directly addresses the ACCORD question with a much larger sample and contemporary background diabetes therapy, which makes it an informative negative trial rather than an inconclusive one."
+   ],
+   "limitations": [
+    "Open-label design; although the components are relatively objective, hospitalization for unstable angina and heart failure are clinician-driven endpoints susceptible to ascertainment bias.",
+    "Formally negative but not definitive: the hazard ratio of 0.90 with an upper confidence bound of 1.06 does not exclude a clinically worthwhile 10 to 20% relative reduction, and with only 601 events the trial had limited power for a modest true effect.",
+    "Event rates were low (about 6% over 4 years) despite enrolment of high-risk patients, which further limits power and suggests the cohort may have been less high-risk than intended.",
+    "Conducted entirely in Brazil, so health-system, drug-availability and population differences limit generalizability.",
+    "No component-level data and no reporting of stroke separately, which matters because prior trials suggested the benefit of intensive lowering in diabetes is concentrated in stroke.",
+    "Serious adverse events are reported only as a total (14.9% versus 14.6%), with no detail on hypotension, syncope, acute kidney injury or electrolyte abnormalities, the specific harms of a sub-120 mm Hg target.",
+    "Baseline blood pressure, achieved number of antihypertensive agents and SGLT2 inhibitor or GLP-1 receptor agonist use are not reported, so it is unclear how much modern background therapy attenuated any incremental blood-pressure benefit."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Does not support routinely driving systolic blood pressure below 120 mm Hg in patients with type 2 diabetes: a sustained 13.6 mm Hg reduction produced no statistically significant reduction in major cardiovascular events over 4 years, consistent with ACCORD and at odds with the recent BPROAD result. A target below 130 mm Hg remains a defensible default, with more aggressive lowering reserved for patients who tolerate it easily or who have an additional indication such as prior stroke, where the companion OPTIMAL-STROKE trial did show benefit. The point estimate of 0.90 leaves room for a modest real benefit, so this is a reason not to pursue a sub-120 target aggressively rather than evidence that lower is harmful."
   }
  },
  "basis": {
@@ -1040,7 +1073,8 @@
   "43014822": "abstract",
   "43003106": "abstract",
   "43001751": "abstract",
-  "43001742": "abstract"
+  "43001742": "abstract",
+  "43001746": "abstract"
  },
  "candidates": [
   {
