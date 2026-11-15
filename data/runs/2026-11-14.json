@@ -1062,6 +1062,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "Does not support routinely driving systolic blood pressure below 120 mm Hg in patients with type 2 diabetes: a sustained 13.6 mm Hg reduction produced no statistically significant reduction in major cardiovascular events over 4 years, consistent with ACCORD and at odds with the recent BPROAD result. A target below 130 mm Hg remains a defensible default, with more aggressive lowering reserved for patients who tolerate it easily or who have an additional indication such as prior stroke, where the companion OPTIMAL-STROKE trial did show benefit. The point estimate of 0.90 leaves room for a modest real benefit, so this is a reason not to pursue a sub-120 target aggressively rather than evidence that lower is harmful."
+  },
+  "42998670": {
+   "bottom_line": "In the first randomised trial of P2Y12 inhibition confined to infarct-related cardiogenic shock (605 patients), intravenous cangrelor achieved adequate platelet inhibition at the end of PCI in 100% of tested patients versus 22% with crushed ticagrelor (p<0.0001), and 30-day death, myocardial infarction or ischaemic stroke was numerically lower (38% versus 41%), but formal non-inferiority failed against an implausibly narrow 1 percentage point margin.",
+   "design": "Randomised, double-blind trial at 29 hospitals in five European countries (Czech Republic, France, Germany, Poland, Slovakia), with 1:1 allocation stratified by centre, age, sex, ST-segment elevation and mechanical ventilation; non-inferiority margin of 1 percentage point for the primary clinical endpoint (DAPT-SHOCK-AMI, NCT03551964, EudraCT 2018-002161-19). Funded by the Czech Republic Ministry of Health, Charles University and NextGenerationEU.",
+   "population": "605 patients older than 18 years with acute myocardial infarction complicated by cardiogenic shock, enrolled between 1 August 2018 and 19 January 2024; 137 (23%) were female.",
+   "intervention": "Intravenous cangrelor 30 microgram/kg bolus followed by an infusion of 4 microgram/kg per min for at least 2 h (n = 298).",
+   "comparison": "Crushed oral ticagrelor 180 mg loading dose (n = 307).",
+   "outcomes": "Primary laboratory endpoint was a platelet reactivity index of less than 50% at the end of primary PCI: achieved in 56 (100%) of 56 tested cangrelor patients versus 15 (22%) of 68 tested ticagrelor patients (p<0.0001). Primary clinical endpoint was death, myocardial infarction, or ischaemic stroke at 30 days: 112 (38%) of 298 with cangrelor versus 126 (41%) of 307 with ticagrelor; difference -4 percentage points (90% CI, -10 to 3); P for non-inferiority = 0.13, so non-inferiority was not demonstrated.",
+   "key_results": [
+    "Primary laboratory endpoint (platelet reactivity index <50% at end of PCI): 56/56 (100%) cangrelor versus 15/68 (22%) ticagrelor; p<0.0001. It was assessed in only 56 (19%) and 68 (22%) of patients respectively.",
+    "Primary clinical endpoint at 30 days (death, myocardial infarction or ischaemic stroke): 112/298 (38%) cangrelor versus 126/307 (41%) ticagrelor; difference -4 percentage points (90% CI, -10 to 3); P for non-inferiority = 0.13.",
+    "Non-inferiority was not demonstrated because the upper bound of the 90% CI (+3 percentage points) exceeded the prespecified 1 percentage point margin, even though the point estimate favoured cangrelor.",
+    "Major bleeding at 30 days: 19 (6%) of 298 with cangrelor versus 16 (5%) of 307 with ticagrelor.",
+    "No surviving patient was lost to 1-year follow-up; 5-year follow-up is ongoing."
+   ],
+   "strengths": [
+    "The first randomised comparison of P2Y12 inhibitor strategies specifically in infarct-related cardiogenic shock, a population routinely excluded from antiplatelet trials despite having the greatest pharmacokinetic problem.",
+    "Double-blind despite the logistical difficulty of masking an intravenous infusion against a crushed oral loading dose, with randomisation stratified by centre, age, sex, ST-segment elevation and mechanical ventilation.",
+    "Complete 1-year follow-up with no surviving patient lost, which is remarkable in a cohort with roughly 40% early mortality.",
+    "Paired a pharmacodynamic endpoint with a clinical endpoint, so the mechanistic claim (cangrelor works where oral absorption fails) and the clinical claim are separable.",
+    "Non-commercial funding from national and European public sources.",
+    "Pragmatically relevant comparator: crushed ticagrelor is the workaround most centres already use in intubated or shocked patients."
+   ],
+   "limitations": [
+    "The 1 percentage point non-inferiority margin is indefensible in a population with a 30-day event rate near 40%; no trial of this size could have met it, so the failed non-inferiority test says more about the design than about cangrelor.",
+    "The primary laboratory endpoint was measured in only about 20% of patients (56 and 68), introducing serious selection bias: platelet function testing was likely feasible in the more stable survivors, and the 100% versus 22% contrast should be read as indicative rather than exact.",
+    "Underpowered for clinical outcomes: 605 patients and 238 events give a 90% CI spanning -10 to +3 percentage points, consistent with a worthwhile benefit or a small harm.",
+    "A 90% rather than 95% confidence interval is reported for the clinical endpoint, which understates uncertainty relative to conventional reporting.",
+    "Conducted in five European countries at centres equipped for primary PCI in shock, and the use of mechanical circulatory support, revascularisation completeness and shock severity (SCAI stage, lactate) are not reported, limiting interpretation and generalisability.",
+    "No breakdown of the composite into death, myocardial infarction and stroke, so it is unclear whether the numerical 3 percentage point difference reflects mortality or ischaemic events.",
+    "Cangrelor requires a continuous infusion and a transition strategy to an oral agent that is not described here, and the trial gives no data on stent thrombosis, the outcome the pharmacodynamic advantage should most plausibly affect."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Confirms what the pharmacology predicted: crushed ticagrelor achieves adequate platelet inhibition at the end of PCI in only about a fifth of patients in cardiogenic shock, whereas cangrelor does so reliably, with no excess major bleeding (6% versus 5%). Clinical outcomes were numerically better with cangrelor but the trial cannot prove it, so this is a reasonable basis for preferring intravenous cangrelor in intubated or shocked patients undergoing primary PCI on mechanistic grounds while recognising that hard-outcome benefit remains unproven. Plan the transition to an oral P2Y12 inhibitor explicitly, and treat the failed non-inferiority test as an artefact of a 1 percentage point margin rather than evidence against cangrelor."
   }
  },
  "basis": {
@@ -1074,7 +1108,8 @@
   "43003106": "abstract",
   "43001751": "abstract",
   "43001742": "abstract",
-  "43001746": "abstract"
+  "43001746": "abstract",
+  "42998670": "abstract"
  },
  "candidates": [
   {
