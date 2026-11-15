@@ -744,8 +744,42 @@
    "reason": "Society position and advocacy statement on procedural credentialing rather than new clinical evidence."
   }
  },
- "summaries": {},
- "basis": {},
+ "summaries": {
+  "43001741": {
+   "bottom_line": "In 4368 Brazilian patients with elevated blood pressure and a previous ischemic stroke or TIA, targeting systolic blood pressure below 120 mm Hg rather than below 140 mm Hg reduced major cardiovascular events by about a fifth over a median 3.9 years (HR 0.79; 95% CI 0.67 to 0.94; P = 0.007), at the cost of more renal events.",
+   "design": "Multicenter, open-label, randomized controlled trial at 30 sites in Brazil (OPTIMAL-STROKE, NCT04036409).",
+   "population": "4368 participants with elevated blood pressure and previous ischemic stroke or transient ischemic attack; mean age 63.9 +/- 11.2 years, 2093 (47.9%) women.",
+   "intervention": "Intensive antihypertensive treatment targeting systolic blood pressure less than 120 mm Hg (n = 2172).",
+   "comparison": "Standard antihypertensive treatment targeting systolic blood pressure less than 140 mm Hg (n = 2196).",
+   "outcomes": "Primary outcome was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure: 236 participants (10.9%; 3.25 events per 100 person-years) with intensive treatment versus 297 (13.5%; 4.11 events per 100 person-years) with standard treatment; hazard ratio 0.79 (95% CI, 0.67 to 0.94; P = 0.007) over a median follow-up of 3.9 years.",
+   "key_results": [
+    "Primary composite outcome: 236/2172 (10.9%; 3.25 per 100 person-years) intensive versus 297/2196 (13.5%; 4.11 per 100 person-years) standard; HR 0.79 (95% CI, 0.67 to 0.94; P = 0.007).",
+    "Achieved mean systolic blood pressure after the first 3 months was 122.0 +/- 11.5 mm Hg (median 119.6) with intensive treatment versus 135.2 +/- 9.7 mm Hg (median 135.0) with standard treatment, a between-group difference of 13.1 mm Hg (95% CI, 12.5 to 13.8).",
+    "The composite renal outcome (sustained reduction of at least 50% in eGFR or progression to end-stage renal disease) was more common with intensive treatment; event numbers and effect estimates not reported in the abstract.",
+    "Overall incidence of serious adverse events was similar in the two groups; numbers not reported.",
+    "Median follow-up 3.9 years; 4368 participants randomized (2172 intensive, 2196 standard)."
+   ],
+   "strengths": [
+    "Randomized design with a large sample (4368) and an event-driven hard clinical composite including cardiovascular death, myocardial infarction and stroke.",
+    "A large and sustained separation in achieved systolic blood pressure (13.1 mm Hg; 95% CI, 12.5 to 13.8) confirms the trial actually tested the intended contrast.",
+    "Median follow-up of 3.9 years is long enough for the composite endpoint to accrue (533 events in total).",
+    "Addresses a population specifically excluded or under-represented in SPRINT, where post-stroke blood-pressure targets have remained uncertain.",
+    "Publicly funded (Hospital Israelita Albert Einstein and the Brazilian Ministry of Health) rather than industry sponsored."
+   ],
+   "limitations": [
+    "Open-label treatment assignment; although the primary endpoint components are relatively objective, ascertainment and management bias cannot be excluded and blinding of outcome adjudication is not described in the abstract.",
+    "Conducted entirely at 30 sites in a single country (Brazil), which limits generalizability to other health systems and populations.",
+    "The renal signal is clinically important but unquantified here: the abstract reports only that the composite renal outcome was more common with intensive treatment, with no event numbers, effect estimate or confidence interval.",
+    "No breakdown of the individual components of the primary composite, and no data on hypotension, syncope, falls or electrolyte abnormalities, which are the usual trade-offs of a target below 120 mm Hg.",
+    "Baseline blood pressure, time from the index stroke or TIA, stroke subtypes and the drug regimens used are not reported, so it is unclear which post-stroke patients and which treatment approach the result applies to."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Supports pursuing a systolic target below 120 mm Hg in patients with prior ischemic stroke or TIA who tolerate it, with a number needed to treat of roughly 38 over 3.9 years for the composite endpoint. Because the renal composite was more frequent with intensive treatment, monitor eGFR during titration and weigh the strategy against baseline kidney function; the unreported magnitude of that renal harm and the single-country, open-label design argue for individualized targets rather than blanket adoption."
+  }
+ },
+ "basis": {
+  "43001741": "abstract"
+ },
  "candidates": [
   {
    "pmid": "43031493",
