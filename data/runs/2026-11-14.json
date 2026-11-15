@@ -76,7 +76,24 @@
   "43012111",
   "42998070"
  ],
- "selected": [],
+ "selected": [
+  "43001741",
+  "43001734",
+  "43001763",
+  "43013818",
+  "43001758",
+  "43014822",
+  "43003106",
+  "43001751",
+  "43001742",
+  "43001746",
+  "42998670",
+  "42998308",
+  "42999998",
+  "43018508",
+  "42998244",
+  "42998238"
+ ],
  "triage": {
   "43013818": {
    "pmid": "43013818",
@@ -617,6 +634,114 @@
    "sample_size": 1561,
    "impact": 3,
    "reason": "Multicentre cohort giving a practical two-step strategy for timing Lp(a) measurement after myocardial infarction, though the threshold still needs external validation."
+  },
+  "43020134": {
+   "pmid": "43020134",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 251,
+   "impact": 2,
+   "reason": "Mechanistic device-monitoring analysis of AF episode termination dynamics in a small cohort, interesting conceptually but without clinical consequence."
+  },
+  "43018534": {
+   "pmid": "43018534",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 226,
+   "impact": 3,
+   "reason": "Prospective cohort with 8-year follow-up showing CMR scar and conducting channels predict appropriate ICD therapy, with a useful 92% negative predictive value."
+  },
+  "43018533": {
+   "pmid": "43018533",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 119,
+   "impact": 2,
+   "reason": "Small retrospective imaging-mapping correlation study of epicardial fat and VT circuitry, exploratory and mechanistic."
+  },
+  "43014628": {
+   "pmid": "43014628",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 198,
+   "impact": 2,
+   "reason": "Small nonrandomized real-world comparison of three pulsed field ablation systems with wide confidence intervals and no power to detect differences."
+  },
+  "43014626": {
+   "pmid": "43014626",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 420,
+   "impact": 3,
+   "reason": "Propensity-matched multicentre comparison of pulsed field versus cryoballoon ablation in HFrEF, practically useful but retrospective."
+  },
+  "42995413": {
+   "pmid": "42995413",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 82,
+   "impact": 2,
+   "reason": "Device-specific voltage threshold optimization in an 82-patient substudy, of niche technical interest."
+  },
+  "43023215": {
+   "pmid": "43023215",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 118,
+   "impact": 2,
+   "reason": "Single-arm registry analysis of ischemia measures after coronary sinus reducer implantation with no control group for a therapy with large placebo effects."
+  },
+  "43020395": {
+   "pmid": "43020395",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Perspective article that the authors explicitly frame as a hypothesis rather than a practice recommendation, with no new data."
+  },
+  "43018529": {
+   "pmid": "43018529",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "congenital",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Multi-society consensus update on paediatric pulmonary hypertension treatment: definitive for that subspecialty but a guideline update rather than new evidence."
+  },
+  "43012117": {
+   "pmid": "43012117",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 634723,
+   "impact": 3,
+   "reason": "Very large national registry analysis answering a credentialing and workforce question rather than a clinical management question."
+  },
+  "43012111": {
+   "pmid": "43012111",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 18,
+   "impact": 2,
+   "reason": "Early feasibility study of 18 participants that was suspended for complete heart block, with site-reported echocardiography and no comparator."
+  },
+  "42998070": {
+   "pmid": "42998070",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Society position and advocacy statement on procedural credentialing rather than new clinical evidence."
   }
  },
  "summaries": {},
