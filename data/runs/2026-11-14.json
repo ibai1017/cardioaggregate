@@ -837,12 +837,44 @@
    ],
    "editorial_take": null,
    "practice_implications": "This is the first randomized clinical-outcome evidence favouring left bundle-branch area pacing over right ventricular pacing in atrioventricular block, and it supports making conduction-system pacing the default for patients expected to need a high ventricular pacing burden, where operator expertise exists. Temper expectations about the magnitude of benefit because the trial stopped early on 51 events, and counsel patients that long-term lead performance and extractability data are still lacking."
+  },
+  "43013818": {
+   "bottom_line": "In 15,317 patients undergoing elective hip or knee arthroplasty, aspirin 81 mg twice daily failed to establish noninferiority to rivaroxaban or warfarin for death or symptomatic VTE, and neither anticoagulant was noninferior to aspirin for safety; absolute differences were small (all well under 1 percentage point) and every confidence interval crossed zero, so no agent emerged as clearly superior.",
+   "design": "Randomized, three-arm, comparative-effectiveness noninferiority trial with blinded 6-month outcome evaluation; noninferiority margin for the risk difference 0.69 percentage points (PEPPER, NCT02810704), funded by the Patient-Centered Outcomes Research Institute.",
+   "population": "18,883 participants randomized after elective hip or knee arthroplasty; 15,317 in the primary per-protocol analysis (7214 hip, 8103 knee).",
+   "intervention": "Aspirin 81 mg twice daily for 30 days (6090 in the per-protocol analysis).",
+   "comparison": "Warfarin to a target INR of 2.0 (4231) or rivaroxaban 10 mg daily (4996), each for 30 days.",
+   "outcomes": "Primary effectiveness outcome (death from any cause or symptomatic VTE) through 6 months: 77 of 6090 (1.26%) with aspirin, 52 of 4231 (1.23%) with warfarin, 47 of 4996 (0.94%) with rivaroxaban. Primary safety outcome (bleeding, reoperation for wound problems, or myocardial infarction): 177 (2.91%), 142 (3.36%) and 174 (3.48%) respectively. Pairwise effectiveness: aspirin versus rivaroxaban 1.24% versus 0.94% (difference 0.30 percentage points; 95% CI, -0.20 to 0.81); aspirin versus warfarin 1.24% versus 1.01% (difference 0.23 percentage points; 95% CI, -0.34 to 0.81); warfarin versus rivaroxaban 1.13% versus 1.10% (difference 0.03 percentage points; 95% CI, -0.57 to 0.63).",
+   "key_results": [
+    "Effectiveness event rates: aspirin 77/6090 (1.26%), warfarin 52/4231 (1.23%), rivaroxaban 47/4996 (0.94%).",
+    "Aspirin was not noninferior to rivaroxaban (difference 0.30 percentage points; 95% CI, -0.20 to 0.81) or to warfarin (difference 0.23 percentage points; 95% CI, -0.34 to 0.81) against a 0.69 percentage point margin, because the upper confidence bounds exceeded the margin.",
+    "Warfarin versus rivaroxaban for effectiveness: 1.13% versus 1.10% (difference 0.03 percentage points; 95% CI, -0.57 to 0.63).",
+    "Safety event rates: aspirin 177 (2.91%), warfarin 142 (3.36%), rivaroxaban 174 (3.48%). Rivaroxaban versus aspirin difference 0.68 percentage points (95% CI, -0.04 to 1.41); warfarin versus aspirin difference 0.77 percentage points (95% CI, -0.04 to 1.58); rivaroxaban versus warfarin difference -0.02 percentage points (95% CI, -0.89 to 0.85).",
+    "Neither warfarin nor rivaroxaban was noninferior to aspirin for safety; intention-to-treat analyses yielded similar results."
+   ],
+   "strengths": [
+    "Very large pragmatic randomized trial (18,883 randomized) directly comparing the three strategies actually used in practice, with blinded outcome evaluation through 6 months.",
+    "Publicly funded by PCORI rather than by a drug manufacturer, and designed as a comparative-effectiveness study of real clinical choices.",
+    "Both effectiveness and safety were prespecified as primary outcomes and tested in both directions, which is the honest way to frame a trade-off question.",
+    "Intention-to-treat analyses were consistent with the per-protocol results, which matters because per-protocol analysis is the more fragile choice in a noninferiority design.",
+    "Event rates are reported with absolute risks and risk differences, letting clinicians see that all strategies produce low absolute event rates (effectiveness about 1%, safety about 3%)."
+   ],
+   "limitations": [
+    "The headline conclusions are failures to demonstrate noninferiority, not demonstrations of difference: every pairwise confidence interval includes zero, so the trial is formally inconclusive rather than showing that any agent is worse.",
+    "The 0.69 percentage point noninferiority margin is narrow relative to the observed event rates, so the trial was effectively asking whether the agents are nearly identical; with 15,317 patients it still could not resolve differences of that size.",
+    "Primary analysis was per-protocol; adherence rates, crossover and the amount of exclusion between the 18,883 randomized and 15,317 analysed (about 19%) are not reported in the abstract and could bias a noninferiority comparison.",
+    "The composite safety outcome bundles bleeding, reoperation for wound problems and myocardial infarction, which have very different clinical weights, and no component-level data are given.",
+    "Open-label treatment is implied (warfarin requires INR titration), aspirin was given at 81 mg twice daily, which is not the regimen used everywhere, and prophylaxis lasted only 30 days, so the findings may not transfer to other doses or durations."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For cardiologists asked to advise on thromboprophylaxis after hip or knee arthroplasty, this trial does not dethrone aspirin but it does remove the comfortable assumption that aspirin is as effective as anticoagulation: symptomatic VTE or death was numerically about 0.3 percentage points more common with aspirin than rivaroxaban, while composite safety events were about 0.7 percentage points more common with each anticoagulant. The trade-off is small in absolute terms and runs in opposite directions, so the choice can reasonably be individualized by VTE risk, bleeding and wound risk, and the practicalities of monitoring, rather than driven by a presumption that the agents are interchangeable."
   }
  },
  "basis": {
   "43001741": "abstract",
   "43001734": "abstract",
-  "43001763": "abstract"
+  "43001763": "abstract",
+  "43013818": "abstract"
  },
  "candidates": [
   {
