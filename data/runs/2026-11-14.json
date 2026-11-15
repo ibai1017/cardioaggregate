@@ -437,6 +437,186 @@
    "sample_size": 2189,
    "impact": 3,
    "reason": "Post hoc subgroup analysis with a null interaction test and limited precision that does not change the parent trial's message."
+  },
+  "43014630": {
+   "pmid": "43014630",
+   "cardiology_relevant": true,
+   "design": "systematic_review",
+   "subspecialty": "general",
+   "sample_size": 104,
+   "impact": 2,
+   "reason": "Systematic review of 104 patients drawn from case reports, so a useful teaching summary of a rare ECG pattern but very low-certainty evidence."
+  },
+  "43013289": {
+   "pmid": "43013289",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 19110,
+   "impact": 3,
+   "reason": "Large and novel risk-prediction study of a CT inflammation biomarker, but discrimination and reclassification work rather than evidence that acting on it improves outcomes."
+  },
+  "42999998": {
+   "pmid": "42999998",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 508,
+   "impact": 4,
+   "reason": "Randomized trial answering the live question of whether adjunctive low-voltage area ablation helps in persistent AF, with a neutral overall result and a prespecified positive subgroup."
+  },
+  "42998242": {
+   "pmid": "42998242",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 13394,
+   "impact": 2,
+   "reason": "Retrospective natural-language-processing study of clinical notes describing care gaps, with no clinical outcomes."
+  },
+  "42998055": {
+   "pmid": "42998055",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 8322,
+   "impact": 3,
+   "reason": "Companion secondary and landmark analyses of the pelacarsen trial that reinforce rather than change its already reported null primary result."
+  },
+  "43018504": {
+   "pmid": "43018504",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 1599,
+   "impact": 3,
+   "reason": "Prespecified sex subanalysis of the OPTION trial with consistent efficacy and a bleeding interaction that does not alter the parent trial's conclusion."
+  },
+  "43006790": {
+   "pmid": "43006790",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 9944,
+   "impact": 3,
+   "reason": "Externally validated diagnostic rule-out score for acute aortic syndrome; useful but diagnostic accuracy work needing prospective confirmation."
+  },
+  "43004579": {
+   "pmid": "43004579",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 3471,
+   "impact": 3,
+   "reason": "Well-conducted imaging cohort quantifying the contribution of inflammatory markers to subclinical plaque burden, but hypothesis-generating for prevention strategies."
+  },
+  "43023216": {
+   "pmid": "43023216",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "interventional",
+   "sample_size": 1525,
+   "impact": 2,
+   "reason": "Exploratory post hoc analysis of BIOVASC with a null interaction test that does not change revascularization timing decisions."
+  },
+  "43004603": {
+   "pmid": "43004603",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "cardio_oncology",
+   "sample_size": 30,
+   "impact": 2,
+   "reason": "Translational study whose clinical component is a nonrandomized 30-patient cohort with a strain surrogate endpoint, far short of evidence for prophylaxis."
+  },
+  "43004584": {
+   "pmid": "43004584",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "general",
+   "sample_size": 508,
+   "impact": 3,
+   "reason": "Practical multicentre cohort quantifying the 9% yield of genetic retesting in hypertrophic cardiomyopathy and identifying who to prioritize."
+  },
+  "43021502": {
+   "pmid": "43021502",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 59237,
+   "impact": 3,
+   "reason": "Very large opportunistic imaging cohort, but the liver radiomics score only modestly improved heart-failure risk discrimination and needs prospective testing."
+  },
+  "43007061": {
+   "pmid": "43007061",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "hypertension",
+   "sample_size": 22812,
+   "impact": 3,
+   "reason": "Large single-centre measurement-validity study showing cuff blood pressure becomes markedly unreliable during intraoperative hypotension."
+  },
+  "43003597": {
+   "pmid": "43003597",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "structural_valve",
+   "sample_size": 662,
+   "impact": 2,
+   "reason": "Post hoc analysis the authors call hypothesis-generating, with the key association attenuated after adjustment for residual mitral regurgitation."
+  },
+  "43003595": {
+   "pmid": "43003595",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "structural_valve",
+   "sample_size": 596,
+   "impact": 2,
+   "reason": "Post hoc subanalysis confirming that an established cardiac damage staging system stratifies mortality after TAVR, without new practice implications."
+  },
+  "43023968": {
+   "pmid": "43023968",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 4989,
+   "impact": 3,
+   "reason": "Large single-centre extraction registry giving practically useful risk estimates for the uncommon scenario of right-sided lead systems."
+  },
+  "43012108": {
+   "pmid": "43012108",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 1142,
+   "impact": 2,
+   "reason": "Deep-learning echocardiographic model exploring Takotsubo diastolic mechanics, with modest discrimination and no clinical consequence demonstrated."
+  },
+  "43003603": {
+   "pmid": "43003603",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 3484,
+   "impact": 3,
+   "reason": "Propensity-matched Medicare comparison informing an off-label question with no randomized data, but susceptible to residual confounding."
+  },
+  "43003601": {
+   "pmid": "43003601",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 1358,
+   "impact": 3,
+   "reason": "Large real-world registry showing paravalvular regurgitation of 2+ or more carries worse outcomes in low-flow, low-gradient aortic stenosis; a prognostic association only."
+  },
+  "42999996": {
+   "pmid": "42999996",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 1561,
+   "impact": 3,
+   "reason": "Multicentre cohort giving a practical two-step strategy for timing Lp(a) measurement after myocardial infarction, though the threshold still needs external validation."
   }
  },
  "summaries": {},
