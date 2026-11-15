@@ -995,6 +995,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "Interleukin-6 inhibition should not be pursued for residual inflammatory risk in atherosclerosis with chronic kidney disease: despite near-complete pathway blockade there was no signal of benefit and a numerical excess of serious infections. Combined with the modest canakinumab result, this narrows the clinically useful anti-inflammatory options for residual risk to colchicine, and reinforces that an elevated hsCRP in a patient with chronic kidney disease should prompt optimisation of proven therapies (lipid lowering, SGLT2 inhibition, blood pressure and antithrombotic management) rather than a search for cytokine-directed treatment. Measuring hsCRP remains prognostic but is not, on this evidence, a route to a targeted therapy."
+  },
+  "43001742": {
+   "bottom_line": "In 1880 adults aged 70 or older taking statins for primary prevention, stopping the statin was formally noninferior to continuing it on restricted mean event-free survival at 2 years (difference -2.0 weeks; 95% CI, -3.7 to -0.3; P<0.001 for noninferiority), but primary-outcome events were more common after discontinuation (12.7% versus 9.2%), so the result licenses deprescribing only if a small loss of event-free time is acceptable.",
+   "design": "International, open-label, randomized controlled noninferiority trial; primary analysis on the between-group difference in restricted mean event-free survival time at 2 years with a noninferiority margin of -5.2 weeks (STREAM, NCT05178420). Funded by the Swiss National Science Foundation.",
+   "population": "1880 adults at least 70 years of age taking statins for primary prevention, with at least two chronic conditions and no known cardiovascular disease; mean age 77.5 years, 46.9% women.",
+   "intervention": "Discontinuation of statin therapy and other lipid-lowering therapies (n = 938).",
+   "comparison": "Continuation of statin therapy and other lipid-lowering therapies (n = 942).",
+   "outcomes": "Primary outcome was a composite of nonfatal myocardial infarction, nonfatal ischemic stroke, or death from any cause, whichever occurred first, analysed as the between-group difference in restricted mean event-free survival time at 2 years: -2.0 weeks (95% CI, -3.7 to -0.3; P<0.001 for noninferiority against a margin of -5.2 weeks).",
+   "key_results": [
+    "Restricted mean event-free survival time at 2 years: between-group difference -2.0 weeks (95% CI, -3.7 to -0.3; P<0.001 for noninferiority); the margin was -5.2 weeks.",
+    "Primary-outcome events over a median follow-up of 103 weeks: 119 of 938 (12.7%) in the discontinuation group versus 87 of 942 (9.2%) in the continuation group, an absolute difference of 3.5 percentage points favouring continuation.",
+    "At least one serious adverse event: 43.0% with discontinuation versus 39.8% with continuation.",
+    "Mean age 77.5 years, 46.9% women, all with at least two chronic conditions and no known cardiovascular disease.",
+    "The confidence interval for the primary estimate (-3.7 to -0.3 weeks) excludes zero, so discontinuation caused a small but statistically detectable loss of event-free survival time, albeit less than the prespecified margin."
+   ],
+   "strengths": [
+    "Randomized evidence for a deprescribing question that is normally answered by observational data riddled with healthy-continuer bias.",
+    "Enrolled precisely the population where the decision is hardest: multimorbid adults with a mean age of 77.5 years and no cardiovascular disease, who are systematically excluded from statin efficacy trials.",
+    "Primary outcome includes all-cause death rather than only cardiovascular endpoints, which is the appropriate framing when competing risks dominate in older patients.",
+    "Restricted mean survival time is a sensible and transparent metric for older patients, expressing benefit as time gained rather than a hazard ratio under questionable proportional-hazards assumptions.",
+    "Publicly funded by the Swiss National Science Foundation, with no commercial interest in either result.",
+    "Both lipid-lowering discontinuation and continuation were defined broadly (statins and other lipid-lowering therapies), matching real deprescribing decisions."
+   ],
+   "limitations": [
+    "The noninferiority conclusion depends entirely on accepting a margin of -5.2 weeks of event-free survival over 2 years; the observed -2.0 week difference was statistically significant in favour of continuation, so this is a trial showing a small real harm that was declared tolerable by prior agreement, not a trial showing equivalence.",
+    "Event counts tell a less reassuring story than the headline: 12.7% versus 9.2% is a relative increase of roughly 38% in myocardial infarction, ischemic stroke or death, and the abstract reports no hazard ratio or confidence interval for that comparison.",
+    "Open-label design with no blinding of participants or treating clinicians; management intensity and ascertainment of nonfatal events could differ between arms.",
+    "Follow-up of only 2 years (median 103 weeks) is short relative to the time horizon over which statin benefit accrues, so a 2-year noninferiority finding cannot be extended to patients with longer life expectancy.",
+    "Baseline LDL cholesterol, statin intensity, duration of prior use, frailty and life-expectancy estimates are not reported, so the subgroup in whom deprescribing is genuinely safe cannot be identified.",
+    "The composite endpoint is dominated by all-cause death in this age group; without component-level data it is unclear whether the excess events were cardiovascular at all.",
+    "No data are reported on the putative benefits of deprescribing (muscle symptoms, pill burden, quality of life, cost), so the other side of the trade-off is missing."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Supports discussing statin discontinuation with multimorbid primary-prevention patients over 70, particularly where life expectancy is limited, pill burden is high or adverse effects are troubling: over 2 years the average cost is about 2 weeks of event-free survival. But present it honestly as a small trade-off rather than a free choice, since one additional myocardial infarction, stroke or death occurred for roughly every 29 patients who stopped over about 2 years. For patients with a longer expected horizon, high baseline risk or good tolerance, continuation remains the better-supported default, and the trial says nothing about secondary prevention, where statins should not be stopped."
   }
  },
  "basis": {
@@ -1005,7 +1039,8 @@
   "43001758": "abstract",
   "43014822": "abstract",
   "43003106": "abstract",
-  "43001751": "abstract"
+  "43001751": "abstract",
+  "43001742": "abstract"
  },
  "candidates": [
   {
