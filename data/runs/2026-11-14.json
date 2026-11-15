@@ -775,10 +775,42 @@
    ],
    "editorial_take": null,
    "practice_implications": "Supports pursuing a systolic target below 120 mm Hg in patients with prior ischemic stroke or TIA who tolerate it, with a number needed to treat of roughly 38 over 3.9 years for the composite endpoint. Because the renal composite was more frequent with intensive treatment, monitor eGFR during titration and weigh the strategy against baseline kidney function; the unreported magnitude of that renal harm and the single-country, open-label design argue for individualized targets rather than blanket adoption."
+  },
+  "43001734": {
+   "bottom_line": "In 8322 patients with established cardiovascular disease and lipoprotein(a) of at least 70 mg/dL, monthly pelacarsen lowered Lp(a) by roughly 72% yet produced no reduction in major adverse cardiovascular events over a median 4.7 years (12.3% versus 12.1%; HR 1.02; 95% CI, 0.90 to 1.15; P = 0.76), a decisively null result for the first large Lp(a)-lowering outcome trial.",
+   "design": "International, randomized, double-blind, placebo-controlled cardiovascular outcome trial (Lp[a]HORIZON, NCT04023552), funded by Novartis.",
+   "population": "8350 randomized patients (8322 in the efficacy analysis) with preexisting cardiovascular disease and a lipoprotein(a) level of at least 70 mg per deciliter; mean age 59.7 years, 27.0% women, median baseline Lp(a) 236 nmol per liter.",
+   "intervention": "Subcutaneous pelacarsen 80 mg monthly (n = 4157).",
+   "comparison": "Matching placebo monthly (n = 4165).",
+   "outcomes": "Primary endpoint was major adverse cardiovascular events (composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or urgent coronary revascularization): 511 patients (12.3%) with pelacarsen versus 503 (12.1%) with placebo; hazard ratio 1.02 (95% CI, 0.90 to 1.15; P = 0.76) over a median follow-up of 4.7 years.",
+   "key_results": [
+    "Primary MACE composite: 511/4157 (12.3%) pelacarsen versus 503/4165 (12.1%) placebo; HR 1.02 (95% CI, 0.90 to 1.15; P = 0.76).",
+    "Among patients with baseline Lp(a) of at least 90 mg per deciliter: 402 of 3266 (12.3%) pelacarsen versus 403 of 3274 (12.3%) placebo; HR 1.00 (95% CI, 0.87 to 1.15; P = 0.99).",
+    "Target engagement was substantial: at 12 months Lp(a) was 64.4 nmol per liter with pelacarsen versus 233.4 nmol per liter with placebo (median baseline 236 nmol per liter).",
+    "Serious adverse events occurred in 1553 of 4166 (37.3%) pelacarsen recipients versus 1709 of 4154 (41.1%) placebo recipients.",
+    "Median follow-up 4.7 years; 1014 primary endpoint events in total."
+   ],
+   "strengths": [
+    "Large (8350 randomized), international, double-blind, placebo-controlled design with hard clinical endpoints and 1014 accrued events.",
+    "Unambiguous target engagement: Lp(a) fell to 64.4 from a median baseline of 236 nmol per liter, so the null result reflects the biology rather than inadequate drug effect.",
+    "Confidence interval is narrow and excludes any clinically meaningful benefit (upper bound of risk reduction only 10%), making this a genuinely informative negative trial rather than an underpowered one.",
+    "Enriched population (Lp(a) at least 70 mg/dL, established cardiovascular disease) with a prespecified very-high-Lp(a) stratum that was also flatly null (HR 1.00; 95% CI, 0.87 to 1.15).",
+    "Long median follow-up of 4.7 years, adequate for an atherosclerosis-modifying mechanism to declare itself."
+   ],
+   "limitations": [
+    "Background therapy, LDL cholesterol levels and statin or PCSK9 inhibitor use are not reported in the abstract, so it is unclear whether intensive background lipid lowering left little room for incremental benefit.",
+    "Industry funded (Novartis); the abstract gives no information on trial governance or independent endpoint adjudication.",
+    "Only the composite and one Lp(a) subgroup are reported here, with no data on individual endpoint components, so a differential effect on, for example, revascularization versus death cannot be assessed.",
+    "Patients were relatively young (mean 59.7 years) and only 27.0% were women; event rates were modest (about 12% over 4.7 years), which may limit extrapolation to older or higher-risk patients.",
+    "A null result in secondary prevention over 4.7 years does not exclude benefit from lowering Lp(a) much earlier in life or over much longer exposure, and injection-site or other adverse events are not detailed."
+   ],
+   "editorial_take": null,
+   "practice_implications": "There is now no outcome evidence to support Lp(a) lowering with an antisense oligonucleotide for secondary prevention, and pelacarsen should not be anticipated as a therapy. Measuring Lp(a) remains useful for risk stratification and family screening, but an elevated level should prompt intensification of proven therapies (LDL cholesterol lowering, blood pressure control, antithrombotic therapy) rather than referral for Lp(a)-directed treatment. Await the ongoing trials of other agents in this class before concluding the Lp(a) hypothesis is dead, but set patient expectations accordingly."
   }
  },
  "basis": {
-  "43001741": "abstract"
+  "43001741": "abstract",
+  "43001734": "abstract"
  },
  "candidates": [
   {
