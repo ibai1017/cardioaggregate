@@ -806,11 +806,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "There is now no outcome evidence to support Lp(a) lowering with an antisense oligonucleotide for secondary prevention, and pelacarsen should not be anticipated as a therapy. Measuring Lp(a) remains useful for risk stratification and family screening, but an elevated level should prompt intensification of proven therapies (LDL cholesterol lowering, blood pressure control, antithrombotic therapy) rather than referral for Lp(a)-directed treatment. Await the ongoing trials of other agents in this class before concluding the Lp(a) hypothesis is dead, but set patient expectations accordingly."
+  },
+  "43001763": {
+   "bottom_line": "In 685 patients paced for atrioventricular block, left bundle-branch pacing more than halved the composite of death, heart-failure hospitalization or pacing-induced cardiomyopathy compared with right ventricular pacing (4-year cumulative incidence 8.5% versus 19.2%; HR 0.41; 95% CI, 0.23 to 0.75; P = 0.003), and the trial was stopped early for benefit.",
+   "design": "Investigator-initiated, international, open-label, randomized controlled trial, terminated early at a prespecified interim analysis on the recommendation of the data monitoring committee (OptimPacing, NCT04624763).",
+   "population": "702 patients with atrioventricular block randomized; 685 analysed in the modified intention-to-treat population (342 left bundle-branch pacing, 343 right ventricular pacing). Mean age 68.4 years, 57.5% men.",
+   "intervention": "Left bundle-branch pacing (348 assigned; 342 analysed).",
+   "comparison": "Conventional right ventricular pacing (354 assigned; 343 analysed).",
+   "outcomes": "Primary outcome was a composite of death from any cause, hospitalization for heart failure, or pacing-induced cardiomyopathy: 16 events with left bundle-branch pacing versus 35 with right ventricular pacing (Kaplan-Meier 4-year cumulative incidence 8.5% versus 19.2%); hazard ratio 0.41 (95% CI, 0.23 to 0.75; P = 0.003 by stratified log-rank test) at a median follow-up of 35.1 months (IQR, 23.6 to 40.7).",
+   "key_results": [
+    "Primary composite: 16 events in the left bundle-branch pacing group versus 35 in the right ventricular pacing group; 4-year Kaplan-Meier cumulative incidence 8.5% versus 19.2%; HR 0.41 (95% CI, 0.23 to 0.75; P = 0.003).",
+    "The data monitoring committee recommended early termination at the prespecified interim analysis because of benefit.",
+    "Serious adverse events unrelated to the implantation procedure: 39 patients (11.8%) with left bundle-branch pacing versus 33 (9.3%) with right ventricular pacing (P = 0.32).",
+    "17 patients (6 left bundle-branch, 11 right ventricular) were excluded before device implantation and were not analysed.",
+    "Median follow-up 35.1 months (IQR, 23.6 to 40.7); contributions of the individual components (death, heart-failure hospitalization, pacing-induced cardiomyopathy) to the composite are not reported."
+   ],
+   "strengths": [
+    "Randomized comparison with clinically meaningful endpoints rather than the electrical or echocardiographic surrogates on which conduction-system pacing has largely been justified until now.",
+    "Investigator-initiated and multinational, reducing the risk of device-industry influence on design and reporting.",
+    "Median follow-up of 35.1 months is long enough for pacing-induced cardiomyopathy to develop, which typically takes years.",
+    "Effect size is large and consistent in direction with the mechanistic rationale of preserving ventricular synchrony, and the confidence interval excludes equivalence.",
+    "Procedural and non-procedural serious adverse events were reported separately, showing no significant excess with the newer technique (11.8% versus 9.3%; P = 0.32)."
+   ],
+   "limitations": [
+    "Stopped early for benefit at an interim analysis, which systematically overestimates treatment effect; the true hazard ratio is likely closer to 1 than 0.41, and the 95% CI (0.23 to 0.75) is wide.",
+    "Only 51 primary events in total (16 versus 35), so the estimate rests on small absolute numbers and the component breakdown cannot be assessed.",
+    "Open-label design: pacing-induced cardiomyopathy is a partly adjudicated, echocardiographically defined endpoint, and heart-failure hospitalization is clinician-driven, so unblinded ascertainment could inflate the difference.",
+    "Baseline left ventricular ejection fraction, expected ventricular pacing burden and the definition and adjudication process for pacing-induced cardiomyopathy are not reported, so the patients most likely to benefit cannot be identified.",
+    "Procedural complications specific to left bundle-branch lead placement (septal perforation, lead dislodgement, long-term lead performance and extractability) are not reported here, and results come from experienced implanters, which may not generalize to lower-volume centres."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This is the first randomized clinical-outcome evidence favouring left bundle-branch area pacing over right ventricular pacing in atrioventricular block, and it supports making conduction-system pacing the default for patients expected to need a high ventricular pacing burden, where operator expertise exists. Temper expectations about the magnitude of benefit because the trial stopped early on 51 events, and counsel patients that long-term lead performance and extractability data are still lacking."
   }
  },
  "basis": {
   "43001741": "abstract",
-  "43001734": "abstract"
+  "43001734": "abstract",
+  "43001763": "abstract"
  },
  "candidates": [
   {
