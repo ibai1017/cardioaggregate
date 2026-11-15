@@ -868,13 +868,45 @@
    ],
    "editorial_take": null,
    "practice_implications": "For cardiologists asked to advise on thromboprophylaxis after hip or knee arthroplasty, this trial does not dethrone aspirin but it does remove the comfortable assumption that aspirin is as effective as anticoagulation: symptomatic VTE or death was numerically about 0.3 percentage points more common with aspirin than rivaroxaban, while composite safety events were about 0.7 percentage points more common with each anticoagulant. The trade-off is small in absolute terms and runs in opposite directions, so the choice can reasonably be individualized by VTE risk, bleeding and wound risk, and the practicalities of monitoring, rather than driven by a presumption that the agents are interchangeable."
+  },
+  "43001758": {
+   "bottom_line": "In a cluster-randomized trial across North Carolina counties involving 22,447 analysed out-of-hospital cardiac arrests, a four-component community and EMS intervention did not improve survival to discharge with good neurologic outcome (9.0% versus 9.4%; adjusted OR 0.97; 95% CI, 0.75 to 1.26; P = 0.80).",
+   "design": "Registry-based, cluster-randomized trial; North Carolina counties grouped into clusters and randomized 1:1 to the intervention or usual care, with outcomes captured through the Cardiac Arrest Registry to Enhance Survival (RACE-CARS, NCT04660526), funded by the NHLBI.",
+   "population": "Adults with out-of-hospital cardiac arrest treated by EMS between 1 July 2022 and 30 June 2026: 28 clusters comprising 11,615 patients (intervention) and 27 clusters comprising 10,844 patients (usual care). Median age 64.0 years, 36.7% women.",
+   "intervention": "A multifaceted strategy with four components: training 911 telecommunicators to recognize cardiac arrest rapidly, training them to deliver bystander CPR instructions, community CPR training, and enhanced use of automated external defibrillators by first responders or bystanders before EMS arrival.",
+   "comparison": "Usual care in the control clusters.",
+   "outcomes": "Primary outcome was survival to hospital discharge with a good neurologic outcome (Cerebral Performance Category 1 or 2): 1048 of 11,608 patients (9.0%) in the intervention group versus 1017 of 10,839 (9.4%) in the usual-care group; adjusted odds ratio 0.97 (95% CI, 0.75 to 1.26; P = 0.80).",
+   "key_results": [
+    "Primary outcome: 1048/11,608 (9.0%) intervention versus 1017/10,839 (9.4%) usual care; adjusted OR 0.97 (95% CI, 0.75 to 1.26; P = 0.80).",
+    "55 clusters in total (28 intervention, 27 usual care) covering 22,459 assigned patients over a four-year enrolment period.",
+    "Median patient age 64.0 years; 36.7% women.",
+    "No improvement was seen despite a bundle that targeted every link in the early chain of survival (recognition, dispatcher-assisted CPR, community CPR training, early AED use).",
+    "Process measures (rates of bystander CPR, telecommunicator recognition, AED application) and secondary outcomes such as overall survival or return of spontaneous circulation are not reported in the abstract."
+   ],
+   "strengths": [
+    "Randomized evidence for a question almost always addressed with before-and-after or observational designs, which are badly confounded by secular trends in cardiac arrest care.",
+    "Very large (22,447 analysed patients across 55 clusters) with near-complete outcome capture through an established registry, and an endpoint that matters to patients (survival with good neurologic function) rather than return of spontaneous circulation.",
+    "Analysis appropriately accounts for clustering, and the four-year enrolment period spans enough time for the implementation to take hold.",
+    "Publicly funded by the NHLBI with no commercial interest in the result.",
+    "The intervention bundled the components that observational data and guidelines most strongly endorse, so this is a fair test of the prevailing community strategy."
+   ],
+   "limitations": [
+    "Implementation fidelity is not reported here: without data on whether bystander CPR rates, telecommunicator recognition or AED use actually improved, a null result cannot be separated from a failure to deliver the intervention.",
+    "A bundle of four co-administered components cannot tell us which element, if any, works; a component that helps could be masked by others that do not.",
+    "Cluster-randomized designs with 55 units have limited power to detect modest effects, and the confidence interval (0.75 to 1.26) does not exclude a clinically relevant benefit or harm.",
+    "Conducted in a single US state with an unusually mature cardiac arrest system (the RACE network), where usual care may already be close to best practice, limiting both the room to improve and generalizability to lower-performing systems.",
+    "Contamination between neighbouring counties, and secular improvements affecting both arms, would both bias toward a null result; the abstract reports no sensitivity analyses for either."
+   ],
+   "editorial_take": null,
+   "practice_implications": "This well-powered randomized test undercuts the assumption that layering telecommunicator training, community CPR training and early AED promotion onto an already well-organized EMS system will improve neurologically intact survival. It is not a reason to abandon bystander CPR or public AEDs, whose individual benefit is well established, but it does argue against investing further in undifferentiated community bundles and in favour of measuring process fidelity, targeting the specific weak link in a given system, and looking to in-hospital and post-arrest care for additional gains."
   }
  },
  "basis": {
   "43001741": "abstract",
   "43001734": "abstract",
   "43001763": "abstract",
-  "43013818": "abstract"
+  "43013818": "abstract",
+  "43001758": "abstract"
  },
  "candidates": [
   {
