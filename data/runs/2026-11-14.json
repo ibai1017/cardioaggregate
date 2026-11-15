@@ -931,6 +931,38 @@
    ],
    "editorial_take": null,
    "practice_implications": "Reasonable support for routinely holding the morning dose of an ACE inhibitor or ARB in patients aged 60-80 having non-cardiac surgery under general anaesthesia, with roughly one episode of treatment-requiring hypotension avoided for every seven patients and no signal of harm at 30 days. Because the benefit is on a haemodynamic surrogate rather than on hard outcomes, the recommendation is conditional: continue to individualise for patients in whom these drugs are prescribed for heart failure or significant proteinuria, make sure the drug is restarted promptly postoperatively, and do not extrapolate to withholding for longer than the morning of surgery."
+  },
+  "43003106": {
+   "bottom_line": "In 5507 adults with obesity at increased cardiovascular risk, the glucagon/GLP-1 dual agonist survodutide met its non-inferiority margin for cardiovascular safety over a median 22 months (3.7% versus 4.1%; HR 0.89; 95% CI, 0.67 to 1.18; p<0.0001 for non-inferiority), but gastrointestinal intolerance caused about one in five participants to stop treatment.",
+   "design": "Global, phase 3, randomised, double-blind, parallel-group, placebo-controlled, event-driven cardiovascular safety trial at 524 sites in 34 countries; non-inferiority margin 1.65 for the upper limit of the two-sided 95% CI of the hazard ratio, targeting 189 primary events (SYNCHRONIZE-CVOT, NCT06077864). Funded by Boehringer Ingelheim.",
+   "population": "5530 participants randomised (5507 treated) aged 18 years or older with BMI 27 kg/m2 or greater and established cardiovascular disease or at least two obesity complications or cardiovascular risk factors; those with chronic kidney disease required BMI 30 kg/m2 or greater. 2194 (39.8%) female, 3313 (60.2%) male, 4332 (78.7%) White.",
+   "intervention": "Once-weekly subcutaneous survodutide up-titrated to 3.6 mg (n = 1836) or 6.0 mg (n = 1835); the two doses were pooled (n = 3671) for the primary analysis.",
+   "comparison": "Matching placebo once weekly (n = 1836).",
+   "outcomes": "Primary endpoint was a composite of death from cardiovascular causes, non-fatal stroke, non-fatal myocardial infarction, ischaemia-related coronary revascularisation, or heart failure event: 136 of 3671 (3.7%) with pooled survodutide versus 76 of 1836 (4.1%) with placebo; HR 0.89 (95% CI, 0.67 to 1.18; p<0.0001 for non-inferiority) over a median time in study of 22.0 months (IQR 20.1-23.7).",
+   "key_results": [
+    "Primary composite endpoint: 136/3671 (3.7%) pooled survodutide versus 76/1836 (4.1%) placebo; HR 0.89 (95% CI, 0.67 to 1.18; p<0.0001 for non-inferiority against a margin of 1.65).",
+    "Gastrointestinal adverse events were far more frequent with survodutide: nausea 882 (48.0%) with 3.6 mg and 900 (49.0%) with 6.0 mg versus 223 (12.1%) with placebo; vomiting 582 (31.7%) and 623 (34.0%) versus 89 (4.8%).",
+    "Gastrointestinal adverse events leading to treatment discontinuation: 354 (19.3%) with 3.6 mg, 381 (20.8%) with 6.0 mg, versus 34 (1.9%) with placebo.",
+    "Only 1029 (56.0%), 1039 (56.6%) and 1083 (59.0%) of the 3.6 mg, 6.0 mg and placebo groups respectively remained on treatment until study closeout.",
+    "Serious adverse events were similar across groups (413 [22.5%], 381 [20.8%], 439 [23.9%]), as were fatal adverse events (16 [0.9%], 16 [0.9%], 11 [0.6%]), mostly due to cardiac disorders (6 [0.3%], 7 [0.4%], 6 [0.3%])."
+   ],
+   "strengths": [
+    "Large, double-blind, placebo-controlled, event-driven design across 524 sites in 34 countries, which is the appropriate standard for a cardiovascular safety assessment of a new drug class.",
+    "Enrolled a genuinely at-risk population (established cardiovascular disease, chronic kidney disease or multiple risk factors), so events accrued and the safety question is answered in the patients who will receive the drug.",
+    "Primary analysis used a treatment-regimen estimand that counted events regardless of discontinuation or prohibited obesity medication use, which is the conservative choice for a safety question given the very high discontinuation rates.",
+    "Two doses were studied, with full adverse-event reporting by dose, letting clinicians see the dose-tolerability relationship.",
+    "Reported with complete safety accounting including serious and fatal adverse events and their causes."
+   ],
+   "limitations": [
+    "This is a safety non-inferiority trial, not an efficacy trial: it establishes the absence of excess cardiovascular risk but provides no evidence that survodutide reduces cardiovascular events, and the point estimate of 0.89 should not be read as benefit (the confidence interval extends to 1.18).",
+    "Median follow-up of only 22.0 months with 212 primary events is short for a chronic obesity therapy likely to be taken for years.",
+    "Striking tolerability problem: about 20% of survodutide recipients discontinued for gastrointestinal events and only around 56% remained on treatment at closeout, which both limits the exposure actually tested and raises doubt about real-world durability.",
+    "Industry funded (Boehringer Ingelheim), and no weight-loss, glycaemic or other efficacy outcomes are reported here, so the benefit side of the risk-benefit ledger cannot be judged from this paper.",
+    "Participants were predominantly White (78.7%) and the trial excluded BMI under 27 kg/m2, limiting generalisability; the heart failure component of the composite is not broken out, which matters for a glucagon receptor agonist.",
+    "Pooling two doses for the primary analysis can obscure a dose-dependent hazard."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Survodutide clears the regulatory cardiovascular safety bar, so cardiologists need not withhold it from patients with obesity and cardiovascular disease on cardiovascular-risk grounds. But this trial gives no cardiovascular benefit to offer patients, unlike the outcome data now available for semaglutide and tirzepatide, and the roughly 20% discontinuation rate for gastrointestinal events means dose escalation must be slow and expectations set accordingly. Until an efficacy outcome trial reports, prefer agents with proven cardiovascular benefit when the indication is cardiovascular risk reduction rather than weight loss alone."
   }
  },
  "basis": {
@@ -939,7 +971,8 @@
   "43001763": "abstract",
   "43013818": "abstract",
   "43001758": "abstract",
-  "43014822": "abstract"
+  "43014822": "abstract",
+  "43003106": "abstract"
  },
  "candidates": [
   {
