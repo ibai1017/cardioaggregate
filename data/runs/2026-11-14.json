@@ -899,6 +899,38 @@
    ],
    "editorial_take": null,
    "practice_implications": "This well-powered randomized test undercuts the assumption that layering telecommunicator training, community CPR training and early AED promotion onto an already well-organized EMS system will improve neurologically intact survival. It is not a reason to abandon bystander CPR or public AEDs, whose individual benefit is well established, but it does argue against investing further in undifferentiated community bundles and in favour of measuring process fidelity, targeting the specific weak link in a given system, and looking to in-hospital and post-arrest care for additional gains."
+  },
+  "43014822": {
+   "bottom_line": "In 2012 patients aged 60-80 on chronic ACE inhibitor or ARB therapy undergoing non-cardiac surgery, withholding the drug on the morning of surgery cut perioperative hypotension from 45.5% to 31.2% (adjusted OR 0.52; 95% CI, 0.43 to 0.63; absolute risk difference -14.4%; P<0.001) and reduced vasopressor use, with no difference in 30-day complications or mortality.",
+   "design": "Multicentre, randomised, double blind, placebo controlled trial at five tertiary teaching hospitals in China, November 2020 to December 2023 (ChiCTR2000039376).",
+   "population": "2036 older patients (aged 60-80 years) taking an ACE inhibitor or ARB for at least two weeks and scheduled for non-cardiac surgery under general anaesthesia; 2012 completed the study (mean age 68.8 years, 54.4% male).",
+   "intervention": "Placebo in identical capsules on the morning of surgery, i.e. discontinuation of the ACE inhibitor or ARB (no antihypertensive group, n = 1008).",
+   "comparison": "The patient's usual ACE inhibitor or ARB on the morning of surgery (antihypertensive group, n = 1004).",
+   "outcomes": "Primary outcome was the incidence of perioperative hypotension (mean blood pressure <65 mm Hg or a decrease of at least 30% from baseline requiring treatment): 314 of 1008 (31.2%) with discontinuation versus 457 of 1004 (45.5%) with continuation; adjusted odds ratio 0.52 (95% CI, 0.43 to 0.63); absolute risk difference -14.4% (95% CI, -18.5% to -10.1%); P<0.001.",
+   "key_results": [
+    "Perioperative hypotension: 314/1008 (31.2%) with discontinuation versus 457/1004 (45.5%) with continuation; adjusted OR 0.52 (95% CI, 0.43 to 0.63); absolute risk difference -14.4% (95% CI, -18.5% to -10.1%); P<0.001.",
+    "Vasopressor requirement: 28.5% versus 41.1%; adjusted OR 0.54 (95% CI, 0.44 to 0.66).",
+    "Duration of hypotension: adjusted mean difference -1.3 minutes (95% CI, -1.8 to -0.8 minutes) favouring discontinuation.",
+    "Intraoperative fluid volume, postoperative hypotension, 30 day complications (neurocognitive disorders, major cardiocerebral events) and mortality did not differ significantly between groups; event numbers and effect estimates not reported in the abstract.",
+    "2036 randomised, 2012 (98.8%) completed the study, so attrition was minimal."
+   ],
+   "strengths": [
+    "Double blind and placebo controlled using identical capsules, which is unusual and difficult for a drug-withholding question and removes the ascertainment bias that plagues observational perioperative studies.",
+    "Large enough (2012 analysed) to produce a precise estimate for the primary outcome, with very low attrition (1.2%).",
+    "Addresses an extremely common and genuinely uncertain decision that cardiologists are asked about at nearly every preoperative consultation.",
+    "The primary outcome is a treatment-requiring haemodynamic event rather than a purely numerical blood pressure threshold, and the effect was corroborated by consistent reductions in vasopressor use and hypotension duration.",
+    "Prospectively registered with a prespecified primary outcome and a clinically coherent set of secondary outcomes including 30 day events."
+   ],
+   "limitations": [
+    "The primary outcome is an intermediate haemodynamic endpoint. Perioperative hypotension is associated with harm but the trial showed no difference in the outcomes that actually matter (30 day neurocognitive disorders, major cardiocerebral events, mortality), and it was almost certainly underpowered for them.",
+    "The absolute reduction in hypotension duration was only 1.3 minutes, which raises doubt about whether the hypotension prevented was clinically consequential.",
+    "Conducted at five Chinese tertiary teaching hospitals in patients aged 60-80, so it does not address younger or much older patients, non-tertiary settings, or populations with different anaesthetic practice and antihypertensive prescribing.",
+    "Only one preoperative dose was withheld; the trial cannot inform longer withholding strategies, nor patients on ACE inhibitors or ARBs for heart failure or proteinuric kidney disease, where continuation may matter more.",
+    "Baseline blood pressure, surgical types and risk, anaesthetic protocol and whether other antihypertensive classes were continued are not reported, and the absence of harm from withholding rests on unreported 30 day event counts.",
+    "The authors' claim of providing high certainty evidence for preoperative drug management overstates what a surrogate primary endpoint can support."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Reasonable support for routinely holding the morning dose of an ACE inhibitor or ARB in patients aged 60-80 having non-cardiac surgery under general anaesthesia, with roughly one episode of treatment-requiring hypotension avoided for every seven patients and no signal of harm at 30 days. Because the benefit is on a haemodynamic surrogate rather than on hard outcomes, the recommendation is conditional: continue to individualise for patients in whom these drugs are prescribed for heart failure or significant proteinuria, make sure the drug is restarted promptly postoperatively, and do not extrapolate to withholding for longer than the morning of surgery."
   }
  },
  "basis": {
@@ -906,7 +938,8 @@
   "43001734": "abstract",
   "43001763": "abstract",
   "43013818": "abstract",
-  "43001758": "abstract"
+  "43001758": "abstract",
+  "43014822": "abstract"
  },
  "candidates": [
   {
