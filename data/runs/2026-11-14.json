@@ -1162,6 +1162,39 @@
    ],
    "editorial_take": null,
    "practice_implications": "Does not support routinely adding low-voltage area ablation to pulmonary vein isolation for everyone with persistent atrial fibrillation: in patients without low-voltage areas it lengthened the procedure with no benefit. It does support mapping for substrate and ablating it when low-voltage areas are found, where the prespecified subgroup showed an absolute reduction in recurrence of about 20 percentage points at a cost of longer procedure time and no excess complications. Treat this as a reasonable, mechanistically coherent strategy to adopt selectively while awaiting a trial that enrols only patients with documented low-voltage areas."
+  },
+  "43018508": {
+   "bottom_line": "Pooling individual participant data from the only two randomized trials of left atrial appendage closure against contemporary medical therapy in genuinely high-risk atrial fibrillation (1290 patients, median age 77.3 years), closure showed no efficacy advantage (21.9% versus 20.7%; adjusted HR 0.98; 95% CI, 0.77 to 1.24; P = 0.842) and no bleeding advantage by 3 years, with an excess of major bleeding in the first year (9.4% versus 6.0%; absolute risk difference 3.4 percentage points; 95% CI, 0.4 to 6.3).",
+   "design": "Individual participant data meta-analysis of randomized trials comparing percutaneous left atrial appendage closure with contemporary medical therapy in populations with a trial-level mean CHA2DS2-VASc score of at least 4; databases and registries searched through 5 August 2026; one-stage common-effect Cox models stratified by trial and adjusted for age, sex, CHA2DS2-VASc and HAS-BLED scores, with a flexible time-varying Cox model for major bleeding (PROSPERO CRD420261335972).",
+   "population": "1290 participants from two trials, CLOSURE-AF and PRAGUE-17 (647 assigned to closure, 643 to control); median age 77.3 years (Q1-Q3, 71.4 to 81.9), 809 (62.7%) men.",
+   "intervention": "Percutaneous left atrial appendage closure (n = 647).",
+   "comparison": "Contemporary medical therapy (n = 643).",
+   "outcomes": "Co-primary outcomes were time to first stroke, systemic embolism, or cardiovascular/unknown death (efficacy): 142 closure participants (21.9%) versus 133 controls (20.7%); adjusted HR 0.98 (95% CI, 0.77 to 1.24; P = 0.842); and time to first major bleeding (safety): 86 (13.3%) versus 80 (12.4%); adjusted HR 1.03 (95% CI, 0.75 to 1.39; P = 0.874).",
+   "key_results": [
+    "Primary efficacy composite: 142/647 (21.9%) closure versus 133/643 (20.7%) control; adjusted HR 0.98 (95% CI, 0.77 to 1.24; P = 0.842).",
+    "Major bleeding overall: 86/647 (13.3%) closure versus 80/643 (12.4%) control; adjusted HR 1.03 (95% CI, 0.75 to 1.39; P = 0.874).",
+    "The bleeding hazard varied over time (P for treatment-by-time interaction < 0.001): cumulative major bleeding 9.4% with closure versus 6.0% with control at 1 year (absolute risk difference 3.4 percentage points; 95% CI, 0.4 to 6.3), narrowing to 13.2% versus 12.1% at 3 years (absolute risk difference 1.1 percentage points; 95% CI, -2.8 to 5.0).",
+    "Only two trials met the inclusion criterion of a trial-level mean CHA2DS2-VASc score of at least 4: CLOSURE-AF and PRAGUE-17.",
+    "Event rates were high in both arms (about 21% for the efficacy composite), consistent with the elderly, high-risk population."
+   ],
+   "strengths": [
+    "Individual participant data rather than published summary estimates, allowing a one-stage Cox analysis stratified by trial with adjustment for age, sex, CHA2DS2-VASc and HAS-BLED, which is the strongest available synthesis design.",
+    "Restricted a priori to trials enrolling genuinely high-risk patients (mean CHA2DS2-VASc at least 4), so it addresses the population in which left atrial appendage closure is actually offered rather than pooling heterogeneous trials with low-risk comparators.",
+    "Prospectively registered protocol (PROSPERO) with a prespecified search date and co-primary efficacy and safety outcomes, so both sides of the trade-off were tested.",
+    "The time-varying bleeding analysis is the right methodological choice and reveals a clinically important pattern that a single hazard ratio conceals: bleeding is front-loaded after implantation.",
+    "Reports absolute risk differences with confidence intervals at 1 and 3 years, which is far more useful for shared decision-making than hazard ratios alone."
+   ],
+   "limitations": [
+    "Only two trials and 1290 participants: this is a small evidence base, and the confidence intervals (efficacy 0.77 to 1.24; bleeding 0.75 to 1.39) cannot exclude a meaningful benefit or harm in either direction.",
+    "The two included trials differ in comparator and population (PRAGUE-17 used direct oral anticoagulants in anticoagulation-eligible patients, CLOSURE-AF compared with medical therapy in patients with contraindications), so a common-effect model may pool clinically different questions.",
+    "A common-effect rather than random-effects model assumes a single underlying treatment effect, which is hard to justify across trials with different comparators, device generations and post-procedural antithrombotic regimens.",
+    "The central claim about the time-varying bleeding hazard rests on a subgroup-in-time analysis; the later estimates are imprecise, as the authors acknowledge, and the 3-year difference of 1.1 percentage points (95% CI, -2.8 to 5.0) is compatible with no benefit.",
+    "Post-procedural antithrombotic regimens, which largely determine early bleeding after closure, are not described here but differ between trials and have since changed in practice.",
+    "Excludes the recent trials in anticoagulation-eligible populations (OPTION, CHAMPION-AF) by design, so the synthesis does not speak to that increasingly common indication.",
+    "Follow-up extends only to about 3 years, too short to capture the point at which avoiding lifelong anticoagulation might finally pay off in bleeding terms."
+   ],
+   "editorial_take": null,
+   "practice_implications": "The best randomized evidence in high-risk atrial fibrillation shows left atrial appendage closure neither prevents more strokes, systemic emboli or cardiovascular deaths than contemporary medical therapy nor reduces major bleeding within 3 years, and it costs an absolute excess of about 3.4 percentage points of major bleeding in the first year because of the mandated post-implant antithrombotic regimen. Anticoagulation should remain the default where it is feasible, with closure reserved for patients in whom anticoagulation is genuinely unsafe or unsustainable, and the conversation should include the front-loaded early bleeding risk and the fact that any late bleeding benefit is as yet unproven."
   }
  },
  "basis": {
@@ -1177,7 +1210,8 @@
   "43001746": "abstract",
   "42998670": "abstract",
   "42998308": "abstract",
-  "42999998": "abstract"
+  "42999998": "abstract",
+  "43018508": "abstract"
  },
  "candidates": [
   {
