@@ -1128,6 +1128,40 @@
    ],
    "editorial_take": null,
    "practice_implications": "Reassuring but not practice-changing: whether you start with a statin alone and add ezetimibe when the target is missed, or start with both, you end up at a similar place clinically, and the choice can be made on convenience, tolerability and cost. The practical argument for upfront combination therapy survives intact, since it got more patients to target (median LDL-C 53 versus 62 mg/dL in the intensive stratum) and spared a third of monotherapy patients a later titration visit. Do not read this as evidence against ezetimibe or against lower LDL-C targets: the achieved lipid difference was only about 7 to 9 mg/dL and the trial was far too small to detect the benefit that difference would be expected to produce."
+  },
+  "42999998": {
+   "bottom_line": "In 508 patients having first ablation for persistent atrial fibrillation, adding low-voltage area ablation to pulmonary vein isolation did not significantly reduce arrhythmia recurrence overall (49.4% versus 57.5%; HR 0.82; 95% CI, 0.65 to 1.04; P = .11), but in the prespecified principal subgroup of 268 patients who actually had low-voltage areas recurrence fell from 69.2% to 49.3% (HR 0.77; 95% CI, 0.66 to 0.91; P = .002).",
+   "design": "Single-blind randomized clinical trial at 14 atrial fibrillation ablation centers in Canada; enrolment August 2018 to September 2024, follow-up 18 to 36 months through April 2026, with a modified intention-to-treat primary efficacy analysis among patients who received the intervention (COAST-AF, NCT03347227).",
+   "population": "508 adults with persistent atrial fibrillation of more than 3 months undergoing a single catheter ablation procedure; mean age 65.2 (SD 9.0) years, 386 (76%) male, 268 (54%) had low-voltage areas.",
+   "intervention": "Pulmonary vein isolation plus low-voltage area ablation (n = 253).",
+   "comparison": "Pulmonary vein isolation alone (n = 255).",
+   "outcomes": "Primary outcome was atrial arrhythmia recurrence beyond 90 days after a single catheter ablation procedure: 124 of 253 (49.4%) with PVI plus low-voltage area ablation versus 146 of 255 (57.5%) with PVI alone; hazard ratio 0.82 (95% CI, 0.65 to 1.04; P = .11) after a mean (SD) follow-up of 21 (15) months.",
+   "key_results": [
+    "Primary outcome overall: 124/253 (49.4%) PVI plus low-voltage area ablation versus 146/255 (57.5%) PVI alone; HR 0.82 (95% CI, 0.65 to 1.04; P = .11).",
+    "Prespecified principal subgroup with low-voltage areas present (n = 268): recurrence 68 of 138 (49.3%) versus 90 of 130 (69.2%); HR 0.77 (95% CI, 0.66 to 0.91; P = .002).",
+    "In that subgroup, recurrence over 18 months was 37.0% versus 56.2% (HR 0.77; 95% CI, 0.64 to 0.92), and atrial fibrillation burden was also lower.",
+    "In patients without low-voltage areas: recurrence 56 of 113 (49.6%) versus 51 of 113 (45.1%); HR 1.09 (95% CI, 0.90 to 1.32), i.e. no benefit and a numerically unfavourable direction.",
+    "Procedure duration and total ablation delivery time were longer with adjunctive low-voltage area ablation; safety outcomes were similar between groups."
+   ],
+   "strengths": [
+    "Randomized, multicentre (14 Canadian centres) test of a widely promoted but unproven adjunctive ablation strategy, with single-blind design and an endpoint assessed beyond a 90-day blanking period.",
+    "The low-voltage-area-present analysis was prespecified as the principal subgroup rather than discovered after the fact, and the biological rationale (ablate substrate only where substrate exists) predicts exactly the interaction observed.",
+    "The contrast between the subgroup with low-voltage areas (HR 0.77) and without (HR 1.09) is internally coherent and makes a chance finding less likely than a conventional subgroup result.",
+    "Clinically meaningful secondary outcomes were reported, including 18-month recurrence, atrial fibrillation burden, repeat ablation and procedural metrics.",
+    "Honest reporting of the procedural cost of the strategy: longer procedure and ablation delivery times with no safety penalty.",
+    "Long follow-up (mean 21 months, up to 36 months) for an ablation trial, which matters because late recurrence is common in persistent atrial fibrillation."
+   ],
+   "limitations": [
+    "The trial missed its primary endpoint; the overall result is formally negative, and the positive finding comes from a subgroup comprising just over half the cohort, so it is hypothesis-generating rather than confirmatory.",
+    "Patients without low-voltage areas could not benefit from the intervention by definition, which dilutes the overall estimate and means the primary endpoint was arguably the wrong question; this is a design weakness rather than a biological null.",
+    "Enrichment was impossible prospectively because low-voltage area status is determined during the procedure, so the subgroup is post-randomization in timing even though prespecified in analysis.",
+    "Single-blind: patients were blinded but operators were not, and recurrence detection depends on monitoring intensity, which is not described in the abstract.",
+    "The low-voltage area subgroup contains only 268 patients and 158 events, and the reported confidence intervals are implausibly narrow for a subgroup of that size relative to the overall analysis, which warrants checking against the full paper.",
+    "Definition and voltage threshold for low-voltage areas, mapping method, acute procedural endpoints and the proportion achieving durable isolation are not reported, and these determine whether the result is reproducible in other labs.",
+    "Modified intention-to-treat analysis restricted to patients who received the intervention departs from strict intention-to-treat and can favour the intervention."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Does not support routinely adding low-voltage area ablation to pulmonary vein isolation for everyone with persistent atrial fibrillation: in patients without low-voltage areas it lengthened the procedure with no benefit. It does support mapping for substrate and ablating it when low-voltage areas are found, where the prespecified subgroup showed an absolute reduction in recurrence of about 20 percentage points at a cost of longer procedure time and no excess complications. Treat this as a reasonable, mechanistically coherent strategy to adopt selectively while awaiting a trial that enrols only patients with documented low-voltage areas."
   }
  },
  "basis": {
@@ -1142,7 +1176,8 @@
   "43001742": "abstract",
   "43001746": "abstract",
   "42998670": "abstract",
-  "42998308": "abstract"
+  "42998308": "abstract",
+  "42999998": "abstract"
  },
  "candidates": [
   {
