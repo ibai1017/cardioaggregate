@@ -57,7 +57,12 @@
   "43043439",
   "43036894"
  ],
- "selected": [],
+ "selected": [
+  "43037535",
+  "43038430",
+  "43033171",
+  "43063007"
+ ],
  "triage": {
   "43037535": {
    "pmid": "43037535",
@@ -418,6 +423,123 @@
    "sample_size": 216,
    "impact": 2,
    "reason": "Cross-sectional exercise haemodynamic study in Fontan patients that is mechanistic and does not change management."
+  },
+  "43046868": {
+   "pmid": "43046868",
+   "cardiology_relevant": true,
+   "design": "rct_secondary",
+   "subspecialty": "electrophysiology",
+   "sample_size": 520,
+   "impact": 3,
+   "reason": "Post hoc diagnostic accuracy analysis validating the ESC guideline syncope risk score; reassuring but not practice changing."
+  },
+  "43044944": {
+   "pmid": "43044944",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 272,
+   "impact": 3,
+   "reason": "Prospective multicentre feasibility and safety registry of jugular leadless pacemaker implantation with no comparison against the femoral route."
+  },
+  "43042567": {
+   "pmid": "43042567",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 140,
+   "impact": 2,
+   "reason": "Small registry association between therapy exposure at explantation and survival, highly susceptible to confounding by illness severity."
+  },
+  "43056200": {
+   "pmid": "43056200",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 2119,
+   "impact": 2,
+   "reason": "Exploratory mediation analysis of air pollution, arterial stiffness and events in a single male cohort."
+  },
+  "43055692": {
+   "pmid": "43055692",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 21989,
+   "impact": 3,
+   "reason": "Large epigenome-wide study deriving methylation scores across heart failure phenotypes; discrimination and prognostic association without clinical application yet."
+  },
+  "43048877": {
+   "pmid": "43048877",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 320,
+   "impact": 3,
+   "reason": "Useful CMR reference limits for physiological remodelling in Olympic athletes, relevant to sports cardiology screening but descriptive."
+  },
+  "43046969": {
+   "pmid": "43046969",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 675,
+   "impact": 3,
+   "reason": "Prospective multicentre cohort showing 4D flow kinetic energy adds prognostic information in dilated cardiomyopathy; a risk marker without management consequence."
+  },
+  "43043987": {
+   "pmid": "43043987",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 43,
+   "impact": 2,
+   "reason": "Small retrospective mechanistic correlation of intracoronary polarimetry with CT high-risk plaque features."
+  },
+  "43043451": {
+   "pmid": "43043451",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "structural_valve",
+   "sample_size": 19,
+   "impact": 2,
+   "reason": "Nineteen-patient early feasibility study of a new transcatheter tricuspid valve with 30-day follow-up only."
+  },
+  "43043448": {
+   "pmid": "43043448",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 55,
+   "impact": 3,
+   "reason": "Multicentre registry quantifying residual outflow tract obstruction risk after anterior leaflet modification during transcatheter mitral replacement; small but practically informative."
+  },
+  "43043445": {
+   "pmid": "43043445",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 28,
+   "impact": 2,
+   "reason": "Small retrospective series of tricuspid valve replacement after failed edge-to-edge repair with very short follow-up."
+  },
+  "43043439": {
+   "pmid": "43043439",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 67,
+   "impact": 2,
+   "reason": "Small mechanistic imaging study of acute right ventricular changes after tricuspid replacement with no mortality signal."
+  },
+  "43036894": {
+   "pmid": "43036894",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 296,
+   "impact": 2,
+   "reason": "Echocardiographic myocardial work showed only modest accuracy for fibrosis in Duchenne muscular dystrophy, with few progression events."
   }
  },
  "summaries": {},
