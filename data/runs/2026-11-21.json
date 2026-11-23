@@ -238,6 +238,186 @@
    "sample_size": 959,
    "impact": 2,
    "reason": "Exploratory network meta-analysis of a niche rescue ablation strategy with low-certainty, imprecise estimates."
+  },
+  "43043854": {
+   "pmid": "43043854",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Large but exploratory network meta-analysis of bariatric surgery versus incretin agonists resting on predominantly observational, very low confidence evidence."
+  },
+  "43038532": {
+   "pmid": "43038532",
+   "cardiology_relevant": false,
+   "design": "rct",
+   "subspecialty": "general",
+   "sample_size": 132,
+   "impact": 1,
+   "reason": "Sham-controlled trial of acupoint thread embedding for weight loss with no difference in cardiometabolic outcomes."
+  },
+  "43036048": {
+   "pmid": "43036048",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 1058,
+   "impact": 3,
+   "reason": "Individual patient data meta-analysis finding no overall sex interaction for mechanical support in infarct-related shock; subgroup signals are hypothesis-generating."
+  },
+  "43063007": {
+   "pmid": "43063007",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "thrombosis_vascular",
+   "sample_size": 66192,
+   "impact": 4,
+   "reason": "Nationwide registry of 66,192 patients defining 5-year cause-specific mortality after acute pulmonary embolism, reshaping how long-term risk and follow-up should be framed."
+  },
+  "43062386": {
+   "pmid": "43062386",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "ACC scientific statement synthesising existing evidence on earlier lipid lowering; useful guidance but no new data."
+  },
+  "43057279": {
+   "pmid": "43057279",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "interventional",
+   "sample_size": null,
+   "impact": 3,
+   "reason": "Lancet review of spontaneous coronary artery dissection summarising current evidence without new primary data."
+  },
+  "43050228": {
+   "pmid": "43050228",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "No abstract provided beyond the title, so only an incremental report on peridevice leak after appendage occlusion can be assumed."
+  },
+  "43050201": {
+   "pmid": "43050201",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 1623,
+   "impact": 3,
+   "reason": "Multicentre case-control study linking maternal anaemia and iron deficiency to acute heart failure in pregnancy; associative and needs interventional confirmation."
+  },
+  "43043327": {
+   "pmid": "43043327",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "structural_valve",
+   "sample_size": 50,
+   "impact": 3,
+   "reason": "Single-arm 50-patient study of a dedicated transcatheter valve for LVAD-associated aortic regurgitation with short follow-up and frequent leaflet thrombosis."
+  },
+  "43038431": {
+   "pmid": "43038431",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 97,
+   "impact": 3,
+   "reason": "Single-arm, single-centre experience of transapical myectomy for nonobstructive hypertrophic cardiomyopathy with symptom and haemodynamic endpoints only."
+  },
+  "43038427": {
+   "pmid": "43038427",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Descriptive review of a single-centre septal myectomy technique without comparative data."
+  },
+  "43043834": {
+   "pmid": "43043834",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "prevention_lipids",
+   "sample_size": 269197,
+   "impact": 3,
+   "reason": "Very large UK Biobank multistate analysis, but the hazard ratios are modest and largely confirm a known association with long working hours."
+  },
+  "43062404": {
+   "pmid": "43062404",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "structural_valve",
+   "sample_size": 2078,
+   "impact": 3,
+   "reason": "International registry describing sex differences in outcomes after edge-to-edge repair for primary mitral regurgitation; informative but retrospective."
+  },
+  "43059580": {
+   "pmid": "43059580",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 7129,
+   "impact": 3,
+   "reason": "Prediction-model development and external validation for ventricular arrhythmia risk from device electrograms; discrimination work without demonstrated clinical benefit."
+  },
+  "43056220": {
+   "pmid": "43056220",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 1355,
+   "impact": 2,
+   "reason": "Exploratory clustering-based phenomapping of non-ischaemic cardiomyopathy with prognostic association but no management implications yet."
+  },
+  "43055715": {
+   "pmid": "43055715",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "electrophysiology",
+   "sample_size": 3637,
+   "impact": 3,
+   "reason": "Nationwide cohort addressing the live question of stopping anticoagulation after successful ablation, limited by observational design and confounding by indication."
+  },
+  "43042474": {
+   "pmid": "43042474",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "interventional",
+   "sample_size": 2128,
+   "impact": 2,
+   "reason": "Exploratory registry analysis of vessel-specific post-PCI fractional flow reserve thresholds that the authors state require external validation."
+  },
+  "43055087": {
+   "pmid": "43055087",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 447,
+   "impact": 3,
+   "reason": "Single-centre natural history data on atrial arrhythmia burden and risk factors in adults with a systemic right ventricle."
+  },
+  "43049320": {
+   "pmid": "43049320",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "acute_critical_care",
+   "sample_size": 457,
+   "impact": 3,
+   "reason": "Prospective multicentre study showing serial non-invasive echo-derived haemodynamics carry prognostic information in cardiogenic shock."
+  },
+  "43046954": {
+   "pmid": "43046954",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "congenital",
+   "sample_size": 216,
+   "impact": 2,
+   "reason": "Cross-sectional exercise haemodynamic study in Fontan patients that is mechanistic and does not change management."
   }
  },
  "summaries": {},
