@@ -570,10 +570,39 @@
    ],
    "editorial_take": null,
    "practice_implications": "Ten-year data continue to provide no evidence that opening a chronic total occlusion as an initial strategy improves hard outcomes over medical therapy with non-CTO revascularization, supporting symptom relief rather than event reduction as the main rationale for CTO-PCI; the imprecision of the estimate means the question is not definitively settled."
+  },
+  "43038430": {
+   "bottom_line": "In patients with persistent or long-standing persistent atrial fibrillation undergoing rheumatic mitral valve surgery, a complete biatrial Cox-Maze IV lesion set gave higher 12-month freedom from atrial tachyarrhythmias than a left atrial lesion set (78.7% vs 68.6%; adjusted difference 10.7%) without an excess of permanent pacemakers.",
+   "design": "Multicenter, randomized, single-blind superiority trial with a prespecified noninferiority assessment for pacemaker implantation; 1:1 allocation; intention-to-treat analysis. Surgeons were trained and certified before the trial and all procedures were videorecorded and centrally reviewed.",
+   "population": "323 randomized patients with persistent or long-standing persistent atrial fibrillation undergoing rheumatic mitral valve surgery, with or without concomitant cardiac surgical procedures. Mean age 56.5 years, 72.1% women, mean left atrial diameter 51.9 mm. All 323 were included in the intention-to-treat analysis (164 biatrial, 159 left atrial).",
+   "intervention": "Biatrial maze ablation: a complete Cox-Maze IV procedure.",
+   "comparison": "Left atrial maze ablation: a left-sided maze lesion set.",
+   "outcomes": "Primary outcome was freedom from atrial tachyarrhythmias lasting >30 seconds without antiarrhythmic drugs within 12 months: 78.7% (129 of 164) with biatrial versus 68.6% (109 of 159) with left atrial ablation (adjusted difference 10.7% [1-sided lower 95% CI, 3%]; P=0.01). Key secondary endpoint was freedom from permanent pacemaker implantation: 97.0% (159 of 164) versus 98.1% (156 of 159), meeting the predefined noninferiority margin of -5% (adjusted difference -1.1% [1-sided lower 95% CI, -3.9%]; Pnoninferiority=0.01).",
+   "key_results": [
+    "Freedom from atrial tachyarrhythmias >30 seconds without antiarrhythmic drugs at 12 months: 78.7% (129/164) biatrial vs 68.6% (109/159) left atrial; adjusted difference 10.7% (1-sided lower 95% CI, 3%); P=0.01.",
+    "Freedom from permanent pacemaker implantation: 97.0% (159/164) biatrial vs 98.1% (156/159) left atrial; adjusted difference -1.1% (1-sided lower 95% CI, -3.9%); Pnoninferiority=0.01 against a -5% margin.",
+    "Baseline substrate was advanced: mean left atrial diameter 51.9 mm, mean age 56.5 years, 72.1% women."
+   ],
+   "strengths": [
+    "Randomized, multicenter design directly addressing the lesion-set question that guidelines leave open, with a clinically meaningful rhythm endpoint off antiarrhythmic drugs.",
+    "Strong procedural quality control: pretrial surgeon training and certification, with all procedures videorecorded and centrally reviewed, reducing variability in how each lesion set was delivered.",
+    "Single-blind design with complete intention-to-treat inclusion of all 323 randomized patients.",
+    "The clinically relevant trade-off (pacemaker requirement) was prespecified as a key secondary endpoint with a formal noninferiority margin rather than reported only descriptively."
+   ],
+   "limitations": [
+    "Enrolled only patients undergoing rheumatic mitral valve surgery, with a young, predominantly female population and markedly dilated atria, so results may not transfer to degenerative valve disease or to coronary or aortic surgery.",
+    "Follow-up is limited to 12 months, and durability of the biatrial advantage and late pacemaker requirement beyond one year are not reported.",
+    "The absolute pacemaker difference was assessed against a -5% margin in a trial of 323 patients, so an uncommon but real excess of conduction injury cannot be excluded.",
+    "Rhythm monitoring intensity and method for detecting episodes >30 seconds are not described in the abstract, and detection method strongly influences recurrence rates.",
+    "Surgeons could not be blinded to the lesion set; mortality, stroke, cross-clamp and operative times, and other safety outcomes are not reported in the abstract, nor is the funding source."
+   ],
+   "editorial_take": null,
+   "practice_implications": "For patients with persistent AF and a dilated left atrium undergoing rheumatic mitral valve surgery, this supports performing the full biatrial Cox-Maze IV rather than a left-sided-only lesion set, since the right atrial lesions added roughly 10 percentage points of rhythm success without a demonstrable pacemaker penalty, provided the operator is trained in the complete procedure."
   }
  },
  "basis": {
-  "43037535": "abstract"
+  "43037535": "abstract",
+  "43038430": "abstract"
  },
  "candidates": [
   {
