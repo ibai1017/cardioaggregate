@@ -58,7 +58,188 @@
   "43036894"
  ],
  "selected": [],
- "triage": {},
+ "triage": {
+  "43037535": {
+   "pmid": "43037535",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 804,
+   "impact": 4,
+   "reason": "Ten-year randomized follow-up of DECISION-CTO showing no benefit of an initial CTO-PCI strategy, directly informing a common interventional decision."
+  },
+  "43039027": {
+   "pmid": "43039027",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "general",
+   "sample_size": 7724,
+   "impact": 1,
+   "reason": "Neonatal kangaroo mother care review with no cardiology content."
+  },
+  "43038430": {
+   "pmid": "43038430",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "cardiac_surgery",
+   "sample_size": 323,
+   "impact": 4,
+   "reason": "Randomized trial showing biatrial maze is superior to left atrial maze for arrhythmia freedom without excess pacemakers, answering a live lesion-set question in concomitant surgical ablation."
+  },
+  "43038428": {
+   "pmid": "43038428",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "structural_valve",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review of degenerative mitral regurgitation with no new primary data."
+  },
+  "43031493": {
+   "pmid": "43031493",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "general",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Mechanistic narrative review of alcohol and cardiovascular disease without new clinical evidence."
+  },
+  "43051238": {
+   "pmid": "43051238",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "imaging",
+   "sample_size": 42671,
+   "impact": 3,
+   "reason": "Very large UK Biobank CMR analysis, but endpoints are subclinical imaging measures with no direct clinical consequence."
+  },
+  "43061896": {
+   "pmid": "43061896",
+   "cardiology_relevant": true,
+   "design": "systematic_review",
+   "subspecialty": "heart_failure",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Cochrane protocol only; no results reported yet."
+  },
+  "43055202": {
+   "pmid": "43055202",
+   "cardiology_relevant": true,
+   "design": "systematic_review",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 1,
+   "reason": "Cochrane prognosis protocol only; no results reported yet."
+  },
+  "43042489": {
+   "pmid": "43042489",
+   "cardiology_relevant": true,
+   "design": "observational",
+   "subspecialty": "heart_failure",
+   "sample_size": 3367,
+   "impact": 3,
+   "reason": "Registry analysis confirming less intensive guideline-directed therapy in older HFrEF patients; relevant for implementation but descriptive."
+  },
+  "43037155": {
+   "pmid": "43037155",
+   "cardiology_relevant": false,
+   "design": "meta_analysis",
+   "subspecialty": "general",
+   "sample_size": 11795,
+   "impact": 1,
+   "reason": "Obstetric labour induction review with no cardiology content."
+  },
+  "43055105": {
+   "pmid": "43055105",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "congenital",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Survey-based AHA science advisory on paediatric heart failure prescribing in the absence of rigorous trial evidence."
+  },
+  "43046966": {
+   "pmid": "43046966",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "hypertension",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Mechanistic triangulation of biological ageing with preeclampsia; hypothesis-generating with no clinical action."
+  },
+  "43046799": {
+   "pmid": "43046799",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 100,
+   "impact": 3,
+   "reason": "Small randomized trial of a venous closure device with procedural recovery endpoints rather than hard clinical outcomes."
+  },
+  "43045045": {
+   "pmid": "43045045",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "electrophysiology",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Pro-and-contra debate article on adjunctive ablation beyond pulmonary vein isolation; no new data."
+  },
+  "43043855": {
+   "pmid": "43043855",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "prevention_lipids",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Narrative review of AI-enhanced ECG for preventive risk stratification without new primary evidence."
+  },
+  "43043446": {
+   "pmid": "43043446",
+   "cardiology_relevant": true,
+   "design": "other",
+   "subspecialty": "structural_valve",
+   "sample_size": null,
+   "impact": 2,
+   "reason": "Review of transcatheter heart valve haemodynamic performance and durability concepts; no new data."
+  },
+  "43036879": {
+   "pmid": "43036879",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "electrophysiology",
+   "sample_size": 37,
+   "impact": 3,
+   "reason": "Very small randomized trial with a surrogate ejection-fraction endpoint; authors note larger trials are needed."
+  },
+  "43033171": {
+   "pmid": "43033171",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 1053,
+   "impact": 4,
+   "reason": "Adequately sized randomized trial finding angiography-derived vFFR noninferior to wire-based FFR on absolute margin, addressing a common catheter-lab decision despite margin caveats."
+  },
+  "43049118": {
+   "pmid": "43049118",
+   "cardiology_relevant": true,
+   "design": "rct",
+   "subspecialty": "interventional",
+   "sample_size": 278,
+   "impact": 3,
+   "reason": "Randomized comparison of calcium modification strategies whose primary endpoint is OCT stent expansion rather than clinical outcomes."
+  },
+  "43039126": {
+   "pmid": "43039126",
+   "cardiology_relevant": true,
+   "design": "meta_analysis",
+   "subspecialty": "electrophysiology",
+   "sample_size": 959,
+   "impact": 2,
+   "reason": "Exploratory network meta-analysis of a niche rescue ablation strategy with low-certainty, imprecise estimates."
+  }
+ },
  "summaries": {},
  "basis": {},
  "candidates": [
