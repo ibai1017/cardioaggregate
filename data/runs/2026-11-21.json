@@ -598,11 +598,43 @@
    ],
    "editorial_take": null,
    "practice_implications": "For patients with persistent AF and a dilated left atrium undergoing rheumatic mitral valve surgery, this supports performing the full biatrial Cox-Maze IV rather than a left-sided-only lesion set, since the right atrial lesions added roughly 10 percentage points of rhythm success without a demonstrable pacemaker penalty, provided the operator is trained in the complete procedure."
+  },
+  "43033171": {
+   "bottom_line": "Wire-free angiography-derived vessel FFR met the prespecified absolute noninferiority margin against pressure-wire FFR for guiding revascularization of intermediate stenoses at 1 year (3.0% vs 4.1% major adverse cardiac events), but the event rate was lower than assumed, and on a relative margin noninferiority was not met in the primary analysis.",
+   "design": "Multicenter, investigator-initiated, randomized 1:1 noninferiority trial at 8 German centers; primary analysis by modified intention to treat against an absolute noninferiority margin of 3.5 percentage points.",
+   "population": "1,053 patients with acute or chronic coronary syndromes and at least 1 intermediate coronary stenosis, randomized between June 2020 and February 2025; median age 69 years (vFFR n = 528, FFR n = 525). The primary outcome was ascertainable in 986 of the 1,053 randomized patients.",
+   "intervention": "Revascularization guided by angiography-derived vessel fractional flow reserve (vFFR), without a pressure wire.",
+   "comparison": "Revascularization guided by pressure-wire fractional flow reserve (FFR).",
+   "outcomes": "Primary outcome was major adverse cardiac events (composite of cardiac death, nonfatal myocardial infarction, or unplanned clinically driven revascularization) within 1 year: 15 of 493 patients (3.0%) with vFFR versus 20 of 493 (4.1%) with FFR; risk difference -1.01 percentage points; P for noninferiority <0.001. The upper boundary of the 1-sided 97.5% CI for the risk difference was 1.29 percentage points, below the prespecified 3.5 percentage point margin (relative risk 0.75; 95% CI 0.39-1.45).",
+   "key_results": [
+    "Major adverse cardiac events at 1 year: 3.0% (15/493) vFFR vs 4.1% (20/493) FFR; risk difference -1.01 percentage points; P for noninferiority <0.001.",
+    "Upper boundary of the 1-sided 97.5% CI for the risk difference 1.29 percentage points, below the prespecified margin of 3.5 percentage points; relative risk 0.75 (95% CI 0.39-1.45).",
+    "Physiological values of 0.80 or less occurred in 43.1% (vFFR) vs 35.9% (FFR) of patients.",
+    "The study lesion was revascularized in 41.2% (vFFR) vs 35.5% (FFR) of patients.",
+    "In a post hoc sensitivity analysis using the relative margin of 1.44 implied by the original assumptions, noninferiority was not met in the primary modified intention-to-treat population, but was met in the corresponding post hoc per-protocol analysis."
+   ],
+   "strengths": [
+    "Randomized head-to-head comparison of two guidance strategies with a clinical composite endpoint rather than agreement or diagnostic accuracy alone, which is what prior inconsistent studies largely offered.",
+    "Multicenter, investigator-initiated design enrolling both acute and chronic coronary syndromes, reflecting the mixed population in which intermediate lesions are actually assessed.",
+    "Reasonable size for a strategy trial (1,053 randomized) with high outcome ascertainment (986 of 1,053) and a prespecified noninferiority framework.",
+    "The authors transparently report that the absolute margin became less conservative on a relative scale than intended and show the discordant post hoc sensitivity analyses rather than only the favorable one."
+   ],
+   "limitations": [
+    "The observed 1-year event rate was far lower than assumed, so the 3.5 percentage point absolute margin corresponds to a large relative difference; on the implied relative margin of 1.44 noninferiority was not met in the primary modified intention-to-treat population.",
+    "The event count is small (15 and 20 events), making the comparison imprecise (relative risk 0.75; 95% CI 0.39-1.45) and underpowered to detect a clinically relevant difference in hard endpoints.",
+    "vFFR guidance classified more patients as physiologically significant (43.1% vs 35.9%) and led to more study-lesion revascularization (41.2% vs 35.5%); as the authors note, whether that additional revascularization is beneficial is not answered by similar 1-year event rates.",
+    "One year of follow-up is short for a strategy that defers or performs PCI; divergence could emerge later.",
+    "Open-label strategy allocation, with unplanned clinically driven revascularization as part of the primary composite, leaves room for ascertainment bias; conducted at 8 German centers, so operator expertise with vFFR may not generalize. Funding source not reported in the abstract.",
+    "The per-protocol analysis met the relative margin while the modified intention-to-treat analysis did not, a discordance that favors caution rather than reassurance."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Angiography-derived vFFR is a credible wire-free option for assessing intermediate stenoses and may increase uptake of physiology-guided decisions, but this trial does not establish equivalence robustly: it classified more lesions as significant and triggered more PCI, and its support for noninferiority depends on which margin is applied. Pressure-wire FFR remains the reference standard where a definitive physiological answer matters."
   }
  },
  "basis": {
   "43037535": "abstract",
-  "43038430": "abstract"
+  "43038430": "abstract",
+  "43033171": "abstract"
  },
  "candidates": [
   {
