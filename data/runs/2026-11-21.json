@@ -629,12 +629,46 @@
    ],
    "editorial_take": null,
    "practice_implications": "Angiography-derived vFFR is a credible wire-free option for assessing intermediate stenoses and may increase uptake of physiology-guided decisions, but this trial does not establish equivalence robustly: it classified more lesions as significant and triggered more PCI, and its support for noninferiority depends on which margin is applied. Pressure-wire FFR remains the reference standard where a definitive physiological answer matters."
+  },
+  "43063007": {
+   "bottom_line": "In a Chinese nationwide registry of 66,192 patients hospitalised with acute pulmonary embolism, 5-year cumulative all-cause mortality was 22.41%, with nearly half of deaths from non-cardiovascular causes and ischaemic heart disease the largest named cause beyond 12 months, arguing that follow-up after PE should look well beyond the thrombotic event itself.",
+   "design": "Registry-based, consecutive-enrolment national cohort study (3,223 Chest Pain Centres across China, 2018-2023; ClinicalTrials.gov NCT04014972). Mortality ascertained by national registry linkage; cumulative incidence functions for temporal mortality patterns and Fine-Gray competing-risk models for exploratory associations with cause-specific mortality.",
+   "population": "66,192 patients consecutively enrolled with acute pulmonary embolism from 3,223 Chest Pain Centres across China between 2018 and 2023.",
+   "intervention": "Not an intervention study; the exposure of interest was hospitalisation with acute pulmonary embolism, with exploratory examination of age, sex, region (Western China residence) and vital signs.",
+   "comparison": "No comparator cohort; comparisons were internal, between causes of death, time intervals since the index event, sexes and age strata.",
+   "outcomes": "Cumulative all-cause and cause-specific mortality to 60 months. At 60 months, cumulative all-cause mortality was 22.41% (95% CI 21.92-22.91), comprising cardiovascular mortality 11.84% (95% CI 11.46-12.23) and non-cardiovascular mortality 10.57% (95% CI 10.22-10.92).",
+   "key_results": [
+    "Cumulative all-cause mortality at 60 months: 22.41% (95% CI 21.92-22.91).",
+    "Cardiovascular mortality 11.84% (95% CI 11.46-12.23); non-cardiovascular mortality 10.57% (95% CI 10.22-10.92).",
+    "Causes of death varied over time: acute PE and ischaemic heart disease predominated initially, malignancy peaked at 1-3 months, and ischaemic heart disease was the largest named cause in each interval beyond 12 months.",
+    "Among cardiovascular deaths, ischaemic heart disease was the predominant cause (35.7%); among non-cardiovascular deaths, malignancy (43.3%) and chronic pulmonary disease (24.6%) predominated.",
+    "Men had higher cumulative cardiovascular and non-cardiovascular mortality than women, while women had a higher proportion of cardiovascular causes among deaths.",
+    "All-cause mortality rose steeply with age, from 11.52% at <55 years to 38.51% at >=75 years; acute PE and malignancy dominated in younger patients while cardiovascular and pulmonary disease prevailed in older ones.",
+    "Exploratory Fine-Gray analyses identified age, Western China residence and vital signs as factors associated with mortality."
+   ],
+   "strengths": [
+    "Very large, consecutively enrolled national cohort (66,192 patients from 3,223 centres), giving precise cumulative incidence estimates with narrow confidence intervals.",
+    "Mortality ascertained through national registry linkage rather than site reporting, limiting loss to follow-up and outcome misclassification for the fact of death.",
+    "Appropriate use of competing-risk methods (cumulative incidence functions and Fine-Gray models) for cause-specific mortality, which avoids the overestimation that Kaplan-Meier analysis would produce.",
+    "Reports mortality by interval since the index event rather than as a single endpoint, which is what makes the shifting cause-of-death pattern visible and clinically actionable."
+   ],
+   "limitations": [
+    "Observational registry design with no comparator population, so the excess mortality attributable to pulmonary embolism itself, as distinct from underlying comorbidity such as cancer, cannot be quantified.",
+    "Enrolment via Chest Pain Centres in China may select more severe or more acutely presenting cases and limits generalisability to other health systems and to outpatient-managed pulmonary embolism.",
+    "Cause of death from registry linkage is prone to misclassification, particularly in distinguishing fatal pulmonary embolism from ischaemic heart disease or sudden death; attribution of 'largest named cause' depends on local coding practice.",
+    "Analyses of associated factors are explicitly exploratory; no adjusted effect estimates, confidence intervals or P values for these factors are given in the abstract, and multiplicity across causes, intervals and subgroups is not addressed.",
+    "Treatment received, anticoagulation duration, PE severity classification, cancer status at baseline and recurrence are not reported in the abstract, so the drivers of the observed mortality cannot be assessed; median follow-up duration and funding source are also not reported.",
+    "With enrolment through 2023 and 60-month estimates, the longest-term figures rest on the earliest enrolled subset rather than the full cohort."
+   ],
+   "editorial_take": null,
+   "practice_implications": "Survivors of acute pulmonary embolism carry a roughly one-in-five risk of death over 5 years, and most of that risk is not from recurrent thromboembolism: ischaemic heart disease and malignancy dominate after the first months. Follow-up should therefore pair decisions about anticoagulation duration with deliberate cardiovascular risk assessment and attention to occult cancer in the early period, with intensity adapted to age. The data support evaluating risk-adapted long-term follow-up strategies rather than defining one."
   }
  },
  "basis": {
   "43037535": "abstract",
   "43038430": "abstract",
-  "43033171": "abstract"
+  "43033171": "abstract",
+  "43063007": "abstract"
  },
  "candidates": [
   {
