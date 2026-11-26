@@ -4,6 +4,8 @@
     python -m cardioaggregate status             # what to do next
     python -m cardioaggregate triage-batch       # print the next candidates to rate
     python -m cardioaggregate save-triage FILE   # store ratings (JSON)
+    python -m cardioaggregate guidelines-batch   # print new guidelines to summarize
+    python -m cardioaggregate save-guidelines FILE  # store guideline notes (JSON)
     python -m cardioaggregate summary-next       # print the next article to summarize
     python -m cardioaggregate save-summary FILE  # store a PICO summary (JSON)
     python -m cardioaggregate finalize           # free: final digest, history, email
@@ -27,10 +29,13 @@ from .fulltext import fetch_full_text
 from .pubmed import PubMed, build_research_query
 from .run import Run, email_run, finalize, latest_run, open_run, prepare, write_digest
 from .schemas import (
+    GUIDELINE_SYSTEM,
     SUMMARY_SYSTEM,
+    GuidelineNote,
     TRIAGE_SYSTEM,
     PicoSummary,
     TriageItem,
+    format_guideline_input,
     format_summary_input,
     format_triage_input,
 )
@@ -83,10 +88,14 @@ def cmd_status(cfg: dict, _args) -> int:
         return 0
     stage = run.stage
     print(f"Run {run.date}: {len(run.candidates)} candidates, {len(run.queue)} queued for triage, "
-          f"{len(run.triage)} triaged, {len(run.selected)} selected, {len(run.summaries)} summarized.")
+          f"{len(run.triage)} triaged, {len(run.selected)} selected, {len(run.summaries)} summarized, "
+          f"{len(run.guidelines)} guideline documents.")
     if stage == "triage":
         print(f"NEXT: triage. {len(run.untriaged())} left. "
               "Run `python -m cardioaggregate triage-batch`.")
+    elif stage == "guidelines":
+        print(f"NEXT: guidelines. {len(run.guidelines_pending())} to note. "
+              "Run `python -m cardioaggregate guidelines-batch`.")
     elif stage == "summaries":
         print(f"NEXT: summaries. {len(run.unsummarized())} left. "
               "Run `python -m cardioaggregate summary-next`.")
@@ -126,6 +135,43 @@ def cmd_save_triage(cfg: dict, args) -> int:
     print(f"Saved {len(items) - len(unknown)} ratings; {len(run.untriaged())} left to triage.")
     if not run.untriaged():
         print(f"Triage complete: {len(run.selected)} articles selected for summaries.")
+    print(COMMIT_HINT)
+    return 0
+
+
+GUIDELINE_FORMAT = """Write a JSON file shaped like this, one item per document above:
+{"items": [{"pmid": "12345678", "summary": "Two or three sentences."}]}"""
+
+
+def cmd_guidelines_batch(cfg: dict, _args) -> int:
+    run = require_run(cfg)
+    docs = [run.guidelines[p] for p in run.guidelines_pending()]
+    if not docs:
+        print("No guideline documents need a note. Run `python -m cardioaggregate status`.")
+        return 0
+    print(f"=== RUBRIC ===\n{GUIDELINE_SYSTEM}\n")
+    print(f"=== DOCUMENTS ({len(docs)}) ===")
+    print(format_guideline_input(docs))
+    print(f"\n=== OUTPUT ===\n{GUIDELINE_FORMAT}")
+    print("\nThen run `python -m cardioaggregate save-guidelines <file>`.")
+    return 0
+
+
+def cmd_save_guidelines(cfg: dict, args) -> int:
+    run = require_run(cfg)
+    raw = json.loads(Path(args.file).read_text())
+    raw_items = raw["items"] if isinstance(raw, dict) else raw
+    try:
+        notes = [GuidelineNote(**i) for i in raw_items]
+    except (ValidationError, TypeError) as exc:
+        print(f"Invalid guideline JSON, nothing saved:\n{exc}")
+        return 1
+    unknown = run.add_guideline_notes(notes)
+    run.save()
+    write_digest(run, cfg, preliminary=True)
+    if unknown:
+        print(f"Ignored unknown pmids: {', '.join(unknown)}")
+    print(f"Saved {len(notes) - len(unknown)} notes; {len(run.guidelines_pending())} left.")
     print(COMMIT_HINT)
     return 0
 
@@ -210,6 +256,9 @@ def cmd_api(cfg: dict, args) -> int:
         run.add_triage(items, cfg["selection"])
         run.save()
         print(f"Triaged {len(batch)}; {len(run.untriaged())} left")
+    if run.guidelines_pending():
+        run.add_guideline_notes(claude.guideline_notes([run.guidelines[p] for p in run.guidelines_pending()]))
+        run.save()
     for pmid in run.unsummarized():
         article = run.candidates[pmid]
         eds = run.editorials_by_target().get(pmid, [])
@@ -304,6 +353,10 @@ def main(argv=None) -> int:
     p = sub.add_parser("save-triage")
     p.add_argument("file")
     p.set_defaults(func=cmd_save_triage)
+    sub.add_parser("guidelines-batch").set_defaults(func=cmd_guidelines_batch)
+    p = sub.add_parser("save-guidelines")
+    p.add_argument("file")
+    p.set_defaults(func=cmd_save_guidelines)
     sub.add_parser("summary-next").set_defaults(func=cmd_summary_next)
     p = sub.add_parser("save-summary")
     p.add_argument("file")

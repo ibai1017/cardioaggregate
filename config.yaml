@@ -67,6 +67,30 @@ journals:
   # - { abbr: "J Am Heart Assoc", name: "JAHA", topic_filter: false, design_filter: true }
   # - { abbr: "JAMA Netw Open", name: "JAMA Network Open", topic_filter: true, design_filter: true }
 
+# Guidelines, focused updates, consensus documents and scientific statements
+# from ACC/AHA, ESC (and its associations), CCS and SCAI are listed every week
+# they appear, found in these journals (MEDLINE abbreviations).
+guideline_journals:
+  - "J Am Coll Cardiol"
+  - "Circulation"
+  - "Eur Heart J"
+  - "Can J Cardiol"
+  - "J Soc Cardiovasc Angiogr Interv"
+  - "Catheter Cardiovasc Interv"
+  - "Hypertension"
+  - "Heart Rhythm"
+  - "Europace"
+  - "EuroIntervention"
+  - "Eur J Heart Fail"
+  - "Eur Heart J Cardiovasc Imaging"
+  - "Eur J Prev Cardiol"
+  - "JACC Heart Fail"
+  - "JACC Cardiovasc Interv"
+  - "JACC Clin Electrophysiol"
+  - "JACC Cardiovasc Imaging"
+  - "Circ Heart Fail"
+  - "Circ Cardiovasc Interv"
+
 # Selection rules applied to the model's triage of each candidate.
 # impact is the model's 1 to 5 rating of likely effect on cardiology practice.
 # Only papers that clear these bars make the digest; nothing pads a quiet week.

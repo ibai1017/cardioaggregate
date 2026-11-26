@@ -6,6 +6,7 @@ later, even on another day:
 
     prepare   (free, GitHub Actions)  fetch PubMed, prescore, preliminary digest
     triage    (Claude)                rate the top candidates in small batches
+    guidelines (Claude)               short note on each new guideline or statement
     summaries (Claude)                PICO summary for each selected paper
     finalize  (free)                  final digest, history, email
 """
@@ -17,10 +18,11 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
+from . import guidelines as gl
 from .history import History
 from .pubmed import Article, PubMed, build_editorial_query, build_research_query
 from .render import digest_url, render_digest, render_email, render_index
-from .schemas import PicoSummary, TriageItem
+from .schemas import GuidelineNote, PicoSummary, TriageItem
 from .select import heuristic_triage, prescore, select
 
 
@@ -37,6 +39,10 @@ class Run:
     basis: dict[str, str] = field(default_factory=dict)
     finalized: bool = False
     emailed: bool = False
+    guidelines: dict[str, Article] = field(default_factory=dict)
+    guideline_kind: dict[str, str] = field(default_factory=dict)
+    guideline_also_in: dict[str, list[str]] = field(default_factory=dict)
+    guideline_notes: dict[str, GuidelineNote] = field(default_factory=dict)
 
     # ---- persistence -------------------------------------------------------
 
@@ -55,6 +61,10 @@ class Run:
             basis=d["basis"],
             finalized=d["finalized"],
             emailed=d.get("emailed", False),
+            guidelines={a["pmid"]: Article(**a) for a in d.get("guidelines", [])},
+            guideline_kind=d.get("guideline_kind", {}),
+            guideline_also_in=d.get("guideline_also_in", {}),
+            guideline_notes={k: GuidelineNote(**v) for k, v in d.get("guideline_notes", {}).items()},
         )
 
     def save(self) -> None:
@@ -70,6 +80,10 @@ class Run:
             "basis": self.basis,
             "candidates": [a.to_dict() for a in self.candidates.values()],
             "editorials": [a.to_dict() for a in self.editorials.values()],
+            "guidelines": [a.to_dict() for a in self.guidelines.values()],
+            "guideline_kind": self.guideline_kind,
+            "guideline_also_in": self.guideline_also_in,
+            "guideline_notes": {k: v.model_dump() for k, v in self.guideline_notes.items()},
         }
         self.path.write_text(json.dumps(payload, indent=1) + "\n")
 
@@ -77,6 +91,11 @@ class Run:
 
     def untriaged(self) -> list[str]:
         return [p for p in self.queue if p not in self.triage]
+
+    def guidelines_pending(self) -> list[str]:
+        """Documents that have an abstract to summarize and no note yet (ESC
+        guidelines have no abstract in PubMed, so they are listed as is)."""
+        return [p for p, a in self.guidelines.items() if a.abstract and p not in self.guideline_notes]
 
     def unsummarized(self) -> list[str]:
         return [p for p in self.selected if p not in self.summaries]
@@ -87,6 +106,8 @@ class Run:
             return "done"
         if self.untriaged():
             return "triage"
+        if self.guidelines_pending():
+            return "guidelines"
         if self.unsummarized():
             return "summaries"
         return "finalize"
@@ -127,6 +148,27 @@ class Run:
         if not self.untriaged():
             self.reselect(rules)
         return unknown
+
+    def add_guideline_notes(self, notes: list[GuidelineNote]) -> list[str]:
+        """Store notes; returns pmids that are not this week's documents (ignored)."""
+        unknown = [n.pmid for n in notes if n.pmid not in self.guidelines]
+        for n in notes:
+            if n.pmid in self.guidelines:
+                self.guideline_notes[n.pmid] = n
+        return unknown
+
+    def guideline_entries(self) -> list[dict]:
+        order = {kind: i for i, (kind, _) in enumerate(gl.KINDS)}
+        pmids = sorted(self.guidelines, key=lambda p: order[self.guideline_kind[p]])
+        return [
+            {
+                "article": self.guidelines[p],
+                "kind": self.guideline_kind[p],
+                "also_in": self.guideline_also_in.get(p, []),
+                "note": self.guideline_notes.get(p),
+            }
+            for p in pmids
+        ]
 
     def add_summary(self, pmid: str, summary: PicoSummary, basis: str) -> None:
         if pmid not in self.selected:
@@ -183,12 +225,18 @@ def prepare(cfg: dict, pubmed: PubMed, today: date, days: int | None = None, for
     ed_ids += [p for a in candidates.values() for p in a.comment_in]
     editorials = {e.pmid: e for e in pubmed.fetch(ed_ids) if "Letter" not in e.pub_types}
 
+    g_ids = pubmed.search_recent(gl.build_guideline_query(cfg["guideline_journals"]), lookback, today)
+    docs, kinds, also_in = gl.collect(pubmed.fetch(g_ids), set(history.guidelines))
+
     run = Run(
         path=target,
         date=today.isoformat(),
         candidates=candidates,
         queue=[],
         editorials=editorials,
+        guidelines=docs,
+        guideline_kind=kinds,
+        guideline_also_in=also_in,
     )
     eds = run.editorials_by_target()
     ranked = sorted(
@@ -200,7 +248,8 @@ def prepare(cfg: dict, pubmed: PubMed, today: date, days: int | None = None, for
     run.save()
     write_digest(run, cfg, preliminary=True)
     print(f"{len(ids)} PubMed hits, {len(candidates)} new candidates, "
-          f"{len(run.queue)} queued for Claude, {len(editorials)} editorials")
+          f"{len(run.queue)} queued for Claude, {len(editorials)} editorials, "
+          f"{len(docs)} guideline documents")
     return run
 
 
@@ -246,6 +295,7 @@ def write_digest(run: Run, cfg: dict, preliminary: bool) -> str:
         used_llm=bool(run.triage),
         busy_week=rules["busy_week"],
         preliminary=preliminary,
+        guidelines=run.guideline_entries(),
     )
     output_dir = Path(cfg["output_dir"])
     path = output_dir / "digests" / f"{run.date}.html"
@@ -270,10 +320,13 @@ def finalize(run: Run, cfg: dict, send_email: bool = True) -> None:
             history.add_editorial(ed.pmid, run.date)
     for ed, _ in late:
         history.add_editorial(ed.pmid, run.date)
+    for a in run.guidelines.values():
+        history.guidelines[gl.title_key(a.title)] = run.date
     history.save()
     run.finalized = True
     run.save()
-    print(f"Finalized digest {run.date}: {len(entries)} articles, {len(run.summaries)} summarized")
+    print(f"Finalized digest {run.date}: {len(entries)} articles, {len(run.summaries)} summarized, "
+          f"{len(run.guidelines)} guideline documents")
 
     if send_email:
         email_run(run, cfg)
@@ -286,8 +339,11 @@ def email_run(run: Run, cfg: dict) -> bool:
     if run.emailed or not run.finalized:
         return False
     entries = build_entries(run)
-    html, text = render_email(run.date, entries, digest_url(cfg, run.date))
+    docs = run.guideline_entries()
+    html, text = render_email(run.date, entries, digest_url(cfg, run.date), docs)
     count = f"{len(entries)} paper{'s' if len(entries) != 1 else ''}"
+    if docs:
+        count += f", {len(docs)} guideline document{'s' if len(docs) != 1 else ''}"
     if not send_digest(f"Cardiology digest {run.date}: {count}", html, text):
         return False
     run.emailed = True

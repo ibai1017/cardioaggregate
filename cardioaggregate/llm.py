@@ -11,11 +11,15 @@ from pydantic import BaseModel
 
 from .pubmed import Article
 from .schemas import (  # noqa: F401  (re-exported)
+    GUIDELINE_SYSTEM,
     SUMMARY_SYSTEM,
+    GuidelineNote,
+    GuidelineNotes,
     TRIAGE_SYSTEM,
     PicoSummary,
     TriageItem,
     TriageResult,
+    format_guideline_input,
     format_summary_input,
     format_triage_input,
 )
@@ -48,6 +52,10 @@ class Claude:
     def triage(self, articles: list[Article]) -> list[TriageItem]:
         content = format_triage_input(articles)
         return self._parse(TRIAGE_SYSTEM, content, TriageResult, self.triage_effort).items
+
+    def guideline_notes(self, articles: list[Article]) -> list[GuidelineNote]:
+        content = format_guideline_input(articles)
+        return self._parse(GUIDELINE_SYSTEM, content, GuidelineNotes, self.triage_effort).items
 
     def summarize(self, article: Article, full_text: str, editorials: list[tuple[Article, str]]) -> PicoSummary:
         content = format_summary_input(article, full_text, editorials)

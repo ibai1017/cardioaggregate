@@ -6,6 +6,7 @@ from pathlib import Path
 
 from jinja2 import Environment, PackageLoader, select_autoescape
 
+from .guidelines import KINDS as GUIDELINE_KINDS
 from .select import SECTIONS, section_of
 
 DESIGN_LABELS = {
@@ -42,7 +43,7 @@ _env = Environment(
 
 
 def render_digest(digest_date, entries, late_editorials, also_screened, screened_count, used_llm,
-                  busy_week=12, preliminary=False) -> str:
+                  busy_week=12, preliminary=False, guidelines=()) -> str:
     grouped = {key: [] for key, _ in SECTIONS}
     for e in entries:
         grouped[section_of(e["triage"])].append(e)
@@ -57,6 +58,8 @@ def render_digest(digest_date, entries, late_editorials, also_screened, screened
         used_llm=used_llm,
         busy_week=busy_week,
         preliminary=preliminary,
+        guidelines=list(guidelines),
+        guideline_kinds=GUIDELINE_KINDS,
         design_labels=DESIGN_LABELS,
         subspecialty_labels=SUBSPECIALTY_LABELS,
     )
@@ -71,20 +74,28 @@ def digest_url(cfg: dict, digest_date: str) -> str:
     return f"{cfg['site_url'].rstrip('/')}/digests/{digest_date}.html"
 
 
-def render_email(digest_date, entries, url) -> tuple[str, str]:
-    """A short email: the link to the page, then each paper's title and bottom line."""
+def render_email(digest_date, entries, url, guidelines=()) -> tuple[str, str]:
+    """A short email: the link to the page, new guidelines, then each paper's
+    title and bottom line."""
+    guidelines = list(guidelines)
     return (
-        _env.get_template("email.html.j2").render(digest_date=digest_date, entries=entries, url=url),
-        render_text(digest_date, entries, url),
+        _env.get_template("email.html.j2").render(
+            digest_date=digest_date, entries=entries, url=url, guidelines=guidelines
+        ),
+        render_text(digest_date, entries, url, guidelines),
     )
 
 
-def render_text(digest_date, entries, url=None) -> str:
+def render_text(digest_date, entries, url=None, guidelines=()) -> str:
     lines = [f"Cardiology digest, week ending {digest_date}", ""]
     if url:
         lines += [f"Read it here: {url}", ""]
+    if guidelines:
+        lines.append("Guidelines and statements:")
+        lines += [f"* {g['article'].title} ({g['article'].journal_abbr})" for g in guidelines]
+        lines.append("")
     if not entries:
-        lines.append("Nothing met the selection rules this week.")
+        lines.append("No research papers met the selection rules this week.")
     for e in entries:
         a, s = e["article"], e["summary"]
         lines.append(f"* {a.title} ({a.journal_abbr})")

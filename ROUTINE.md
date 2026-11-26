@@ -15,9 +15,10 @@ The work may span two or three days. Every save is committed and pushed, so if y
    * If it starts with `DONE`, stop. Do not do anything else this session.
    * Otherwise do what its `NEXT:` line says, as below, then run `status` again. Keep looping until it says `DONE` or you are running low on usage.
 3. **Triage:** run `python -m cardioaggregate triage-batch`. Read the rubric and articles it prints and rate every article. Write the JSON to a scratch file (outside the repo), then run `python -m cardioaggregate save-triage <file>`. If it reports a validation error, fix the JSON and save again.
-4. **Summaries:** run `python -m cardioaggregate summary-next`, write the PICO summary JSON for the one article it prints, and run `python -m cardioaggregate save-summary <file>`. One article at a time.
-5. **Finalize:** run `python -m cardioaggregate finalize`.
-6. **After every successful save or finalize**, commit and push straight away:
+4. **Guidelines:** run `python -m cardioaggregate guidelines-batch`, write a two or three sentence note for each document from its abstract, and run `python -m cardioaggregate save-guidelines <file>`.
+5. **Summaries:** run `python -m cardioaggregate summary-next`, write the PICO summary JSON for the one article it prints, and run `python -m cardioaggregate save-summary <file>`. One article at a time.
+6. **Finalize:** run `python -m cardioaggregate finalize`.
+7. **After every successful save or finalize**, commit and push straight away:
    ```bash
    git add data docs
    git commit -m "Digest <date>: <what you did, e.g. triage 40/80 or summary 3/10>"

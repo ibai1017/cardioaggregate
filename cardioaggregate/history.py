@@ -13,6 +13,9 @@ class History:
         data = json.loads(self.path.read_text()) if self.path.exists() else {}
         self.articles: dict[str, dict] = data.get("articles", {})
         self.editorials: dict[str, str] = data.get("editorials", {})
+        # Guideline documents by normalized title, so a copy in a second journal
+        # a week later is not shown again.
+        self.guidelines: dict[str, str] = data.get("guidelines", {})
 
     def has_article(self, pmid: str) -> bool:
         return pmid in self.articles
@@ -33,5 +36,5 @@ class History:
 
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        payload = {"articles": self.articles, "editorials": self.editorials}
+        payload = {"articles": self.articles, "editorials": self.editorials, "guidelines": self.guidelines}
         self.path.write_text(json.dumps(payload, indent=1, sort_keys=True) + "\n")

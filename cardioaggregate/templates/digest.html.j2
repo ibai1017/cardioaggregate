@@ -14,16 +14,34 @@
   <p class="meta">Week ending {{ digest_date }} · {{ entries|length }} article{{ "s" if entries|length != 1 }} selected from {{ screened_count }} screened{% if not used_llm %} · <strong>ranked by free heuristics, not yet reviewed by Claude</strong>{% endif %}</p>
   {% if preliminary %}<p class="banner">Preliminary: Claude is still working through this week's papers. The selection and summaries will update over the next day or two.</p>{% endif %}
   {% if entries|length > busy_week %}<p class="meta"><strong>Busy week:</strong> more high impact papers than usual, often a major meeting. Ranked by impact within each section.</p>{% endif %}
-  {% if entries %}
+  {% if entries or guidelines %}
   <nav class="toc">
+    {% if guidelines %}<a href="#guidelines">Guidelines and statements <span>{{ guidelines|length }}</span></a>{% endif %}
     {% for key, label in sections %}{% if grouped[key] %}<a href="#{{ key }}">{{ label }} <span>{{ grouped[key]|length }}</span></a>{% endif %}{% endfor %}
     {% if late_editorials %}<a href="#late">Late editorials <span>{{ late_editorials|length }}</span></a>{% endif %}
   </nav>
   {% endif %}
 </header>
 
+{% if guidelines %}
+<section id="guidelines">
+<h2>Guidelines and statements</h2>
+{% for kind, label in guideline_kinds %}{% set docs = guidelines|selectattr("kind", "equalto", kind)|list %}{% if docs %}
+<h3 class="subhead">{{ label }}</h3>
+{% for g in docs %}
+<article class="card compact">
+  <p class="kicker"><span class="journal">{{ g.article.journal_abbr }}</span>{% for j in g.also_in %}<span>also in {{ j }}</span>{% endfor %}<span>{{ g.article.pub_date }}</span></p>
+  <h3><a href="{{ g.article.url }}">{{ g.article.title }}</a></h3>
+  {% if g.note %}<p>{{ g.note.summary }}</p>
+  {% elif not g.article.abstract %}<p class="note">No abstract in PubMed; open the full text for its key recommendations.</p>{% endif %}
+</article>
+{% endfor %}
+{% endif %}{% endfor %}
+</section>
+{% endif %}
+
 {% if not entries %}
-<p class="empty">Nothing met the selection rules this week.</p>
+<p class="empty">No research papers met the selection rules this week.</p>
 {% endif %}
 
 {% for key, label in sections %}{% if grouped[key] %}

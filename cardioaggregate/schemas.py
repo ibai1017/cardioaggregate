@@ -81,6 +81,33 @@ class PicoSummary(BaseModel):
     practice_implications: str
 
 
+class GuidelineNote(BaseModel):
+    pmid: str
+    summary: str = Field(
+        description="Two or three sentences: what the document covers and its headline "
+        "recommendations or changes, from the abstract only"
+    )
+
+
+class GuidelineNotes(BaseModel):
+    items: list[GuidelineNote]
+
+
+GUIDELINE_SYSTEM = """You brief a cardiologist on new guidelines and society statements. For each \
+document, write two or three plain sentences from its abstract: what it covers and its headline \
+recommendations or changes from prior practice. Use only the abstract; do not add recommendations \
+it does not state."""
+
+
+def format_guideline_input(articles) -> str:
+    blocks = [
+        f"<document pmid=\"{a.pmid}\">\nJournal: {a.journal_abbr}\nTitle: {a.title}\n"
+        f"Abstract:\n{a.abstract}\n</document>"
+        for a in articles
+    ]
+    return "Write one summary per document, using its pmid.\n\n" + "\n\n".join(blocks)
+
+
 TRIAGE_SYSTEM = """You screen newly published cardiology literature for a busy cardiologist who \
 reads one curated digest a week. They want the studies most likely to matter: primary results of \
 randomized trials, strong meta-analyses and systematic reviews (including Cochrane), and very large \

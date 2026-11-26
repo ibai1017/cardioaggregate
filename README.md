@@ -30,6 +30,8 @@ PubMed -> prescore -> preliminary page   triage top 80 -> select 4s and 5s -> PI
 
 **Progress is saved after every step.** Each batch of ratings and each summary is committed to the repo, so the routine can stop at any point (usage limit, closed session) and the next day's run carries on. The routine runs on Sunday, Monday and Tuesday, and does nothing once the week is done. If it still hasn't finished by the following Saturday, that run finalizes the old week with whatever was done, using the free score for anything left.
 
+**Guidelines.** Each week also lists new guidelines, focused updates, consensus documents and decision pathways, and scientific statements from ACC/AHA, ESC (including EHRA, HFA, EAPCI, EACVI), CCS and SCAI, at the top of the page and in the email. They are found by title in the journals under `guideline_journals` in `config.yaml` and sorted by free title rules, which drop corrections, commentaries about guidelines and other societies' papers. A document published in two journals (ACC/AHA guidelines appear in both JACC and Circulation) is listed once. Claude adds a two or three sentence note from the abstract; ESC guidelines have no abstract in PubMed, so they are listed with a link only.
+
 **Editorials.** PubMed links editorials to the article they discuss (`CommentIn` / `CommentOn`). Editorials from the same journals over the last 28 days are matched; ones indexed after their article appear in a "Late editorials" section the following week.
 
 ## Setup
